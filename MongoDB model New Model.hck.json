@@ -4,7 +4,19 @@
         {
             "collectionName": "New Collection",
             "type": "object",
-            "properties": [],
+            "properties": [
+                {
+                    "name": "New Field",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "af140ea0-a7b1-11ec-b8be-0f7e6033a1b6",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
@@ -50,7 +62,8 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "2855a8a0-a799-11ec-9997-157f1432aaf9": "New_Database",
-        "9f1d99d0-a7b1-11ec-b8be-0f7e6033a1b6": "New Collection"
+        "9f1d99d0-a7b1-11ec-b8be-0f7e6033a1b6": "New Collection",
+        "af140ea0-a7b1-11ec-b8be-0f7e6033a1b6": "New Field"
     },
     "definitions": {
         "type": "definitions",
@@ -75,7 +88,7 @@
     "creationTS": "2022-03-19T15:27:56.637Z",
     "GUID": "26ea7fe0-a799-11ec-9997-157f1432aaf9",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-03-19T18:23:08.260Z",
+    "lastModifTS": "2022-03-19T18:23:34.537Z",
     "persistenceSchemaVersion": "5",
     "isCreatedByPlugin": true,
     "pluginInformation": {
