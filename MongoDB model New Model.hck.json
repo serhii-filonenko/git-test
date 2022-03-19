@@ -4,7 +4,19 @@
         {
             "collectionName": "New Collection",
             "type": "object",
-            "properties": [],
+            "properties": [
+                {
+                    "name": "New Field",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "d5e51dc0-a799-11ec-9997-157f1432aaf9",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
@@ -50,7 +62,8 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "2855a8a0-a799-11ec-9997-157f1432aaf9": "New_Database",
-        "54a950a0-a799-11ec-9997-157f1432aaf9": "New Collection"
+        "54a950a0-a799-11ec-9997-157f1432aaf9": "New Collection",
+        "d5e51dc0-a799-11ec-9997-157f1432aaf9": "New Field"
     },
     "definitions": {
         "type": "definitions",
@@ -75,7 +88,7 @@
     "creationTS": "2022-03-19T15:27:56.637Z",
     "GUID": "26ea7fe0-a799-11ec-9997-157f1432aaf9",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-03-19T15:29:14.469Z",
+    "lastModifTS": "2022-03-19T15:32:51.585Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -93,8 +106,8 @@
                         "GUID": "54a950a0-a799-11ec-9997-157f1432aaf9",
                         "x": 80,
                         "y": 80,
-                        "width": 240,
-                        "height": 100,
+                        "width": 206,
+                        "height": 51,
                         "color": {}
                     }
                 ],
