@@ -1,11 +1,38 @@
 {
     "modelName": "New Model",
-    "collections": [],
+    "collections": [
+        {
+            "collectionName": "New Collection",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "54aab030-a799-11ec-9997-157f1432aaf9"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "54a950a0-a799-11ec-9997-157f1432aaf9",
+            "bucketId": "2855a8a0-a799-11ec-9997-157f1432aaf9"
+        }
+    ],
     "buckets": [
         {
             "name": "New_Database",
             "type": "bucket",
-            "collectionIds": [],
+            "collectionIds": [
+                "54a950a0-a799-11ec-9997-157f1432aaf9"
+            ],
             "backgroundColor": {
                 "r": 216,
                 "g": 0,
@@ -22,7 +49,8 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "2855a8a0-a799-11ec-9997-157f1432aaf9": "New_Database"
+        "2855a8a0-a799-11ec-9997-157f1432aaf9": "New_Database",
+        "54a950a0-a799-11ec-9997-157f1432aaf9": "New Collection"
     },
     "definitions": {
         "type": "definitions",
@@ -47,7 +75,7 @@
     "creationTS": "2022-03-19T15:27:56.637Z",
     "GUID": "26ea7fe0-a799-11ec-9997-157f1432aaf9",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-03-19T15:28:00.446Z",
+    "lastModifTS": "2022-03-19T15:29:14.469Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -56,10 +84,20 @@
     "applicationInformation": {
         "version": "6.0.0"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
-                "erd": [],
+                "erd": [
+                    {
+                        "GUID": "54a950a0-a799-11ec-9997-157f1432aaf9",
+                        "x": 80,
+                        "y": 80,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    }
+                ],
                 "buckets": [
                     {
                         "x": 40,
