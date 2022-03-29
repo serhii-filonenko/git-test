@@ -1,0 +1,107 @@
+{
+    "modelName": "New Model",
+    "collections": [],
+    "buckets": [
+        {
+            "name": "22",
+            "type": "bucket",
+            "collectionIds": [
+                "1a8932a0-ac21-11ec-af3a-edbce42aa248",
+                "624db660-aeb0-11ec-855c-8d7fd8a757d0",
+                "63152510-aeb0-11ec-855c-8d7fd8a757d0",
+                "637fcdc0-aeb0-11ec-855c-8d7fd8a757d0",
+                "63d281a0-aeb0-11ec-855c-8d7fd8a757d0",
+                "64445640-aeb0-11ec-855c-8d7fd8a757d0",
+                "6475c680-aeb0-11ec-855c-8d7fd8a757d0"
+            ],
+            "backgroundColor": {
+                "r": 0,
+                "g": 188,
+                "b": 213,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "fd0723f0-ac1f-11ec-8cd4-79808d900a3a"
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "fd0723f0-ac1f-11ec-8cd4-79808d900a3a": "New_Database(2)"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "26ea7fe1-a799-11ec-9997-157f1432aaf9"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "26ea7fe3-a799-11ec-9997-157f1432aaf9"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "26ea7fe2-a799-11ec-9997-157f1432aaf9"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v4.4",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2022-03-19T15:27:56.637Z",
+    "GUID": "5f1de5e0-af42-11ec-9cbc-d57f3c1e4761",
+    "isLineageEnabled": false,
+    "lastModifTS": "2022-03-29T09:26:54.014Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.0.0"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [],
+                "buckets": [
+                    {
+                        "x": 241.41902666212044,
+                        "y": 83.07456089935418,
+                        "GUID": "fd0723f0-ac1f-11ec-8cd4-79808d900a3a"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
