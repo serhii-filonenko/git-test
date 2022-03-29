@@ -3,7 +3,7 @@
     "collections": [],
     "buckets": [
         {
-            "name": "3",
+            "name": "33",
             "type": "bucket",
             "collectionIds": [
                 "1a8932a0-ac21-11ec-af3a-edbce42aa248",
@@ -30,7 +30,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "fd0723f0-ac1f-11ec-8cd4-79808d900a3a": "New_Database(2)"
+        "fd0723f0-ac1f-11ec-8cd4-79808d900a3a": "33"
     },
     "definitions": {
         "type": "definitions",
@@ -47,7 +47,6 @@
         "properties": [],
         "GUID": "26ea7fe2-a799-11ec-9997-157f1432aaf9"
     },
-    "modelAutoSaved": false,
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v4.4",
@@ -56,7 +55,7 @@
     "creationTS": "2022-03-19T15:27:56.637Z",
     "GUID": "662ba100-ab88-11ec-ac3b-57d82bf1d959",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-03-29T08:41:54.230Z",
+    "lastModifTS": "2022-03-29T10:48:45.257Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -72,20 +71,30 @@
                 "erd": [],
                 "buckets": [
                     {
-                        "x": 241.41902666212044,
-                        "y": 83.07456089935418,
+                        "x": 222.5794362184344,
+                        "y": 156.86295680379112,
                         "GUID": "fd0723f0-ac1f-11ec-8cd4-79808d900a3a"
                     }
                 ],
-                "diagramViews": [],
-                "decorativeSymbols": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                }
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
             },
             "collectionLevel": {},
             "changed": false
@@ -94,6 +103,5 @@
             "collapsedNodes": [],
             "shouldDistributeCollections": false
         }
-    },
-    "modelChanged": true
+    }
 }
