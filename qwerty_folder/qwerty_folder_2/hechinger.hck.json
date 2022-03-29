@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Collection",
+            "collectionName": "New Col1lection",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -50,7 +50,7 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "f29336d0-af3e-11ec-9abb-1d3438e97bdf": "New_Database",
-        "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf": "New Collection"
+        "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf": "New Col1lection"
     },
     "definitions": {
         "type": "definitions",
@@ -75,7 +75,7 @@
     "creationTS": "2022-03-29T09:02:21.596Z",
     "GUID": "f17ce4d0-af3e-11ec-9abb-1d3438e97bdf",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-03-29T09:02:25.675Z",
+    "lastModifTS": "2022-03-29T09:04:25.633Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -84,6 +84,7 @@
     "applicationInformation": {
         "version": "6.0.0"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -92,7 +93,7 @@
                         "GUID": "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf",
                         "x": 80,
                         "y": 80,
-                        "width": 240,
+                        "width": 213,
                         "height": 100,
                         "color": {}
                     }
