@@ -3,7 +3,7 @@
     "collections": [],
     "buckets": [
         {
-            "name": "22",
+            "name": "22vc",
             "type": "bucket",
             "collectionIds": [
                 "1a8932a0-ac21-11ec-af3a-edbce42aa248",
@@ -30,7 +30,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "fd0723f0-ac1f-11ec-8cd4-79808d900a3a": "New_Database(2)"
+        "fd0723f0-ac1f-11ec-8cd4-79808d900a3a": "22vc"
     },
     "definitions": {
         "type": "definitions",
@@ -55,7 +55,7 @@
     "creationTS": "2022-03-19T15:27:56.637Z",
     "GUID": "4cb25260-af42-11ec-9cbc-d57f3c1e4761",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-03-29T09:26:23.110Z",
+    "lastModifTS": "2022-03-29T09:28:32.860Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
