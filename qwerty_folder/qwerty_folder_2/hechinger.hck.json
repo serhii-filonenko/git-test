@@ -69,7 +69,6 @@
         "properties": [],
         "GUID": "f17ce4d2-af3e-11ec-9abb-1d3438e97bdf"
     },
-    "modelAutoSaved": false,
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v4.4",
@@ -78,7 +77,7 @@
     "creationTS": "2022-03-29T09:02:21.596Z",
     "GUID": "f17ce4d0-af3e-11ec-9abb-1d3438e97bdf",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-03-29T09:02:25.675Z",
+    "lastModifTS": "2022-04-01T18:40:26.815Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -94,8 +93,8 @@
                 "erd": [
                     {
                         "GUID": "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf",
-                        "x": 80,
-                        "y": 80,
+                        "x": 113,
+                        "y": 259,
                         "width": 183,
                         "height": 100,
                         "color": {}
@@ -103,20 +102,30 @@
                 ],
                 "buckets": [
                     {
-                        "x": 40,
-                        "y": 40,
+                        "x": 73,
+                        "y": 219,
                         "GUID": "f29336d0-af3e-11ec-9abb-1d3438e97bdf"
                     }
                 ],
-                "diagramViews": [],
-                "decorativeSymbols": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                }
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
             },
             "collectionLevel": {},
             "changed": false
@@ -125,6 +134,5 @@
             "collapsedNodes": [],
             "shouldDistributeCollections": false
         }
-    },
-    "modelChanged": true
+    }
 }
