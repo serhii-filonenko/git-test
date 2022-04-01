@@ -4,7 +4,19 @@
         {
             "collectionName": "New Collection",
             "type": "object",
-            "properties": [],
+            "properties": [
+                {
+                    "name": "New Field",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "b45718f0-b1fa-11ec-8f40-e5f4ce5b286e",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
@@ -50,7 +62,8 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4": "New_Database",
-        "4d816490-b1e7-11ec-b0f9-eb51c7014fb4": "New Collection"
+        "4d816490-b1e7-11ec-b0f9-eb51c7014fb4": "New Collection",
+        "b45718f0-b1fa-11ec-8f40-e5f4ce5b286e": "New Field"
     },
     "definitions": {
         "type": "definitions",
@@ -75,7 +88,7 @@
     "creationTS": "2022-04-01T18:12:31.040Z",
     "GUID": "4be36c00-b1e7-11ec-b0f9-eb51c7014fb4",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-01T18:12:35.061Z",
+    "lastModifTS": "2022-04-01T20:31:28.274Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -84,6 +97,7 @@
     "applicationInformation": {
         "version": "6.0.0"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -91,16 +105,16 @@
                     {
                         "GUID": "4d816490-b1e7-11ec-b0f9-eb51c7014fb4",
                         "x": 80,
-                        "y": 80,
-                        "width": 240,
-                        "height": 100,
+                        "y": 149,
+                        "width": 206,
+                        "height": 51,
                         "color": {}
                     }
                 ],
                 "buckets": [
                     {
                         "x": 40,
-                        "y": 40,
+                        "y": 109,
                         "GUID": "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4"
                     }
                 ],
