@@ -77,7 +77,7 @@
     "creationTS": "2022-03-29T09:02:21.596Z",
     "GUID": "f17ce4d0-af3e-11ec-9abb-1d3438e97bdf",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-02T08:52:52.962Z",
+    "lastModifTS": "2022-04-02T09:10:54.403Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -93,8 +93,8 @@
                 "erd": [
                     {
                         "GUID": "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf",
-                        "x": 246,
-                        "y": 380,
+                        "x": 289,
+                        "y": 158,
                         "width": 183,
                         "height": 100,
                         "color": {}
@@ -102,8 +102,8 @@
                 ],
                 "buckets": [
                     {
-                        "x": 206,
-                        "y": 340,
+                        "x": 249,
+                        "y": 118,
                         "GUID": "f29336d0-af3e-11ec-9abb-1d3438e97bdf"
                     }
                 ],
