@@ -55,7 +55,7 @@
     "creationTS": "2022-03-19T15:27:56.637Z",
     "GUID": "4cb25260-af42-11ec-9cbc-d57f3c1e4761",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-02T09:06:16.689Z",
+    "lastModifTS": "2022-04-05T10:03:26.940Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -71,8 +71,8 @@
                 "erd": [],
                 "buckets": [
                     {
-                        "x": 178.00831237640614,
-                        "y": 221.74107142857142,
+                        "x": 179.03281126282042,
+                        "y": 40,
                         "GUID": "fd0723f0-ac1f-11ec-8cd4-79808d900a3a"
                     }
                 ],
