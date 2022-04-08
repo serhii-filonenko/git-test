@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New332442333333333 133",
+            "collectionName": "1",
             "type": "object",
             "properties": [
                 {
@@ -62,7 +62,7 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4": "New_Database",
-        "4d816490-b1e7-11ec-b0f9-eb51c7014fb4": "New Collection",
+        "4d816490-b1e7-11ec-b0f9-eb51c7014fb4": "1",
         "b45718f0-b1fa-11ec-8f40-e5f4ce5b286e": "New Field"
     },
     "definitions": {
@@ -88,14 +88,14 @@
     "creationTS": "2022-04-01T18:12:31.040Z",
     "GUID": "4be36c00-b1e7-11ec-b0f9-eb51c7014fb4",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-07T15:54:11.725Z",
+    "lastModifTS": "2022-04-08T12:01:47.370Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.2"
+        "version": "6.0.3"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -106,7 +106,7 @@
                         "GUID": "4d816490-b1e7-11ec-b0f9-eb51c7014fb4",
                         "x": 224,
                         "y": 263,
-                        "width": 206,
+                        "width": 173,
                         "height": 51,
                         "color": {}
                     }
