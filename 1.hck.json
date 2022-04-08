@@ -47,23 +47,24 @@
     "creationTS": "2022-04-08T13:58:44.183Z",
     "GUID": "00ddae70-b744-11ec-a602-13b071bb7a27",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-08T13:58:47.840Z",
+    "lastModifTS": "2022-04-08T16:42:49.336Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.2"
+        "version": "6.0.3"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [],
                 "buckets": [
                     {
-                        "x": 48,
-                        "y": 143,
+                        "x": 595,
+                        "y": 162,
                         "GUID": "017644f0-b744-11ec-a602-13b071bb7a27"
                     }
                 ],
