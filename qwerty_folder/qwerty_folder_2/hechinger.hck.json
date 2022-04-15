@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "3c4",
+            "collectionName": "3c4333",
             "type": "object",
             "properties": [
                 {
@@ -87,7 +87,7 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "f29336d0-af3e-11ec-9abb-1d3438e97bdf": "New_Database",
-        "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf": "3c4",
+        "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf": "3c4333",
         "a9388c10-b65a-11ec-9e9d-53b42d995aff": "New Field",
         "aa046790-b65a-11ec-9e9d-53b42d995aff": "New Field(1)",
         "aa70bdf0-b65a-11ec-9e9d-53b42d995aff": "New Field(2)"
@@ -115,7 +115,7 @@
     "creationTS": "2022-03-29T09:02:21.596Z",
     "GUID": "f17ce4d0-af3e-11ec-9abb-1d3438e97bdf",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-15T11:28:26.742Z",
+    "lastModifTS": "2022-04-15T12:56:25.800Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
