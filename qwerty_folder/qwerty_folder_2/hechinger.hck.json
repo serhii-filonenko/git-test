@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "f111faaaf",
+            "collectionName": "o",
             "type": "object",
             "properties": [
                 {
@@ -87,7 +87,7 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "f29336d0-af3e-11ec-9abb-1d3438e97bdf": "New_Database",
-        "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf": "f",
+        "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf": "o",
         "a9388c10-b65a-11ec-9e9d-53b42d995aff": "New Field",
         "aa046790-b65a-11ec-9e9d-53b42d995aff": "New Field(1)",
         "aa70bdf0-b65a-11ec-9e9d-53b42d995aff": "New Field(2)"
@@ -115,7 +115,7 @@
     "creationTS": "2022-03-29T09:02:21.596Z",
     "GUID": "f17ce4d0-af3e-11ec-9abb-1d3438e97bdf",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-15T13:23:08.529Z",
+    "lastModifTS": "2022-04-15T14:13:39.590Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
