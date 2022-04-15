@@ -2,7 +2,11 @@
     "modelName": "New Model",
     "collections": [
         {
+<<<<<<< HEAD
             "collectionName": "o",
+=======
+            "collectionName": "tyu",
+>>>>>>> origin/qwe
             "type": "object",
             "properties": [
                 {
