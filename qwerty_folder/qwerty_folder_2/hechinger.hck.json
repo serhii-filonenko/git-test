@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "34443333",
+            "collectionName": "qq1New11",
             "type": "object",
             "properties": [
                 {
@@ -10,7 +10,29 @@
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "string",
-                    "GUID": "b45718f0-b1fa-11ec-8f40-e5f4ce5b286e",
+                    "GUID": "a9388c10-b65a-11ec-9e9d-53b42d995aff",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "New Field(1)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "aa046790-b65a-11ec-9e9d-53b42d995aff",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "New Field(2)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "aa70bdf0-b65a-11ec-9e9d-53b42d995aff",
                     "error": {
                         "name": false,
                         "code": false
@@ -20,7 +42,7 @@
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "4d81b2b0-b1e7-11ec-b0f9-eb51c7014fb4"
+                "GUID": "f2d8f260-af3e-11ec-9abb-1d3438e97bdf"
             },
             "isActivated": true,
             "additionalProperties": false,
@@ -34,8 +56,11 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "4d816490-b1e7-11ec-b0f9-eb51c7014fb4",
-            "bucketId": "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4"
+            "GUID": "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf",
+            "bucketId": "f29336d0-af3e-11ec-9abb-1d3438e97bdf",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "buckets": [
@@ -43,17 +68,19 @@
             "name": "New_Database",
             "type": "bucket",
             "collectionIds": [
-                "4d816490-b1e7-11ec-b0f9-eb51c7014fb4"
+                "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf",
+                "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf",
+                "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf"
             ],
             "backgroundColor": {
-                "r": 187,
-                "g": 187,
-                "b": 187,
+                "r": 216,
+                "g": 0,
+                "b": 115,
                 "a": 1
             },
             "show": true,
             "isActivated": true,
-            "GUID": "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4"
+            "GUID": "f29336d0-af3e-11ec-9abb-1d3438e97bdf"
         }
     ],
     "views": [],
@@ -61,34 +88,36 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4": "New_Database",
-        "4d816490-b1e7-11ec-b0f9-eb51c7014fb4": "12",
-        "b45718f0-b1fa-11ec-8f40-e5f4ce5b286e": "New Field"
+        "f29336d0-af3e-11ec-9abb-1d3438e97bdf": "New_Database",
+        "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf": "New Collection",
+        "a9388c10-b65a-11ec-9e9d-53b42d995aff": "New Field",
+        "aa046790-b65a-11ec-9e9d-53b42d995aff": "New Field(1)",
+        "aa70bdf0-b65a-11ec-9e9d-53b42d995aff": "New Field(2)"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "4be36c01-b1e7-11ec-b0f9-eb51c7014fb4"
+        "GUID": "f17ce4d1-af3e-11ec-9abb-1d3438e97bdf"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "4be36c03-b1e7-11ec-b0f9-eb51c7014fb4"
+        "GUID": "f17ce4d3-af3e-11ec-9abb-1d3438e97bdf"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "4be36c02-b1e7-11ec-b0f9-eb51c7014fb4"
+        "GUID": "f17ce4d2-af3e-11ec-9abb-1d3438e97bdf"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v4.4",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-04-01T18:12:31.040Z",
-    "GUID": "4be36c00-b1e7-11ec-b0f9-eb51c7014fb4",
+    "creationTS": "2022-03-29T09:02:21.596Z",
+    "GUID": "f17ce4d0-af3e-11ec-9abb-1d3438e97bdf",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-08T13:16:43.844Z",
+    "lastModifTS": "2022-04-14T16:16:57.706Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -103,19 +132,19 @@
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "4d816490-b1e7-11ec-b0f9-eb51c7014fb4",
-                        "x": 224,
-                        "y": 263,
-                        "width": 173,
-                        "height": 51,
+                        "GUID": "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf",
+                        "x": 302,
+                        "y": 80,
+                        "width": 187,
+                        "height": 87,
                         "color": {}
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 184,
-                        "y": 223,
-                        "GUID": "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4"
+                        "x": 262,
+                        "y": 40,
+                        "GUID": "f29336d0-af3e-11ec-9abb-1d3438e97bdf"
                     }
                 ],
                 "collapsedNodes": [],

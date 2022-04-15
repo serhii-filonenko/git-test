@@ -2,93 +2,78 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "34443333",
+            "collectionName": "New Document",
             "type": "object",
-            "properties": [
-                {
-                    "name": "New Field",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "string",
-                    "GUID": "b45718f0-b1fa-11ec-8f40-e5f4ce5b286e",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
-                }
-            ],
+            "properties": [],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "4d81b2b0-b1e7-11ec-b0f9-eb51c7014fb4"
+                "GUID": "37ea3530-bc0f-11ec-b186-43299b9e10a6"
             },
             "isActivated": true,
             "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "4d816490-b1e7-11ec-b0f9-eb51c7014fb4",
-            "bucketId": "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4"
+            "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6"
         }
     ],
     "buckets": [
         {
-            "name": "New_Database",
+            "name": "New Group",
             "type": "bucket",
-            "collectionIds": [
-                "4d816490-b1e7-11ec-b0f9-eb51c7014fb4"
-            ],
+            "collectionIds": [],
             "backgroundColor": {
-                "r": 187,
-                "g": 187,
-                "b": 187,
+                "r": 216,
+                "g": 0,
+                "b": 115,
                 "a": 1
             },
             "show": true,
             "isActivated": true,
-            "GUID": "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4"
+            "GUID": "37303400-bc0f-11ec-b186-43299b9e10a6"
         }
     ],
     "views": [],
-    "relationships": [],
+    "relationships": [
+        {
+            "name": "New Relationship",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "3779c020-bc0f-11ec-b186-43299b9e10a6"
+        }
+    ],
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4": "New_Database",
-        "4d816490-b1e7-11ec-b0f9-eb51c7014fb4": "12",
-        "b45718f0-b1fa-11ec-8f40-e5f4ce5b286e": "New Field"
+        "37303400-bc0f-11ec-b186-43299b9e10a6": "New Group",
+        "3779c020-bc0f-11ec-b186-43299b9e10a6": "New Relationship",
+        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "4be36c01-b1e7-11ec-b0f9-eb51c7014fb4"
+        "GUID": "364c1590-bc0f-11ec-b186-43299b9e10a6"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "4be36c03-b1e7-11ec-b0f9-eb51c7014fb4"
+        "GUID": "364c1592-bc0f-11ec-b186-43299b9e10a6"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "4be36c02-b1e7-11ec-b0f9-eb51c7014fb4"
+        "GUID": "364c1591-bc0f-11ec-b186-43299b9e10a6"
     },
     "sources": [],
     "decorativeSymbols": [],
-    "dbVersion": "v4.4",
-    "dbVendor": "MongoDB",
-    "appTarget": "MONGODB",
-    "creationTS": "2022-04-01T18:12:31.040Z",
-    "GUID": "4be36c00-b1e7-11ec-b0f9-eb51c7014fb4",
+    "dbVendor": "JSON",
+    "dbVersion": "2019-09",
+    "appTarget": "JSON",
+    "creationTS": "2022-04-14T16:23:26.312Z",
+    "GUID": "364bee80-bc0f-11ec-b186-43299b9e10a6",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-08T13:16:43.844Z",
+    "lastModifTS": "2022-04-14T16:23:31.928Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -97,25 +82,24 @@
     "applicationInformation": {
         "version": "6.0.3"
     },
-    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "4d816490-b1e7-11ec-b0f9-eb51c7014fb4",
-                        "x": 224,
-                        "y": 263,
-                        "width": 173,
-                        "height": 51,
+                        "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
+                        "x": 75,
+                        "y": 221,
+                        "width": 240,
+                        "height": 100,
                         "color": {}
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 184,
-                        "y": 223,
-                        "GUID": "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4"
+                        "x": 40,
+                        "y": 40,
+                        "GUID": "37303400-bc0f-11ec-b186-43299b9e10a6"
                     }
                 ],
                 "collapsedNodes": [],
