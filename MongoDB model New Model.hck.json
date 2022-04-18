@@ -35,7 +35,10 @@
                 "collation": "null"
             },
             "GUID": "4d816490-b1e7-11ec-b0f9-eb51c7014fb4",
-            "bucketId": "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4"
+            "bucketId": "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "buckets": [
@@ -88,14 +91,14 @@
     "creationTS": "2022-04-01T18:12:31.040Z",
     "GUID": "4be36c00-b1e7-11ec-b0f9-eb51c7014fb4",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-08T13:16:43.844Z",
+    "lastModifTS": "2022-04-15T15:31:03.839Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.3"
+        "version": "6.0.4"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -104,8 +107,8 @@
                 "erd": [
                     {
                         "GUID": "4d816490-b1e7-11ec-b0f9-eb51c7014fb4",
-                        "x": 224,
-                        "y": 263,
+                        "x": 254,
+                        "y": 370,
                         "width": 173,
                         "height": 51,
                         "color": {}
@@ -113,8 +116,8 @@
                 ],
                 "buckets": [
                     {
-                        "x": 184,
-                        "y": 223,
+                        "x": 214,
+                        "y": 330,
                         "GUID": "4d39fb50-b1e7-11ec-b0f9-eb51c7014fb4"
                     }
                 ],
