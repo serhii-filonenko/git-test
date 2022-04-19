@@ -25,14 +25,17 @@
             "GUID": "17fb3140-b744-11ec-a602-13b071bb7a27",
             "hackoladeMeta": {
                 "validationErrors": {}
-            }
+            },
+            "bucketId": "184c3770-b744-11ec-a602-13b071bb7a27"
         }
     ],
     "buckets": [
         {
             "name": "New_Database",
             "type": "bucket",
-            "collectionIds": [],
+            "collectionIds": [
+                "17fb3140-b744-11ec-a602-13b071bb7a27"
+            ],
             "backgroundColor": {
                 "r": 187,
                 "g": 187,
@@ -75,7 +78,7 @@
     "creationTS": "2022-04-08T13:59:14.704Z",
     "GUID": "130ef810-b744-11ec-a602-13b071bb7a27",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-19T11:04:11.584Z",
+    "lastModifTS": "2022-04-19T13:08:53.137Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -91,8 +94,8 @@
                 "erd": [
                     {
                         "GUID": "17fb3140-b744-11ec-a602-13b071bb7a27",
-                        "x": 49.467592592592645,
-                        "y": 440.1296296296296,
+                        "x": 42.46759259259264,
+                        "y": 153.12962962962962,
                         "width": 240,
                         "height": 100,
                         "color": {}
@@ -100,8 +103,8 @@
                 ],
                 "buckets": [
                     {
-                        "x": 40,
-                        "y": 40,
+                        "x": 2.467592592592638,
+                        "y": 113.12962962962962,
                         "GUID": "184c3770-b744-11ec-a602-13b071bb7a27"
                     }
                 ],
