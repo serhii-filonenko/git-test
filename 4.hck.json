@@ -124,7 +124,6 @@
         "properties": [],
         "GUID": "1d4038d2-b744-11ec-a602-13b071bb7a27"
     },
-    "modelAutoSaved": false,
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v4.4",
@@ -133,14 +132,14 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "1d4038d0-b744-11ec-a602-13b071bb7a27",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-08T13:59:35.460Z",
+    "lastModifTS": "2022-04-19T11:12:09.407Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.2"
+        "version": "6.0.4"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -149,8 +148,8 @@
                 "erd": [
                     {
                         "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                        "x": 40,
-                        "y": 40,
+                        "x": 93.24074074074072,
+                        "y": 442.50000000000006,
                         "width": 146,
                         "height": 100,
                         "color": {}
@@ -163,15 +162,25 @@
                         "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
                     }
                 ],
-                "diagramViews": [],
-                "decorativeSymbols": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                }
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
             },
             "collectionLevel": {},
             "changed": false
@@ -180,6 +189,5 @@
             "collapsedNodes": [],
             "shouldDistributeCollections": false
         }
-    },
-    "modelChanged": true
+    }
 }
