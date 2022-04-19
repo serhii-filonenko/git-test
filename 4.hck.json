@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "13",
+            "collectionName": "13k11",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -23,14 +23,17 @@
                 "collation": "null"
             },
             "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-            "hackoladeMeta": {}
+            "hackoladeMeta": {},
+            "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
         }
     ],
     "buckets": [
         {
             "name": "New_Database",
             "type": "bucket",
-            "collectionIds": [],
+            "collectionIds": [
+                "1e6f42f0-b744-11ec-a602-13b071bb7a27"
+            ],
             "backgroundColor": {
                 "r": 187,
                 "g": 187,
@@ -47,7 +50,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "1",
+        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "13k11",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database"
     },
     "definitions": {
@@ -73,7 +76,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "1d4038d0-b744-11ec-a602-13b071bb7a27",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-19T08:08:28.315Z",
+    "lastModifTS": "2022-04-19T09:13:29.587Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -89,9 +92,9 @@
                 "erd": [
                     {
                         "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                        "x": 124,
-                        "y": 350,
-                        "width": 129,
+                        "x": 80,
+                        "y": 80,
+                        "width": 156,
                         "height": 100,
                         "color": {}
                     }
