@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Collec3tion1",
+            "collectionName": "1",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -73,7 +73,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "1d4038d0-b744-11ec-a602-13b071bb7a27",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-19T08:05:38.112Z",
+    "lastModifTS": "2022-04-19T08:08:28.315Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -89,8 +89,8 @@
                 "erd": [
                     {
                         "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                        "x": 40,
-                        "y": 40,
+                        "x": 124,
+                        "y": 350,
                         "width": 129,
                         "height": 100,
                         "color": {}
