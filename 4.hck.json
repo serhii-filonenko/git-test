@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "1212",
+            "collectionName": "3322222",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -23,7 +23,8 @@
                 "collation": "null"
             },
             "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-            "hackoladeMeta": {}
+            "hackoladeMeta": {},
+            "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
         },
         {
             "collectionName": "13k11",
@@ -58,7 +59,8 @@
             "name": "New_Database",
             "type": "bucket",
             "collectionIds": [
-                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01"
+                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
+                "1e6f42f0-b744-11ec-a602-13b071bb7a27"
             ],
             "backgroundColor": {
                 "r": 187,
@@ -76,7 +78,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "f",
+        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "3322222",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database"
     },
     "definitions": {
@@ -102,7 +104,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "1d4038d0-b744-11ec-a602-13b071bb7a27",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-19T09:21:59.698Z",
+    "lastModifTS": "2022-04-19T09:35:27.831Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -118,17 +120,17 @@
                 "erd": [
                     {
                         "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                        "x": 40,
-                        "y": 40,
-                        "width": 127,
+                        "x": 79.39814814814815,
+                        "y": 146.48148148148144,
+                        "width": 171,
                         "height": 100,
                         "color": {}
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 40,
-                        "y": 40,
+                        "x": 39.39814814814815,
+                        "y": 106.48148148148144,
                         "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
                     }
                 ],
