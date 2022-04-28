@@ -78,14 +78,14 @@
     "creationTS": "2022-04-08T13:59:14.704Z",
     "GUID": "130ef810-b744-11ec-a602-13b071bb7a27",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-19T13:13:12.923Z",
-    "persistenceSchemaVersion": "5",
+    "lastModifTS": "2022-04-28T08:26:17.493Z",
+    "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "5.4.13"
+        "version": "6.0.5"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -94,8 +94,8 @@
                 "erd": [
                     {
                         "GUID": "17fb3140-b744-11ec-a602-13b071bb7a27",
-                        "x": 42.46759259259264,
-                        "y": 153.12962962962962,
+                        "x": 152.46759259259264,
+                        "y": 321.1296296296296,
                         "width": 240,
                         "height": 100,
                         "color": {
@@ -105,8 +105,8 @@
                 ],
                 "buckets": [
                     {
-                        "x": 2.467592592592638,
-                        "y": 113.12962962962962,
+                        "x": 112.46759259259264,
+                        "y": 281.1296296296296,
                         "GUID": "184c3770-b744-11ec-a602-13b071bb7a27"
                     }
                 ],
@@ -116,9 +116,7 @@
                     "childField": [],
                     "parentField": []
                 },
-                "selectedCollections": [
-                    "17fb3140-b744-11ec-a602-13b071bb7a27"
-                ],
+                "selectedCollections": [],
                 "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
