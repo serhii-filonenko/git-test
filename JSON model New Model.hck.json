@@ -12,7 +12,10 @@
             },
             "isActivated": true,
             "additionalProperties": false,
-            "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6"
+            "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "buckets": [
@@ -73,23 +76,24 @@
     "creationTS": "2022-04-14T16:23:26.312Z",
     "GUID": "364bee80-bc0f-11ec-b186-43299b9e10a6",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-14T16:23:31.928Z",
+    "lastModifTS": "2022-04-27T13:59:45.929Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.3"
+        "version": "6.0.5"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
                         "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
-                        "x": 75,
-                        "y": 221,
+                        "x": 61.34703196347032,
+                        "y": 394.2876712328767,
                         "width": 240,
                         "height": 100,
                         "color": {}
