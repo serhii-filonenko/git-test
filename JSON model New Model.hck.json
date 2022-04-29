@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Document",
+            "collectionName": "New Document1",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -13,9 +13,7 @@
             "isActivated": true,
             "additionalProperties": false,
             "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            }
+            "hackoladeMeta": {}
         }
     ],
     "buckets": [
@@ -51,7 +49,7 @@
     "idToNameHashTable": {
         "37303400-bc0f-11ec-b186-43299b9e10a6": "New Group",
         "3779c020-bc0f-11ec-b186-43299b9e10a6": "New Relationship",
-        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document"
+        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document1"
     },
     "definitions": {
         "type": "definitions",
@@ -76,14 +74,14 @@
     "creationTS": "2022-04-14T16:23:26.312Z",
     "GUID": "364bee80-bc0f-11ec-b186-43299b9e10a6",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-27T13:59:45.929Z",
+    "lastModifTS": "2022-04-29T10:47:45.072Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.5"
+        "version": "6.0.6"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -92,9 +90,9 @@
                 "erd": [
                     {
                         "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
-                        "x": 61.34703196347032,
-                        "y": 394.2876712328767,
-                        "width": 240,
+                        "x": 89.34703196347033,
+                        "y": 134.28767123287668,
+                        "width": 216,
                         "height": 100,
                         "color": {}
                     }
@@ -102,7 +100,7 @@
                 "buckets": [
                     {
                         "x": 40,
-                        "y": 40,
+                        "y": 46,
                         "GUID": "37303400-bc0f-11ec-b186-43299b9e10a6"
                     }
                 ],
