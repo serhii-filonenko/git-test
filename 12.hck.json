@@ -1,0 +1,106 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "New 11",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "17fc1ba0-b744-11ec-a602-13b071bb7a27"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "17fb3140-b744-11ec-a602-13b071bb7a27",
+            "hackoladeMeta": {},
+            "bucketId": "184c3770-b744-11ec-a602-13b071bb7a27"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "New_Database",
+            "type": "bucket",
+            "collectionIds": [
+                "17fb3140-b744-11ec-a602-13b071bb7a27",
+                "17fb3140-b744-11ec-a602-13b071bb7a27"
+            ],
+            "backgroundColor": {
+                "r": 187,
+                "g": 187,
+                "b": 187,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "184c3770-b744-11ec-a602-13b071bb7a27"
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "17fb3140-b744-11ec-a602-13b071bb7a27": "New 11",
+        "184c3770-b744-11ec-a602-13b071bb7a27": "New_Database"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "130ef811-b744-11ec-a602-13b071bb7a27"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "130ef813-b744-11ec-a602-13b071bb7a27"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "130ef812-b744-11ec-a602-13b071bb7a27"
+    },
+    "modelAutoSaved": false,
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v4.4",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2022-04-08T13:59:14.704Z",
+    "GUID": "ba3e57c0-c7a2-11ec-b34b-17dd18b454f4",
+    "modelChanged": true,
+    "differenceMeta": {
+        "differenceType": "modified",
+        "properties": [
+            {
+                "keyword": "modelName",
+                "GUID": "ba3e57c0-c7a2-11ec-b34b-17dd18b454f4",
+                "conflict": true,
+                "oldValue": "Deleted Model"
+            }
+        ]
+    },
+    "isLineageEnabled": false,
+    "lastModifTS": "2022-04-29T09:16:31.646Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.0.6"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {}
+    }
+}
