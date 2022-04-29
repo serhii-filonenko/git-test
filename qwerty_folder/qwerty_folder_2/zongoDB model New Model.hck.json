@@ -50,7 +50,7 @@
             "bucketId": "fd0723f0-ac1f-11ec-8cd4-79808d900a3a"
         },
         {
-            "collectionName": "C",
+            "collectionName": "C1",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -107,7 +107,7 @@
         "fd0723f0-ac1f-11ec-8cd4-79808d900a3a": "3",
         "ae029290-bef2-11ec-8894-39571c1d6f15": "A",
         "b0d33ec0-bef2-11ec-8894-39571c1d6f15": "B",
-        "b26e7830-bef2-11ec-8894-39571c1d6f15": "C"
+        "b26e7830-bef2-11ec-8894-39571c1d6f15": "C1"
     },
     "definitions": {
         "type": "definitions",
@@ -132,14 +132,14 @@
     "creationTS": "2022-03-19T15:27:56.637Z",
     "GUID": "5f1de5e0-af42-11ec-9cbc-d57f3c1e4761",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-29T05:46:21.798Z",
+    "lastModifTS": "2022-04-29T11:07:28.761Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.5"
+        "version": "6.0.6"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -166,7 +166,7 @@
                         "GUID": "b26e7830-bef2-11ec-8894-39571c1d6f15",
                         "x": 220.65590163286856,
                         "y": 533.4142231089282,
-                        "width": 130,
+                        "width": 137,
                         "height": 100,
                         "color": {}
                     }
