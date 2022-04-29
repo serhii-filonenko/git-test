@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Collection11",
+            "collectionName": "New Collection1155",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -50,7 +50,7 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "d4f1cc60-c54e-11ec-9834-e3847002a45d": "New_Database",
-        "d5334230-c54e-11ec-9834-e3847002a45d": "New Collection11"
+        "d5334230-c54e-11ec-9834-e3847002a45d": "New Collection1155"
     },
     "definitions": {
         "type": "definitions",
@@ -75,7 +75,7 @@
     "creationTS": "2022-04-26T10:51:28.257Z",
     "GUID": "d32aef10-c54e-11ec-9834-e3847002a45d",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-29T12:22:11.969Z",
+    "lastModifTS": "2022-04-29T12:33:43.504Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -93,7 +93,7 @@
                         "GUID": "d5334230-c54e-11ec-9834-e3847002a45d",
                         "x": 80,
                         "y": 80,
-                        "width": 220,
+                        "width": 233,
                         "height": 100,
                         "color": {}
                     }
