@@ -2,13 +2,13 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Collection",
+            "collectionName": "New 111",
             "type": "object",
             "properties": [],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "f61ef9d0-c7a1-11ec-a6e2-e91821fea6f0"
+                "GUID": "17fc1ba0-b744-11ec-a602-13b071bb7a27"
             },
             "isActivated": true,
             "additionalProperties": false,
@@ -22,41 +22,61 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "f61e84a0-c7a1-11ec-a6e2-e91821fea6f0"
+            "GUID": "17fb3140-b744-11ec-a602-13b071bb7a27",
+            "hackoladeMeta": {},
+            "bucketId": "184c3770-b744-11ec-a602-13b071bb7a27"
         }
     ],
-    "buckets": [],
+    "buckets": [
+        {
+            "name": "New_Database",
+            "type": "bucket",
+            "collectionIds": [
+                "17fb3140-b744-11ec-a602-13b071bb7a27"
+            ],
+            "backgroundColor": {
+                "r": 187,
+                "g": 187,
+                "b": 187,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "184c3770-b744-11ec-a602-13b071bb7a27"
+        }
+    ],
     "views": [],
     "relationships": [],
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "f61e84a0-c7a1-11ec-a6e2-e91821fea6f0": "New Collection"
+        "17fb3140-b744-11ec-a602-13b071bb7a27": "New 111",
+        "184c3770-b744-11ec-a602-13b071bb7a27": "New_Database"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "f34721b1-c7a1-11ec-a6e2-e91821fea6f0"
+        "GUID": "130ef811-b744-11ec-a602-13b071bb7a27"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "f34721b3-c7a1-11ec-a6e2-e91821fea6f0"
+        "GUID": "130ef813-b744-11ec-a602-13b071bb7a27"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "f34721b2-c7a1-11ec-a6e2-e91821fea6f0"
+        "GUID": "130ef812-b744-11ec-a602-13b071bb7a27"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v4.4",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-04-29T09:51:32.683Z",
-    "GUID": "f34721b0-c7a1-11ec-a6e2-e91821fea6f0",
+    "creationTS": "2022-04-08T13:59:14.704Z",
+    "GUID": "130ef810-b744-11ec-a602-13b071bb7a27",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-29T09:51:41.715Z",
+    "lastModifTS": "2022-04-29T10:05:17.233Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -65,20 +85,29 @@
     "applicationInformation": {
         "version": "6.0.6"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "f61e84a0-c7a1-11ec-a6e2-e91821fea6f0",
-                        "x": 40,
-                        "y": 40,
-                        "width": 240,
+                        "GUID": "17fb3140-b744-11ec-a602-13b071bb7a27",
+                        "x": 185.46759259259264,
+                        "y": 389,
+                        "width": 171,
                         "height": 100,
-                        "color": {}
+                        "color": {
+                            "hex": "#39ff14"
+                        }
                     }
                 ],
-                "buckets": [],
+                "buckets": [
+                    {
+                        "x": 145.46759259259264,
+                        "y": 349,
+                        "GUID": "184c3770-b744-11ec-a602-13b071bb7a27"
+                    }
+                ],
                 "collapsedNodes": [],
                 "activeRelationship": "",
                 "activeRelationshipFields": {
