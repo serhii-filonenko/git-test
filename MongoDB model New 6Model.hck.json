@@ -55,7 +55,7 @@
     ],
     "buckets": [
         {
-            "name": "New_Data33base",
+            "name": "New_Data33base1111",
             "type": "bucket",
             "collectionIds": [
                 "dab81e00-bbef-11ec-bfc2-e1cb2dc6811b"
@@ -92,7 +92,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "da6f7c40-bbef-11ec-bfc2-e1cb2dc6811b": "New_Database",
+        "da6f7c40-bbef-11ec-bfc2-e1cb2dc6811b": "New_Data33base1111",
         "dab81e00-bbef-11ec-bfc2-e1cb2dc6811b": "New Collection",
         "caa35830-bfd3-11ec-ad85-975386b56fc8": "New_Database",
         "cb118350-bfd3-11ec-ad85-975386b56fc8": "New Collection(1)"
@@ -120,14 +120,14 @@
     "creationTS": "2022-04-14T12:38:54.055Z",
     "GUID": "d834ce80-bbef-11ec-bfc2-e1cb2dc6811b",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-19T11:29:13.331Z",
+    "lastModifTS": "2022-04-29T13:57:24.489Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.4"
+        "version": "6.0.6"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -136,8 +136,8 @@
                 "erd": [
                     {
                         "GUID": "dab81e00-bbef-11ec-bfc2-e1cb2dc6811b",
-                        "x": 169,
-                        "y": 302,
+                        "x": 158,
+                        "y": 321,
                         "width": 240,
                         "height": 100,
                         "color": {}
@@ -153,8 +153,8 @@
                 ],
                 "buckets": [
                     {
-                        "x": 129,
-                        "y": 262,
+                        "x": 118,
+                        "y": 281,
                         "GUID": "da6f7c40-bbef-11ec-bfc2-e1cb2dc6811b"
                     },
                     {
