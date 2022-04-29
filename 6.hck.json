@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New 1311",
+            "collectionName": "4",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -50,7 +50,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "17fb3140-b744-11ec-a602-13b071bb7a27": "New 111",
+        "17fb3140-b744-11ec-a602-13b071bb7a27": "4",
         "184c3770-b744-11ec-a602-13b071bb7a27": "New_Database"
     },
     "definitions": {
@@ -76,7 +76,7 @@
     "creationTS": "2022-04-08T13:59:14.704Z",
     "GUID": "130ef810-b744-11ec-a602-13b071bb7a27",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-29T10:05:17.233Z",
+    "lastModifTS": "2022-04-29T14:04:14.210Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -94,7 +94,7 @@
                         "GUID": "17fb3140-b744-11ec-a602-13b071bb7a27",
                         "x": 185.46759259259264,
                         "y": 389,
-                        "width": 171,
+                        "width": 129,
                         "height": 100,
                         "color": {
                             "hex": "#39ff14"
