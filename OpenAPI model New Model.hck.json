@@ -9,7 +9,7 @@
                     "name": "parameters",
                     "hackoladeMeta": {
                         "disableAdd": false,
-                        "disableDelete": false,
+                        "disableDelete": true,
                         "disableAppend": true,
                         "resetInsteadOfDelete": true,
                         "disableChoices": true
