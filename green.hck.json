@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "qwec",
+            "collectionName": "a",
             "type": "object",
             "properties": [],
             "definitions": {
