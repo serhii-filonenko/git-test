@@ -75,7 +75,7 @@
     "creationTS": "2022-05-03T12:39:36.582Z",
     "GUID": "17670260-cade-11ec-9928-25e7831cc95d",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-03T12:39:41.156Z",
+    "lastModifTS": "2022-05-03T14:54:02.874Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -84,14 +84,15 @@
     "applicationInformation": {
         "version": "6.0.6"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
                         "GUID": "18eabc30-cade-11ec-9928-25e7831cc95d",
-                        "x": 80,
-                        "y": 80,
+                        "x": 105,
+                        "y": 384,
                         "width": 240,
                         "height": 100,
                         "color": {}
@@ -99,8 +100,8 @@
                 ],
                 "buckets": [
                     {
-                        "x": 40,
-                        "y": 40,
+                        "x": 65,
+                        "y": 344,
                         "GUID": "18a0bae0-cade-11ec-9928-25e7831cc95d"
                     }
                 ],
