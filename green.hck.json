@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "gre333e3n1",
+            "collectionName": "gre33223e3n1",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -50,7 +50,7 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "1f769ba0-cade-11ec-9928-25e7831cc95d": "New_Database",
-        "1fd4e840-cade-11ec-9928-25e7831cc95d": "green1"
+        "1fd4e840-cade-11ec-9928-25e7831cc95d": "gre33223e3n1"
     },
     "definitions": {
         "type": "definitions",
@@ -75,7 +75,7 @@
     "creationTS": "2022-05-03T12:39:48.982Z",
     "GUID": "1ecb1960-cade-11ec-9928-25e7831cc95d",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-03T13:53:53.666Z",
+    "lastModifTS": "2022-05-03T14:54:51.160Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -93,7 +93,7 @@
                         "GUID": "1fd4e840-cade-11ec-9928-25e7831cc95d",
                         "x": 80,
                         "y": 80,
-                        "width": 162,
+                        "width": 203,
                         "height": 100,
                         "color": {}
                     }
