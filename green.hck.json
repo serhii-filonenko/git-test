@@ -2,7 +2,7 @@
     "modelName": "Deleted Model",
     "collections": [
         {
-            "collectionName": "222f22",
+            "collectionName": "f",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -51,7 +51,7 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "cf3512a0-cac6-11ec-a10f-77e034f93629": "New_Database",
-        "cf7a0ae0-cac6-11ec-a10f-77e034f93629": "222f22"
+        "cf7a0ae0-cac6-11ec-a10f-77e034f93629": "f"
     },
     "definitions": {
         "type": "definitions",
@@ -76,7 +76,7 @@
     "creationTS": "2022-05-03T12:31:52.686Z",
     "GUID": "ce117a30-cac6-11ec-a10f-77e034f93629",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-03T12:32:38.733Z",
+    "lastModifTS": "2022-05-03T12:33:42.633Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -105,7 +105,7 @@
                         "GUID": "cf7a0ae0-cac6-11ec-a10f-77e034f93629",
                         "x": 80,
                         "y": 80,
-                        "width": 161,
+                        "width": 127,
                         "height": 100,
                         "color": {}
                     }
