@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Colleddd",
+            "collectionName": "New Colleddd33",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -23,14 +23,17 @@
                 "collation": "null"
             },
             "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-            "hackoladeMeta": {}
+            "hackoladeMeta": {},
+            "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
         }
     ],
     "buckets": [
         {
             "name": "New_Database",
             "type": "bucket",
-            "collectionIds": [],
+            "collectionIds": [
+                "1e6f42f0-b744-11ec-a602-13b071bb7a27"
+            ],
             "backgroundColor": {
                 "r": 187,
                 "g": 187,
@@ -47,7 +50,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "New Colleddd",
+        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "New Colleddd33",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database"
     },
     "definitions": {
@@ -73,7 +76,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "1d4038d0-b744-11ec-a602-13b071bb7a27",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-29T14:06:12.302Z",
+    "lastModifTS": "2022-05-03T09:30:54.284Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -89,17 +92,17 @@
                 "erd": [
                     {
                         "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                        "x": 57,
-                        "y": 132,
-                        "width": 200,
+                        "x": 74,
+                        "y": 94,
+                        "width": 214,
                         "height": 100,
                         "color": {}
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 40,
-                        "y": 40,
+                        "x": 34,
+                        "y": 54,
                         "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
                     }
                 ],
