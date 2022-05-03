@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Collection",
+            "collectionName": "New Colleddd",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -23,9 +23,7 @@
                 "collation": "null"
             },
             "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            }
+            "hackoladeMeta": {}
         }
     ],
     "buckets": [
@@ -49,7 +47,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "New Collection",
+        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "New Colleddd",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database"
     },
     "definitions": {
@@ -75,14 +73,14 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "1d4038d0-b744-11ec-a602-13b071bb7a27",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-18T12:19:46.288Z",
+    "lastModifTS": "2022-04-29T14:06:12.302Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.4"
+        "version": "6.0.6"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -91,9 +89,9 @@
                 "erd": [
                     {
                         "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                        "x": 40,
-                        "y": 40,
-                        "width": 240,
+                        "x": 57,
+                        "y": 132,
+                        "width": 200,
                         "height": 100,
                         "color": {}
                     }

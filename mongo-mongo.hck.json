@@ -1,0 +1,146 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "New Collectio3n1",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ee5f92a0-c610-11ec-9fc1-77e0e2c841a4"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "ee5f4480-c610-11ec-9fc1-77e0e2c841a4",
+            "bucketId": "ee1df5c0-c610-11ec-9fc1-77e0e2c841a4"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "New_Database",
+            "type": "bucket",
+            "collectionIds": [
+                "ee5f4480-c610-11ec-9fc1-77e0e2c841a4",
+                "ee5f4480-c610-11ec-9fc1-77e0e2c841a4"
+            ],
+            "backgroundColor": {
+                "r": 187,
+                "g": 187,
+                "b": 187,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "ee1df5c0-c610-11ec-9fc1-77e0e2c841a4"
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "ee1df5c0-c610-11ec-9fc1-77e0e2c841a4": "New_Database",
+        "ee5f4480-c610-11ec-9fc1-77e0e2c841a4": "New Collection1"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "ed3124c1-c610-11ec-9fc1-77e0e2c841a4"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "ed3124c3-c610-11ec-9fc1-77e0e2c841a4"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "ed3124c2-c610-11ec-9fc1-77e0e2c841a4"
+    },
+    "modelAutoSaved": false,
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v4.4",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2022-04-27T10:00:54.284Z",
+    "GUID": "16f21930-c7ac-11ec-8d56-cf455f4e1691",
+    "settings": {
+        "tabs": {
+            "GUID": -1,
+            "topTabs": [],
+            "bottomTabs": {
+                "model": {
+                    "active": "Diagram"
+                },
+                "collection": {}
+            }
+        },
+        "navigationPane": {
+            "collapsedNodes": [],
+            "foundModels": [],
+            "searchText": "",
+            "searchRegEx": {},
+            "chosenFiles": "",
+            "foundModelParams": {},
+            "searchCategory": "all",
+            "debounceSearch": false,
+            "focusFind": false,
+            "findNext": false,
+            "findPrevious": false,
+            "isSpinner": false,
+            "findAndReplaceActiveTab": "FIND_TAB",
+            "width": 310
+        },
+        "propertiesPane": {
+            "collapsedNodes": [],
+            "activeTab": 0,
+            "focusNameField": false,
+            "width": 390,
+            "visible": true,
+            "margin": 0,
+            "colorPicker": {
+                "isShown": false
+            }
+        },
+        "selectedObject": {
+            "category": "model",
+            "path": []
+        },
+        "centralPane": {}
+    },
+    "modelChanged": true,
+    "differenceMeta": {
+        "differenceType": "modified",
+        "properties": [
+            {
+                "keyword": "modelName",
+                "GUID": "16f21930-c7ac-11ec-8d56-cf455f4e1691",
+                "conflict": true,
+                "oldValue": "Deleted Model"
+            }
+        ]
+    },
+    "isLineageEnabled": false,
+    "lastModifTS": "2022-04-29T10:53:43.929Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.0.6"
+    },
+    "hackoladeMeta": {}
+}
