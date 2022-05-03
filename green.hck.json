@@ -1,5 +1,5 @@
 {
-    "modelName": "New Model",
+    "modelName": "Deleted Model",
     "collections": [
         {
             "collectionName": "22222",
@@ -31,6 +31,7 @@
             "name": "New_Database",
             "type": "bucket",
             "collectionIds": [
+                "cf7a0ae0-cac6-11ec-a10f-77e034f93629",
                 "cf7a0ae0-cac6-11ec-a10f-77e034f93629"
             ],
             "backgroundColor": {
@@ -55,24 +56,25 @@
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "ce117a31-cac6-11ec-a10f-77e034f93629"
+        "GUID": "02e618e1-cadd-11ec-982d-e99bd73e67c1"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "ce117a33-cac6-11ec-a10f-77e034f93629"
+        "GUID": "02e618e3-cadd-11ec-982d-e99bd73e67c1"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "ce117a32-cac6-11ec-a10f-77e034f93629"
+        "GUID": "02e618e2-cadd-11ec-982d-e99bd73e67c1"
     },
+    "modelAutoSaved": false,
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v4.4",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-05-03T09:52:55.123Z",
+    "creationTS": "2022-05-03T12:31:52.686Z",
     "GUID": "ce117a30-cac6-11ec-a10f-77e034f93629",
     "isLineageEnabled": false,
     "lastModifTS": "2022-05-03T12:31:41.082Z",
@@ -105,25 +107,13 @@
                         "GUID": "cf3512a0-cac6-11ec-a10f-77e034f93629"
                     }
                 ],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
+                "diagramViews": [],
+                "decorativeSymbols": [],
                 "graphView": {
                     "erd": [],
                     "buckets": [],
-                    "decorativeSymbols": [],
-                    "forceLayout": true,
-                    "defaultLinkLength": 300
-                },
-                "diagramViews": [],
-                "decorativeSymbols": [],
-                "nestedCollectionsLayout": "horizontal",
-                "options": []
+                    "decorativeSymbols": []
+                }
             },
             "collectionLevel": {},
             "changed": false
@@ -132,5 +122,17 @@
             "collapsedNodes": [],
             "shouldDistributeCollections": false
         }
+    },
+    "modelChanged": true,
+    "differenceMeta": {
+        "differenceType": "modified",
+        "properties": [
+            {
+                "keyword": "modelName",
+                "GUID": "ce117a30-cac6-11ec-a10f-77e034f93629",
+                "conflict": true,
+                "oldValue": "New Model"
+            }
+        ]
     }
 }
