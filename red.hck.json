@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Collection",
+            "collectionName": "New Collection1",
             "type": "object",
             "properties": [],
             "definitions": {
