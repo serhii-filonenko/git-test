@@ -75,7 +75,7 @@
     "creationTS": "2022-05-03T14:57:23.500Z",
     "GUID": "56debdd0-caf1-11ec-8df4-338f15f07728",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-10T14:40:15.152Z",
+    "lastModifTS": "2022-05-10T14:46:32.494Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -91,8 +91,8 @@
                 "erd": [
                     {
                         "GUID": "592f3d80-caf1-11ec-8df4-338f15f07728",
-                        "x": 186.37254901960776,
-                        "y": 461.0504201680671,
+                        "x": 146.37254901960776,
+                        "y": 82.05042016806709,
                         "width": 240,
                         "height": 100,
                         "color": {}
