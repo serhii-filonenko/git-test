@@ -8,7 +8,7 @@
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "1e6fb820-b744-11ec-a602-13b071bb7a27"
+                "GUID": "68602320-d4db-11ec-b46e-5d8b129f2ea7"
             },
             "isActivated": true,
             "additionalProperties": false,
@@ -22,17 +22,17 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            }
+            "GUID": "685fadf0-d4db-11ec-b46e-5d8b129f2ea7",
+            "bucketId": "681b51f0-d4db-11ec-b46e-5d8b129f2ea7"
         }
     ],
     "buckets": [
         {
             "name": "New_Database",
             "type": "bucket",
-            "collectionIds": [],
+            "collectionIds": [
+                "685fadf0-d4db-11ec-b46e-5d8b129f2ea7"
+            ],
             "backgroundColor": {
                 "r": 187,
                 "g": 187,
@@ -41,7 +41,7 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
+            "GUID": "681b51f0-d4db-11ec-b46e-5d8b129f2ea7"
         }
     ],
     "views": [],
@@ -49,50 +49,49 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "New Collection",
-        "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database"
+        "681b51f0-d4db-11ec-b46e-5d8b129f2ea7": "New_Database",
+        "685fadf0-d4db-11ec-b46e-5d8b129f2ea7": "New Collection"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "1d4038d1-b744-11ec-a602-13b071bb7a27"
+        "GUID": "66c14031-d4db-11ec-b46e-5d8b129f2ea7"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "1d4038d3-b744-11ec-a602-13b071bb7a27"
+        "GUID": "66c16741-d4db-11ec-b46e-5d8b129f2ea7"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "1d4038d2-b744-11ec-a602-13b071bb7a27"
+        "GUID": "66c16740-d4db-11ec-b46e-5d8b129f2ea7"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v4.4",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-04-08T13:59:31.805Z",
-    "GUID": "1d4038d0-b744-11ec-a602-13b071bb7a27",
+    "creationTS": "2022-05-16T05:45:32.850Z",
+    "GUID": "66c14030-d4db-11ec-b46e-5d8b129f2ea7",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-18T12:19:46.288Z",
+    "lastModifTS": "2022-05-16T05:45:36.721Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.4"
+        "version": "6.0.8"
     },
-    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                        "x": 40,
-                        "y": 40,
+                        "GUID": "685fadf0-d4db-11ec-b46e-5d8b129f2ea7",
+                        "x": 80,
+                        "y": 80,
                         "width": 240,
                         "height": 100,
                         "color": {}
@@ -102,7 +101,7 @@
                     {
                         "x": 40,
                         "y": 40,
-                        "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
+                        "GUID": "681b51f0-d4db-11ec-b46e-5d8b129f2ea7"
                     }
                 ],
                 "collapsedNodes": [],

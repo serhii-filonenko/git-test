@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "333333333f",
+            "collectionName": "13333333f",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -23,9 +23,7 @@
                 "collation": "null"
             },
             "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
+            "hackoladeMeta": {},
             "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
         },
         {
@@ -108,7 +106,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
+        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "13333333f",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database"
     },
     "definitions": {
@@ -134,14 +132,14 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "1d4038d0-b744-11ec-a602-13b071bb7a27",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-04-19T14:07:11.426Z",
+    "lastModifTS": "2022-05-17T08:48:31.732Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.4"
+        "version": "6.0.8"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -150,17 +148,17 @@
                 "erd": [
                     {
                         "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                        "x": 121.24074074074072,
-                        "y": 156.50000000000006,
-                        "width": 146,
+                        "x": 146.2407407407407,
+                        "y": 243.50000000000006,
+                        "width": 181,
                         "height": 100,
                         "color": {}
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 81.24074074074072,
-                        "y": 116.50000000000006,
+                        "x": 106.2407407407407,
+                        "y": 203.50000000000006,
                         "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
                     }
                 ],
