@@ -15,14 +15,17 @@
             "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
             "hackoladeMeta": {
                 "validationErrors": {}
-            }
+            },
+            "bucketId": "37303400-bc0f-11ec-b186-43299b9e10a6"
         }
     ],
     "buckets": [
         {
             "name": "New Group",
             "type": "bucket",
-            "collectionIds": [],
+            "collectionIds": [
+                "37e971e0-bc0f-11ec-b186-43299b9e10a6"
+            ],
             "backgroundColor": {
                 "r": 216,
                 "g": 0,
@@ -76,7 +79,7 @@
     "creationTS": "2022-04-14T16:23:26.312Z",
     "GUID": "364bee80-bc0f-11ec-b186-43299b9e10a6",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-17T12:14:24.752Z",
+    "lastModifTS": "2022-05-17T14:04:26.228Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -92,8 +95,8 @@
                 "erd": [
                     {
                         "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
-                        "x": 120,
-                        "y": 282,
+                        "x": 122,
+                        "y": 116,
                         "width": 240,
                         "height": 100,
                         "color": {}
@@ -101,8 +104,8 @@
                 ],
                 "buckets": [
                     {
-                        "x": 40,
-                        "y": 40,
+                        "x": 82,
+                        "y": 76,
                         "GUID": "37303400-bc0f-11ec-b186-43299b9e10a6"
                     }
                 ],
