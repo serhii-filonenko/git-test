@@ -1014,7 +1014,7 @@
                         "childType": "integer",
                         "type": "numeric",
                         "code": "",
-                        "GUID": "2cd5e40a-bf1b-11ec-9f2f-3b9a0a157f0e"
+                        "GUID": "f9020b40-d5f4-11ec-9841-b3187742996b"
                     },
                     {
                         "name": "name",
@@ -1026,7 +1026,7 @@
                         "nullable": false,
                         "type": "string",
                         "code": "",
-                        "GUID": "2cd5e40b-bf1b-11ec-9f2f-3b9a0a157f0e"
+                        "GUID": "f9020b41-d5f4-11ec-9841-b3187742996b"
                     },
                     {
                         "name": "tag",
@@ -1038,7 +1038,7 @@
                         "nullable": false,
                         "type": "string",
                         "code": "",
-                        "GUID": "2cd5e40c-bf1b-11ec-9f2f-3b9a0a157f0e"
+                        "GUID": "f9020b42-d5f4-11ec-9841-b3187742996b"
                     }
                 ],
                 "additionalProperties": false,
@@ -1079,16 +1079,16 @@
     "modelVersion": "1.0.0",
     "title": "OpenAPI External Definitions Test",
     "infoExtensions": [],
-    "lastModifTS": "2022-04-18T13:26:38.628Z",
+    "lastModifTS": "2022-05-17T15:21:10.908Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "OpenAPI",
-        "pluginVersion": "0.1.46",
+        "pluginVersion": "0.1.47",
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.4"
+        "version": "6.0.8"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -1097,16 +1097,16 @@
                 "erd": [
                     {
                         "GUID": "8860a5e0-bf10-11ec-9cb2-b928d898c506",
-                        "x": 90,
-                        "y": 90,
+                        "x": 170.00438596491225,
+                        "y": 565.701754385965,
                         "width": 333,
                         "height": 213,
                         "color": {}
                     },
                     {
                         "GUID": "88614220-bf10-11ec-9cb2-b928d898c506",
-                        "x": 141,
-                        "y": 333,
+                        "x": 221.00438596491225,
+                        "y": 808.701754385965,
                         "width": 231,
                         "height": 173,
                         "color": {}
@@ -1114,8 +1114,8 @@
                 ],
                 "buckets": [
                     {
-                        "x": 50,
-                        "y": 50,
+                        "x": 130.00438596491225,
+                        "y": 525.701754385965,
                         "GUID": "88622c80-bf10-11ec-9cb2-b928d898c506"
                     }
                 ],
