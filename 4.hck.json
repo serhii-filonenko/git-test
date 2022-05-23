@@ -81,6 +81,29 @@
                 "validationErrors": {}
             },
             "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
+        },
+        {
+            "collectionName": "New Collection",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ead2dcd0-da71-11ec-8b5e-1f7d9dacc7e6"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "ead267a0-da71-11ec-8b5e-1f7d9dacc7e6"
         }
     ],
     "buckets": [
@@ -112,7 +135,8 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
-        "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database"
+        "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database",
+        "ead267a0-da71-11ec-8b5e-1f7d9dacc7e6": "New Collection"
     },
     "definitions": {
         "type": "definitions",
@@ -137,7 +161,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "1d4038d0-b744-11ec-a602-13b071bb7a27",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-17T14:30:28.493Z",
+    "lastModifTS": "2022-05-23T08:25:35.745Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -156,6 +180,14 @@
                         "x": 103,
                         "y": 85,
                         "width": 181,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "ead267a0-da71-11ec-8b5e-1f7d9dacc7e6",
+                        "x": 40,
+                        "y": 40,
+                        "width": 240,
                         "height": 100,
                         "color": {}
                     }
