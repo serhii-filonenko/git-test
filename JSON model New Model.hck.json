@@ -14,6 +14,19 @@
             "additionalProperties": false,
             "GUID": "a67c0fd0-cd32-11ec-888a-d71b6d92d956",
             "bucketId": "a63012b0-cd32-11ec-888a-d71b6d92d956"
+        },
+        {
+            "collectionName": "New Document(1)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "8445ad00-db78-11ec-8333-7f101002cca6"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "844537d0-db78-11ec-8333-7f101002cca6"
         }
     ],
     "buckets": [
@@ -40,7 +53,8 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "a63012b0-cd32-11ec-888a-d71b6d92d956": "New Group",
-        "a67c0fd0-cd32-11ec-888a-d71b6d92d956": "New Document"
+        "a67c0fd0-cd32-11ec-888a-d71b6d92d956": "New Document",
+        "844537d0-db78-11ec-8333-7f101002cca6": "New Document(1)"
     },
     "definitions": {
         "type": "definitions",
@@ -65,15 +79,16 @@
     "creationTS": "2022-05-06T11:49:53.927Z",
     "GUID": "a4d76080-cd32-11ec-888a-d71b6d92d956",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-06T11:50:04.148Z",
+    "lastModifTS": "2022-05-24T15:45:21.530Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.7"
+        "version": "6.1.0"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -82,6 +97,14 @@
                         "GUID": "a67c0fd0-cd32-11ec-888a-d71b6d92d956",
                         "x": 80,
                         "y": 80,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "844537d0-db78-11ec-8333-7f101002cca6",
+                        "x": 66,
+                        "y": 48,
                         "width": 240,
                         "height": 100,
                         "color": {}
