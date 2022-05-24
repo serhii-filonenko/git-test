@@ -107,7 +107,7 @@
     "creationTS": "2022-04-14T16:23:26.312Z",
     "GUID": "364bee80-bc0f-11ec-b186-43299b9e10a6",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-24T18:32:27.520Z",
+    "lastModifTS": "2022-05-24T19:06:23.394Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -139,8 +139,8 @@
                     },
                     {
                         "GUID": "dc38a9b0-db8f-11ec-8333-7f101002cca6",
-                        "x": 60,
-                        "y": 60,
+                        "x": 68,
+                        "y": 156,
                         "width": 240,
                         "height": 100,
                         "color": {}
