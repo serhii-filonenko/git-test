@@ -30,6 +30,19 @@
             "isActivated": true,
             "additionalProperties": false,
             "GUID": "c5e41c30-db8f-11ec-8333-7f101002cca6"
+        },
+        {
+            "collectionName": "New Document(2)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "dc38f7d0-db8f-11ec-8333-7f101002cca6"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "dc38a9b0-db8f-11ec-8333-7f101002cca6"
         }
     ],
     "buckets": [
@@ -68,7 +81,8 @@
         "37303400-bc0f-11ec-b186-43299b9e10a6": "New Group",
         "3779c020-bc0f-11ec-b186-43299b9e10a6": "New Relationship",
         "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document",
-        "c5e41c30-db8f-11ec-8333-7f101002cca6": "New Document(1)"
+        "c5e41c30-db8f-11ec-8333-7f101002cca6": "New Document(1)",
+        "dc38a9b0-db8f-11ec-8333-7f101002cca6": "New Document(2)"
     },
     "definitions": {
         "type": "definitions",
@@ -93,7 +107,7 @@
     "creationTS": "2022-04-14T16:23:26.312Z",
     "GUID": "364bee80-bc0f-11ec-b186-43299b9e10a6",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-24T18:31:50.010Z",
+    "lastModifTS": "2022-05-24T18:32:27.520Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -119,6 +133,14 @@
                         "GUID": "c5e41c30-db8f-11ec-8333-7f101002cca6",
                         "x": 40,
                         "y": 40,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "dc38a9b0-db8f-11ec-8333-7f101002cca6",
+                        "x": 60,
+                        "y": 60,
                         "width": 240,
                         "height": 100,
                         "color": {}
