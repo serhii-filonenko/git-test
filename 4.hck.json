@@ -1,0 +1,186 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "13",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "1e6fb820-b744-11ec-a602-13b071bb7a27"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
+        },
+        {
+            "collectionName": "3322222",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "1e6fb820-b744-11ec-a602-13b071bb7a27"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
+        },
+        {
+            "collectionName": "13k11",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "1e6fb820-b744-11ec-a602-13b071bb7a27"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "New_Database",
+            "type": "bucket",
+            "collectionIds": [
+                "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
+                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
+                "1e6f42f0-b744-11ec-a602-13b071bb7a27",
+                "1e6f42f0-b744-11ec-a602-13b071bb7a27",
+                "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
+                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
+                "1e6f42f0-b744-11ec-a602-13b071bb7a27",
+                "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
+                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01"
+            ],
+            "backgroundColor": {
+                "r": 187,
+                "g": 187,
+                "b": 187,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
+        "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "1d4038d1-b744-11ec-a602-13b071bb7a27"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "1d4038d3-b744-11ec-a602-13b071bb7a27"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "1d4038d2-b744-11ec-a602-13b071bb7a27"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v4.4",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2022-04-08T13:59:31.805Z",
+    "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
+    "isLineageEnabled": false,
+    "lastModifTS": "2022-05-26T14:23:46.738Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.1.0"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
+                        "x": 103,
+                        "y": 85,
+                        "width": 181,
+                        "height": 100,
+                        "color": {}
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": 63,
+                        "y": 45,
+                        "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
+                    }
+                ],
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                }
+            },
+            "changed": false
+        }
+    }
+}
