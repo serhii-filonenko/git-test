@@ -17,6 +17,19 @@
                 "validationErrors": {}
             },
             "bucketId": "37303400-bc0f-11ec-b186-43299b9e10a6"
+        },
+        {
+            "collectionName": "New Document(1)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "392dade0-e0ff-11ec-bbf5-a14345a8b67e"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "392d5fc0-e0ff-11ec-bbf5-a14345a8b67e"
         }
     ],
     "buckets": [
@@ -54,7 +67,8 @@
     "idToNameHashTable": {
         "37303400-bc0f-11ec-b186-43299b9e10a6": "New Group",
         "3779c020-bc0f-11ec-b186-43299b9e10a6": "New Relationship",
-        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document"
+        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document",
+        "392d5fc0-e0ff-11ec-bbf5-a14345a8b67e": "New Document(1)"
     },
     "definitions": {
         "type": "definitions",
@@ -79,14 +93,14 @@
     "creationTS": "2022-04-14T16:23:26.312Z",
     "GUID": "364bee80-bc0f-11ec-b186-43299b9e10a6",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-27T08:40:37.721Z",
+    "lastModifTS": "2022-05-31T16:32:13.385Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.1.0"
+        "version": "6.1.1"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -97,6 +111,14 @@
                         "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
                         "x": 136,
                         "y": 172,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "392d5fc0-e0ff-11ec-bbf5-a14345a8b67e",
+                        "x": 40,
+                        "y": 40,
                         "width": 240,
                         "height": 100,
                         "color": {}
