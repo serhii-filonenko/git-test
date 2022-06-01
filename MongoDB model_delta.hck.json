@@ -1,0 +1,373 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "comparisonModelCollection",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "containers",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc275603-e1ad-11ec-b167-313d0a4b72dd"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc275605-e1ad-11ec-b167-313d0a4b72dd"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc277d11-e1ad-11ec-b167-313d0a4b72dd"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "GUID": "dc272ef3-e1ad-11ec-b167-313d0a4b72dd"
+                },
+                {
+                    "name": "entities",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [
+                                {
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "document",
+                                    "properties": [
+                                        {
+                                            "name": "New Collection(1)",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "type": "document",
+                                            "properties": [],
+                                            "additionalProperties": false,
+                                            "GUID": "dc3315d0-e1ad-11ec-b167-313d0a4b72dd",
+                                            "compMod": {
+                                                "created": true,
+                                                "deleted": false
+                                            },
+                                            "role": {
+                                                "collectionName": "New Collection(1)",
+                                                "type": "object",
+                                                "isActivated": true,
+                                                "additionalProperties": false,
+                                                "validationLevel": "Off",
+                                                "validationAction": "Warn",
+                                                "storageEngineName": "WiredTiger",
+                                                "collectionUsers": [],
+                                                "indexes": [],
+                                                "collation": {},
+                                                "sharding": {
+                                                    "unique": true,
+                                                    "collation": "null"
+                                                },
+                                                "GUID": "dc2707e2-e1ad-11ec-b167-313d0a4b72dd",
+                                                "compMod": {
+                                                    "created": true,
+                                                    "deleted": false
+                                                },
+                                                "name": "New Collection(1)",
+                                                "roleType": "entity"
+                                            }
+                                        }
+                                    ],
+                                    "additionalProperties": false,
+                                    "GUID": "dc32eec0-e1ad-11ec-b167-313d0a4b72dd",
+                                    "arrayItem": true
+                                }
+                            ],
+                            "additionalItems": true,
+                            "GUID": "dc27a421-e1ad-11ec-b167-313d0a4b72dd"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc27a423-e1ad-11ec-b167-313d0a4b72dd"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc27a425-e1ad-11ec-b167-313d0a4b72dd"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "GUID": "dc272ef5-e1ad-11ec-b167-313d0a4b72dd"
+                },
+                {
+                    "name": "relationships",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc3315d2-e1ad-11ec-b167-313d0a4b72dd"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc3315d4-e1ad-11ec-b167-313d0a4b72dd"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc3315d6-e1ad-11ec-b167-313d0a4b72dd"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "GUID": "dc272ef7-e1ad-11ec-b167-313d0a4b72dd"
+                },
+                {
+                    "name": "views",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc333ce1-e1ad-11ec-b167-313d0a4b72dd"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc333ce3-e1ad-11ec-b167-313d0a4b72dd"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc333ce5-e1ad-11ec-b167-313d0a4b72dd"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "GUID": "dc272ef9-e1ad-11ec-b167-313d0a4b72dd"
+                },
+                {
+                    "name": "modelDefinitions",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc3e8781-e1ad-11ec-b167-313d0a4b72dd"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc3e8783-e1ad-11ec-b167-313d0a4b72dd"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "GUID": "dc3e8785-e1ad-11ec-b167-313d0a4b72dd"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "GUID": "dc275601-e1ad-11ec-b167-313d0a4b72dd"
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "dc272ef1-e1ad-11ec-b167-313d0a4b72dd"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "dc272ef0-e1ad-11ec-b167-313d0a4b72dd"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "dc275603-e1ad-11ec-b167-313d0a4b72dd": "added",
+        "dc275605-e1ad-11ec-b167-313d0a4b72dd": "deleted",
+        "dc277d11-e1ad-11ec-b167-313d0a4b72dd": "modified",
+        "75484cb0-c618-11ec-9fc1-77e0e2c841a4": "New_Database",
+        "dc2707e0-e1ad-11ec-b167-313d0a4b72dd": "New_Database",
+        "dc27a421-e1ad-11ec-b167-313d0a4b72dd": "added",
+        "dc27a423-e1ad-11ec-b167-313d0a4b72dd": "deleted",
+        "dc27a425-e1ad-11ec-b167-313d0a4b72dd": "modified",
+        "75b69ee0-c618-11ec-9fc1-77e0e2c841a4": "New Collection",
+        "dc2707e1-e1ad-11ec-b167-313d0a4b72dd": "New Collection",
+        "dc2707e2-e1ad-11ec-b167-313d0a4b72dd": "New Collection(1)",
+        "dc3315d0-e1ad-11ec-b167-313d0a4b72dd": "New Collection(1)",
+        "dc3315d2-e1ad-11ec-b167-313d0a4b72dd": "added",
+        "dc3315d4-e1ad-11ec-b167-313d0a4b72dd": "deleted",
+        "dc3315d6-e1ad-11ec-b167-313d0a4b72dd": "modified",
+        "dc333ce1-e1ad-11ec-b167-313d0a4b72dd": "added",
+        "dc333ce3-e1ad-11ec-b167-313d0a4b72dd": "deleted",
+        "dc333ce5-e1ad-11ec-b167-313d0a4b72dd": "modified",
+        "dc3e8781-e1ad-11ec-b167-313d0a4b72dd": "added",
+        "dc3e8783-e1ad-11ec-b167-313d0a4b72dd": "deleted",
+        "dc3e8785-e1ad-11ec-b167-313d0a4b72dd": "modified",
+        "dc272ef0-e1ad-11ec-b167-313d0a4b72dd": "comparisonModelCollection",
+        "dc272ef3-e1ad-11ec-b167-313d0a4b72dd": "containers",
+        "dc272ef5-e1ad-11ec-b167-313d0a4b72dd": "entities",
+        "dc272ef7-e1ad-11ec-b167-313d0a4b72dd": "relationships",
+        "dc272ef9-e1ad-11ec-b167-313d0a4b72dd": "views",
+        "dc275601-e1ad-11ec-b167-313d0a4b72dd": "modelDefinitions"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "d32aef11-c54e-11ec-9834-e3847002a45d"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "dc2707e6-e1ad-11ec-b167-313d0a4b72dd"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "d32aef12-c54e-11ec-9834-e3847002a45d"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v4.4",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2022-06-01T13:22:18.078Z",
+    "GUID": "dc2707e3-e1ad-11ec-b167-313d0a4b72dd",
+    "compMode": true,
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "dc272ef0-e1ad-11ec-b167-313d0a4b72dd",
+                        "x": 50,
+                        "y": 50,
+                        "width": 284,
+                        "height": 425,
+                        "color": {}
+                    }
+                ],
+                "buckets": [
+                    {
+                        "GUID": ""
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    },
+    "lastModifTS": "2022-06-01T13:22:23.037Z",
+    "persistenceSchemaVersion": "6",
+    "applicationInformation": {
+        "version": "6.1.2"
+    }
+}
