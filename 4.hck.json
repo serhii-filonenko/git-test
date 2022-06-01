@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "13",
+            "collectionName": "1333331",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -27,6 +27,60 @@
                 "validationErrors": {}
             },
             "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
+        },
+        {
+            "collectionName": "3322222",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "1e6fb820-b744-11ec-a602-13b071bb7a27"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
+        },
+        {
+            "collectionName": "13k11",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "1e6fb820-b744-11ec-a602-13b071bb7a27"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
         }
     ],
     "buckets": [
@@ -34,7 +88,12 @@
             "name": "New_Database",
             "type": "bucket",
             "collectionIds": [
+                "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
+                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
                 "1e6f42f0-b744-11ec-a602-13b071bb7a27",
+                "1e6f42f0-b744-11ec-a602-13b071bb7a27",
+                "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
+                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
                 "1e6f42f0-b744-11ec-a602-13b071bb7a27",
                 "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
                 "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
@@ -84,7 +143,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-01T12:59:40.873Z",
+    "lastModifTS": "2022-06-01T13:29:20.920Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -116,25 +175,15 @@
                         "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
                     }
                 ],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
+                "diagramViews": [],
+                "decorativeSymbols": [],
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                },
-                "diagramViews": [],
-                "decorativeSymbols": [],
-                "nestedCollectionsLayout": "horizontal",
-                "options": []
+                }
             },
             "collectionLevel": {},
             "changed": false
