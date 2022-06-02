@@ -75,14 +75,14 @@
     "creationTS": "2022-04-26T10:51:28.257Z",
     "GUID": "d32aef10-c54e-11ec-9834-e3847002a45d",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-20T13:30:14.981Z",
+    "lastModifTS": "2022-06-02T15:17:33.976Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.8"
+        "version": "6.1.2"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -91,8 +91,8 @@
                 "erd": [
                     {
                         "GUID": "d5334230-c54e-11ec-9834-e3847002a45d",
-                        "x": 157,
-                        "y": 315,
+                        "x": 147.0709219858156,
+                        "y": 180.2482269503546,
                         "width": 240,
                         "height": 100,
                         "color": {}
@@ -100,8 +100,8 @@
                 ],
                 "buckets": [
                     {
-                        "x": 117,
-                        "y": 275,
+                        "x": 107.0709219858156,
+                        "y": 140.2482269503546,
                         "GUID": "d4f1cc60-c54e-11ec-9834-e3847002a45d"
                     }
                 ],
