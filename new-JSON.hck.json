@@ -2,46 +2,36 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Collection",
+            "collectionName": "New Document",
             "type": "object",
             "properties": [],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "d5339050-c54e-11ec-9834-e3847002a45d"
+                "GUID": "b277e540-e1a8-11ec-808b-39a4633e9013"
             },
             "isActivated": true,
             "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "d5334230-c54e-11ec-9834-e3847002a45d",
-            "bucketId": "d4f1cc60-c54e-11ec-9834-e3847002a45d"
+            "GUID": "b2777010-e1a8-11ec-808b-39a4633e9013",
+            "bucketId": "b22b4be0-e1a8-11ec-808b-39a4633e9013"
         }
     ],
     "buckets": [
         {
-            "name": "New_Database",
+            "name": "New Group",
             "type": "bucket",
             "collectionIds": [
-                "d5334230-c54e-11ec-9834-e3847002a45d"
+                "b2777010-e1a8-11ec-808b-39a4633e9013"
             ],
             "backgroundColor": {
-                "r": 187,
-                "g": 187,
-                "b": 187,
+                "r": 216,
+                "g": 0,
+                "b": 115,
                 "a": 1
             },
             "show": true,
             "isActivated": true,
-            "GUID": "d4f1cc60-c54e-11ec-9834-e3847002a45d"
+            "GUID": "b22b4be0-e1a8-11ec-808b-39a4633e9013"
         }
     ],
     "views": [],
@@ -49,33 +39,33 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "d4f1cc60-c54e-11ec-9834-e3847002a45d": "New_Database",
-        "d5334230-c54e-11ec-9834-e3847002a45d": "New Collection"
+        "b22b4be0-e1a8-11ec-808b-39a4633e9013": "New Group",
+        "b2777010-e1a8-11ec-808b-39a4633e9013": "New Document"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "d32aef11-c54e-11ec-9834-e3847002a45d"
+        "GUID": "b061d681-e1a8-11ec-808b-39a4633e9013"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "d32aef13-c54e-11ec-9834-e3847002a45d"
+        "GUID": "b061d683-e1a8-11ec-808b-39a4633e9013"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "d32aef12-c54e-11ec-9834-e3847002a45d"
+        "GUID": "b061d682-e1a8-11ec-808b-39a4633e9013"
     },
     "sources": [],
     "decorativeSymbols": [],
-    "dbVersion": "v4.4",
-    "dbVendor": "MongoDB",
-    "appTarget": "MONGODB",
-    "creationTS": "2022-04-26T10:51:28.257Z",
-    "GUID": "d32aef10-c54e-11ec-9834-e3847002a45d",
+    "dbVendor": "JSON",
+    "dbVersion": "2019-09",
+    "appTarget": "JSON",
+    "creationTS": "2022-06-01T12:45:17.159Z",
+    "GUID": "b061d680-e1a8-11ec-808b-39a4633e9013",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-02T15:17:33.976Z",
+    "lastModifTS": "2022-06-01T12:45:24.975Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -84,25 +74,26 @@
     "applicationInformation": {
         "version": "6.1.2"
     },
-    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "d5334230-c54e-11ec-9834-e3847002a45d",
-                        "x": 147.0709219858156,
-                        "y": 180.2482269503546,
+                        "GUID": "b2777010-e1a8-11ec-808b-39a4633e9013",
+                        "x": 80,
+                        "y": 80,
                         "width": 240,
                         "height": 100,
-                        "color": {}
+                        "color": {
+                            "hex": "#008a00"
+                        }
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 107.0709219858156,
-                        "y": 140.2482269503546,
-                        "GUID": "d4f1cc60-c54e-11ec-9834-e3847002a45d"
+                        "x": 40,
+                        "y": 40,
+                        "GUID": "b22b4be0-e1a8-11ec-808b-39a4633e9013"
                     }
                 ],
                 "collapsedNodes": [],
