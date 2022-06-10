@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "111w 1",
+            "collectionName": "Ne1222w 1",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -13,7 +13,9 @@
             "isActivated": true,
             "additionalProperties": false,
             "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
-            "hackoladeMeta": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
             "bucketId": "37303400-bc0f-11ec-b186-43299b9e10a6"
         }
     ],
@@ -53,7 +55,7 @@
     "idToNameHashTable": {
         "37303400-bc0f-11ec-b186-43299b9e10a6": "New Group",
         "3779c020-bc0f-11ec-b186-43299b9e10a6": "New Relationship",
-        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "111w 1"
+        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document"
     },
     "definitions": {
         "type": "definitions",
@@ -72,13 +74,13 @@
     },
     "sources": [],
     "decorativeSymbols": [],
-    "dbVendor": "JSON",
     "dbVersion": "2019-09",
+    "dbVendor": "JSON",
     "appTarget": "JSON",
     "creationTS": "2022-04-14T16:23:26.312Z",
     "GUID": "3724b780-e89f-11ec-aafc-bd267ce57cbb",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-10T09:25:19.622Z",
+    "lastModifTS": "2022-06-10T09:35:08.941Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -110,25 +112,15 @@
                         "GUID": "37303400-bc0f-11ec-b186-43299b9e10a6"
                     }
                 ],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
+                "diagramViews": [],
+                "decorativeSymbols": [],
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                },
-                "diagramViews": [],
-                "decorativeSymbols": [],
-                "nestedCollectionsLayout": "horizontal",
-                "options": []
+                }
             },
             "collectionLevel": {},
             "changed": false
