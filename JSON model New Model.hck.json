@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Dsocufment",
+            "collectionName": "N1ew Dsocufment",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -13,9 +13,7 @@
             "isActivated": true,
             "additionalProperties": false,
             "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
+            "hackoladeMeta": {},
             "bucketId": "37303400-bc0f-11ec-b186-43299b9e10a6"
         }
     ],
@@ -54,7 +52,7 @@
     "idToNameHashTable": {
         "37303400-bc0f-11ec-b186-43299b9e10a6": "New Group",
         "3779c020-bc0f-11ec-b186-43299b9e10a6": "New Relationship",
-        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document"
+        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "N1ew Dsocufment"
     },
     "definitions": {
         "type": "definitions",
@@ -79,14 +77,14 @@
     "creationTS": "2022-04-14T16:23:26.312Z",
     "GUID": "364bee80-bc0f-11ec-b186-43299b9e10a6",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-06T16:29:19.564Z",
+    "lastModifTS": "2022-06-10T08:57:46.954Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.1.2"
+        "version": "6.1.3"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -97,10 +95,10 @@
                         "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
                         "x": 158.69503546099293,
                         "y": 339.37588652482276,
-                        "width": 240,
+                        "width": 226,
                         "height": 100,
                         "color": {
-                            "hex": "#2196f3"
+                            "hex": "#d80073"
                         }
                     }
                 ],
