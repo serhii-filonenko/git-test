@@ -2,87 +2,92 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Collection12",
+            "collectionName": "Ne1222w 1",
             "type": "object",
             "properties": [],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "18eb3160-cade-11ec-9928-25e7831cc95d"
+                "GUID": "37ea3530-bc0f-11ec-b186-43299b9e10a6"
             },
             "isActivated": true,
             "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
+            "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
+            "hackoladeMeta": {
+                "validationErrors": {}
             },
-            "GUID": "18eabc30-cade-11ec-9928-25e7831cc95d",
-            "bucketId": "18a0bae0-cade-11ec-9928-25e7831cc95d"
+            "bucketId": "37303400-bc0f-11ec-b186-43299b9e10a6"
         }
     ],
     "buckets": [
         {
-            "name": "New_Database",
+            "name": "New Group",
             "type": "bucket",
             "collectionIds": [
-                "18eabc30-cade-11ec-9928-25e7831cc95d"
+                "37e971e0-bc0f-11ec-b186-43299b9e10a6",
+                "37e971e0-bc0f-11ec-b186-43299b9e10a6"
             ],
             "backgroundColor": {
-                "r": 187,
-                "g": 187,
-                "b": 187,
+                "r": 216,
+                "g": 0,
+                "b": 115,
                 "a": 1
             },
             "show": true,
             "isActivated": true,
-            "GUID": "18a0bae0-cade-11ec-9928-25e7831cc95d"
+            "GUID": "37303400-bc0f-11ec-b186-43299b9e10a6"
         }
     ],
     "views": [],
-    "relationships": [],
+    "relationships": [
+        {
+            "name": "New Relationship",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "3779c020-bc0f-11ec-b186-43299b9e10a6"
+        }
+    ],
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "18a0bae0-cade-11ec-9928-25e7831cc95d": "New_Database",
-        "18eabc30-cade-11ec-9928-25e7831cc95d": "New Collection12"
+        "37303400-bc0f-11ec-b186-43299b9e10a6": "New Group",
+        "3779c020-bc0f-11ec-b186-43299b9e10a6": "New Relationship",
+        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "17670261-cade-11ec-9928-25e7831cc95d"
+        "GUID": "364c1590-bc0f-11ec-b186-43299b9e10a6"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "17670263-cade-11ec-9928-25e7831cc95d"
+        "GUID": "364c1592-bc0f-11ec-b186-43299b9e10a6"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "17670262-cade-11ec-9928-25e7831cc95d"
+        "GUID": "364c1591-bc0f-11ec-b186-43299b9e10a6"
     },
     "sources": [],
     "decorativeSymbols": [],
-    "dbVersion": "v4.4",
-    "dbVendor": "MongoDB",
-    "appTarget": "MONGODB",
-    "creationTS": "2022-05-03T12:39:36.582Z",
-    "GUID": "17670260-cade-11ec-9928-25e7831cc95d",
+    "dbVersion": "2019-09",
+    "dbVendor": "JSON",
+    "appTarget": "JSON",
+    "creationTS": "2022-04-14T16:23:26.312Z",
+    "GUID": "3724b780-e89f-11ec-aafc-bd267ce57cbb",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-03T14:58:09.859Z",
+    "lastModifTS": "2022-06-10T09:35:08.941Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.6"
+        "version": "6.1.3"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -90,40 +95,32 @@
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "18eabc30-cade-11ec-9928-25e7831cc95d",
-                        "x": 105,
-                        "y": 384,
-                        "width": 220,
+                        "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
+                        "x": 158.69503546099293,
+                        "y": 339.37588652482276,
+                        "width": 162,
                         "height": 100,
-                        "color": {}
+                        "color": {
+                            "hex": "#2196f3"
+                        }
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 65,
-                        "y": 344,
-                        "GUID": "18a0bae0-cade-11ec-9928-25e7831cc95d"
+                        "x": 118.69503546099293,
+                        "y": 299.37588652482276,
+                        "GUID": "37303400-bc0f-11ec-b186-43299b9e10a6"
                     }
                 ],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
+                "diagramViews": [],
+                "decorativeSymbols": [],
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                },
-                "diagramViews": [],
-                "decorativeSymbols": [],
-                "nestedCollectionsLayout": "horizontal",
-                "options": []
+                }
             },
             "collectionLevel": {},
             "changed": false
