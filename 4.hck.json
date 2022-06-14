@@ -4,7 +4,19 @@
         {
             "collectionName": "164e3",
             "type": "object",
-            "properties": [],
+            "properties": [
+                {
+                    "name": "str",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "3ba8efc0-ebc3-11ec-a267-99e3da4adb47",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
@@ -81,6 +93,29 @@
                 "validationErrors": {}
             },
             "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
+        },
+        {
+            "collectionName": "review_collection",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "40eff320-ebc3-11ec-a267-99e3da4adb47"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "40ef7df0-ebc3-11ec-a267-99e3da4adb47"
         }
     ],
     "buckets": [
@@ -121,7 +156,9 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
-        "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database"
+        "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database",
+        "3ba8efc0-ebc3-11ec-a267-99e3da4adb47": "str",
+        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "review_collection"
     },
     "definitions": {
         "type": "definitions",
@@ -146,7 +183,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-10T12:57:18.721Z",
+    "lastModifTS": "2022-06-14T09:20:51.039Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -164,10 +201,20 @@
                         "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
                         "x": 121.13829787234043,
                         "y": 161.18085106382978,
-                        "width": 148,
-                        "height": 100,
+                        "width": 157,
+                        "height": 51,
                         "color": {
                             "hex": "#9c28b1"
+                        }
+                    },
+                    {
+                        "GUID": "40ef7df0-ebc3-11ec-a267-99e3da4adb47",
+                        "x": 40,
+                        "y": 40,
+                        "width": 218,
+                        "height": 100,
+                        "color": {
+                            "hex": "#39ff14"
                         }
                     }
                 ],
@@ -178,15 +225,25 @@
                         "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
                     }
                 ],
-                "diagramViews": [],
-                "decorativeSymbols": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                }
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
             },
             "collectionLevel": {},
             "changed": false
