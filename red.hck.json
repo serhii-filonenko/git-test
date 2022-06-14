@@ -2,9 +2,44 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "Ne1222w 1",
+            "collectionName": "summer 1",
             "type": "object",
-            "properties": [],
+            "properties": [
+                {
+                    "name": "june",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "GUID": "c7bc2150-ebc6-11ec-be09-73e62c73b606",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "july",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "numeric",
+                    "properties": [],
+                    "GUID": "d1194930-ebc6-11ec-be09-73e62c73b606",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "type": "string",
+                    "properties": [],
+                    "name": "august",
+                    "isActivated": true,
+                    "GUID": "d57fd7a0-ebc6-11ec-be09-73e62c73b606",
+                    "sampleName": "",
+                    "isPatternField": true,
+                    "error": {}
+                }
+            ],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
@@ -13,9 +48,7 @@
             "isActivated": true,
             "additionalProperties": false,
             "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
+            "hackoladeMeta": {},
             "bucketId": "37303400-bc0f-11ec-b186-43299b9e10a6"
         }
     ],
@@ -55,7 +88,10 @@
     "idToNameHashTable": {
         "37303400-bc0f-11ec-b186-43299b9e10a6": "New Group",
         "3779c020-bc0f-11ec-b186-43299b9e10a6": "New Relationship",
-        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document"
+        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "summer 1",
+        "c7bc2150-ebc6-11ec-be09-73e62c73b606": "june",
+        "d1194930-ebc6-11ec-be09-73e62c73b606": "july",
+        "d57fd7a0-ebc6-11ec-be09-73e62c73b606": "august"
     },
     "definitions": {
         "type": "definitions",
@@ -74,13 +110,13 @@
     },
     "sources": [],
     "decorativeSymbols": [],
-    "dbVersion": "2019-09",
     "dbVendor": "JSON",
+    "dbVersion": "2019-09",
     "appTarget": "JSON",
     "creationTS": "2022-04-14T16:23:26.312Z",
     "GUID": "3724b780-e89f-11ec-aafc-bd267ce57cbb",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-10T09:35:08.941Z",
+    "lastModifTS": "2022-06-14T09:46:27.802Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -98,8 +134,8 @@
                         "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
                         "x": 158.69503546099293,
                         "y": 339.37588652482276,
-                        "width": 162,
-                        "height": 100,
+                        "width": 191,
+                        "height": 87,
                         "color": {
                             "hex": "#2196f3"
                         }
@@ -112,15 +148,25 @@
                         "GUID": "37303400-bc0f-11ec-b186-43299b9e10a6"
                     }
                 ],
-                "diagramViews": [],
-                "decorativeSymbols": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                }
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
             },
             "collectionLevel": {},
             "changed": false
