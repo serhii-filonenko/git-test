@@ -31,7 +31,9 @@
                     "name": "march",
                     "hackoladeMeta": {},
                     "isActivated": true,
-                    "type": "boolean",
+                    "type": "document",
+                    "properties": [],
+                    "additionalProperties": false,
                     "GUID": "b116dbc0-ebc6-11ec-be09-73e62c73b606",
                     "error": {
                         "name": false,
@@ -112,7 +114,7 @@
     "creationTS": "2022-04-26T10:51:28.257Z",
     "GUID": "d32aef10-c54e-11ec-9834-e3847002a45d",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-14T09:45:43.309Z",
+    "lastModifTS": "2022-06-14T11:08:36.357Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
