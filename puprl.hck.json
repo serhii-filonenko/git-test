@@ -2,9 +2,43 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Collection",
+            "collectionName": "spring",
             "type": "object",
-            "properties": [],
+            "properties": [
+                {
+                    "name": "apr",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "abd0c2c0-ebc6-11ec-be09-73e62c73b606",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "may",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "boolean",
+                    "GUID": "ae46cbd0-ebc6-11ec-be09-73e62c73b606",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "march",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "boolean",
+                    "GUID": "b116dbc0-ebc6-11ec-be09-73e62c73b606",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
@@ -50,7 +84,10 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "d4f1cc60-c54e-11ec-9834-e3847002a45d": "New_Database",
-        "d5334230-c54e-11ec-9834-e3847002a45d": "New Collection"
+        "d5334230-c54e-11ec-9834-e3847002a45d": "spring",
+        "abd0c2c0-ebc6-11ec-be09-73e62c73b606": "apr",
+        "ae46cbd0-ebc6-11ec-be09-73e62c73b606": "may",
+        "b116dbc0-ebc6-11ec-be09-73e62c73b606": "march"
     },
     "definitions": {
         "type": "definitions",
@@ -75,14 +112,14 @@
     "creationTS": "2022-04-26T10:51:28.257Z",
     "GUID": "d32aef10-c54e-11ec-9834-e3847002a45d",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-02T15:17:33.976Z",
+    "lastModifTS": "2022-06-14T09:45:43.309Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.1.2"
+        "version": "6.1.3"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -93,8 +130,8 @@
                         "GUID": "d5334230-c54e-11ec-9834-e3847002a45d",
                         "x": 147.0709219858156,
                         "y": 180.2482269503546,
-                        "width": 240,
-                        "height": 100,
+                        "width": 164,
+                        "height": 87,
                         "color": {}
                     }
                 ],
