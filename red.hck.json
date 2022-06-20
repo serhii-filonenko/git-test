@@ -2,44 +2,9 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "summer 1",
+            "collectionName": "New Document",
             "type": "object",
-            "properties": [
-                {
-                    "name": "june",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "string",
-                    "properties": [],
-                    "GUID": "c7bc2150-ebc6-11ec-be09-73e62c73b606",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
-                },
-                {
-                    "name": "july",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "numeric",
-                    "properties": [],
-                    "GUID": "d1194930-ebc6-11ec-be09-73e62c73b606",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
-                },
-                {
-                    "type": "string",
-                    "properties": [],
-                    "name": "august",
-                    "isActivated": true,
-                    "GUID": "d57fd7a0-ebc6-11ec-be09-73e62c73b606",
-                    "sampleName": "",
-                    "isPatternField": true,
-                    "error": {}
-                }
-            ],
+            "properties": [],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
@@ -48,8 +13,23 @@
             "isActivated": true,
             "additionalProperties": false,
             "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
-            "hackoladeMeta": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
             "bucketId": "37303400-bc0f-11ec-b186-43299b9e10a6"
+        },
+        {
+            "collectionName": "New Document(1)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "bdde0600-dd96-11ec-bc3a-d1009a63a4b0"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "bddd90d0-dd96-11ec-bc3a-d1009a63a4b0"
         }
     ],
     "buckets": [
@@ -57,7 +37,6 @@
             "name": "New Group",
             "type": "bucket",
             "collectionIds": [
-                "37e971e0-bc0f-11ec-b186-43299b9e10a6",
                 "37e971e0-bc0f-11ec-b186-43299b9e10a6"
             ],
             "backgroundColor": {
@@ -88,10 +67,8 @@
     "idToNameHashTable": {
         "37303400-bc0f-11ec-b186-43299b9e10a6": "New Group",
         "3779c020-bc0f-11ec-b186-43299b9e10a6": "New Relationship",
-        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "summer 1",
-        "c7bc2150-ebc6-11ec-be09-73e62c73b606": "june",
-        "d1194930-ebc6-11ec-be09-73e62c73b606": "july",
-        "d57fd7a0-ebc6-11ec-be09-73e62c73b606": "august"
+        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document",
+        "bddd90d0-dd96-11ec-bc3a-d1009a63a4b0": "New Document(1)"
     },
     "definitions": {
         "type": "definitions",
@@ -114,16 +91,16 @@
     "dbVersion": "2019-09",
     "appTarget": "JSON",
     "creationTS": "2022-04-14T16:23:26.312Z",
-    "GUID": "3724b780-e89f-11ec-aafc-bd267ce57cbb",
+    "GUID": "364bee80-bc0f-11ec-b186-43299b9e10a6",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-17T18:49:16.462Z",
+    "lastModifTS": "2022-05-27T08:26:46.126Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.0"
+        "version": "6.1.0"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -132,19 +109,25 @@
                 "erd": [
                     {
                         "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
-                        "x": 193.69503546099293,
-                        "y": 107.37588652482276,
-                        "width": 191,
-                        "height": 87,
-                        "color": {
-                            "hex": "#2196f3"
-                        }
+                        "x": 147,
+                        "y": 320,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "bddd90d0-dd96-11ec-bc3a-d1009a63a4b0",
+                        "x": 40,
+                        "y": 40,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 153.69503546099293,
-                        "y": 67.37588652482276,
+                        "x": 107,
+                        "y": 280,
                         "GUID": "37303400-bc0f-11ec-b186-43299b9e10a6"
                     }
                 ],
