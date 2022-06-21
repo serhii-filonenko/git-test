@@ -229,268 +229,20 @@
                     "error": {}
                 },
                 {
-                    "code": "",
+                    "GUID": "0284fdd0-f184-11ec-a955-4995bd62182f",
                     "name": "user",
-                    "isActivated": true,
-                    "type": "document",
-                    "properties": [
-                        {
-                            "code": "",
-                            "name": "login",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d3197435-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "octocat"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "id",
-                            "isActivated": true,
-                            "type": "numeric",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d3197434-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                1
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "node_id",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d3197436-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "MDQ6VXNlcjE="
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "avatar_url",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d319742d-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "https://github.com/images/error/octocat_happy.gif"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "gravatar_id",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d3197432-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                ""
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "url",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d319743e-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "https://api.github.com/users/octocat"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "html_url",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d3197433-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "https://github.com/octocat"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "followers_url",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d319742f-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "https://api.github.com/users/octocat/followers"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "following_url",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d3197430-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "https://api.github.com/users/octocat/following{/other_user}"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "gists_url",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d3197431-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "https://api.github.com/users/octocat/gists{/gist_id}"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "starred_url",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d319743b-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "https://api.github.com/users/octocat/starred{/owner}{/repo}"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "subscriptions_url",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d319743c-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "https://api.github.com/users/octocat/subscriptions"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "organizations_url",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d3197437-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "https://api.github.com/users/octocat/orgs"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "repos_url",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d3197439-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "https://api.github.com/users/octocat/repos"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "events_url",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d319742e-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "https://api.github.com/users/octocat/events{/privacy}"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "received_events_url",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d3197438-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "https://api.github.com/users/octocat/received_events"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "type",
-                            "isActivated": true,
-                            "type": "string",
-                            "properties": [],
-                            "primaryKey": false,
-                            "GUID": "d319743d-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                "User"
-                            ],
-                            "error": {}
-                        },
-                        {
-                            "code": "",
-                            "name": "site_admin",
-                            "isActivated": true,
-                            "type": "boolean",
-                            "primaryKey": false,
-                            "GUID": "d319743a-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "examples": [
-                                false
-                            ],
-                            "error": {}
-                        }
+                    "type": "reference",
+                    "$ref": "#model/definitions/user",
+                    "refType": "model",
+                    "ref": "d319742c-f16e-11ec-8026-e1b2e0be8d81",
+                    "refIdPath": [
+                        "250872d0-f16e-11ec-8026-e1b2e0be8d81",
+                        "250872d1-f16e-11ec-8026-e1b2e0be8d81",
+                        "d319742c-f16e-11ec-8026-e1b2e0be8d81"
                     ],
-                    "additionalProperties": false,
-                    "primaryKey": false,
-                    "GUID": "d319742c-f16e-11ec-8026-e1b2e0be8d81",
-                    "required": true,
-                    "error": {}
+                    "isActivated": true,
+                    "code": "",
+                    "required": true
                 },
                 {
                     "code": "",
@@ -1478,267 +1230,22 @@
                     "type": "array",
                     "properties": [
                         {
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "type": "document",
-                            "properties": [
-                                {
-                                    "code": "",
-                                    "name": "login",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318fefe-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "hubot"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "id",
-                                    "isActivated": true,
-                                    "type": "numeric",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318fefd-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        1
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "node_id",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318feff-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "MDQ6VXNlcjE="
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "avatar_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318fef6-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://github.com/images/error/hubot_happy.gif"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "gravatar_id",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318fefb-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        ""
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318ff07-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/hubot"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "html_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318fefc-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://github.com/hubot"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "followers_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318fef8-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/hubot/followers"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "following_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318fef9-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/hubot/following{/other_user}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "gists_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318fefa-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/hubot/gists{/gist_id}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "starred_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318ff04-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/hubot/starred{/owner}{/repo}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "subscriptions_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318ff05-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/hubot/subscriptions"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "organizations_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318ff00-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/hubot/orgs"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "repos_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318ff02-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/hubot/repos"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "events_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318fef7-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/hubot/events{/privacy}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "received_events_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318ff01-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/hubot/received_events"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "type",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d318ff06-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "User"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "site_admin",
-                                    "isActivated": true,
-                                    "type": "boolean",
-                                    "primaryKey": false,
-                                    "GUID": "d318ff03-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        true
-                                    ],
-                                    "error": {}
-                                }
+                            "GUID": "4b7c7ef0-f184-11ec-a955-4995bd62182f",
+                            "type": "reference",
+                            "$ref": "#model/definitions/user",
+                            "refType": "model",
+                            "ref": "d319742c-f16e-11ec-8026-e1b2e0be8d81",
+                            "refIdPath": [
+                                "250872d0-f16e-11ec-8026-e1b2e0be8d81",
+                                "250872d1-f16e-11ec-8026-e1b2e0be8d81",
+                                "d319742c-f16e-11ec-8026-e1b2e0be8d81"
                             ],
-                            "additionalProperties": false,
-                            "GUID": "d42f77e0-f16e-11ec-8026-e1b2e0be8d81",
-                            "arrayItem": true,
-                            "arrayParentType": "array",
-                            "error": {}
+                            "isActivated": true,
+                            "code": "",
+                            "displayName": "user",
+                            "required": true,
+                            "hackoladeMeta": {},
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -1754,267 +1261,22 @@
                     "type": "array",
                     "properties": [
                         {
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "type": "document",
-                            "properties": [
-                                {
-                                    "code": "",
-                                    "name": "login",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d319740e-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "other_user"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "id",
-                                    "isActivated": true,
-                                    "type": "numeric",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d319740d-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        1
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "node_id",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d319740f-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "MDQ6VXNlcjE="
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "avatar_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3197406-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://github.com/images/error/other_user_happy.gif"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "gravatar_id",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d319740b-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        ""
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3197417-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/other_user"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "html_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d319740c-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://github.com/other_user"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "followers_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3197408-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/other_user/followers"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "following_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3197409-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/other_user/following{/other_user}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "gists_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d319740a-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/other_user/gists{/gist_id}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "starred_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3197414-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/other_user/starred{/owner}{/repo}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "subscriptions_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3197415-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/other_user/subscriptions"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "organizations_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3197410-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/other_user/orgs"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "repos_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3197412-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/other_user/repos"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "events_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3197407-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/other_user/events{/privacy}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "received_events_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3197411-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/other_user/received_events"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "type",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3197416-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "User"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "site_admin",
-                                    "isActivated": true,
-                                    "type": "boolean",
-                                    "primaryKey": false,
-                                    "GUID": "d3197413-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        false
-                                    ],
-                                    "error": {}
-                                }
+                            "GUID": "55734ec0-f184-11ec-a955-4995bd62182f",
+                            "type": "reference",
+                            "$ref": "#model/definitions/user",
+                            "refType": "model",
+                            "ref": "d319742c-f16e-11ec-8026-e1b2e0be8d81",
+                            "refIdPath": [
+                                "250872d0-f16e-11ec-8026-e1b2e0be8d81",
+                                "250872d1-f16e-11ec-8026-e1b2e0be8d81",
+                                "d319742c-f16e-11ec-8026-e1b2e0be8d81"
                             ],
-                            "additionalProperties": false,
-                            "GUID": "d42f77e1-f16e-11ec-8026-e1b2e0be8d81",
-                            "arrayItem": true,
-                            "arrayParentType": "array",
-                            "error": {}
+                            "isActivated": true,
+                            "code": "",
+                            "displayName": "user",
+                            "required": true,
+                            "hackoladeMeta": {},
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -2263,268 +1525,20 @@
                             "error": {}
                         },
                         {
-                            "code": "",
+                            "GUID": "25364cb0-f186-11ec-a955-4995bd62182f",
                             "name": "user",
-                            "isActivated": true,
-                            "type": "document",
-                            "properties": [
-                                {
-                                    "code": "",
-                                    "name": "login",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d3d-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "octocat"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "id",
-                                    "isActivated": true,
-                                    "type": "numeric",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d3c-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        1
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "node_id",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d3e-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "MDQ6VXNlcjE="
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "avatar_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d35-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://github.com/images/error/octocat_happy.gif"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "gravatar_id",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d3a-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        ""
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d46-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "html_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d3b-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://github.com/octocat"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "followers_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d37-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/followers"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "following_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d38-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/following{/other_user}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "gists_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d39-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/gists{/gist_id}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "starred_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d43-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/starred{/owner}{/repo}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "subscriptions_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d44-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/subscriptions"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "organizations_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d3f-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/orgs"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "repos_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d41-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/repos"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "events_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d36-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/events{/privacy}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "received_events_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d40-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/received_events"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "type",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3194d45-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "User"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "site_admin",
-                                    "isActivated": true,
-                                    "type": "boolean",
-                                    "primaryKey": false,
-                                    "GUID": "d3194d42-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        false
-                                    ],
-                                    "error": {}
-                                }
+                            "type": "reference",
+                            "$ref": "#model/definitions/user",
+                            "refType": "model",
+                            "ref": "d319742c-f16e-11ec-8026-e1b2e0be8d81",
+                            "refIdPath": [
+                                "250872d0-f16e-11ec-8026-e1b2e0be8d81",
+                                "250872d1-f16e-11ec-8026-e1b2e0be8d81",
+                                "d319742c-f16e-11ec-8026-e1b2e0be8d81"
                             ],
-                            "additionalProperties": false,
-                            "primaryKey": false,
-                            "GUID": "d3194d34-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "error": {}
+                            "isActivated": true,
+                            "code": "",
+                            "required": true
                         },
                         {
                             "code": "",
@@ -2589,268 +1603,20 @@
                                     "error": {}
                                 },
                                 {
-                                    "code": "",
+                                    "GUID": "2cd745a0-f186-11ec-a955-4995bd62182f",
                                     "name": "owner",
-                                    "isActivated": true,
-                                    "type": "document",
-                                    "properties": [
-                                        {
-                                            "code": "",
-                                            "name": "login",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d0d-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "octocat"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "id",
-                                            "isActivated": true,
-                                            "type": "numeric",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d0c-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                1
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "node_id",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d0e-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "MDQ6VXNlcjE="
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "avatar_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d05-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://github.com/images/error/octocat_happy.gif"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "gravatar_id",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d0a-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                ""
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d16-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "html_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d0b-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://github.com/octocat"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "followers_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d07-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/followers"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "following_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d08-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/following{/other_user}"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "gists_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d09-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/gists{/gist_id}"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "starred_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d13-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/starred{/owner}{/repo}"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "subscriptions_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d14-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/subscriptions"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "organizations_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d0f-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/orgs"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "repos_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d11-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/repos"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "events_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d06-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/events{/privacy}"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "received_events_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d10-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/received_events"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "type",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3194d15-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "User"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "site_admin",
-                                            "isActivated": true,
-                                            "type": "boolean",
-                                            "primaryKey": false,
-                                            "GUID": "d3194d12-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                false
-                                            ],
-                                            "error": {}
-                                        }
+                                    "type": "reference",
+                                    "$ref": "#model/definitions/user",
+                                    "refType": "model",
+                                    "ref": "d319742c-f16e-11ec-8026-e1b2e0be8d81",
+                                    "refIdPath": [
+                                        "250872d0-f16e-11ec-8026-e1b2e0be8d81",
+                                        "250872d1-f16e-11ec-8026-e1b2e0be8d81",
+                                        "d319742c-f16e-11ec-8026-e1b2e0be8d81"
                                     ],
-                                    "additionalProperties": false,
-                                    "primaryKey": false,
-                                    "GUID": "d3194d04-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "error": {}
+                                    "isActivated": true,
+                                    "code": "",
+                                    "required": true
                                 },
                                 {
                                     "code": "",
@@ -4163,268 +2929,20 @@
                             "error": {}
                         },
                         {
-                            "code": "",
+                            "GUID": "5a7fa830-f186-11ec-a955-4995bd62182f",
                             "name": "user",
-                            "isActivated": true,
-                            "type": "document",
-                            "properties": [
-                                {
-                                    "code": "",
-                                    "name": "login",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d319264b-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "octocat"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "id",
-                                    "isActivated": true,
-                                    "type": "numeric",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d319264a-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        1
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "node_id",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d319264c-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "MDQ6VXNlcjE="
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "avatar_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3192643-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://github.com/images/error/octocat_happy.gif"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "gravatar_id",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3192648-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        ""
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3192654-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "html_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3192649-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://github.com/octocat"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "followers_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3192645-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/followers"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "following_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3192646-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/following{/other_user}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "gists_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3192647-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/gists{/gist_id}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "starred_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3192651-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/starred{/owner}{/repo}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "subscriptions_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3192652-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/subscriptions"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "organizations_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d319264d-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/orgs"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "repos_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d319264f-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/repos"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "events_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3192644-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/events{/privacy}"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "received_events_url",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d319264e-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "https://api.github.com/users/octocat/received_events"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "type",
-                                    "isActivated": true,
-                                    "type": "string",
-                                    "properties": [],
-                                    "primaryKey": false,
-                                    "GUID": "d3192653-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        "User"
-                                    ],
-                                    "error": {}
-                                },
-                                {
-                                    "code": "",
-                                    "name": "site_admin",
-                                    "isActivated": true,
-                                    "type": "boolean",
-                                    "primaryKey": false,
-                                    "GUID": "d3192650-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "examples": [
-                                        false
-                                    ],
-                                    "error": {}
-                                }
+                            "type": "reference",
+                            "$ref": "#model/definitions/user",
+                            "refType": "model",
+                            "ref": "d319742c-f16e-11ec-8026-e1b2e0be8d81",
+                            "refIdPath": [
+                                "250872d0-f16e-11ec-8026-e1b2e0be8d81",
+                                "250872d1-f16e-11ec-8026-e1b2e0be8d81",
+                                "d319742c-f16e-11ec-8026-e1b2e0be8d81"
                             ],
-                            "additionalProperties": false,
-                            "primaryKey": false,
-                            "GUID": "d3192642-f16e-11ec-8026-e1b2e0be8d81",
-                            "required": true,
-                            "error": {}
+                            "isActivated": true,
+                            "code": "",
+                            "required": true
                         },
                         {
                             "code": "",
@@ -4489,268 +3007,20 @@
                                     "error": {}
                                 },
                                 {
-                                    "code": "",
+                                    "GUID": "675a3700-f186-11ec-a955-4995bd62182f",
                                     "name": "owner",
-                                    "isActivated": true,
-                                    "type": "document",
-                                    "properties": [
-                                        {
-                                            "code": "",
-                                            "name": "login",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d319261b-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "octocat"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "id",
-                                            "isActivated": true,
-                                            "type": "numeric",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d319261a-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                1
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "node_id",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d319261c-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "MDQ6VXNlcjE="
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "avatar_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3192613-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://github.com/images/error/octocat_happy.gif"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "gravatar_id",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3192618-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                ""
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3192624-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "html_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3192619-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://github.com/octocat"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "followers_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3192615-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/followers"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "following_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3192616-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/following{/other_user}"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "gists_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3192617-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/gists{/gist_id}"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "starred_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3192621-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/starred{/owner}{/repo}"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "subscriptions_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3192622-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/subscriptions"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "organizations_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d319261d-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/orgs"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "repos_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d319261f-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/repos"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "events_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3192614-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/events{/privacy}"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "received_events_url",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d319261e-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "https://api.github.com/users/octocat/received_events"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "type",
-                                            "isActivated": true,
-                                            "type": "string",
-                                            "properties": [],
-                                            "primaryKey": false,
-                                            "GUID": "d3192623-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                "User"
-                                            ],
-                                            "error": {}
-                                        },
-                                        {
-                                            "code": "",
-                                            "name": "site_admin",
-                                            "isActivated": true,
-                                            "type": "boolean",
-                                            "primaryKey": false,
-                                            "GUID": "d3192620-f16e-11ec-8026-e1b2e0be8d81",
-                                            "required": true,
-                                            "examples": [
-                                                false
-                                            ],
-                                            "error": {}
-                                        }
+                                    "type": "reference",
+                                    "$ref": "#model/definitions/user",
+                                    "refType": "model",
+                                    "ref": "d319742c-f16e-11ec-8026-e1b2e0be8d81",
+                                    "refIdPath": [
+                                        "250872d0-f16e-11ec-8026-e1b2e0be8d81",
+                                        "250872d1-f16e-11ec-8026-e1b2e0be8d81",
+                                        "d319742c-f16e-11ec-8026-e1b2e0be8d81"
                                     ],
-                                    "additionalProperties": false,
-                                    "primaryKey": false,
-                                    "GUID": "d3192612-f16e-11ec-8026-e1b2e0be8d81",
-                                    "required": true,
-                                    "error": {}
+                                    "isActivated": true,
+                                    "code": "",
+                                    "required": true
                                 },
                                 {
                                     "code": "",
@@ -6313,25 +4583,6 @@
         "d3197427-f16e-11ec-8026-e1b2e0be8d81": "state",
         "d3194d52-f16e-11ec-8026-e1b2e0be8d81": "locked",
         "d3197429-f16e-11ec-8026-e1b2e0be8d81": "title",
-        "d319742c-f16e-11ec-8026-e1b2e0be8d81": "user",
-        "d3197435-f16e-11ec-8026-e1b2e0be8d81": "login",
-        "d3197434-f16e-11ec-8026-e1b2e0be8d81": "id",
-        "d3197436-f16e-11ec-8026-e1b2e0be8d81": "node_id",
-        "d319742d-f16e-11ec-8026-e1b2e0be8d81": "avatar_url",
-        "d3197432-f16e-11ec-8026-e1b2e0be8d81": "gravatar_id",
-        "d319743e-f16e-11ec-8026-e1b2e0be8d81": "url",
-        "d3197433-f16e-11ec-8026-e1b2e0be8d81": "html_url",
-        "d319742f-f16e-11ec-8026-e1b2e0be8d81": "followers_url",
-        "d3197430-f16e-11ec-8026-e1b2e0be8d81": "following_url",
-        "d3197431-f16e-11ec-8026-e1b2e0be8d81": "gists_url",
-        "d319743b-f16e-11ec-8026-e1b2e0be8d81": "starred_url",
-        "d319743c-f16e-11ec-8026-e1b2e0be8d81": "subscriptions_url",
-        "d3197437-f16e-11ec-8026-e1b2e0be8d81": "organizations_url",
-        "d3197439-f16e-11ec-8026-e1b2e0be8d81": "repos_url",
-        "d319742e-f16e-11ec-8026-e1b2e0be8d81": "events_url",
-        "d3197438-f16e-11ec-8026-e1b2e0be8d81": "received_events_url",
-        "d319743d-f16e-11ec-8026-e1b2e0be8d81": "type",
-        "d319743a-f16e-11ec-8026-e1b2e0be8d81": "site_admin",
         "d3192655-f16e-11ec-8026-e1b2e0be8d81": "body",
         "d3194d4a-f16e-11ec-8026-e1b2e0be8d81": "labels",
         "d3194d4e-f16e-11ec-8026-e1b2e0be8d81": "id",
@@ -6402,43 +4653,7 @@
         "d318fef3-f16e-11ec-8026-e1b2e0be8d81": "type",
         "d318fef0-f16e-11ec-8026-e1b2e0be8d81": "site_admin",
         "d318fef5-f16e-11ec-8026-e1b2e0be8d81": "assignees",
-        "d318fefe-f16e-11ec-8026-e1b2e0be8d81": "login",
-        "d318fefd-f16e-11ec-8026-e1b2e0be8d81": "id",
-        "d318feff-f16e-11ec-8026-e1b2e0be8d81": "node_id",
-        "d318fef6-f16e-11ec-8026-e1b2e0be8d81": "avatar_url",
-        "d318fefb-f16e-11ec-8026-e1b2e0be8d81": "gravatar_id",
-        "d318ff07-f16e-11ec-8026-e1b2e0be8d81": "url",
-        "d318fefc-f16e-11ec-8026-e1b2e0be8d81": "html_url",
-        "d318fef8-f16e-11ec-8026-e1b2e0be8d81": "followers_url",
-        "d318fef9-f16e-11ec-8026-e1b2e0be8d81": "following_url",
-        "d318fefa-f16e-11ec-8026-e1b2e0be8d81": "gists_url",
-        "d318ff04-f16e-11ec-8026-e1b2e0be8d81": "starred_url",
-        "d318ff05-f16e-11ec-8026-e1b2e0be8d81": "subscriptions_url",
-        "d318ff00-f16e-11ec-8026-e1b2e0be8d81": "organizations_url",
-        "d318ff02-f16e-11ec-8026-e1b2e0be8d81": "repos_url",
-        "d318fef7-f16e-11ec-8026-e1b2e0be8d81": "events_url",
-        "d318ff01-f16e-11ec-8026-e1b2e0be8d81": "received_events_url",
-        "d318ff06-f16e-11ec-8026-e1b2e0be8d81": "type",
-        "d318ff03-f16e-11ec-8026-e1b2e0be8d81": "site_admin",
         "d3197405-f16e-11ec-8026-e1b2e0be8d81": "requested_reviewers",
-        "d319740e-f16e-11ec-8026-e1b2e0be8d81": "login",
-        "d319740d-f16e-11ec-8026-e1b2e0be8d81": "id",
-        "d319740f-f16e-11ec-8026-e1b2e0be8d81": "node_id",
-        "d3197406-f16e-11ec-8026-e1b2e0be8d81": "avatar_url",
-        "d319740b-f16e-11ec-8026-e1b2e0be8d81": "gravatar_id",
-        "d3197417-f16e-11ec-8026-e1b2e0be8d81": "url",
-        "d319740c-f16e-11ec-8026-e1b2e0be8d81": "html_url",
-        "d3197408-f16e-11ec-8026-e1b2e0be8d81": "followers_url",
-        "d3197409-f16e-11ec-8026-e1b2e0be8d81": "following_url",
-        "d319740a-f16e-11ec-8026-e1b2e0be8d81": "gists_url",
-        "d3197414-f16e-11ec-8026-e1b2e0be8d81": "starred_url",
-        "d3197415-f16e-11ec-8026-e1b2e0be8d81": "subscriptions_url",
-        "d3197410-f16e-11ec-8026-e1b2e0be8d81": "organizations_url",
-        "d3197412-f16e-11ec-8026-e1b2e0be8d81": "repos_url",
-        "d3197407-f16e-11ec-8026-e1b2e0be8d81": "events_url",
-        "d3197411-f16e-11ec-8026-e1b2e0be8d81": "received_events_url",
-        "d3197416-f16e-11ec-8026-e1b2e0be8d81": "type",
-        "d3197413-f16e-11ec-8026-e1b2e0be8d81": "site_admin",
         "d3197418-f16e-11ec-8026-e1b2e0be8d81": "requested_teams",
         "d319741b-f16e-11ec-8026-e1b2e0be8d81": "id",
         "d319741e-f16e-11ec-8026-e1b2e0be8d81": "node_id",
@@ -6456,49 +4671,11 @@
         "d319265d-f16e-11ec-8026-e1b2e0be8d81": "label",
         "d319265e-f16e-11ec-8026-e1b2e0be8d81": "ref",
         "d3194d33-f16e-11ec-8026-e1b2e0be8d81": "sha",
-        "d3194d34-f16e-11ec-8026-e1b2e0be8d81": "user",
-        "d3194d3d-f16e-11ec-8026-e1b2e0be8d81": "login",
-        "d3194d3c-f16e-11ec-8026-e1b2e0be8d81": "id",
-        "d3194d3e-f16e-11ec-8026-e1b2e0be8d81": "node_id",
-        "d3194d35-f16e-11ec-8026-e1b2e0be8d81": "avatar_url",
-        "d3194d3a-f16e-11ec-8026-e1b2e0be8d81": "gravatar_id",
-        "d3194d46-f16e-11ec-8026-e1b2e0be8d81": "url",
-        "d3194d3b-f16e-11ec-8026-e1b2e0be8d81": "html_url",
-        "d3194d37-f16e-11ec-8026-e1b2e0be8d81": "followers_url",
-        "d3194d38-f16e-11ec-8026-e1b2e0be8d81": "following_url",
-        "d3194d39-f16e-11ec-8026-e1b2e0be8d81": "gists_url",
-        "d3194d43-f16e-11ec-8026-e1b2e0be8d81": "starred_url",
-        "d3194d44-f16e-11ec-8026-e1b2e0be8d81": "subscriptions_url",
-        "d3194d3f-f16e-11ec-8026-e1b2e0be8d81": "organizations_url",
-        "d3194d41-f16e-11ec-8026-e1b2e0be8d81": "repos_url",
-        "d3194d36-f16e-11ec-8026-e1b2e0be8d81": "events_url",
-        "d3194d40-f16e-11ec-8026-e1b2e0be8d81": "received_events_url",
-        "d3194d45-f16e-11ec-8026-e1b2e0be8d81": "type",
-        "d3194d42-f16e-11ec-8026-e1b2e0be8d81": "site_admin",
         "d319265f-f16e-11ec-8026-e1b2e0be8d81": "repo",
         "d3192689-f16e-11ec-8026-e1b2e0be8d81": "id",
         "d3194d00-f16e-11ec-8026-e1b2e0be8d81": "node_id",
         "d3194cfe-f16e-11ec-8026-e1b2e0be8d81": "name",
         "d319267c-f16e-11ec-8026-e1b2e0be8d81": "full_name",
-        "d3194d04-f16e-11ec-8026-e1b2e0be8d81": "owner",
-        "d3194d0d-f16e-11ec-8026-e1b2e0be8d81": "login",
-        "d3194d0c-f16e-11ec-8026-e1b2e0be8d81": "id",
-        "d3194d0e-f16e-11ec-8026-e1b2e0be8d81": "node_id",
-        "d3194d05-f16e-11ec-8026-e1b2e0be8d81": "avatar_url",
-        "d3194d0a-f16e-11ec-8026-e1b2e0be8d81": "gravatar_id",
-        "d3194d16-f16e-11ec-8026-e1b2e0be8d81": "url",
-        "d3194d0b-f16e-11ec-8026-e1b2e0be8d81": "html_url",
-        "d3194d07-f16e-11ec-8026-e1b2e0be8d81": "followers_url",
-        "d3194d08-f16e-11ec-8026-e1b2e0be8d81": "following_url",
-        "d3194d09-f16e-11ec-8026-e1b2e0be8d81": "gists_url",
-        "d3194d13-f16e-11ec-8026-e1b2e0be8d81": "starred_url",
-        "d3194d14-f16e-11ec-8026-e1b2e0be8d81": "subscriptions_url",
-        "d3194d0f-f16e-11ec-8026-e1b2e0be8d81": "organizations_url",
-        "d3194d11-f16e-11ec-8026-e1b2e0be8d81": "repos_url",
-        "d3194d06-f16e-11ec-8026-e1b2e0be8d81": "events_url",
-        "d3194d10-f16e-11ec-8026-e1b2e0be8d81": "received_events_url",
-        "d3194d15-f16e-11ec-8026-e1b2e0be8d81": "type",
-        "d3194d12-f16e-11ec-8026-e1b2e0be8d81": "site_admin",
         "d3194d1b-f16e-11ec-8026-e1b2e0be8d81": "private",
         "d3192688-f16e-11ec-8026-e1b2e0be8d81": "html_url",
         "d3192674-f16e-11ec-8026-e1b2e0be8d81": "description",
@@ -6593,49 +4770,11 @@
         "d318ff0b-f16e-11ec-8026-e1b2e0be8d81": "label",
         "d318ff0c-f16e-11ec-8026-e1b2e0be8d81": "ref",
         "d3192641-f16e-11ec-8026-e1b2e0be8d81": "sha",
-        "d3192642-f16e-11ec-8026-e1b2e0be8d81": "user",
-        "d319264b-f16e-11ec-8026-e1b2e0be8d81": "login",
-        "d319264a-f16e-11ec-8026-e1b2e0be8d81": "id",
-        "d319264c-f16e-11ec-8026-e1b2e0be8d81": "node_id",
-        "d3192643-f16e-11ec-8026-e1b2e0be8d81": "avatar_url",
-        "d3192648-f16e-11ec-8026-e1b2e0be8d81": "gravatar_id",
-        "d3192654-f16e-11ec-8026-e1b2e0be8d81": "url",
-        "d3192649-f16e-11ec-8026-e1b2e0be8d81": "html_url",
-        "d3192645-f16e-11ec-8026-e1b2e0be8d81": "followers_url",
-        "d3192646-f16e-11ec-8026-e1b2e0be8d81": "following_url",
-        "d3192647-f16e-11ec-8026-e1b2e0be8d81": "gists_url",
-        "d3192651-f16e-11ec-8026-e1b2e0be8d81": "starred_url",
-        "d3192652-f16e-11ec-8026-e1b2e0be8d81": "subscriptions_url",
-        "d319264d-f16e-11ec-8026-e1b2e0be8d81": "organizations_url",
-        "d319264f-f16e-11ec-8026-e1b2e0be8d81": "repos_url",
-        "d3192644-f16e-11ec-8026-e1b2e0be8d81": "events_url",
-        "d319264e-f16e-11ec-8026-e1b2e0be8d81": "received_events_url",
-        "d3192653-f16e-11ec-8026-e1b2e0be8d81": "type",
-        "d3192650-f16e-11ec-8026-e1b2e0be8d81": "site_admin",
         "d318ff0d-f16e-11ec-8026-e1b2e0be8d81": "repo",
         "d31925f9-f16e-11ec-8026-e1b2e0be8d81": "id",
         "d319260e-f16e-11ec-8026-e1b2e0be8d81": "node_id",
         "d319260c-f16e-11ec-8026-e1b2e0be8d81": "name",
         "d31925ec-f16e-11ec-8026-e1b2e0be8d81": "full_name",
-        "d3192612-f16e-11ec-8026-e1b2e0be8d81": "owner",
-        "d319261b-f16e-11ec-8026-e1b2e0be8d81": "login",
-        "d319261a-f16e-11ec-8026-e1b2e0be8d81": "id",
-        "d319261c-f16e-11ec-8026-e1b2e0be8d81": "node_id",
-        "d3192613-f16e-11ec-8026-e1b2e0be8d81": "avatar_url",
-        "d3192618-f16e-11ec-8026-e1b2e0be8d81": "gravatar_id",
-        "d3192624-f16e-11ec-8026-e1b2e0be8d81": "url",
-        "d3192619-f16e-11ec-8026-e1b2e0be8d81": "html_url",
-        "d3192615-f16e-11ec-8026-e1b2e0be8d81": "followers_url",
-        "d3192616-f16e-11ec-8026-e1b2e0be8d81": "following_url",
-        "d3192617-f16e-11ec-8026-e1b2e0be8d81": "gists_url",
-        "d3192621-f16e-11ec-8026-e1b2e0be8d81": "starred_url",
-        "d3192622-f16e-11ec-8026-e1b2e0be8d81": "subscriptions_url",
-        "d319261d-f16e-11ec-8026-e1b2e0be8d81": "organizations_url",
-        "d319261f-f16e-11ec-8026-e1b2e0be8d81": "repos_url",
-        "d3192614-f16e-11ec-8026-e1b2e0be8d81": "events_url",
-        "d319261e-f16e-11ec-8026-e1b2e0be8d81": "received_events_url",
-        "d3192623-f16e-11ec-8026-e1b2e0be8d81": "type",
-        "d3192620-f16e-11ec-8026-e1b2e0be8d81": "site_admin",
         "d3192629-f16e-11ec-8026-e1b2e0be8d81": "private",
         "d31925f8-f16e-11ec-8026-e1b2e0be8d81": "html_url",
         "d31925e4-f16e-11ec-8026-e1b2e0be8d81": "description",
@@ -6744,11 +4883,321 @@
         "d318ff08-f16e-11ec-8026-e1b2e0be8d81": "author_association",
         "d318ff09-f16e-11ec-8026-e1b2e0be8d81": "auto_merge",
         "d319265b-f16e-11ec-8026-e1b2e0be8d81": "draft",
-        "d42e1850-f16e-11ec-8026-e1b2e0be8d81": "pull_request"
+        "d42e1850-f16e-11ec-8026-e1b2e0be8d81": "pull_request",
+        "0284fdd0-f184-11ec-a955-4995bd62182f": "user",
+        "d319742c-f16e-11ec-8026-e1b2e0be8d81": "user",
+        "25364cb0-f186-11ec-a955-4995bd62182f": "user",
+        "2cd745a0-f186-11ec-a955-4995bd62182f": "owner",
+        "5a7fa830-f186-11ec-a955-4995bd62182f": "user",
+        "675a3700-f186-11ec-a955-4995bd62182f": "owner"
     },
     "definitions": {
         "type": "definitions",
-        "properties": [],
+        "properties": [
+            {
+                "code": "",
+                "name": "user",
+                "isActivated": true,
+                "type": "document",
+                "properties": [
+                    {
+                        "code": "",
+                        "name": "login",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d3197435-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "octocat"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "id",
+                        "isActivated": true,
+                        "type": "numeric",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d3197434-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            1
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "node_id",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d3197436-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "MDQ6VXNlcjE="
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "avatar_url",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d319742d-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "https://github.com/images/error/octocat_happy.gif"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "gravatar_id",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d3197432-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            ""
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "url",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d319743e-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "https://api.github.com/users/octocat"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "html_url",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d3197433-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "https://github.com/octocat"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "followers_url",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d319742f-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "https://api.github.com/users/octocat/followers"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "following_url",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d3197430-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "https://api.github.com/users/octocat/following{/other_user}"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "gists_url",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d3197431-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "https://api.github.com/users/octocat/gists{/gist_id}"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "starred_url",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d319743b-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "https://api.github.com/users/octocat/starred{/owner}{/repo}"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "subscriptions_url",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d319743c-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "https://api.github.com/users/octocat/subscriptions"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "organizations_url",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d3197437-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "https://api.github.com/users/octocat/orgs"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "repos_url",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d3197439-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "https://api.github.com/users/octocat/repos"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "events_url",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d319742e-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "https://api.github.com/users/octocat/events{/privacy}"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "received_events_url",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d3197438-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "https://api.github.com/users/octocat/received_events"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "type",
+                        "isActivated": true,
+                        "type": "string",
+                        "properties": [],
+                        "primaryKey": false,
+                        "GUID": "d319743d-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            "User"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "name": "site_admin",
+                        "isActivated": true,
+                        "type": "boolean",
+                        "primaryKey": false,
+                        "GUID": "d319743a-f16e-11ec-8026-e1b2e0be8d81",
+                        "required": true,
+                        "examples": [
+                            false
+                        ],
+                        "error": {}
+                    }
+                ],
+                "additionalProperties": false,
+                "primaryKey": false,
+                "GUID": "d319742c-f16e-11ec-8026-e1b2e0be8d81",
+                "required": true,
+                "error": {},
+                "hackoladeMeta": {},
+                "definitionRefs": [
+                    [
+                        "d42e1850-f16e-11ec-8026-e1b2e0be8d81",
+                        "0284fdd0-f184-11ec-a955-4995bd62182f"
+                    ],
+                    [
+                        "d42e1850-f16e-11ec-8026-e1b2e0be8d81",
+                        "d318fef5-f16e-11ec-8026-e1b2e0be8d81",
+                        "4b7c7ef0-f184-11ec-a955-4995bd62182f"
+                    ],
+                    [
+                        "d42e1850-f16e-11ec-8026-e1b2e0be8d81",
+                        "d3197405-f16e-11ec-8026-e1b2e0be8d81",
+                        "55734ec0-f184-11ec-a955-4995bd62182f"
+                    ],
+                    [
+                        "d42e1850-f16e-11ec-8026-e1b2e0be8d81",
+                        "d319265c-f16e-11ec-8026-e1b2e0be8d81",
+                        "25364cb0-f186-11ec-a955-4995bd62182f"
+                    ],
+                    [
+                        "d42e1850-f16e-11ec-8026-e1b2e0be8d81",
+                        "d319265c-f16e-11ec-8026-e1b2e0be8d81",
+                        "d319265f-f16e-11ec-8026-e1b2e0be8d81",
+                        "2cd745a0-f186-11ec-a955-4995bd62182f"
+                    ],
+                    [
+                        "d42e1850-f16e-11ec-8026-e1b2e0be8d81",
+                        "d318ff0a-f16e-11ec-8026-e1b2e0be8d81",
+                        "5a7fa830-f186-11ec-a955-4995bd62182f"
+                    ],
+                    [
+                        "d42e1850-f16e-11ec-8026-e1b2e0be8d81",
+                        "d318ff0a-f16e-11ec-8026-e1b2e0be8d81",
+                        "d318ff0d-f16e-11ec-8026-e1b2e0be8d81",
+                        "675a3700-f186-11ec-a955-4995bd62182f"
+                    ]
+                ]
+            }
+        ],
         "GUID": "250872d1-f16e-11ec-8026-e1b2e0be8d81"
     },
     "polyglotDefinitions": {
@@ -6769,7 +5218,7 @@
     "creationTS": "2022-06-21T14:26:31.164Z",
     "GUID": "250872d0-f16e-11ec-8026-e1b2e0be8d81",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-21T14:34:26.317Z",
+    "lastModifTS": "2022-06-21T17:20:33.980Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -6778,6 +5227,7 @@
     "applicationInformation": {
         "version": "6.2.0"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -6786,8 +5236,8 @@
                         "GUID": "d42e1850-f16e-11ec-8026-e1b2e0be8d81",
                         "x": 104.38556933483649,
                         "y": 90.00000000000004,
-                        "width": 377,
-                        "height": 8187,
+                        "width": 406,
+                        "height": 6135,
                         "color": {}
                     }
                 ],
@@ -6798,7 +5248,14 @@
                         "GUID": "d42df140-f16e-11ec-8026-e1b2e0be8d81"
                     }
                 ],
-                "collapsedNodes": [],
+                "collapsedNodes": [
+                    "d42e1850-f16e-11ec-8026-e1b2e0be8d810284fdd0-f184-11ec-a955-4995bd62182f",
+                    "d42e1850-f16e-11ec-8026-e1b2e0be8d81d3194d4a-f16e-11ec-8026-e1b2e0be8d81",
+                    "d42e1850-f16e-11ec-8026-e1b2e0be8d81d3194d55-f16e-11ec-8026-e1b2e0be8d81",
+                    "d42e1850-f16e-11ec-8026-e1b2e0be8d81d318fef5-f16e-11ec-8026-e1b2e0be8d814b7c7ef0-f184-11ec-a955-4995bd62182f",
+                    "d42e1850-f16e-11ec-8026-e1b2e0be8d81d319265c-f16e-11ec-8026-e1b2e0be8d81d319265f-f16e-11ec-8026-e1b2e0be8d812cd745a0-f186-11ec-a955-4995bd62182f",
+                    "d42e1850-f16e-11ec-8026-e1b2e0be8d81d318ff0a-f16e-11ec-8026-e1b2e0be8d815a7fa830-f186-11ec-a955-4995bd62182f"
+                ],
                 "activeRelationship": "",
                 "activeRelationshipFields": {
                     "childField": [],
