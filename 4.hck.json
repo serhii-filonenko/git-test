@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "164333e3",
+            "collectionName": "gert",
             "type": "object",
             "properties": [
                 {
@@ -35,9 +35,7 @@
                 "collation": "null"
             },
             "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
+            "hackoladeMeta": {},
             "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
         },
         {
@@ -155,7 +153,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
+        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "gert",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database",
         "3ba8efc0-ebc3-11ec-a267-99e3da4adb47": "str",
         "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "review_collection"
@@ -183,7 +181,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-21T18:14:20.000Z",
+    "lastModifTS": "2022-06-22T09:12:16.996Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -201,7 +199,7 @@
                         "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
                         "x": 121.13829787234043,
                         "y": 161.18085106382978,
-                        "width": 157,
+                        "width": 145,
                         "height": 51,
                         "color": {
                             "hex": "#fec107"
