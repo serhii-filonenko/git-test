@@ -95,7 +95,7 @@
             "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
         },
         {
-            "collectionName": "review_collection",
+            "collectionName": "2",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -158,7 +158,7 @@
         "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database",
         "3ba8efc0-ebc3-11ec-a267-99e3da4adb47": "str",
-        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "review_collection"
+        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "2"
     },
     "definitions": {
         "type": "definitions",
@@ -183,7 +183,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-22T14:56:56.140Z",
+    "lastModifTS": "2022-06-22T14:57:40.122Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -211,7 +211,7 @@
                         "GUID": "40ef7df0-ebc3-11ec-a267-99e3da4adb47",
                         "x": 40,
                         "y": 40,
-                        "width": 218,
+                        "width": 129,
                         "height": 100,
                         "color": {
                             "hex": "#39ff14"
