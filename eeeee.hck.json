@@ -1,0 +1,119 @@
+{
+    "modelName": "New Model",
+    "collections": [],
+    "buckets": [
+        {
+            "name": "New_Database",
+            "type": "bucket",
+            "collectionIds": [],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "b4edc860-f39d-11ec-87e0-691ce2c3b572"
+        },
+        {
+            "name": "New_Database(1)",
+            "type": "bucket",
+            "collectionIds": [],
+            "backgroundColor": {
+                "r": 0,
+                "g": 138,
+                "b": 0,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "c953f360-f39d-11ec-9f61-cfca9388e9e2"
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "b4edc860-f39d-11ec-87e0-691ce2c3b572": "New_Database",
+        "c953f360-f39d-11ec-9f61-cfca9388e9e2": "New_Database(1)"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "914424e0-f39d-11ec-94c4-ed0104ffa54c"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "914424e2-f39d-11ec-94c4-ed0104ffa54c"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "914424e1-f39d-11ec-94c4-ed0104ffa54c"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v5.0",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2022-06-24T09:11:01.421Z",
+    "GUID": "9143fdd0-f39d-11ec-94c4-ed0104ffa54c",
+    "isLineageEnabled": false,
+    "lastModifTS": "2022-06-24T09:20:09.875Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.2.1"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [],
+                "buckets": [
+                    {
+                        "x": 132,
+                        "y": 77,
+                        "GUID": "b4edc860-f39d-11ec-87e0-691ce2c3b572"
+                    },
+                    {
+                        "x": 118,
+                        "y": 384,
+                        "GUID": "c953f360-f39d-11ec-9f61-cfca9388e9e2"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
