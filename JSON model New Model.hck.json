@@ -8,12 +8,28 @@
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "f5b07f90-f39e-11ec-9f61-cfca9388e9e2"
+                "GUID": "37ea3530-bc0f-11ec-b186-43299b9e10a6"
             },
             "isActivated": true,
             "additionalProperties": false,
-            "GUID": "f5b00a60-f39e-11ec-9f61-cfca9388e9e2",
-            "bucketId": "f558c2a0-f39e-11ec-9f61-cfca9388e9e2"
+            "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "37303400-bc0f-11ec-b186-43299b9e10a6"
+        },
+        {
+            "collectionName": "New Document(1)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "392dade0-e0ff-11ec-bbf5-a14345a8b67e"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "392d5fc0-e0ff-11ec-bbf5-a14345a8b67e"
         }
     ],
     "buckets": [
@@ -21,7 +37,7 @@
             "name": "New Group",
             "type": "bucket",
             "collectionIds": [
-                "f5b00a60-f39e-11ec-9f61-cfca9388e9e2"
+                "37e971e0-bc0f-11ec-b186-43299b9e10a6"
             ],
             "backgroundColor": {
                 "r": 216,
@@ -31,57 +47,80 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "f558c2a0-f39e-11ec-9f61-cfca9388e9e2"
+            "GUID": "37303400-bc0f-11ec-b186-43299b9e10a6"
         }
     ],
     "views": [],
-    "relationships": [],
+    "relationships": [
+        {
+            "name": "New Relationship",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "3779c020-bc0f-11ec-b186-43299b9e10a6"
+        }
+    ],
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "f558c2a0-f39e-11ec-9f61-cfca9388e9e2": "New Group",
-        "f5b00a60-f39e-11ec-9f61-cfca9388e9e2": "New Document"
+        "37303400-bc0f-11ec-b186-43299b9e10a6": "New Group",
+        "3779c020-bc0f-11ec-b186-43299b9e10a6": "New Relationship",
+        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document",
+        "392d5fc0-e0ff-11ec-bbf5-a14345a8b67e": "New Document(1)"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "dbb928d1-f39e-11ec-9f61-cfca9388e9e2"
+        "GUID": "364c1590-bc0f-11ec-b186-43299b9e10a6"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "dbb928d3-f39e-11ec-9f61-cfca9388e9e2"
+        "GUID": "364c1592-bc0f-11ec-b186-43299b9e10a6"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "dbb928d2-f39e-11ec-9f61-cfca9388e9e2"
+        "GUID": "364c1591-bc0f-11ec-b186-43299b9e10a6"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVendor": "JSON",
     "dbVersion": "2019-09",
     "appTarget": "JSON",
-    "creationTS": "2022-06-24T09:20:15.836Z",
-    "GUID": "dbb928d0-f39e-11ec-9f61-cfca9388e9e2",
+    "creationTS": "2022-04-14T16:23:26.312Z",
+    "GUID": "364bee80-bc0f-11ec-b186-43299b9e10a6",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-24T09:21:11.805Z",
+    "lastModifTS": "2022-06-01T12:05:44.978Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.1"
+        "version": "6.1.2"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "f5b00a60-f39e-11ec-9f61-cfca9388e9e2",
-                        "x": 181,
-                        "y": 109,
+                        "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
+                        "x": 136,
+                        "y": 172,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#9c28b1"
+                        }
+                    },
+                    {
+                        "GUID": "392d5fc0-e0ff-11ec-bbf5-a14345a8b67e",
+                        "x": 40,
+                        "y": 40,
                         "width": 240,
                         "height": 100,
                         "color": {}
@@ -89,9 +128,9 @@
                 ],
                 "buckets": [
                     {
-                        "x": 141,
-                        "y": 69,
-                        "GUID": "f558c2a0-f39e-11ec-9f61-cfca9388e9e2"
+                        "x": 96,
+                        "y": 132,
+                        "GUID": "37303400-bc0f-11ec-b186-43299b9e10a6"
                     }
                 ],
                 "collapsedNodes": [],

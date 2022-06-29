@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Colle3ction",
+            "collectionName": "New Collection",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -58,7 +58,6 @@
             "name": "New_Data33base",
             "type": "bucket",
             "collectionIds": [
-                "dab81e00-bbef-11ec-bfc2-e1cb2dc6811b",
                 "dab81e00-bbef-11ec-bfc2-e1cb2dc6811b"
             ],
             "backgroundColor": {
@@ -75,7 +74,6 @@
             "name": "New_Database",
             "type": "bucket",
             "collectionIds": [
-                "cb118350-bfd3-11ec-ad85-975386b56fc8",
                 "cb118350-bfd3-11ec-ad85-975386b56fc8"
             ],
             "backgroundColor": {
@@ -120,16 +118,16 @@
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
     "creationTS": "2022-04-14T12:38:54.055Z",
-    "GUID": "16910cb0-ee28-11ec-a09c-d36b1151069f",
+    "GUID": "d834ce80-bbef-11ec-bfc2-e1cb2dc6811b",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-17T10:27:30.784Z",
+    "lastModifTS": "2022-06-01T11:32:05.747Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.1.3"
+        "version": "6.1.2"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -142,7 +140,9 @@
                         "y": 222,
                         "width": 240,
                         "height": 100,
-                        "color": {}
+                        "color": {
+                            "hex": "#39ff14"
+                        }
                     },
                     {
                         "GUID": "cb118350-bfd3-11ec-ad85-975386b56fc8",
@@ -150,9 +150,7 @@
                         "y": 171,
                         "width": 240,
                         "height": 100,
-                        "color": {
-                            "hex": "#d80073"
-                        }
+                        "color": {}
                     }
                 ],
                 "buckets": [
@@ -167,17 +165,32 @@
                         "GUID": "caa35830-bfd3-11ec-ad85-975386b56fc8"
                     }
                 ],
-                "diagramViews": [],
-                "decorativeSymbols": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                }
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
             },
+            "collectionLevel": {},
             "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
         }
     }
 }
