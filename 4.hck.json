@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "gert",
+            "collectionName": "ddddddddddddddd",
             "type": "object",
             "properties": [
                 {
@@ -35,7 +35,9 @@
                 "collation": "null"
             },
             "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-            "hackoladeMeta": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
             "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
         },
         {
@@ -93,7 +95,7 @@
             "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
         },
         {
-            "collectionName": "review_collection",
+            "collectionName": "review_collec333tion",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -153,10 +155,10 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "gert",
+        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database",
         "3ba8efc0-ebc3-11ec-a267-99e3da4adb47": "str",
-        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "review_collection"
+        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "2"
     },
     "definitions": {
         "type": "definitions",
@@ -181,14 +183,14 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-22T09:12:16.996Z",
+    "lastModifTS": "2022-06-27T15:22:59.811Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.0"
+        "version": "6.2.1"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -197,9 +199,9 @@
                 "erd": [
                     {
                         "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                        "x": 121.13829787234043,
-                        "y": 161.18085106382978,
-                        "width": 145,
+                        "x": 175,
+                        "y": 204,
+                        "width": 233,
                         "height": 51,
                         "color": {
                             "hex": "#fec107"
@@ -207,19 +209,19 @@
                     },
                     {
                         "GUID": "40ef7df0-ebc3-11ec-a267-99e3da4adb47",
-                        "x": 40,
-                        "y": 40,
-                        "width": 218,
+                        "x": 426,
+                        "y": 377,
+                        "width": 129,
                         "height": 100,
                         "color": {
-                            "hex": "#d80073"
+                            "hex": "#39ff14"
                         }
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 81.13829787234043,
-                        "y": 121.18085106382978,
+                        "x": 135,
+                        "y": 164,
                         "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
                     }
                 ],
