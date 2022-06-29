@@ -25,11 +25,24 @@
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "392dade0-e0ff-11ec-bbf5-a14345a8b67e"
+                "GUID": "c5e49160-db8f-11ec-8333-7f101002cca6"
             },
             "isActivated": true,
             "additionalProperties": false,
-            "GUID": "392d5fc0-e0ff-11ec-bbf5-a14345a8b67e"
+            "GUID": "c5e41c30-db8f-11ec-8333-7f101002cca6"
+        },
+        {
+            "collectionName": "New Document(2)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "dc38f7d0-db8f-11ec-8333-7f101002cca6"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "dc38a9b0-db8f-11ec-8333-7f101002cca6"
         }
     ],
     "buckets": [
@@ -68,7 +81,8 @@
         "37303400-bc0f-11ec-b186-43299b9e10a6": "New Group",
         "3779c020-bc0f-11ec-b186-43299b9e10a6": "New Relationship",
         "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document",
-        "392d5fc0-e0ff-11ec-bbf5-a14345a8b67e": "New Document(1)"
+        "c5e41c30-db8f-11ec-8333-7f101002cca6": "New Document(1)",
+        "dc38a9b0-db8f-11ec-8333-7f101002cca6": "New Document(2)"
     },
     "definitions": {
         "type": "definitions",
@@ -93,14 +107,14 @@
     "creationTS": "2022-04-14T16:23:26.312Z",
     "GUID": "364bee80-bc0f-11ec-b186-43299b9e10a6",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-01T12:05:44.978Z",
+    "lastModifTS": "2022-05-24T19:06:23.394Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.1.2"
+        "version": "6.1.0"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -109,18 +123,24 @@
                 "erd": [
                     {
                         "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
-                        "x": 136,
-                        "y": 172,
+                        "x": 147,
+                        "y": 320,
                         "width": 240,
                         "height": 100,
-                        "color": {
-                            "hex": "#9c28b1"
-                        }
+                        "color": {}
                     },
                     {
-                        "GUID": "392d5fc0-e0ff-11ec-bbf5-a14345a8b67e",
+                        "GUID": "c5e41c30-db8f-11ec-8333-7f101002cca6",
                         "x": 40,
                         "y": 40,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "dc38a9b0-db8f-11ec-8333-7f101002cca6",
+                        "x": 68,
+                        "y": 156,
                         "width": 240,
                         "height": 100,
                         "color": {}
@@ -128,8 +148,8 @@
                 ],
                 "buckets": [
                     {
-                        "x": 96,
-                        "y": 132,
+                        "x": 107,
+                        "y": 280,
                         "GUID": "37303400-bc0f-11ec-b186-43299b9e10a6"
                     }
                 ],
