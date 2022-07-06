@@ -1,35 +1,5 @@
 {
     "modelName": "new-JSqON",
-    "dbVendor": "Polyglot",
-    "isLineageEnabled": false,
-    "sources": [],
-    "definitions": {
-        "type": "definitions",
-        "properties": [],
-        "GUID": "d32aef11-c54e-11ec-9834-e3847002a45d"
-    },
-    "GUID": "7d9c21c0-ebf2-11ec-ae46-a9879ee1f07d",
-    "externalDefinitions": {
-        "type": "externalDefinitions",
-        "properties": [],
-        "GUID": "d32aef12-c54e-11ec-9834-e3847002a45d"
-    },
-    "polyglotDefinitions": {
-        "type": "polyglotDefinitions",
-        "properties": [],
-        "GUID": "d32aef13-c54e-11ec-9834-e3847002a45d"
-    },
-    "decorativeSymbols": [],
-    "dbVersion": "v4.4",
-    "hackoladeMeta": {},
-    "diagramViews": [],
-    "idToNameHashTable": {
-        "d5334230-c54e-11ec-9834-e3847002a45d": "spring",
-        "abd0c2c0-ebc6-11ec-be09-73e62c73b606": "apr",
-        "ae46cbd0-ebc6-11ec-be09-73e62c73b606": "may",
-        "b116dbc0-ebc6-11ec-be09-73e62c73b606": "march",
-        "d4f1cc60-c54e-11ec-9834-e3847002a45d": "New_Database"
-    },
     "collections": [
         {
             "collectionName": "spring",
@@ -74,7 +44,6 @@
             "type": "object"
         }
     ],
-    "views": [],
     "buckets": [
         {
             "name": "New_Database",
@@ -93,18 +62,51 @@
             "show": true
         }
     ],
+    "views": [],
     "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "d5334230-c54e-11ec-9834-e3847002a45d": "spring",
+        "abd0c2c0-ebc6-11ec-be09-73e62c73b606": "apr",
+        "ae46cbd0-ebc6-11ec-be09-73e62c73b606": "may",
+        "b116dbc0-ebc6-11ec-be09-73e62c73b606": "march",
+        "d4f1cc60-c54e-11ec-9834-e3847002a45d": "New_Database"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "d32aef11-c54e-11ec-9834-e3847002a45d"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "d32aef13-c54e-11ec-9834-e3847002a45d"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "d32aef12-c54e-11ec-9834-e3847002a45d"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2022-07-06T18:50:25.320Z",
+    "GUID": "7d9c21c0-ebf2-11ec-ae46-a9879ee1f07d",
+    "isLineageEnabled": false,
+    "dbVersion": "v4.4",
+    "hackoladeMeta": {},
     "pluginInformation": {
         "pluginName": "Polyglot",
         "pluginVersion": "0.0.1",
         "pluginEngineVersion": "1.0.0"
     },
-    "appTarget": "Polyglot",
-    "lastModifTS": "2022-06-14T14:58:59.784Z",
+    "lastModifTS": "2022-07-06T18:50:32.159Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "applicationInformation": {
-        "version": "6.1.3"
+        "version": "6.2.2"
     },
     "settings": {
         "centralPane": {
@@ -116,7 +118,9 @@
                         "y": 180.2482269503546,
                         "width": 164,
                         "height": 87,
-                        "color": {}
+                        "color": {
+                            "hex": "#008a00"
+                        }
                     }
                 ],
                 "buckets": [
