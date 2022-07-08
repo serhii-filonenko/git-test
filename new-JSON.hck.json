@@ -51,7 +51,7 @@
     ],
     "buckets": [
         {
-            "name": "New_Database",
+            "name": "COLORS",
             "type": "bucket",
             "collectionIds": [
                 "549b66a0-d059-11ec-9882-d93673793bdf"
@@ -72,7 +72,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "544445f0-d059-11ec-9882-d93673793bdf": "New_Database",
+        "544445f0-d059-11ec-9882-d93673793bdf": "COLORS",
         "549b66a0-d059-11ec-9882-d93673793bdf": "changed-json-collection-name",
         "fb3ac020-db79-11ec-8333-7f101002cca6": "New Collection(1)"
     },
@@ -99,7 +99,7 @@
     "creationTS": "2022-05-10T12:04:20.756Z",
     "GUID": "5329fc50-d059-11ec-9882-d93673793bdf",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-07-08T13:44:25.810Z",
+    "lastModifTS": "2022-07-08T15:02:16.084Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -115,7 +115,7 @@
                 "erd": [
                     {
                         "GUID": "549b66a0-d059-11ec-9882-d93673793bdf",
-                        "x": 80,
+                        "x": 82,
                         "y": 80,
                         "width": 291,
                         "height": 100,
@@ -136,7 +136,7 @@
                 ],
                 "buckets": [
                     {
-                        "x": 40,
+                        "x": 42,
                         "y": 40,
                         "GUID": "544445f0-d059-11ec-9882-d93673793bdf"
                     }
