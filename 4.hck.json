@@ -6,15 +6,12 @@
             "type": "object",
             "properties": [
                 {
-                    "name": "str",
+                    "name": "string",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "string",
                     "GUID": "3ba8efc0-ebc3-11ec-a267-99e3da4adb47",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -157,7 +154,7 @@
     "idToNameHashTable": {
         "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database",
-        "3ba8efc0-ebc3-11ec-a267-99e3da4adb47": "str",
+        "3ba8efc0-ebc3-11ec-a267-99e3da4adb47": "string",
         "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "2"
     },
     "definitions": {
@@ -183,14 +180,14 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-07-01T14:27:45.131Z",
+    "lastModifTS": "2022-07-08T13:11:19.979Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.1"
+        "version": "6.2.3"
     },
     "hackoladeMeta": {},
     "settings": {
