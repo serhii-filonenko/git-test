@@ -115,6 +115,29 @@
                 "collation": "null"
             },
             "GUID": "b7e98f20-f390-11ec-9e57-e799959f3772"
+        },
+        {
+            "collectionName": "New Collection(5)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "e0193600-febf-11ec-ab72-cf01a2f1a991"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "e01899c0-febf-11ec-ab72-cf01a2f1a991"
         }
     ],
     "buckets": [],
@@ -127,7 +150,8 @@
         "b739ee30-f390-11ec-9e57-e799959f3772": "New Collection(1)",
         "b7983ad0-f390-11ec-9e57-e799959f3772": "New Collection(2)",
         "b7c16db0-f390-11ec-9e57-e799959f3772": "New Collection(3)",
-        "b7e98f20-f390-11ec-9e57-e799959f3772": "New Collection(4)"
+        "b7e98f20-f390-11ec-9e57-e799959f3772": "New Collection(4)",
+        "e01899c0-febf-11ec-ab72-cf01a2f1a991": "New Collection(5)"
     },
     "definitions": {
         "type": "definitions",
@@ -152,14 +176,14 @@
     "creationTS": "2022-06-24T07:38:56.159Z",
     "GUID": "b3f41200-f390-11ec-9e57-e799959f3772",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-30T12:58:48.756Z",
+    "lastModifTS": "2022-07-08T13:14:20.741Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.1"
+        "version": "6.2.3"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -202,6 +226,14 @@
                         "GUID": "b7e98f20-f390-11ec-9e57-e799959f3772",
                         "x": 165.9479768786127,
                         "y": 377.5115606936416,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "e01899c0-febf-11ec-ab72-cf01a2f1a991",
+                        "x": 100,
+                        "y": 100,
                         "width": 240,
                         "height": 100,
                         "color": {}
