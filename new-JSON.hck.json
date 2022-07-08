@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Collecti3on",
+            "collectionName": "changed-json-collection-name",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -73,7 +73,7 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "544445f0-d059-11ec-9882-d93673793bdf": "New_Database",
-        "549b66a0-d059-11ec-9882-d93673793bdf": "New Collection",
+        "549b66a0-d059-11ec-9882-d93673793bdf": "changed-json-collection-name",
         "fb3ac020-db79-11ec-8333-7f101002cca6": "New Collection(1)"
     },
     "definitions": {
@@ -99,14 +99,14 @@
     "creationTS": "2022-05-10T12:04:20.756Z",
     "GUID": "5329fc50-d059-11ec-9882-d93673793bdf",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-24T15:55:50.765Z",
+    "lastModifTS": "2022-07-08T13:44:25.810Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.1.0"
+        "version": "6.2.3"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -117,9 +117,11 @@
                         "GUID": "549b66a0-d059-11ec-9882-d93673793bdf",
                         "x": 80,
                         "y": 80,
-                        "width": 240,
+                        "width": 291,
                         "height": 100,
-                        "color": {}
+                        "color": {
+                            "hex": "#3f51b5"
+                        }
                     },
                     {
                         "GUID": "fb3ac020-db79-11ec-8333-7f101002cca6",
@@ -127,7 +129,9 @@
                         "y": 40,
                         "width": 240,
                         "height": 100,
-                        "color": {}
+                        "color": {
+                            "hex": "#d80073"
+                        }
                     }
                 ],
                 "buckets": [
