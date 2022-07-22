@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Collecti3on",
+            "collectionName": "changed-json-collection-name",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -47,14 +47,39 @@
                 "collation": "null"
             },
             "GUID": "fb3ac020-db79-11ec-8333-7f101002cca6"
+        },
+        {
+            "collectionName": "im_green",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "93c57740-fecf-11ec-a566-d5b9023d4e14"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "93c50210-fecf-11ec-a566-d5b9023d4e14",
+            "bucketId": "544445f0-d059-11ec-9882-d93673793bdf"
         }
     ],
     "buckets": [
         {
-            "name": "New_Database",
+            "name": "COLORS",
             "type": "bucket",
             "collectionIds": [
-                "549b66a0-d059-11ec-9882-d93673793bdf"
+                "549b66a0-d059-11ec-9882-d93673793bdf",
+                "93c50210-fecf-11ec-a566-d5b9023d4e14"
             ],
             "backgroundColor": {
                 "r": 187,
@@ -72,9 +97,10 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "544445f0-d059-11ec-9882-d93673793bdf": "New_Database",
-        "549b66a0-d059-11ec-9882-d93673793bdf": "New Collection",
-        "fb3ac020-db79-11ec-8333-7f101002cca6": "New Collection(1)"
+        "544445f0-d059-11ec-9882-d93673793bdf": "COLORS",
+        "549b66a0-d059-11ec-9882-d93673793bdf": "changed-json-collection-name",
+        "fb3ac020-db79-11ec-8333-7f101002cca6": "New Collection(1)",
+        "93c50210-fecf-11ec-a566-d5b9023d4e14": "im_green"
     },
     "definitions": {
         "type": "definitions",
@@ -99,14 +125,14 @@
     "creationTS": "2022-05-10T12:04:20.756Z",
     "GUID": "5329fc50-d059-11ec-9882-d93673793bdf",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-24T15:55:50.765Z",
+    "lastModifTS": "2022-07-08T15:07:04.139Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.1.0"
+        "version": "6.2.3"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -115,11 +141,13 @@
                 "erd": [
                     {
                         "GUID": "549b66a0-d059-11ec-9882-d93673793bdf",
-                        "x": 80,
+                        "x": 82,
                         "y": 80,
-                        "width": 240,
+                        "width": 291,
                         "height": 100,
-                        "color": {}
+                        "color": {
+                            "hex": "#3f51b5"
+                        }
                     },
                     {
                         "GUID": "fb3ac020-db79-11ec-8333-7f101002cca6",
@@ -127,12 +155,24 @@
                         "y": 40,
                         "width": 240,
                         "height": 100,
-                        "color": {}
+                        "color": {
+                            "hex": "#d80073"
+                        }
+                    },
+                    {
+                        "GUID": "93c50210-fecf-11ec-a566-d5b9023d4e14",
+                        "x": 102,
+                        "y": 100,
+                        "width": 174,
+                        "height": 100,
+                        "color": {
+                            "hex": "#008a00"
+                        }
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 40,
+                        "x": 42,
                         "y": 40,
                         "GUID": "544445f0-d059-11ec-9882-d93673793bdf"
                     }
