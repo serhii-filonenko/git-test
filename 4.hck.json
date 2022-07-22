@@ -94,7 +94,19 @@
         {
             "collectionName": "review_collec333tion",
             "type": "object",
-            "properties": [],
+            "properties": [
+                {
+                    "name": "New Field",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "1c2514d0-0996-11ed-ab67-f1b5a7335b22",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
@@ -155,7 +167,8 @@
         "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database",
         "3ba8efc0-ebc3-11ec-a267-99e3da4adb47": "string",
-        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "2"
+        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "2",
+        "1c2514d0-0996-11ed-ab67-f1b5a7335b22": "New Field"
     },
     "definitions": {
         "type": "definitions",
@@ -180,14 +193,14 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-07-08T13:11:19.979Z",
+    "lastModifTS": "2022-07-22T08:13:04.497Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.3"
+        "version": "6.2.5"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -208,8 +221,8 @@
                         "GUID": "40ef7df0-ebc3-11ec-a267-99e3da4adb47",
                         "x": 426,
                         "y": 377,
-                        "width": 129,
-                        "height": 100,
+                        "width": 239,
+                        "height": 51,
                         "color": {
                             "hex": "#39ff14"
                         }
