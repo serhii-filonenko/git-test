@@ -1,0 +1,239 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "New Collection",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b671bc30-f390-11ec-9e57-e799959f3772"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "b6714700-f390-11ec-9e57-e799959f3772"
+        },
+        {
+            "collectionName": "New Collection(1)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b73a6360-f390-11ec-9e57-e799959f3772"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "b739ee30-f390-11ec-9e57-e799959f3772"
+        },
+        {
+            "collectionName": "New Collection(2)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b798b000-f390-11ec-9e57-e799959f3772"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "b7983ad0-f390-11ec-9e57-e799959f3772"
+        },
+        {
+            "collectionName": "New Collection(3)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b7c1bbd0-f390-11ec-9e57-e799959f3772"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "b7c16db0-f390-11ec-9e57-e799959f3772"
+        },
+        {
+            "collectionName": "New Collection(4)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b7e9dd40-f390-11ec-9e57-e799959f3772"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "b7e98f20-f390-11ec-9e57-e799959f3772"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "b6714700-f390-11ec-9e57-e799959f3772": "New Collection",
+        "b739ee30-f390-11ec-9e57-e799959f3772": "New Collection(1)",
+        "b7983ad0-f390-11ec-9e57-e799959f3772": "New Collection(2)",
+        "b7c16db0-f390-11ec-9e57-e799959f3772": "New Collection(3)",
+        "b7e98f20-f390-11ec-9e57-e799959f3772": "New Collection(4)"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "b3f41201-f390-11ec-9e57-e799959f3772"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "b3f41203-f390-11ec-9e57-e799959f3772"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "b3f41202-f390-11ec-9e57-e799959f3772"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v5.0",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2022-06-24T07:38:56.159Z",
+    "GUID": "b3f41200-f390-11ec-9e57-e799959f3772",
+    "isLineageEnabled": false,
+    "lastModifTS": "2022-06-30T12:58:48.756Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.2.1"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "b6714700-f390-11ec-9e57-e799959f3772",
+                        "x": 40,
+                        "y": 40,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "b739ee30-f390-11ec-9e57-e799959f3772",
+                        "x": 60,
+                        "y": 60,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "b7983ad0-f390-11ec-9e57-e799959f3772",
+                        "x": 80,
+                        "y": 80,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "b7c16db0-f390-11ec-9e57-e799959f3772",
+                        "x": 281,
+                        "y": 210,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "b7e98f20-f390-11ec-9e57-e799959f3772",
+                        "x": 165.9479768786127,
+                        "y": 377.5115606936416,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    }
+                ],
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

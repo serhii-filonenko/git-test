@@ -1,12 +1,67 @@
 {
     "modelName": "New Model",
-    "collections": [],
-    "buckets": [],
+    "collections": [
+        {
+            "collectionName": "New Collection",
+            "type": "object",
+            "properties": [
+                {
+                    "type": "string",
+                    "name": "^[a-zA-Z0-9_.-]+$",
+                    "isActivated": true,
+                    "GUID": "63912980-ebd2-11ec-bcc4-13c9727cb429",
+                    "sampleName": "",
+                    "isPatternField": true
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "617f6080-ebd2-11ec-bcc4-13c9727cb429"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "6177bf60-ebd2-11ec-bcc4-13c9727cb429",
+            "bucketId": "604aff30-ebd2-11ec-bcc4-13c9727cb429"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "New_Database",
+            "type": "bucket",
+            "collectionIds": [
+                "6177bf60-ebd2-11ec-bcc4-13c9727cb429"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "604aff30-ebd2-11ec-bcc4-13c9727cb429"
+        }
+    ],
     "views": [],
     "relationships": [],
     "users": [],
     "diagramViews": [],
-    "idToNameHashTable": {},
+    "idToNameHashTable": {
+        "604aff30-ebd2-11ec-bcc4-13c9727cb429": "New_Database",
+        "6177bf60-ebd2-11ec-bcc4-13c9727cb429": "New Collection",
+        "63912980-ebd2-11ec-bcc4-13c9727cb429": "^[a-zA-Z0-9_.-]+$"
+    },
     "definitions": {
         "type": "definitions",
         "properties": [],
@@ -30,21 +85,36 @@
     "creationTS": "2022-05-03T14:57:23.500Z",
     "GUID": "56debdd0-caf1-11ec-8df4-338f15f07728",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-11T12:44:55.952Z",
+    "lastModifTS": "2022-06-14T11:09:00.396Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.7"
+        "version": "6.1.3"
     },
     "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
-                "erd": [],
-                "buckets": [],
+                "erd": [
+                    {
+                        "GUID": "6177bf60-ebd2-11ec-bcc4-13c9727cb429",
+                        "x": 80,
+                        "y": 80,
+                        "width": 235,
+                        "height": 51,
+                        "color": {}
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": 40,
+                        "y": 40,
+                        "GUID": "604aff30-ebd2-11ec-bcc4-13c9727cb429"
+                    }
+                ],
                 "collapsedNodes": [],
                 "activeRelationship": "",
                 "activeRelationshipFields": {

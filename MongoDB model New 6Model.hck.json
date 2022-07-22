@@ -8,7 +8,7 @@
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "d5339050-c54e-11ec-9834-e3847002a45d"
+                "GUID": "dab89330-bbef-11ec-bfc2-e1cb2dc6811b"
             },
             "isActivated": true,
             "additionalProperties": false,
@@ -22,8 +22,11 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "d5334230-c54e-11ec-9834-e3847002a45d",
-            "bucketId": "d4f1cc60-c54e-11ec-9834-e3847002a45d"
+            "GUID": "dab81e00-bbef-11ec-bfc2-e1cb2dc6811b",
+            "bucketId": "da6f7c40-bbef-11ec-bfc2-e1cb2dc6811b",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "New Collection(1)",
@@ -32,7 +35,7 @@
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "00ae35e0-dd97-11ec-bc3a-d1009a63a4b0"
+                "GUID": "cb11d170-bfd3-11ec-ad85-975386b56fc8"
             },
             "isActivated": true,
             "additionalProperties": false,
@@ -46,15 +49,16 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "00adc0b0-dd97-11ec-bc3a-d1009a63a4b0"
+            "GUID": "cb118350-bfd3-11ec-ad85-975386b56fc8",
+            "bucketId": "caa35830-bfd3-11ec-ad85-975386b56fc8"
         }
     ],
     "buckets": [
         {
-            "name": "New_Database",
+            "name": "New_Data33base",
             "type": "bucket",
             "collectionIds": [
-                "d5334230-c54e-11ec-9834-e3847002a45d"
+                "dab81e00-bbef-11ec-bfc2-e1cb2dc6811b"
             ],
             "backgroundColor": {
                 "r": 187,
@@ -64,7 +68,23 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "d4f1cc60-c54e-11ec-9834-e3847002a45d"
+            "GUID": "da6f7c40-bbef-11ec-bfc2-e1cb2dc6811b"
+        },
+        {
+            "name": "New_Database",
+            "type": "bucket",
+            "collectionIds": [
+                "cb118350-bfd3-11ec-ad85-975386b56fc8"
+            ],
+            "backgroundColor": {
+                "r": 119,
+                "g": 119,
+                "b": 119,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "caa35830-bfd3-11ec-ad85-975386b56fc8"
         }
     ],
     "views": [],
@@ -72,41 +92,42 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "d4f1cc60-c54e-11ec-9834-e3847002a45d": "New_Database",
-        "d5334230-c54e-11ec-9834-e3847002a45d": "New Collection",
-        "00adc0b0-dd97-11ec-bc3a-d1009a63a4b0": "New Collection(1)"
+        "da6f7c40-bbef-11ec-bfc2-e1cb2dc6811b": "New_Database",
+        "dab81e00-bbef-11ec-bfc2-e1cb2dc6811b": "New Collection",
+        "caa35830-bfd3-11ec-ad85-975386b56fc8": "New_Database",
+        "cb118350-bfd3-11ec-ad85-975386b56fc8": "New Collection(1)"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "d32aef11-c54e-11ec-9834-e3847002a45d"
+        "GUID": "d834ce81-bbef-11ec-bfc2-e1cb2dc6811b"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "d32aef13-c54e-11ec-9834-e3847002a45d"
+        "GUID": "d834ce83-bbef-11ec-bfc2-e1cb2dc6811b"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "d32aef12-c54e-11ec-9834-e3847002a45d"
+        "GUID": "d834ce82-bbef-11ec-bfc2-e1cb2dc6811b"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v4.4",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-04-26T10:51:28.257Z",
-    "GUID": "d32aef10-c54e-11ec-9834-e3847002a45d",
+    "creationTS": "2022-04-14T12:38:54.055Z",
+    "GUID": "d834ce80-bbef-11ec-bfc2-e1cb2dc6811b",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-27T08:28:37.487Z",
+    "lastModifTS": "2022-06-01T11:32:05.747Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.1.0"
+        "version": "6.1.2"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -114,17 +135,19 @@
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "d5334230-c54e-11ec-9834-e3847002a45d",
-                        "x": 157,
-                        "y": 315,
+                        "GUID": "dab81e00-bbef-11ec-bfc2-e1cb2dc6811b",
+                        "x": 80,
+                        "y": 222,
                         "width": 240,
                         "height": 100,
-                        "color": {}
+                        "color": {
+                            "hex": "#39ff14"
+                        }
                     },
                     {
-                        "GUID": "00adc0b0-dd97-11ec-bc3a-d1009a63a4b0",
-                        "x": 40,
-                        "y": 40,
+                        "GUID": "cb118350-bfd3-11ec-ad85-975386b56fc8",
+                        "x": 303,
+                        "y": 171,
                         "width": 240,
                         "height": 100,
                         "color": {}
@@ -132,9 +155,14 @@
                 ],
                 "buckets": [
                     {
-                        "x": 117,
-                        "y": 275,
-                        "GUID": "d4f1cc60-c54e-11ec-9834-e3847002a45d"
+                        "x": 40,
+                        "y": 182,
+                        "GUID": "da6f7c40-bbef-11ec-bfc2-e1cb2dc6811b"
+                    },
+                    {
+                        "x": 263,
+                        "y": 131,
+                        "GUID": "caa35830-bfd3-11ec-ad85-975386b56fc8"
                     }
                 ],
                 "collapsedNodes": [],

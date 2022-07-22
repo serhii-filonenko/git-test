@@ -2,13 +2,13 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "3333h3333332333111",
+            "collectionName": "New Collecti3on",
             "type": "object",
             "properties": [],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "2aed0690-cade-11ec-9928-25e7831cc95d"
+                "GUID": "549bdbd0-d059-11ec-9882-d93673793bdf"
             },
             "isActivated": true,
             "additionalProperties": false,
@@ -22,8 +22,31 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "2aecb870-cade-11ec-9928-25e7831cc95d",
-            "bucketId": "2aa660a0-cade-11ec-9928-25e7831cc95d"
+            "GUID": "549b66a0-d059-11ec-9882-d93673793bdf",
+            "bucketId": "544445f0-d059-11ec-9882-d93673793bdf"
+        },
+        {
+            "collectionName": "New Collection(1)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "fb3b0e40-db79-11ec-8333-7f101002cca6"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "fb3ac020-db79-11ec-8333-7f101002cca6"
         }
     ],
     "buckets": [
@@ -31,7 +54,7 @@
             "name": "New_Database",
             "type": "bucket",
             "collectionIds": [
-                "2aecb870-cade-11ec-9928-25e7831cc95d"
+                "549b66a0-d059-11ec-9882-d93673793bdf"
             ],
             "backgroundColor": {
                 "r": 187,
@@ -41,7 +64,7 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "2aa660a0-cade-11ec-9928-25e7831cc95d"
+            "GUID": "544445f0-d059-11ec-9882-d93673793bdf"
         }
     ],
     "views": [],
@@ -49,40 +72,41 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "2aa660a0-cade-11ec-9928-25e7831cc95d": "New_Database",
-        "2aecb870-cade-11ec-9928-25e7831cc95d": "New Collection"
+        "544445f0-d059-11ec-9882-d93673793bdf": "New_Database",
+        "549b66a0-d059-11ec-9882-d93673793bdf": "New Collection",
+        "fb3ac020-db79-11ec-8333-7f101002cca6": "New Collection(1)"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "290c1191-cade-11ec-9928-25e7831cc95d"
+        "GUID": "5329fc51-d059-11ec-9882-d93673793bdf"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "290c1193-cade-11ec-9928-25e7831cc95d"
+        "GUID": "5329fc53-d059-11ec-9882-d93673793bdf"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "290c1192-cade-11ec-9928-25e7831cc95d"
+        "GUID": "5329fc52-d059-11ec-9882-d93673793bdf"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v4.4",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-05-03T12:40:06.184Z",
-    "GUID": "290c1190-cade-11ec-9928-25e7831cc95d",
+    "creationTS": "2022-05-10T12:04:20.756Z",
+    "GUID": "5329fc50-d059-11ec-9882-d93673793bdf",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-03T14:52:02.364Z",
+    "lastModifTS": "2022-05-24T15:55:50.765Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.0.6"
+        "version": "6.1.0"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -90,9 +114,17 @@
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "2aecb870-cade-11ec-9928-25e7831cc95d",
-                        "x": 210,
-                        "y": 365,
+                        "GUID": "549b66a0-d059-11ec-9882-d93673793bdf",
+                        "x": 80,
+                        "y": 80,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "fb3ac020-db79-11ec-8333-7f101002cca6",
+                        "x": 40,
+                        "y": 40,
                         "width": 240,
                         "height": 100,
                         "color": {}
@@ -100,9 +132,9 @@
                 ],
                 "buckets": [
                     {
-                        "x": 170,
-                        "y": 325,
-                        "GUID": "2aa660a0-cade-11ec-9928-25e7831cc95d"
+                        "x": 40,
+                        "y": 40,
+                        "GUID": "544445f0-d059-11ec-9882-d93673793bdf"
                     }
                 ],
                 "collapsedNodes": [],

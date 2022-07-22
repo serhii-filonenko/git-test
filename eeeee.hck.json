@@ -14,7 +14,21 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "619cac10-f39f-11ec-8bb4-d522f0e6b0b1"
+            "GUID": "b4edc860-f39d-11ec-87e0-691ce2c3b572"
+        },
+        {
+            "name": "New_Database(1)",
+            "type": "bucket",
+            "collectionIds": [],
+            "backgroundColor": {
+                "r": 0,
+                "g": 138,
+                "b": 0,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "c953f360-f39d-11ec-9f61-cfca9388e9e2"
         }
     ],
     "views": [],
@@ -22,32 +36,33 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "619cac10-f39f-11ec-8bb4-d522f0e6b0b1": "New_Database"
+        "b4edc860-f39d-11ec-87e0-691ce2c3b572": "New_Database",
+        "c953f360-f39d-11ec-9f61-cfca9388e9e2": "New_Database(1)"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "602ec430-f39f-11ec-8bb4-d522f0e6b0b1"
+        "GUID": "914424e0-f39d-11ec-94c4-ed0104ffa54c"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "602ec432-f39f-11ec-8bb4-d522f0e6b0b1"
+        "GUID": "914424e2-f39d-11ec-94c4-ed0104ffa54c"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "602ec431-f39f-11ec-8bb4-d522f0e6b0b1"
+        "GUID": "914424e1-f39d-11ec-94c4-ed0104ffa54c"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v5.0",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-06-24T09:23:58.066Z",
-    "GUID": "602e9d20-f39f-11ec-8bb4-d522f0e6b0b1",
+    "creationTS": "2022-06-24T09:11:01.421Z",
+    "GUID": "9143fdd0-f39d-11ec-94c4-ed0104ffa54c",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-24T09:24:51.568Z",
+    "lastModifTS": "2022-07-01T10:56:34.533Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -63,9 +78,14 @@
                 "erd": [],
                 "buckets": [
                     {
-                        "x": 147,
+                        "x": 222.9922841647571,
                         "y": 40,
-                        "GUID": "619cac10-f39f-11ec-8bb4-d522f0e6b0b1"
+                        "GUID": "b4edc860-f39d-11ec-87e0-691ce2c3b572"
+                    },
+                    {
+                        "x": 226.2797202797202,
+                        "y": 680.1118881118884,
+                        "GUID": "c953f360-f39d-11ec-9f61-cfca9388e9e2"
                     }
                 ],
                 "collapsedNodes": [],

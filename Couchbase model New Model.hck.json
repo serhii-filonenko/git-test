@@ -3,7 +3,7 @@
     "collections": [],
     "buckets": [
         {
-            "name": "New_Database",
+            "name": "New Bucket",
             "type": "bucket",
             "collectionIds": [],
             "backgroundColor": {
@@ -14,7 +14,41 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "619cac10-f39f-11ec-8bb4-d522f0e6b0b1"
+            "keyType": "string",
+            "bucketType": "Couchbase",
+            "ramQuota": 100,
+            "cacheMetadata": "Value ejection",
+            "accessControl": "Standart port",
+            "password": "123",
+            "conflictResolution": "Sequence number",
+            "replicasNumber": 1,
+            "bucketIOPriority": "Low (Default)",
+            "GUID": "29c44140-f39f-11ec-b15b-8916bd8192fe",
+            "passwordProtected": false,
+            "isValidJson": true,
+            "selectedFields": [],
+            "selectedField": "",
+            "showSpinner": false,
+            "isStaticSpinner": false,
+            "isRootReferenceSelectedField": false,
+            "changedKeys": {
+                "newValue": ""
+            },
+            "tags": [],
+            "capacityMode": "Provisioned",
+            "multiModelSelectedFields": {},
+            "selectedModel": null,
+            "enableNormalization": "Normalize complex data types in separate entities",
+            "position": {
+                "width": 900,
+                "height": 655
+            },
+            "as": "",
+            "localField": "",
+            "fromCollection": "",
+            "foreignField": "",
+            "customValue": "",
+            "documentKindType": "string"
         }
     ],
     "views": [],
@@ -22,32 +56,32 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "619cac10-f39f-11ec-8bb4-d522f0e6b0b1": "New_Database"
+        "29c44140-f39f-11ec-b15b-8916bd8192fe": "New Bucket"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "602ec430-f39f-11ec-8bb4-d522f0e6b0b1"
+        "GUID": "018250f1-f39f-11ec-9f61-cfca9388e9e2"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "602ec432-f39f-11ec-8bb4-d522f0e6b0b1"
+        "GUID": "018250f3-f39f-11ec-9f61-cfca9388e9e2"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "602ec431-f39f-11ec-8bb4-d522f0e6b0b1"
+        "GUID": "018250f2-f39f-11ec-9f61-cfca9388e9e2"
     },
     "sources": [],
     "decorativeSymbols": [],
-    "dbVersion": "v5.0",
-    "dbVendor": "MongoDB",
-    "appTarget": "MONGODB",
-    "creationTS": "2022-06-24T09:23:58.066Z",
-    "GUID": "602e9d20-f39f-11ec-8bb4-d522f0e6b0b1",
+    "dbVendor": "Couchbase",
+    "dbVersion": "v6.0",
+    "appTarget": "COUCHBASE",
+    "creationTS": "2022-06-24T09:21:19.230Z",
+    "GUID": "018250f0-f39f-11ec-9f61-cfca9388e9e2",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-24T09:24:51.568Z",
+    "lastModifTS": "2022-07-04T08:36:05.976Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -63,9 +97,9 @@
                 "erd": [],
                 "buckets": [
                     {
-                        "x": 147,
-                        "y": 40,
-                        "GUID": "619cac10-f39f-11ec-8bb4-d522f0e6b0b1"
+                        "x": 133,
+                        "y": 489,
+                        "GUID": "29c44140-f39f-11ec-b15b-8916bd8192fe"
                     }
                 ],
                 "collapsedNodes": [],
