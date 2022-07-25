@@ -92,7 +92,7 @@
             "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
         },
         {
-            "collectionName": "review_collec333tion",
+            "collectionName": "rer",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -155,7 +155,7 @@
         "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database",
         "3ba8efc0-ebc3-11ec-a267-99e3da4adb47": "ssssssss",
-        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "2"
+        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "rer"
     },
     "definitions": {
         "type": "definitions",
@@ -180,14 +180,14 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-07-08T13:13:11.744Z",
+    "lastModifTS": "2022-07-25T12:46:18.636Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.3"
+        "version": "6.2.4"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -206,9 +206,9 @@
                     },
                     {
                         "GUID": "40ef7df0-ebc3-11ec-a267-99e3da4adb47",
-                        "x": 426,
-                        "y": 377,
-                        "width": 129,
+                        "x": 40,
+                        "y": 85.1412159269301,
+                        "width": 139,
                         "height": 100,
                         "color": {
                             "hex": "#39ff14"
