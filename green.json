@@ -4,41 +4,7 @@
         {
             "collectionName": "tyu",
             "type": "object",
-            "properties": [
-                {
-                    "name": "New Field",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "string",
-                    "GUID": "a9388c10-b65a-11ec-9e9d-53b42d995aff",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
-                },
-                {
-                    "name": "New Field(1)",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "string",
-                    "GUID": "aa046790-b65a-11ec-9e9d-53b42d995aff",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
-                },
-                {
-                    "name": "New Field(2)",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "string",
-                    "GUID": "aa70bdf0-b65a-11ec-9e9d-53b42d995aff",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
-                }
-            ],
+            "properties": [],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
@@ -87,10 +53,7 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "f29336d0-af3e-11ec-9abb-1d3438e97bdf": "New_Database",
-        "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf": "o",
-        "a9388c10-b65a-11ec-9e9d-53b42d995aff": "New Field",
-        "aa046790-b65a-11ec-9e9d-53b42d995aff": "New Field(1)",
-        "aa70bdf0-b65a-11ec-9e9d-53b42d995aff": "New Field(2)"
+        "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf": "o"
     },
     "definitions": {
         "type": "definitions",
@@ -115,14 +78,14 @@
     "creationTS": "2022-03-29T09:02:21.596Z",
     "GUID": "f17ce4d0-af3e-11ec-9abb-1d3438e97bdf",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-05-27T08:42:04.442Z",
+    "lastModifTS": "2022-08-04T08:31:20.904Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.1.0"
+        "version": "6.3.0"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -133,9 +96,11 @@
                         "GUID": "f2d7e0f0-af3e-11ec-9abb-1d3438e97bdf",
                         "x": 116,
                         "y": 252,
-                        "width": 187,
-                        "height": 87,
-                        "color": {}
+                        "width": 140,
+                        "height": 33,
+                        "color": {
+                            "hex": "#3f51b5"
+                        }
                     }
                 ],
                 "buckets": [
