@@ -94,7 +94,41 @@
         {
             "collectionName": "rer",
             "type": "object",
-            "properties": [],
+            "properties": [
+                {
+                    "name": "New Field",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "fafc7260-14c3-11ed-8cf7-09d782c15505",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "New Field(1)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "fba2eb90-14c3-11ed-8cf7-09d782c15505",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "New Field(2)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "fc2c18c0-14c3-11ed-8cf7-09d782c15505",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
@@ -155,7 +189,10 @@
         "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database",
         "3ba8efc0-ebc3-11ec-a267-99e3da4adb47": "ssssssss",
-        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "rer"
+        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "rer",
+        "fafc7260-14c3-11ed-8cf7-09d782c15505": "New Field",
+        "fba2eb90-14c3-11ed-8cf7-09d782c15505": "New Field(1)",
+        "fc2c18c0-14c3-11ed-8cf7-09d782c15505": "New Field(2)"
     },
     "definitions": {
         "type": "definitions",
@@ -180,14 +217,14 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-07-25T12:46:18.636Z",
+    "lastModifTS": "2022-08-05T13:39:11.298Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.4"
+        "version": "6.3.1"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -208,8 +245,8 @@
                         "GUID": "40ef7df0-ebc3-11ec-a267-99e3da4adb47",
                         "x": 40,
                         "y": 85.1412159269301,
-                        "width": 139,
-                        "height": 100,
+                        "width": 187,
+                        "height": 87,
                         "color": {
                             "hex": "#39ff14"
                         }
