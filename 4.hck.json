@@ -59,7 +59,7 @@
             "GUID": "40ef7df0-ebc3-11ec-a267-99e3da4adb47"
         },
         {
-            "collectionName": "333",
+            "collectionName": "5555555",
             "type": "object",
             "properties": [
                 {
@@ -220,7 +220,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-08-10T12:27:48.278Z",
+    "lastModifTS": "2022-08-10T12:29:07.050Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
