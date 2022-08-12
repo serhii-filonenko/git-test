@@ -3,7 +3,7 @@
     "collections": [],
     "buckets": [
         {
-            "name": "New 111",
+            "name": "5555 Bucket",
             "type": "bucket",
             "collectionIds": [],
             "backgroundColor": {
@@ -56,7 +56,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "29c44140-f39f-11ec-b15b-8916bd8192fe": "New 111"
+        "29c44140-f39f-11ec-b15b-8916bd8192fe": "New Bucket"
     },
     "definitions": {
         "type": "definitions",
@@ -81,14 +81,14 @@
     "creationTS": "2022-06-24T09:21:19.230Z",
     "GUID": "018250f0-f39f-11ec-9f61-cfca9388e9e2",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-08-12T13:30:29.602Z",
+    "lastModifTS": "2022-07-25T12:45:44.449Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.3.1"
+        "version": "6.2.4"
     },
     "hackoladeMeta": {},
     "settings": {
