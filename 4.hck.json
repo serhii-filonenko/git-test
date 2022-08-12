@@ -2,7 +2,68 @@
     "modelName": "New Model",
     "collections": [
         {
+<<<<<<< HEAD
             "collectionName": "11111",
+=======
+            "collectionName": "www11111111",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "New Field",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "fafc7260-14c3-11ed-8cf7-09d782c15505",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "New Field(1)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "fba2eb90-14c3-11ed-8cf7-09d782c15505",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "New Field(2)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "fc2c18c0-14c3-11ed-8cf7-09d782c15505",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "40eff320-ebc3-11ec-a267-99e3da4adb47"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "c2a91bd2-04f1-413a-a28b-928ee72ac018"
+        },
+        {
+            "collectionName": "ddddddddddddddd",
+>>>>>>> origin/master
             "type": "object",
             "properties": [
                 {
@@ -136,6 +197,10 @@
                 "1e6f42f0-b744-11ec-a602-13b071bb7a27",
                 "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
                 "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
+                "40ef7df0-ebc3-11ec-a267-99e3da4adb47",
+                "1e6f42f0-b744-11ec-a602-13b071bb7a27",
+                "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
+                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
                 "40ef7df0-ebc3-11ec-a267-99e3da4adb47"
             ],
             "backgroundColor": {
@@ -157,7 +222,10 @@
         "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database",
         "3ba8efc0-ebc3-11ec-a267-99e3da4adb47": "ssssssss",
-        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "rer"
+        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "rer",
+        "fafc7260-14c3-11ed-8cf7-09d782c15505": "New Field",
+        "fba2eb90-14c3-11ed-8cf7-09d782c15505": "New Field(1)",
+        "fc2c18c0-14c3-11ed-8cf7-09d782c15505": "New Field(2)"
     },
     "definitions": {
         "type": "definitions",
@@ -182,7 +250,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-08-10T11:38:49.712Z",
+    "lastModifTS": "2022-08-11T12:50:12.787Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -198,29 +266,29 @@
                 "erd": [
                     {
                         "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                        "x": 137.86763236763232,
-                        "y": 511.29770229770224,
-                        "width": 233,
+                        "x": 121.86763236763232,
+                        "y": 570.2977022977022,
+                        "width": 164,
                         "height": 51,
                         "color": {
-                            "hex": "#39ff14"
+                            "hex": "#fec107"
                         }
                     },
                     {
                         "GUID": "40ef7df0-ebc3-11ec-a267-99e3da4adb47",
-                        "x": 95,
-                        "y": 598.14121592693,
+                        "x": 236,
+                        "y": 242.14121592693004,
                         "width": 139,
                         "height": 100,
                         "color": {
-                            "hex": "#355e3b"
+                            "hex": "#3f51b5"
                         }
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 55,
-                        "y": 471.29770229770224,
+                        "x": 81.86763236763232,
+                        "y": 202.14121592693004,
                         "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
                     }
                 ],
