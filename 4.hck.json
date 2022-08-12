@@ -2,6 +2,9 @@
     "modelName": "New Model",
     "collections": [
         {
+<<<<<<< HEAD
+            "collectionName": "11111",
+=======
             "collectionName": "www11111111",
             "type": "object",
             "properties": [
@@ -60,6 +63,7 @@
         },
         {
             "collectionName": "ddddddddddddddd",
+>>>>>>> origin/master
             "type": "object",
             "properties": [
                 {
