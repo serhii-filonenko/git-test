@@ -59,7 +59,7 @@
             "GUID": "c2a91bd2-04f1-413a-a28b-928ee72ac018"
         },
         {
-            "collectionName": "rty",
+            "collectionName": "aaaaaa",
             "type": "object",
             "properties": [
                 {
@@ -89,7 +89,9 @@
                 "collation": "null"
             },
             "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-            "hackoladeMeta": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
             "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
         },
         {
@@ -213,7 +215,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "rty",
+        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
         "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database",
         "3ba8efc0-ebc3-11ec-a267-99e3da4adb47": "ssssssss",
         "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "rer",
@@ -244,7 +246,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-08-12T14:13:23.857Z",
+    "lastModifTS": "2022-08-11T12:50:12.787Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
