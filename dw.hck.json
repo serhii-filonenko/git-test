@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Colle3cti33on",
+            "collectionName": "Ne111w Colle3ction",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -176,14 +176,14 @@
     "creationTS": "2022-06-24T07:38:56.159Z",
     "GUID": "b3f41200-f390-11ec-9e57-e799959f3772",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-08-15T11:24:50.900Z",
+    "lastModifTS": "2022-07-08T13:14:20.741Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.3.1"
+        "version": "6.2.3"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -240,15 +240,25 @@
                     }
                 ],
                 "buckets": [],
-                "diagramViews": [],
-                "decorativeSymbols": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                }
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
             },
             "collectionLevel": {},
             "changed": false
