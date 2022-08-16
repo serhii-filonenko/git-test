@@ -2,7 +2,11 @@
     "modelName": "New",
     "collections": [
         {
+<<<<<<< HEAD
             "collectionName": "qwerty",
+=======
+            "collectionName": "master",
+>>>>>>> origin/master
             "type": "object",
             "properties": [
                 {
