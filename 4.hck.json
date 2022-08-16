@@ -2,7 +2,11 @@
     "modelName": "New",
     "collections": [
         {
+<<<<<<< HEAD
             "collectionName": "3555",
+=======
+            "collectionName": "z22212",
+>>>>>>> origin/master
             "type": "object",
             "properties": [
                 {
