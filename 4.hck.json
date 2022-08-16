@@ -2,8 +2,12 @@
     "modelName": "New",
     "collections": [
         {
+<<<<<<< HEAD
             "collectionName": "111",
 
+=======
+            "collectionName": "2",
+>>>>>>> origin/master
             "type": "object",
             "properties": [
                 {
