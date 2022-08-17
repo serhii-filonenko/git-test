@@ -2,7 +2,7 @@
     "modelName": "New",
     "collections": [
         {
-            "collectionName": "m11313231a",
+            "collectionName": "qe",
             "type": "object",
             "properties": [
                 {
@@ -200,7 +200,7 @@
                 "40ef7df0-ebc3-11ec-a267-99e3da4adb47"
             ],
             "backgroundColor": {
-                "r": 222,
+                "r": 187,
                 "g": 187,
                 "b": 187,
                 "a": 1
