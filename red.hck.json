@@ -2,7 +2,7 @@
     "modelName": "New Model",
     "collections": [
         {
-            "collectionName": "New Documefffffffffffffffnt",
+            "collectionName": "NewrqrqrqrDocument",
             "type": "object",
             "properties": [],
             "definitions": {
@@ -13,9 +13,7 @@
             "isActivated": true,
             "additionalProperties": false,
             "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
+            "hackoladeMeta": {},
             "bucketId": "37303400-bc0f-11ec-b186-43299b9e10a6"
         }
     ],
@@ -54,7 +52,7 @@
     "idToNameHashTable": {
         "37303400-bc0f-11ec-b186-43299b9e10a6": "New Group",
         "3779c020-bc0f-11ec-b186-43299b9e10a6": "New Relationship",
-        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "New Document"
+        "37e971e0-bc0f-11ec-b186-43299b9e10a6": "NewrqrqrqrDocument"
     },
     "definitions": {
         "type": "definitions",
@@ -79,14 +77,14 @@
     "creationTS": "2022-04-14T16:23:26.312Z",
     "GUID": "364bee80-bc0f-11ec-b186-43299b9e10a6",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-07-08T13:34:54.714Z",
+    "lastModifTS": "2022-08-17T07:57:57.058Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.3"
+        "version": "6.3.1"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -97,7 +95,7 @@
                         "GUID": "37e971e0-bc0f-11ec-b186-43299b9e10a6",
                         "x": 158.69503546099293,
                         "y": 339.37588652482276,
-                        "width": 240,
+                        "width": 248,
                         "height": 100,
                         "color": {
                             "hex": "#d80073"
