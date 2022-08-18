@@ -2,7 +2,11 @@
     "modelName": "New",
     "collections": [
         {
+<<<<<<< HEAD
+            "collectionName": "rwwwrr",
+=======
             "collectionName": "1",
+>>>>>>> origin/master
             "type": "object",
             "properties": [
                 {
@@ -59,7 +63,7 @@
             "GUID": "c2a91bd2-04f1-413a-a28b-928ee72ac018"
         },
         {
-            "collectionName": "ggggg",
+            "collectionName": "aaaa33333332323aa",
             "type": "object",
             "properties": [
                 {
@@ -246,14 +250,14 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-08-11T12:50:12.787Z",
+    "lastModifTS": "2022-08-17T11:16:32.118Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.3.1"
+        "version": "6.4.0"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -264,10 +268,10 @@
                         "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
                         "x": 121.86763236763232,
                         "y": 570.2977022977022,
-                        "width": 164,
-                        "height": 51,
+                        "width": 426,
+                        "height": 126,
                         "color": {
-                            "hex": "#fec107"
+                            "hex": "#a73939"
                         }
                     },
                     {
