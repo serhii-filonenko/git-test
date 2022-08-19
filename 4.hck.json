@@ -2,79 +2,30 @@
     "modelName": "New",
     "collections": [
         {
-            "collectionName": "1",
+            "collectionName": "users",
             "type": "object",
             "properties": [
                 {
-                    "name": "New Field",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "string",
-                    "GUID": "fafc7260-14c3-11ed-8cf7-09d782c15505",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
+                    "GUID": "1a041167-ad32-4614-9d4a-cbec6377f4fc",
+                    "name": "first_name",
+                    "error": {}
                 },
                 {
-                    "name": "New Field(12)",
+                    "name": "last_name",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "string",
-                    "GUID": "fba2eb90-14c3-11ed-8cf7-09d782c15505",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
-                },
-                {
-                    "name": "New Fi3333333111333333eld(2)",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "string",
-                    "GUID": "fc2c18c0-14c3-11ed-8cf7-09d782c15505",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "40eff320-ebc3-11ec-a267-99e3da4adb47"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "c2a91bd2-04f1-413a-a28b-928ee72ac018"
-        },
-        {
-            "collectionName": "ggggg",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "ssssssss",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "string",
-                    "GUID": "3ba8efc0-ebc3-11ec-a267-99e3da4adb47",
+                    "GUID": "99b8d2b1-488c-4f3f-b3e7-7e31c7af884c",
                     "error": {}
                 }
             ],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "1e6fb820-b744-11ec-a602-13b071bb7a27"
+                "GUID": "102c2790-cbbd-4ee0-be24-9049b4c44764"
             },
             "isActivated": true,
             "additionalProperties": false,
@@ -88,126 +39,26 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
-            "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
-        },
-        {
-            "collectionName": "33233332222",
-            "type": "object",
-            "properties": [],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "1e6fb820-b744-11ec-a602-13b071bb7a27"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
-            "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
-        },
-        {
-            "collectionName": "13k11",
-            "type": "object",
-            "properties": [],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "1e6fb820-b744-11ec-a602-13b071bb7a27"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
-            "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
-        },
-        {
-            "collectionName": "rer",
-            "type": "object",
-            "properties": [],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "40eff320-ebc3-11ec-a267-99e3da4adb47"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "40ef7df0-ebc3-11ec-a267-99e3da4adb47",
-            "bucketId": "1edbe770-b744-11ec-a602-13b071bb7a27"
+            "GUID": "1126c0d5-cc64-4074-9253-4c9a4024003b",
+            "bucketId": "f567ee12-132b-4e0b-b880-d3b71ea5b391"
         }
     ],
     "buckets": [
         {
-            "name": "New_Database",
+            "name": "employes",
             "type": "bucket",
             "collectionIds": [
-                "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
-                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
-                "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
-                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
-                "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
-                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
-                "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
-                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
-                "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
-                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
-                "40ef7df0-ebc3-11ec-a267-99e3da4adb47",
-                "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                "25e25d59-bfc4-11ec-b8e2-f7ae940971fc",
-                "027ad349-bfc1-11ec-8c03-3d7dfa2a6e01",
-                "40ef7df0-ebc3-11ec-a267-99e3da4adb47"
+                "1126c0d5-cc64-4074-9253-4c9a4024003b"
             ],
             "backgroundColor": {
-                "r": 187,
-                "g": 187,
-                "b": 187,
+                "r": 216,
+                "g": 0,
+                "b": 115,
                 "a": 1
             },
             "show": true,
             "isActivated": true,
-            "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
+            "GUID": "f567ee12-132b-4e0b-b880-d3b71ea5b391"
         }
     ],
     "views": [],
@@ -215,13 +66,10 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "1e6f42f0-b744-11ec-a602-13b071bb7a27": "333333f",
-        "1edbe770-b744-11ec-a602-13b071bb7a27": "New_Database",
-        "3ba8efc0-ebc3-11ec-a267-99e3da4adb47": "ssssssss",
-        "40ef7df0-ebc3-11ec-a267-99e3da4adb47": "rer",
-        "fafc7260-14c3-11ed-8cf7-09d782c15505": "New Field",
-        "fba2eb90-14c3-11ed-8cf7-09d782c15505": "New Field(1)",
-        "fc2c18c0-14c3-11ed-8cf7-09d782c15505": "New Field(2)"
+        "f567ee12-132b-4e0b-b880-d3b71ea5b391": "employes",
+        "1126c0d5-cc64-4074-9253-4c9a4024003b": "users",
+        "1a041167-ad32-4614-9d4a-cbec6377f4fc": "first_name",
+        "99b8d2b1-488c-4f3f-b3e7-7e31c7af884c": "last_name"
     },
     "definitions": {
         "type": "definitions",
@@ -246,14 +94,14 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-08-11T12:50:12.787Z",
+    "lastModifTS": "2022-08-19T08:22:35.695Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.3.1"
+        "version": "6.4.1"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -261,31 +109,21 @@
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "1e6f42f0-b744-11ec-a602-13b071bb7a27",
-                        "x": 121.86763236763232,
-                        "y": 570.2977022977022,
-                        "width": 164,
-                        "height": 51,
+                        "GUID": "1126c0d5-cc64-4074-9253-4c9a4024003b",
+                        "x": 80,
+                        "y": 80,
+                        "width": 178,
+                        "height": 69,
                         "color": {
-                            "hex": "#fec107"
-                        }
-                    },
-                    {
-                        "GUID": "40ef7df0-ebc3-11ec-a267-99e3da4adb47",
-                        "x": 236,
-                        "y": 242.14121592693004,
-                        "width": 139,
-                        "height": 100,
-                        "color": {
-                            "hex": "#3f51b5"
+                            "hex": "#39ff14"
                         }
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 81.86763236763232,
-                        "y": 202.14121592693004,
-                        "GUID": "1edbe770-b744-11ec-a602-13b071bb7a27"
+                        "x": 40,
+                        "y": 40,
+                        "GUID": "f567ee12-132b-4e0b-b880-d3b71ea5b391"
                     }
                 ],
                 "collapsedNodes": [],
