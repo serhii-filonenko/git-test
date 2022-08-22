@@ -1,9 +1,9 @@
 {
-    "modelName": "New Mod333el",
+    "modelName": "New Model",
     "collections": [],
     "buckets": [
         {
-            "name": "4",
+            "name": "New_Database",
             "type": "bucket",
             "collectionIds": [],
             "backgroundColor": {
@@ -14,7 +14,7 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "619cac10-f39f-11ec-8bb4-d522f0e6b0b1"
+            "GUID": "f94fde6c-36b5-480c-871e-ccbdc88e143c"
         }
     ],
     "views": [],
@@ -22,50 +22,49 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "619cac10-f39f-11ec-8bb4-d522f0e6b0b1": "New_Database"
+        "f94fde6c-36b5-480c-871e-ccbdc88e143c": "New_Database"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "602ec430-f39f-11ec-8bb4-d522f0e6b0b1"
+        "GUID": "a1784346-3838-49de-ad39-e8d1f9ddf82b"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "602ec432-f39f-11ec-8bb4-d522f0e6b0b1"
+        "GUID": "3090e02b-a314-454e-abeb-c590e9b2b84d"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "602ec431-f39f-11ec-8bb4-d522f0e6b0b1"
+        "GUID": "5a880ae4-dc28-4b78-830b-6f119576ff7a"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "v5.0",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-06-24T09:23:58.066Z",
-    "GUID": "602e9d20-f39f-11ec-8bb4-d522f0e6b0b1",
+    "creationTS": "2022-08-22T09:18:24.095Z",
+    "GUID": "c0288ae1-444a-4341-b6d7-b4efb6a9163b",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-24T09:24:51.568Z",
+    "lastModifTS": "2022-08-22T09:18:27.716Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.1"
+        "version": "6.4.1"
     },
-    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [],
                 "buckets": [
                     {
-                        "x": 147,
+                        "x": 40,
                         "y": 40,
-                        "GUID": "619cac10-f39f-11ec-8bb4-d522f0e6b0b1"
+                        "GUID": "f94fde6c-36b5-480c-871e-ccbdc88e143c"
                     }
                 ],
                 "collapsedNodes": [],
