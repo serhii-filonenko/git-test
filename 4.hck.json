@@ -2,7 +2,7 @@
     "modelName": "New",
     "collections": [
         {
-            "collectionName": "zqweee",
+            "collectionName": "zqwe131313ee",
             "type": "object",
             "properties": [
                 {
@@ -67,7 +67,7 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "f567ee12-132b-4e0b-b880-d3b71ea5b391": "employes",
-        "1126c0d5-cc64-4074-9253-4c9a4024003b": "users",
+        "1126c0d5-cc64-4074-9253-4c9a4024003b": "zqwe131313ee",
         "1a041167-ad32-4614-9d4a-cbec6377f4fc": "first_name",
         "99b8d2b1-488c-4f3f-b3e7-7e31c7af884c": "last_name"
     },
@@ -94,7 +94,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-08-19T10:35:38.938Z",
+    "lastModifTS": "2022-08-22T08:17:59.230Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -112,7 +112,7 @@
                         "GUID": "1126c0d5-cc64-4074-9253-4c9a4024003b",
                         "x": 112,
                         "y": 272,
-                        "width": 178,
+                        "width": 206,
                         "height": 69,
                         "color": {
                             "hex": "#39ff14"
