@@ -14,7 +14,7 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "f94fde6c-36b5-480c-871e-ccbdc88e143c"
+            "GUID": "ed0da5c4-dc17-4106-9a44-cbcec489a2ab"
         }
     ],
     "views": [],
@@ -22,32 +22,32 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "f94fde6c-36b5-480c-871e-ccbdc88e143c": "New_Database"
+        "ed0da5c4-dc17-4106-9a44-cbcec489a2ab": "New_Database"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "a1784346-3838-49de-ad39-e8d1f9ddf82b"
+        "GUID": "d0c1c3cf-ce41-43d9-a93c-4bd266985030"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "3090e02b-a314-454e-abeb-c590e9b2b84d"
+        "GUID": "d0502c7c-01e0-4099-810c-44f6fe69100f"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "5a880ae4-dc28-4b78-830b-6f119576ff7a"
+        "GUID": "65a90fe6-bc55-4c66-9766-dac2152f63fc"
     },
     "sources": [],
     "decorativeSymbols": [],
-    "dbVersion": "v5.0",
+    "dbVersion": "2019-09",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-08-22T09:18:24.095Z",
-    "GUID": "c0288ae1-444a-4341-b6d7-b4efb6a9163b",
+    "creationTS": "2022-08-22T09:18:55.851Z",
+    "GUID": "5297b3d8-7ad0-47ab-949d-8989e9f51169",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-08-22T09:18:27.716Z",
+    "lastModifTS": "2022-08-22T09:18:59.391Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -64,7 +64,7 @@
                     {
                         "x": 40,
                         "y": 40,
-                        "GUID": "f94fde6c-36b5-480c-871e-ccbdc88e143c"
+                        "GUID": "ed0da5c4-dc17-4106-9a44-cbcec489a2ab"
                     }
                 ],
                 "collapsedNodes": [],
