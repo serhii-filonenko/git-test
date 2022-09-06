@@ -2,7 +2,11 @@
     "modelName": "New",
     "collections": [
         {
+<<<<<<< HEAD
             "collectionName": "users45",
+=======
+            "collectionName": "us54545",
+>>>>>>> origin/master
             "type": "object",
             "properties": [
                 {
@@ -91,7 +95,7 @@
     "dbVersion": "v4.4",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2022-04-08T13:59:31.805Z",
+    "creationTS": "2022-04-04T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
     "lastModifTS": "2041-06-02T12:53:01.000Z",
