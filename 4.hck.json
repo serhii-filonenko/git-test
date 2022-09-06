@@ -2,11 +2,7 @@
     "modelName": "New",
     "collections": [
         {
-<<<<<<< HEAD
-            "collectionName": "users45",
-=======
-            "collectionName": "us54545",
->>>>>>> origin/master
+            "collectionName": "2",
             "type": "object",
             "properties": [
                 {
@@ -71,7 +67,7 @@
     "diagramViews": [],
     "idToNameHashTable": {
         "f567ee12-132b-4e0b-b880-d3b71ea5b391": "employes",
-        "1126c0d5-cc64-4074-9253-4c9a4024003b": "users",
+        "1126c0d5-cc64-4074-9253-4c9a4024003b": "2",
         "1a041167-ad32-4614-9d4a-cbec6377f4fc": "first_name",
         "99b8d2b1-488c-4f3f-b3e7-7e31c7af884c": "last_name"
     },
@@ -98,14 +94,14 @@
     "creationTS": "2022-04-04T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2041-06-02T12:53:01.000Z",
+    "lastModifTS": "2022-09-06T07:50:28.293Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.4.1"
+        "version": "6.4.3"
     },
     "hackoladeMeta": {},
     "settings": {
