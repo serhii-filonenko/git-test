@@ -2,7 +2,7 @@
     "modelName": "New",
     "collections": [
         {
-            "collectionName": "users1",
+            "collectionName": "users45",
             "type": "object",
             "properties": [
                 {
@@ -94,7 +94,7 @@
     "creationTS": "2022-04-08T13:59:31.805Z",
     "GUID": "7303c1c0-dcff-11ec-86a9-710c6db68c24",
     "isLineageEnabled": false,
-    "lastModifTS": "2041-06-02T12:53:01.243Z",
+    "lastModifTS": "2041-06-02T12:53:01.000Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
