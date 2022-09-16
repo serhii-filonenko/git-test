@@ -26,7 +26,7 @@
                     "nullable": false,
                     "childType": "array",
                     "type": "array",
-                    "GUID": "f3f4ce30-f390-11ec-9e57-e799959f3772"
+                    "GUID": "8bb92fa9-3fa7-41c6-b79f-78c7e5659c42"
                 },
                 {
                     "name": "requestBody",
@@ -66,7 +66,7 @@
                                     "nullable": false,
                                     "childType": "object",
                                     "type": "document",
-                                    "GUID": "f3f4f540-f390-11ec-9e57-e799959f3772"
+                                    "GUID": "7ff66d39-2e73-47e8-8f7a-89ae35e08dfc"
                                 },
                                 {
                                     "name": "examples",
@@ -88,7 +88,7 @@
                                     "nullable": false,
                                     "childType": "object",
                                     "type": "document",
-                                    "GUID": "f3f4f541-f390-11ec-9e57-e799959f3772"
+                                    "GUID": "9ec762cf-4016-4f6a-8d2b-3e1836678c21"
                                 },
                                 {
                                     "name": "encoding",
@@ -110,7 +110,7 @@
                                     "nullable": false,
                                     "childType": "object",
                                     "type": "document",
-                                    "GUID": "f3f4f542-f390-11ec-9e57-e799959f3772"
+                                    "GUID": "1f49470e-a904-4505-899c-2a35da9213be"
                                 }
                             ],
                             "ignore_z_value": true,
@@ -119,7 +119,7 @@
                             "subtype": "structuralSchema",
                             "childType": "media",
                             "type": "document",
-                            "GUID": "f3f4ce32-f390-11ec-9e57-e799959f3772"
+                            "GUID": "e7bb1919-8cca-4a1b-b266-2d66874c7874"
                         }
                     ],
                     "ignore_z_value": true,
@@ -128,7 +128,7 @@
                     "subtype": "media",
                     "childType": "requestBody",
                     "type": "document",
-                    "GUID": "f3f4ce31-f390-11ec-9e57-e799959f3772"
+                    "GUID": "f46a1684-6b2a-402b-b342-8bc4be8eab93"
                 },
                 {
                     "name": "callbacks",
@@ -149,183 +149,20 @@
                     "childType": "operationObject",
                     "type": "document",
                     "subtype": "callback",
-                    "GUID": "f3f4f543-f390-11ec-9e57-e799959f3772"
+                    "GUID": "d44064d2-4da8-4ea8-aa8d-29861eed9b49"
                 }
             ],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "f3f4a720-f390-11ec-9e57-e799959f3772"
+                "GUID": "079be27b-76d9-4249-9a9b-6a7ea0d391ed"
             },
             "isActivated": true,
             "additionalProperties": false,
             "entityType": "request",
             "subtype": "requestBody",
-            "GUID": "f3f431f0-f390-11ec-9e57-e799959f3772",
-            "bucketId": "f242d870-f390-11ec-9e57-e799959f3772"
-        },
-        {
-            "collectionName": "get",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "parameters",
-                    "hackoladeMeta": {
-                        "disableAdd": false,
-                        "disableDelete": false,
-                        "disableAppend": true,
-                        "resetInsteadOfDelete": true,
-                        "disableChoices": true
-                    },
-                    "isActivated": true,
-                    "structureType": true,
-                    "schemeType": "apiKey",
-                    "required": false,
-                    "properties": [],
-                    "primaryKey": false,
-                    "additionalItems": true,
-                    "uniqueItems": false,
-                    "subtype": "anyParameter",
-                    "nullable": false,
-                    "childType": "array",
-                    "type": "array",
-                    "GUID": "f5356480-f390-11ec-9e57-e799959f3772"
-                },
-                {
-                    "name": "requestBody",
-                    "hackoladeMeta": {
-                        "disableAdd": false,
-                        "disableDelete": false,
-                        "disableAppend": true,
-                        "resetInsteadOfDelete": true,
-                        "disableChoices": true
-                    },
-                    "isActivated": true,
-                    "schemeType": "apiKey",
-                    "required": false,
-                    "properties": [
-                        {
-                            "name": "application/json",
-                            "hackoladeMeta": {
-                                "disableReference": true
-                            },
-                            "isActivated": true,
-                            "schemeType": "apiKey",
-                            "required": false,
-                            "properties": [
-                                {
-                                    "name": "schema",
-                                    "hackoladeMeta": {},
-                                    "isActivated": true,
-                                    "schemeType": "apiKey",
-                                    "required": false,
-                                    "primaryKey": false,
-                                    "properties": [],
-                                    "additionalProperties": false,
-                                    "additionalPropControl": "Boolean",
-                                    "additionalPropertiesObjectType": "integer",
-                                    "additionalPropertiesIntegerFormat": "int32",
-                                    "subtype": "schema",
-                                    "nullable": false,
-                                    "childType": "object",
-                                    "type": "document",
-                                    "GUID": "f5356483-f390-11ec-9e57-e799959f3772"
-                                },
-                                {
-                                    "name": "examples",
-                                    "hackoladeMeta": {
-                                        "disableAppend": true,
-                                        "disableReference": true
-                                    },
-                                    "isActivated": true,
-                                    "structureType": true,
-                                    "schemeType": "apiKey",
-                                    "required": false,
-                                    "primaryKey": false,
-                                    "properties": [],
-                                    "additionalProperties": false,
-                                    "additionalPropControl": "Boolean",
-                                    "additionalPropertiesObjectType": "integer",
-                                    "additionalPropertiesIntegerFormat": "int32",
-                                    "subtype": "example",
-                                    "nullable": false,
-                                    "childType": "object",
-                                    "type": "document",
-                                    "GUID": "f5358b90-f390-11ec-9e57-e799959f3772"
-                                },
-                                {
-                                    "name": "encoding",
-                                    "hackoladeMeta": {
-                                        "disableAppend": true,
-                                        "disableReference": true
-                                    },
-                                    "isActivated": true,
-                                    "structureType": true,
-                                    "schemeType": "apiKey",
-                                    "required": false,
-                                    "primaryKey": false,
-                                    "properties": [],
-                                    "additionalProperties": false,
-                                    "additionalPropControl": "Boolean",
-                                    "additionalPropertiesObjectType": "integer",
-                                    "additionalPropertiesIntegerFormat": "int32",
-                                    "subtype": "encoding",
-                                    "nullable": false,
-                                    "childType": "object",
-                                    "type": "document",
-                                    "GUID": "f5358b91-f390-11ec-9e57-e799959f3772"
-                                }
-                            ],
-                            "ignore_z_value": true,
-                            "snippet": "media",
-                            "additionalProperties": false,
-                            "subtype": "structuralSchema",
-                            "childType": "media",
-                            "type": "document",
-                            "GUID": "f5356482-f390-11ec-9e57-e799959f3772"
-                        }
-                    ],
-                    "ignore_z_value": true,
-                    "additionalProperties": false,
-                    "snippet": "requestBody",
-                    "subtype": "media",
-                    "childType": "requestBody",
-                    "type": "document",
-                    "GUID": "f5356481-f390-11ec-9e57-e799959f3772"
-                },
-                {
-                    "name": "callbacks",
-                    "hackoladeMeta": {
-                        "disableAdd": false,
-                        "disableDelete": false,
-                        "disableAppend": true,
-                        "resetInsteadOfDelete": true,
-                        "disableChoices": true
-                    },
-                    "isActivated": true,
-                    "schemeType": "apiKey",
-                    "required": false,
-                    "ignore_z_value": true,
-                    "additionalProperties": false,
-                    "structureType": true,
-                    "properties": [],
-                    "childType": "operationObject",
-                    "type": "document",
-                    "subtype": "callback",
-                    "GUID": "f5358b92-f390-11ec-9e57-e799959f3772"
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "f5353d70-f390-11ec-9e57-e799959f3772"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "entityType": "request",
-            "subtype": "requestBody",
-            "GUID": "f534ef50-f390-11ec-9e57-e799959f3772",
-            "bucketId": "f4981310-f390-11ec-9e57-e799959f3772"
+            "GUID": "75816e38-5eb1-47aa-bcf0-82c6864c2ae8",
+            "bucketId": "0d91788a-d21b-4800-b6b2-675da91bc343"
         }
     ],
     "buckets": [
@@ -333,7 +170,7 @@
             "name": "/path",
             "type": "bucket",
             "collectionIds": [
-                "f3f431f0-f390-11ec-9e57-e799959f3772"
+                "75816e38-5eb1-47aa-bcf0-82c6864c2ae8"
             ],
             "backgroundColor": {
                 "r": 216,
@@ -343,23 +180,7 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "f242d870-f390-11ec-9e57-e799959f3772"
-        },
-        {
-            "name": "/path(1)",
-            "type": "bucket",
-            "collectionIds": [
-                "f534ef50-f390-11ec-9e57-e799959f3772"
-            ],
-            "backgroundColor": {
-                "r": 0,
-                "g": 138,
-                "b": 0,
-                "a": 1
-            },
-            "show": true,
-            "isActivated": true,
-            "GUID": "f4981310-f390-11ec-9e57-e799959f3772"
+            "GUID": "0d91788a-d21b-4800-b6b2-675da91bc343"
         }
     ],
     "views": [],
@@ -367,26 +188,21 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "f14d2dd0-f390-11ec-9e57-e799959f3772": "schemas",
-        "f14da300-f390-11ec-9e57-e799959f3772": "responses",
-        "f14dca10-f390-11ec-9e57-e799959f3772": "parameters",
-        "f14dca11-f390-11ec-9e57-e799959f3772": "examples",
-        "f14df120-f390-11ec-9e57-e799959f3772": "requestBodies",
-        "f14e1830-f390-11ec-9e57-e799959f3772": "headers",
-        "f14e3f40-f390-11ec-9e57-e799959f3772": "securitySchemes",
-        "f14e3f41-f390-11ec-9e57-e799959f3772": "links",
-        "f14e6650-f390-11ec-9e57-e799959f3772": "callbacks",
-        "f14e8d60-f390-11ec-9e57-e799959f3772": "Specification Extensions",
-        "f242d870-f390-11ec-9e57-e799959f3772": "/path",
-        "f3f4ce30-f390-11ec-9e57-e799959f3772": "parameters",
-        "f3f4ce31-f390-11ec-9e57-e799959f3772": "requestBody",
-        "f3f4f543-f390-11ec-9e57-e799959f3772": "callbacks",
-        "f3f431f0-f390-11ec-9e57-e799959f3772": "get",
-        "f4981310-f390-11ec-9e57-e799959f3772": "/path(1)",
-        "f5356480-f390-11ec-9e57-e799959f3772": "parameters",
-        "f5356481-f390-11ec-9e57-e799959f3772": "requestBody",
-        "f5358b92-f390-11ec-9e57-e799959f3772": "callbacks",
-        "f534ef50-f390-11ec-9e57-e799959f3772": "get"
+        "57480071-f55a-4fdb-aeb5-8d3fefee9d04": "schemas",
+        "2c0f65ea-1a1a-4df9-9575-19116be47632": "responses",
+        "acc67e4d-61d8-476f-a021-c03f7ec9316e": "parameters",
+        "80d09c26-cf23-4f80-83ee-c8eb1a53f92b": "examples",
+        "dc70caa9-492b-49f0-98c7-cad68756715a": "requestBodies",
+        "6c85f481-1b26-4e0f-9015-fa715a4af7d1": "headers",
+        "2a52f156-4625-442b-8c84-8aa8305e4430": "securitySchemes",
+        "99ff5658-d51d-4b10-bd1e-472d51cfaca3": "links",
+        "a9863679-47af-4db9-aae7-8ad6031c25bb": "callbacks",
+        "0f658ee9-25d5-4ed9-a495-c9e0f27f50d8": "Specification Extensions",
+        "0d91788a-d21b-4800-b6b2-675da91bc343": "/path",
+        "8bb92fa9-3fa7-41c6-b79f-78c7e5659c42": "parameters",
+        "f46a1684-6b2a-402b-b342-8bc4be8eab93": "requestBody",
+        "d44064d2-4da8-4ea8-aa8d-29861eed9b49": "callbacks",
+        "75816e38-5eb1-47aa-bcf0-82c6864c2ae8": "get"
     },
     "definitions": {
         "type": "definitions",
@@ -410,7 +226,7 @@
                 "childType": "componentObject",
                 "type": "document",
                 "subtype": "schema",
-                "GUID": "f14d2dd0-f390-11ec-9e57-e799959f3772",
+                "GUID": "57480071-f55a-4fdb-aeb5-8d3fefee9d04",
                 "definitionRefs": []
             },
             {
@@ -431,7 +247,7 @@
                 "childType": "componentObject",
                 "type": "document",
                 "subtype": "response",
-                "GUID": "f14da300-f390-11ec-9e57-e799959f3772",
+                "GUID": "2c0f65ea-1a1a-4df9-9575-19116be47632",
                 "definitionRefs": []
             },
             {
@@ -452,7 +268,7 @@
                 "childType": "componentObject",
                 "type": "document",
                 "subtype": "anyParameter",
-                "GUID": "f14dca10-f390-11ec-9e57-e799959f3772",
+                "GUID": "acc67e4d-61d8-476f-a021-c03f7ec9316e",
                 "definitionRefs": []
             },
             {
@@ -473,7 +289,7 @@
                 "childType": "componentObject",
                 "type": "document",
                 "subtype": "example",
-                "GUID": "f14dca11-f390-11ec-9e57-e799959f3772",
+                "GUID": "80d09c26-cf23-4f80-83ee-c8eb1a53f92b",
                 "definitionRefs": []
             },
             {
@@ -494,7 +310,7 @@
                 "childType": "componentObject",
                 "type": "document",
                 "subtype": "request",
-                "GUID": "f14df120-f390-11ec-9e57-e799959f3772",
+                "GUID": "dc70caa9-492b-49f0-98c7-cad68756715a",
                 "definitionRefs": []
             },
             {
@@ -515,7 +331,7 @@
                 "childType": "componentObject",
                 "type": "document",
                 "subtype": "header",
-                "GUID": "f14e1830-f390-11ec-9e57-e799959f3772",
+                "GUID": "6c85f481-1b26-4e0f-9015-fa715a4af7d1",
                 "definitionRefs": []
             },
             {
@@ -536,7 +352,7 @@
                 "childType": "componentObject",
                 "type": "document",
                 "subtype": "securityScheme",
-                "GUID": "f14e3f40-f390-11ec-9e57-e799959f3772",
+                "GUID": "2a52f156-4625-442b-8c84-8aa8305e4430",
                 "definitionRefs": []
             },
             {
@@ -557,7 +373,7 @@
                 "childType": "componentObject",
                 "type": "document",
                 "subtype": "link",
-                "GUID": "f14e3f41-f390-11ec-9e57-e799959f3772",
+                "GUID": "99ff5658-d51d-4b10-bd1e-472d51cfaca3",
                 "definitionRefs": []
             },
             {
@@ -578,7 +394,7 @@
                 "childType": "componentObject",
                 "type": "document",
                 "subtype": "callback",
-                "GUID": "f14e6650-f390-11ec-9e57-e799959f3772",
+                "GUID": "a9863679-47af-4db9-aae7-8ad6031c25bb",
                 "definitionRefs": []
             },
             {
@@ -598,40 +414,31 @@
                 "additionalProperties": false,
                 "childType": "extensions",
                 "type": "document",
-                "GUID": "f14e8d60-f390-11ec-9e57-e799959f3772",
+                "GUID": "0f658ee9-25d5-4ed9-a495-c9e0f27f50d8",
                 "definitionRefs": []
             }
         ],
-        "GUID": "f14cdfb1-f390-11ec-9e57-e799959f3772"
+        "GUID": "369f64eb-b907-4a4c-bd42-6941a22b96fb"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "f14cdfb3-f390-11ec-9e57-e799959f3772"
+        "GUID": "15aa4eb6-36a0-459e-86cc-c23ea9782586"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "f14cdfb2-f390-11ec-9e57-e799959f3772"
+        "GUID": "967b973c-2b58-4c1c-be5f-9170cc831ed5"
     },
     "sources": [],
-    "decorativeSymbols": [
-        {
-            "GUID": "f77f2d70-f390-11ec-9e57-e799959f3772",
-            "name": "New annotation",
-            "type": "annotation",
-            "disableInitialFocus": true,
-            "value": "eee",
-            "bucketId": "f4981310-f390-11ec-9e57-e799959f3772"
-        }
-    ],
+    "decorativeSymbols": [],
     "dbVersion": "3.0.3",
     "dbVendor": "OpenAPI",
     "appTarget": "OPENAPI",
-    "creationTS": "2022-06-24T07:40:39.082Z",
-    "GUID": "f14cdfb0-f390-11ec-9e57-e799959f3772",
+    "creationTS": "2022-09-02T07:41:54.416Z",
+    "GUID": "51e7c1bc-766d-4112-99f5-0ac55bb2d1e7",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-06-24T08:17:38.347Z",
+    "lastModifTS": "2022-09-02T07:41:57.763Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -640,25 +447,16 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.1"
+        "version": "6.4.2"
     },
-    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "f3f431f0-f390-11ec-9e57-e799959f3772",
-                        "x": 255,
-                        "y": 246,
-                        "width": 257,
-                        "height": 159,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "f534ef50-f390-11ec-9e57-e799959f3772",
+                        "GUID": "75816e38-5eb1-47aa-bcf0-82c6864c2ae8",
                         "x": 80,
-                        "y": 133,
+                        "y": 80,
                         "width": 257,
                         "height": 159,
                         "color": {}
@@ -666,14 +464,9 @@
                 ],
                 "buckets": [
                     {
-                        "x": 215,
-                        "y": 206,
-                        "GUID": "f242d870-f390-11ec-9e57-e799959f3772"
-                    },
-                    {
                         "x": 40,
-                        "y": 70,
-                        "GUID": "f4981310-f390-11ec-9e57-e799959f3772"
+                        "y": 40,
+                        "GUID": "0d91788a-d21b-4800-b6b2-675da91bc343"
                     }
                 ],
                 "collapsedNodes": [],
@@ -682,9 +475,7 @@
                     "childField": [],
                     "parentField": []
                 },
-                "selectedCollections": [
-                    "f3f431f0-f390-11ec-9e57-e799959f3772"
-                ],
+                "selectedCollections": [],
                 "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
@@ -694,15 +485,7 @@
                     "defaultLinkLength": 300
                 },
                 "diagramViews": [],
-                "decorativeSymbols": [
-                    {
-                        "GUID": "f77f2d70-f390-11ec-9e57-e799959f3772",
-                        "x": 339,
-                        "y": 110,
-                        "height": 150,
-                        "width": 300
-                    }
-                ],
+                "decorativeSymbols": [],
                 "nestedCollectionsLayout": "horizontal",
                 "options": []
             },
