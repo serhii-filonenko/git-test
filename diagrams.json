@@ -76,18 +76,65 @@
             "isActivated": true,
             "indexes": [],
             "GUID": "d712d90f-d791-4bee-92f0-498b1502047c"
+        },
+        {
+            "name": "New container(5)",
+            "type": "bucket",
+            "collectionIds": [],
+            "backgroundColor": {
+                "r": 51,
+                "g": 51,
+                "b": 51,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "c3a7cdd0-9940-4e9f-afdf-66c74f946195"
+        },
+        {
+            "name": "New container(6)",
+            "type": "bucket",
+            "collectionIds": [],
+            "backgroundColor": {
+                "r": 53,
+                "g": 94,
+                "b": 59,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "e39c2e12-641e-4062-be86-3078e06bb9c2"
         }
     ],
     "views": [],
     "relationships": [],
     "users": [],
-    "diagramViews": [],
+    "diagramViews": [
+        {
+            "GUID": "3e15f62f-ec31-4ba8-af16-b65231336d75",
+            "name": "New Diagram View",
+            "buckets": [
+                "23c90712-62e7-438e-979b-b0fed4e30ac1",
+                "7f0b6345-b560-4fd5-827e-3889548dbbab",
+                "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c",
+                "b2a29fe9-ea19-4ec0-bc84-8043647d4480",
+                "d712d90f-d791-4bee-92f0-498b1502047c",
+                "e39c2e12-641e-4062-be86-3078e06bb9c2"
+            ],
+            "entities": []
+        }
+    ],
     "idToNameHashTable": {
         "23c90712-62e7-438e-979b-b0fed4e30ac1": "New container",
         "7f0b6345-b560-4fd5-827e-3889548dbbab": "New container(1)",
         "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c": "New container(2)",
         "b2a29fe9-ea19-4ec0-bc84-8043647d4480": "New container(3)",
-        "d712d90f-d791-4bee-92f0-498b1502047c": "New container(4)"
+        "d712d90f-d791-4bee-92f0-498b1502047c": "New container(4)",
+        "3e15f62f-ec31-4ba8-af16-b65231336d75": "New Diagram View",
+        "c3a7cdd0-9940-4e9f-afdf-66c74f946195": "New container(5)",
+        "e39c2e12-641e-4062-be86-3078e06bb9c2": "New container(6)"
     },
     "definitions": {
         "type": "definitions",
@@ -106,12 +153,13 @@
     },
     "sources": [],
     "decorativeSymbols": [],
+    "dbVersion": "v5.0",
     "dbVendor": "Polyglot",
     "appTarget": "Polyglot",
     "creationTS": "2023-09-04T15:11:29.352Z",
     "GUID": "c776bada-5b36-4cf6-9054-746dbfbf5526",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-09-04T15:15:07.611Z",
+    "lastModifTS": "2023-09-04T15:17:28.321Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -127,12 +175,6 @@
         "centralPane": {
             "dbLevel": {
                 "erd": [],
-                "erdDefinitions": {
-                    "erd": [],
-                    "rootPath": [],
-                    "entities": [],
-                    "decorativeSymbols": []
-                },
                 "buckets": [
                     {
                         "x": 1040,
@@ -155,19 +197,101 @@
                         "GUID": "b2a29fe9-ea19-4ec0-bc84-8043647d4480"
                     },
                     {
-                        "x": 1120,
-                        "y": 1120,
+                        "x": 1094,
+                        "y": 1309,
                         "GUID": "d712d90f-d791-4bee-92f0-498b1502047c"
+                    },
+                    {
+                        "x": 1409,
+                        "y": 1218,
+                        "GUID": "c3a7cdd0-9940-4e9f-afdf-66c74f946195"
+                    },
+                    {
+                        "x": 1381,
+                        "y": 1132,
+                        "GUID": "e39c2e12-641e-4062-be86-3078e06bb9c2"
                     }
                 ],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
+                "diagramViews": [
+                    {
+                        "GUID": "3e15f62f-ec31-4ba8-af16-b65231336d75",
+                        "entities": [],
+                        "buckets": [
+                            {
+                                "x": 1000,
+                                "y": 1000,
+                                "GUID": "23c90712-62e7-438e-979b-b0fed4e30ac1"
+                            },
+                            {
+                                "x": 1000,
+                                "y": 1030,
+                                "GUID": "7f0b6345-b560-4fd5-827e-3889548dbbab"
+                            },
+                            {
+                                "x": 1000,
+                                "y": 1060,
+                                "GUID": "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c"
+                            },
+                            {
+                                "x": 1000,
+                                "y": 1090,
+                                "GUID": "b2a29fe9-ea19-4ec0-bc84-8043647d4480"
+                            },
+                            {
+                                "x": 1000,
+                                "y": 1120,
+                                "GUID": "d712d90f-d791-4bee-92f0-498b1502047c"
+                            },
+                            {
+                                "x": 1315,
+                                "y": 1114,
+                                "GUID": "e39c2e12-641e-4062-be86-3078e06bb9c2"
+                            }
+                        ],
+                        "graphView": {
+                            "erd": [],
+                            "buckets": [
+                                {
+                                    "x": 1100,
+                                    "y": 1100,
+                                    "GUID": "b2a29fe9-ea19-4ec0-bc84-8043647d4480"
+                                },
+                                {
+                                    "x": 1040,
+                                    "y": 1040,
+                                    "GUID": "23c90712-62e7-438e-979b-b0fed4e30ac1"
+                                },
+                                {
+                                    "x": 1060,
+                                    "y": 1060,
+                                    "GUID": "7f0b6345-b560-4fd5-827e-3889548dbbab"
+                                },
+                                {
+                                    "x": 1080,
+                                    "y": 1080,
+                                    "GUID": "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c"
+                                },
+                                {
+                                    "x": 1120,
+                                    "y": 1120,
+                                    "GUID": "d712d90f-d791-4bee-92f0-498b1502047c"
+                                },
+                                {
+                                    "x": 1381,
+                                    "y": 1132,
+                                    "GUID": "e39c2e12-641e-4062-be86-3078e06bb9c2"
+                                }
+                            ],
+                            "decorativeSymbols": [],
+                            "forceLayout": true,
+                            "defaultLinkLength": 300
+                        },
+                        "displayOptions": {
+                            "hideErdRelationshipsNames": false
+                        }
+                    }
+                ],
+                "decorativeSymbols": [],
                 "graphView": {
                     "erd": [],
                     "buckets": [
@@ -195,17 +319,22 @@
                             "x": 1120,
                             "y": 1120,
                             "GUID": "d712d90f-d791-4bee-92f0-498b1502047c"
+                        },
+                        {
+                            "x": 997,
+                            "y": 1277,
+                            "GUID": "c3a7cdd0-9940-4e9f-afdf-66c74f946195"
+                        },
+                        {
+                            "x": 1381,
+                            "y": 1132,
+                            "GUID": "e39c2e12-641e-4062-be86-3078e06bb9c2"
                         }
                     ],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                },
-                "diagramViews": [],
-                "decorativeSymbols": [],
-                "nestedCollectionsLayout": "horizontal",
-                "options": [],
-                "relationshipUpdateDisabled": false
+                }
             },
             "collectionLevel": {},
             "changed": false
