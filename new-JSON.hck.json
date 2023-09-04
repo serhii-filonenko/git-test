@@ -23,12 +23,27 @@
                 "collation": "null"
             },
             "GUID": "549b66a0-d059-11ec-9882-d93673793bdf",
-            "bucketId": "544445f0-d059-11ec-9882-d93673793bdf"
+            "bucketId": "544445f0-d059-11ec-9882-d93673793bdf",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "New Collection(1)",
             "type": "object",
-            "properties": [],
+            "properties": [
+                {
+                    "name": "New Field",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "3fcb3d36-b0fe-4339-8e0a-14e00fb97b3d",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
@@ -46,7 +61,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "fb3ac020-db79-11ec-8333-7f101002cca6"
+            "GUID": "fb3ac020-db79-11ec-8333-7f101002cca6",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "im_green",
@@ -70,7 +88,10 @@
                 "collation": "null"
             },
             "GUID": "93c50210-fecf-11ec-a566-d5b9023d4e14",
-            "bucketId": "544445f0-d059-11ec-9882-d93673793bdf"
+            "bucketId": "544445f0-d059-11ec-9882-d93673793bdf",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "buckets": [
@@ -100,7 +121,8 @@
         "544445f0-d059-11ec-9882-d93673793bdf": "COLORS",
         "549b66a0-d059-11ec-9882-d93673793bdf": "changed-json-collection-name",
         "fb3ac020-db79-11ec-8333-7f101002cca6": "New Collection(1)",
-        "93c50210-fecf-11ec-a566-d5b9023d4e14": "im_green"
+        "93c50210-fecf-11ec-a566-d5b9023d4e14": "im_green",
+        "3fcb3d36-b0fe-4339-8e0a-14e00fb97b3d": "New Field"
     },
     "definitions": {
         "type": "definitions",
@@ -125,14 +147,14 @@
     "creationTS": "2022-05-10T12:04:20.756Z",
     "GUID": "5329fc50-d059-11ec-9882-d93673793bdf",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-07-08T15:07:04.139Z",
+    "lastModifTS": "2023-06-23T13:11:24.091Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.3"
+        "version": "6.10.9"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -141,8 +163,8 @@
                 "erd": [
                     {
                         "GUID": "549b66a0-d059-11ec-9882-d93673793bdf",
-                        "x": 82,
-                        "y": 80,
+                        "x": 1042,
+                        "y": 1040,
                         "width": 291,
                         "height": 100,
                         "color": {
@@ -151,18 +173,18 @@
                     },
                     {
                         "GUID": "fb3ac020-db79-11ec-8333-7f101002cca6",
-                        "x": 40,
-                        "y": 40,
-                        "width": 240,
-                        "height": 100,
+                        "x": 1000,
+                        "y": 1000,
+                        "width": 220,
+                        "height": 51,
                         "color": {
                             "hex": "#d80073"
                         }
                     },
                     {
                         "GUID": "93c50210-fecf-11ec-a566-d5b9023d4e14",
-                        "x": 102,
-                        "y": 100,
+                        "x": 1062,
+                        "y": 1060,
                         "width": 174,
                         "height": 100,
                         "color": {
@@ -170,10 +192,16 @@
                         }
                     }
                 ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
                 "buckets": [
                     {
-                        "x": 42,
-                        "y": 40,
+                        "x": 1002,
+                        "y": 1000,
                         "GUID": "544445f0-d059-11ec-9882-d93673793bdf"
                     }
                 ],
@@ -195,7 +223,8 @@
                 "diagramViews": [],
                 "decorativeSymbols": [],
                 "nestedCollectionsLayout": "horizontal",
-                "options": []
+                "options": [],
+                "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
             "changed": false

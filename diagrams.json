@@ -25,7 +25,7 @@
                         "code": false
                     },
                     "childRelationships": [
-                        "131b50ee-d297-43cd-a0fa-46465eef37b4"
+                        "dddfaeaa-65cc-432c-8932-bcf382b3647a"
                     ]
                 },
                 {
@@ -121,7 +121,7 @@
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
                     "GUID": "7376263b-fd2a-41b0-9ab4-1dbaf79ec36e",
-                    "parentRelationship": "131b50ee-d297-43cd-a0fa-46465eef37b4",
+                    "parentRelationship": "dddfaeaa-65cc-432c-8932-bcf382b3647a",
                     "error": {}
                 },
                 {
@@ -491,7 +491,10 @@
                         "code": false
                     },
                     "foreignCollection": "",
-                    "foreignField": []
+                    "foreignField": [],
+                    "childRelationships": [
+                        "d3ee4bdf-2e1d-440a-9824-aa5f51428d5c"
+                    ]
                 },
                 {
                     "name": "New attribute(2)",
@@ -743,6 +746,42 @@
             "additionalProperties": false,
             "GUID": "e60ec99c-bfb4-4d24-905f-63a6573d4495",
             "bucketId": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43"
+        },
+        {
+            "collectionName": "New subtype",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "74973e8c-b726-427a-911e-5ba579716eda"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "5f3e3e61-45bb-4be5-8cf2-1790dfecb531",
+            "bucketId": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43",
+            "parentCollection": "7e3996a6-d195-42fb-83f3-1ea851fb11ad",
+            "parentCollections": [
+                "7e3996a6-d195-42fb-83f3-1ea851fb11ad"
+            ]
+        },
+        {
+            "collectionName": "New subtype(1)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "bfc6ef81-666f-43f3-9625-9878c30cd560"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "e0458e24-4347-4c26-b3c9-f64da8a8f1f4",
+            "bucketId": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43",
+            "parentCollection": "7e3996a6-d195-42fb-83f3-1ea851fb11ad",
+            "parentCollections": [
+                "7e3996a6-d195-42fb-83f3-1ea851fb11ad"
+            ]
         },
         {
             "collectionName": "New entity(5)",
@@ -1054,10 +1093,14 @@
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
                     "GUID": "a477f972-a7be-4dcd-bf64-18a62ed0960b",
-                    "parentRelationship": "dddfaeaa-65cc-432c-8932-bcf382b3647a",
-                    "foreignCollection": "",
-                    "foreignField": [],
-                    "error": {}
+                    "parentRelationship": "d3ee4bdf-2e1d-440a-9824-aa5f51428d5c",
+                    "foreignCollection": "7c2d2b44-a033-4feb-8b63-3f84b218e16e",
+                    "foreignField": [
+                        "7c2d2b44-a033-4feb-8b63-3f84b218e16e",
+                        "58048c69-a12f-4429-8826-c7eca43f5c6b"
+                    ],
+                    "error": {},
+                    "relationshipType": "Foreign Key"
                 },
                 {
                     "name": "New attribute(2)",
@@ -1113,42 +1156,6 @@
             "additionalProperties": false,
             "GUID": "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b",
             "bucketId": "30dac830-2564-4f31-819c-e99c8b7541a8"
-        },
-        {
-            "collectionName": "New subtype",
-            "type": "object",
-            "properties": [],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "74973e8c-b726-427a-911e-5ba579716eda"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "GUID": "5f3e3e61-45bb-4be5-8cf2-1790dfecb531",
-            "bucketId": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43",
-            "parentCollection": "7e3996a6-d195-42fb-83f3-1ea851fb11ad",
-            "parentCollections": [
-                "7e3996a6-d195-42fb-83f3-1ea851fb11ad"
-            ]
-        },
-        {
-            "collectionName": "New subtype(1)",
-            "type": "object",
-            "properties": [],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "bfc6ef81-666f-43f3-9625-9878c30cd560"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "GUID": "e0458e24-4347-4c26-b3c9-f64da8a8f1f4",
-            "bucketId": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43",
-            "parentCollection": "7e3996a6-d195-42fb-83f3-1ea851fb11ad",
-            "parentCollections": [
-                "7e3996a6-d195-42fb-83f3-1ea851fb11ad"
-            ]
         }
     ],
     "buckets": [
@@ -1157,25 +1164,9 @@
             "type": "bucket",
             "collectionIds": [
                 "289b61cc-d188-4196-819f-3e9382a7c661",
+                "6c9cdf7b-40e9-480b-916f-c9c64d734779",
+                "289b61cc-d188-4196-819f-3e9382a7c661",
                 "6c9cdf7b-40e9-480b-916f-c9c64d734779"
-            ],
-            "backgroundColor": {
-                "r": 0,
-                "g": 138,
-                "b": 0,
-                "a": 1
-            },
-            "show": false,
-            "isActivated": true,
-            "indexes": [],
-            "GUID": "4c801be8-e52c-40d6-9243-331718075f39"
-        },
-        {
-            "name": "New container(1)",
-            "type": "bucket",
-            "collectionIds": [
-                "784c50d8-6166-4115-bbe9-268011d1e3dd",
-                "39fb2023-83a2-4c71-b3dd-e75c245ced20"
             ],
             "backgroundColor": {
                 "r": 103,
@@ -1186,6 +1177,26 @@
             "show": true,
             "isActivated": true,
             "indexes": [],
+            "GUID": "4c801be8-e52c-40d6-9243-331718075f39"
+        },
+        {
+            "name": "New container(1)",
+            "type": "bucket",
+            "collectionIds": [
+                "784c50d8-6166-4115-bbe9-268011d1e3dd",
+                "39fb2023-83a2-4c71-b3dd-e75c245ced20",
+                "784c50d8-6166-4115-bbe9-268011d1e3dd",
+                "39fb2023-83a2-4c71-b3dd-e75c245ced20"
+            ],
+            "backgroundColor": {
+                "r": 33,
+                "g": 150,
+                "b": 243,
+                "a": 1
+            },
+            "show": false,
+            "isActivated": true,
+            "indexes": [],
             "GUID": "c46c53b6-9214-421e-bc34-d4b99dec0860"
         },
         {
@@ -1193,12 +1204,14 @@
             "type": "bucket",
             "collectionIds": [
                 "080ebd3e-2b31-41f9-985b-d7baa4c4270a",
+                "7c2d2b44-a033-4feb-8b63-3f84b218e16e",
+                "080ebd3e-2b31-41f9-985b-d7baa4c4270a",
                 "7c2d2b44-a033-4feb-8b63-3f84b218e16e"
             ],
             "backgroundColor": {
-                "r": 216,
-                "g": 0,
-                "b": 115,
+                "r": 0,
+                "g": 188,
+                "b": 213,
                 "a": 1
             },
             "show": false,
@@ -1213,15 +1226,19 @@
                 "7e3996a6-d195-42fb-83f3-1ea851fb11ad",
                 "e60ec99c-bfb4-4d24-905f-63a6573d4495",
                 "5f3e3e61-45bb-4be5-8cf2-1790dfecb531",
+                "e0458e24-4347-4c26-b3c9-f64da8a8f1f4",
+                "7e3996a6-d195-42fb-83f3-1ea851fb11ad",
+                "e60ec99c-bfb4-4d24-905f-63a6573d4495",
+                "5f3e3e61-45bb-4be5-8cf2-1790dfecb531",
                 "e0458e24-4347-4c26-b3c9-f64da8a8f1f4"
             ],
             "backgroundColor": {
-                "r": 164,
-                "g": 196,
-                "b": 0,
+                "r": 254,
+                "g": 193,
+                "b": 7,
                 "a": 1
             },
-            "show": true,
+            "show": false,
             "isActivated": true,
             "indexes": [],
             "GUID": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43"
@@ -1231,12 +1248,14 @@
             "type": "bucket",
             "collectionIds": [
                 "82c45dc9-5b6e-4c3f-a5b5-71eb72ddc544",
+                "8164890d-cb92-46a0-83ca-2bee07acf81b",
+                "82c45dc9-5b6e-4c3f-a5b5-71eb72ddc544",
                 "8164890d-cb92-46a0-83ca-2bee07acf81b"
             ],
             "backgroundColor": {
-                "r": 0,
-                "g": 188,
-                "b": 213,
+                "r": 216,
+                "g": 0,
+                "b": 115,
                 "a": 1
             },
             "show": true,
@@ -1249,15 +1268,17 @@
             "type": "bucket",
             "collectionIds": [
                 "54755c91-39b6-4309-b2b3-bedef298a771",
+                "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b",
+                "54755c91-39b6-4309-b2b3-bedef298a771",
                 "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b"
             ],
             "backgroundColor": {
-                "r": 0,
-                "g": 138,
-                "b": 0,
+                "r": 57,
+                "g": 255,
+                "b": 20,
                 "a": 1
             },
-            "show": false,
+            "show": true,
             "isActivated": true,
             "indexes": [],
             "GUID": "30dac830-2564-4f31-819c-e99c8b7541a8"
@@ -1284,66 +1305,12 @@
             "isActivated": true,
             "childCardinality": "n",
             "level": "field",
-            "GUID": "131b50ee-d297-43cd-a0fa-46465eef37b4",
+            "GUID": "dddfaeaa-65cc-432c-8932-bcf382b3647a",
             "lineSize": 2,
             "parentCollection": "289b61cc-d188-4196-819f-3e9382a7c661",
             "childCollection": "6c9cdf7b-40e9-480b-916f-c9c64d734779",
             "hackoladeStyles": {
                 "GUID": "e93a17ae-d9b0-4ee4-94b7-022a4fd846a2",
-                "autoPositioning": false,
-                "type": "Orthogonal",
-                "thickness": 2,
-                "color": "#79c4ff",
-                "dataType": "",
-                "shape": [
-                    {
-                        "x": 2361.728045325779,
-                        "y": 1358.95784365972
-                    },
-                    {
-                        "y": 1358.95784365972,
-                        "x": 1591.1756373937678
-                    },
-                    {
-                        "y": 1511.3458479811597,
-                        "x": 1591.1756373937678
-                    },
-                    {
-                        "x": 2061.728045325779,
-                        "y": 1511.3458479811597
-                    }
-                ],
-                "sides": [
-                    "left",
-                    "left"
-                ]
-            }
-        },
-        {
-            "name": "New Relationship",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "82c45dc9-5b6e-4c3f-a5b5-71eb72ddc544",
-                    "f2d957af-4363-4051-bf23-ff5f4b1bcadb"
-                ]
-            ],
-            "parentCardinality": "0..1",
-            "childField": [
-                [
-                    "8164890d-cb92-46a0-83ca-2bee07acf81b",
-                    "1cf2b6e9-cbf5-4f0d-b181-40b6f34314d5"
-                ]
-            ],
-            "isActivated": true,
-            "childCardinality": "n",
-            "GUID": "a830fd2b-270d-4d42-97d0-3df7499496df",
-            "level": "field",
-            "lineSize": 2,
-            "parentCollection": "82c45dc9-5b6e-4c3f-a5b5-71eb72ddc544",
-            "childCollection": "8164890d-cb92-46a0-83ca-2bee07acf81b",
-            "hackoladeStyles": {
-                "GUID": "e93a17ae-d9b0-4ee4-94b7-022a4fd846a2",
                 "autoPositioning": true,
                 "type": "Orthogonal",
                 "thickness": 2,
@@ -1351,74 +1318,20 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1345,
-                        "y": 1849.5
+                        "x": 1590.793201133145,
+                        "y": 1336.293201133144
                     },
                     {
-                        "x": 1307,
-                        "y": 1849.5
+                        "x": 1552.793201133145,
+                        "y": 1336.293201133144
                     },
                     {
-                        "x": 1307,
-                        "y": 1994.5
+                        "x": 1552.793201133145,
+                        "y": 1481.293201133144
                     },
                     {
-                        "x": 1269,
-                        "y": 1994.5
-                    }
-                ],
-                "sides": [
-                    "left",
-                    "right"
-                ]
-            }
-        },
-        {
-            "name": "New Relationship",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "54755c91-39b6-4309-b2b3-bedef298a771",
-                    "0e52cec7-8a4a-4d83-92de-eaa882362289"
-                ]
-            ],
-            "parentCardinality": "0..1",
-            "childField": [
-                [
-                    "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b",
-                    "a477f972-a7be-4dcd-bf64-18a62ed0960b"
-                ]
-            ],
-            "isActivated": true,
-            "childCardinality": "n",
-            "GUID": "dddfaeaa-65cc-432c-8932-bcf382b3647a",
-            "level": "field",
-            "lineSize": 2,
-            "parentCollection": "54755c91-39b6-4309-b2b3-bedef298a771",
-            "childCollection": "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b",
-            "hackoladeStyles": {
-                "GUID": "e93a17ae-d9b0-4ee4-94b7-022a4fd846a2",
-                "autoPositioning": true,
-                "type": "Orthogonal",
-                "thickness": 2,
-                "color": "#79c4ff",
-                "dataType": "",
-                "shape": [
-                    {
-                        "x": 1976,
-                        "y": 1854.5
-                    },
-                    {
-                        "x": 1938,
-                        "y": 1854.5
-                    },
-                    {
-                        "x": 1938,
-                        "y": 1999.5
-                    },
-                    {
-                        "x": 1900,
-                        "y": 1999.5
+                        "x": 1514.793201133145,
+                        "y": 1481.293201133144
                     }
                 ],
                 "sides": [
@@ -1488,29 +1401,39 @@
                 "type": "Orthogonal",
                 "thickness": 2,
                 "color": "#79c4ff",
-                "dataType": "",
-                "shape": [
-                    {
-                        "x": 660.5757575757589,
-                        "y": 981.6212121212136
-                    },
-                    {
-                        "x": 698.5757575757589,
-                        "y": 981.6212121212136
-                    },
-                    {
-                        "x": 698.5757575757589,
-                        "y": 836.6212121212136
-                    },
-                    {
-                        "x": 736.5757575757589,
-                        "y": 836.6212121212136
-                    }
-                ],
-                "sides": [
-                    "right",
-                    "left"
+                "dataType": ""
+            }
+        },
+        {
+            "name": "fk New entity(1)(4)(1).New attribute(1) to New entity(1)(2).New attribute(1)",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "7c2d2b44-a033-4feb-8b63-3f84b218e16e",
+                    "58048c69-a12f-4429-8826-c7eca43f5c6b"
                 ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b",
+                    "a477f972-a7be-4dcd-bf64-18a62ed0960b"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "7c2d2b44-a033-4feb-8b63-3f84b218e16e",
+            "childCollection": "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b",
+            "GUID": "d3ee4bdf-2e1d-440a-9824-aa5f51428d5c",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "9c2987ac-ab73-4307-a2cf-560367325b8e",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": ""
             }
         }
     ],
@@ -1706,7 +1629,8 @@
         "2932e02a-5351-4549-bd80-afc8d19ffa09": "fk New entity(1)(1).New attribute(1) to New entity.New attribute(2)",
         "a7bf8056-dbdf-46e5-b042-fc2e967b06ef": "fk New entity(4).New attribute to New entity(1)(3).New attribute(2)",
         "5f3e3e61-45bb-4be5-8cf2-1790dfecb531": "New subtype",
-        "e0458e24-4347-4c26-b3c9-f64da8a8f1f4": "New subtype(1)"
+        "e0458e24-4347-4c26-b3c9-f64da8a8f1f4": "New subtype(1)",
+        "d3ee4bdf-2e1d-440a-9824-aa5f51428d5c": "fk New entity(1)(4)(1).New attribute(1) to New entity(1)(2).New attribute(1)"
     },
     "definitions": {
         "type": "definitions",
@@ -1725,12 +1649,13 @@
     },
     "sources": [],
     "decorativeSymbols": [],
+    "dbVersion": "v5.0",
     "dbVendor": "Polyglot",
     "appTarget": "Polyglot",
     "creationTS": "2023-09-04T11:58:34.809Z",
     "GUID": "70a938f6-9994-4ea9-9105-58b0e73d1fef",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-09-04T12:17:14.361Z",
+    "lastModifTS": "2023-09-04T12:34:59.597Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -1887,12 +1812,6 @@
                         }
                     }
                 ],
-                "erdDefinitions": {
-                    "erd": [],
-                    "rootPath": [],
-                    "entities": [],
-                    "decorativeSymbols": []
-                },
                 "buckets": [
                     {
                         "x": 1551.1756373937678,
@@ -1925,137 +1844,6 @@
                         "GUID": "30dac830-2564-4f31-819c-e99c8b7541a8"
                     }
                 ],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
-                "graphView": {
-                    "erd": [
-                        {
-                            "GUID": "289b61cc-d188-4196-819f-3e9382a7c661",
-                            "size": 100,
-                            "x": 1007.2957886604056,
-                            "y": 945.4492601236071
-                        },
-                        {
-                            "GUID": "6c9cdf7b-40e9-480b-916f-c9c64d734779",
-                            "size": 100,
-                            "x": 1242.0374549082799,
-                            "y": 1133.5421959656871
-                        },
-                        {
-                            "GUID": "784c50d8-6166-4115-bbe9-268011d1e3dd",
-                            "size": 100,
-                            "x": 1160.2325522510862,
-                            "y": 1449.9629368433477
-                        },
-                        {
-                            "GUID": "39fb2023-83a2-4c71-b3dd-e75c245ced20",
-                            "size": 100,
-                            "x": 1298.375003715916,
-                            "y": 869.9615908996534
-                        },
-                        {
-                            "GUID": "080ebd3e-2b31-41f9-985b-d7baa4c4270a",
-                            "size": 100,
-                            "x": 1277.4894977121044,
-                            "y": 1310.977573449006
-                        },
-                        {
-                            "GUID": "7c2d2b44-a033-4feb-8b63-3f84b218e16e",
-                            "size": 100,
-                            "x": 1252.278588622315,
-                            "y": 1010.9554400753499
-                        },
-                        {
-                            "GUID": "7e3996a6-d195-42fb-83f3-1ea851fb11ad",
-                            "size": 100,
-                            "x": 1120.407011350512,
-                            "y": 1264.9986094056985
-                        },
-                        {
-                            "GUID": "e60ec99c-bfb4-4d24-905f-63a6573d4495",
-                            "size": 100,
-                            "x": 1412.5903058402398,
-                            "y": 1191.401684775229
-                        },
-                        {
-                            "GUID": "82c45dc9-5b6e-4c3f-a5b5-71eb72ddc544",
-                            "size": 100,
-                            "x": 1116.7104826179834,
-                            "y": 1060.1437073011075
-                        },
-                        {
-                            "GUID": "8164890d-cb92-46a0-83ca-2bee07acf81b",
-                            "size": 100,
-                            "x": 1408.4495249322636,
-                            "y": 984.9579151139943
-                        },
-                        {
-                            "GUID": "54755c91-39b6-4309-b2b3-bedef298a771",
-                            "size": 100,
-                            "x": 1094.1684965114973,
-                            "y": 2002.7737102108465
-                        },
-                        {
-                            "GUID": "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b",
-                            "size": 100,
-                            "x": 1364.7196764049002,
-                            "y": 1872.279418335682
-                        },
-                        {
-                            "GUID": "5f3e3e61-45bb-4be5-8cf2-1790dfecb531",
-                            "size": 100,
-                            "x": 1124.8200532059338,
-                            "y": 1565.5361972859125
-                        },
-                        {
-                            "GUID": "e0458e24-4347-4c26-b3c9-f64da8a8f1f4",
-                            "size": 100,
-                            "x": 958.9914557982049,
-                            "y": 1518.3493586333727
-                        }
-                    ],
-                    "buckets": [
-                        {
-                            "x": 1040,
-                            "y": 1040,
-                            "GUID": "4c801be8-e52c-40d6-9243-331718075f39"
-                        },
-                        {
-                            "x": 1039,
-                            "y": 1034,
-                            "GUID": "c46c53b6-9214-421e-bc34-d4b99dec0860"
-                        },
-                        {
-                            "x": 1039,
-                            "y": 1034,
-                            "GUID": "0c3527fd-6fed-46e1-9ccc-f6950ede6c02"
-                        },
-                        {
-                            "x": 620.5757575757589,
-                            "y": 796.6212121212136,
-                            "GUID": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43"
-                        },
-                        {
-                            "x": 1039,
-                            "y": 1034,
-                            "GUID": "88d413c7-e62e-491e-aa61-0f36e3050279"
-                        },
-                        {
-                            "x": 1035,
-                            "y": 1789,
-                            "GUID": "30dac830-2564-4f31-819c-e99c8b7541a8"
-                        }
-                    ],
-                    "decorativeSymbols": [],
-                    "forceLayout": true,
-                    "defaultLinkLength": 300
-                },
                 "diagramViews": [
                     {
                         "GUID": "83e9acd1-9b9e-4670-9fe9-317a8a4a2358",
@@ -2067,7 +1855,7 @@
                                 "width": 217,
                                 "height": 101,
                                 "color": {
-                                    "hex": "#39ff14"
+                                    "hex": "#d80073"
                                 }
                             }
                         ],
@@ -2089,8 +1877,8 @@
                             ],
                             "buckets": [
                                 {
-                                    "x": 1060,
-                                    "y": 1060,
+                                    "x": 1040,
+                                    "y": 1040,
                                     "GUID": "4c801be8-e52c-40d6-9243-331718075f39"
                                 }
                             ],
@@ -2112,7 +1900,7 @@
                                 "width": 225,
                                 "height": 83,
                                 "color": {
-                                    "hex": "#008a00"
+                                    "hex": "#2196F3"
                                 }
                             },
                             {
@@ -2122,7 +1910,7 @@
                                 "width": 217,
                                 "height": 101,
                                 "color": {
-                                    "hex": "#008a00"
+                                    "hex": "#2196F3"
                                 }
                             }
                         ],
@@ -2162,89 +1950,37 @@
                         "displayOptions": {
                             "hideErdRelationshipsNames": false
                         },
-                        "relationships": [
-                            {
-                                "GUID": "131b50ee-d297-43cd-a0fa-46465eef37b4",
-                                "autoPositioning": false,
-                                "sides": [
-                                    "bottom",
-                                    "bottom"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 1407,
-                                        "y": 1227
-                                    },
-                                    {
-                                        "y": 1363,
-                                        "x": 1407
-                                    },
-                                    {
-                                        "x": 1109,
-                                        "y": 1363
-                                    },
-                                    {
-                                        "x": 1109,
-                                        "y": 1133
-                                    }
-                                ]
-                            }
-                        ]
+                        "relationships": []
                     },
                     {
                         "GUID": "026d0c02-7cf9-4f88-bb81-5b211c3f6773",
                         "entities": [
                             {
                                 "GUID": "289b61cc-d188-4196-819f-3e9382a7c661",
-                                "x": 1050,
-                                "y": 1050,
+                                "x": 1066,
+                                "y": 1074,
                                 "width": 225,
                                 "height": 83,
                                 "color": {
-                                    "hex": "#2196F3"
+                                    "hex": "#36454f"
                                 }
                             },
                             {
                                 "GUID": "6c9cdf7b-40e9-480b-916f-c9c64d734779",
-                                "x": 1317,
-                                "y": 1050,
+                                "x": 1333,
+                                "y": 1074,
                                 "width": 217,
                                 "height": 101,
                                 "color": {
-                                    "hex": "#2196F3"
+                                    "hex": "#36454f"
                                 }
                             }
                         ],
                         "buckets": [
                             {
-                                "x": 1010,
-                                "y": 1010,
+                                "x": 1026,
+                                "y": 1009,
                                 "GUID": "4c801be8-e52c-40d6-9243-331718075f39"
-                            },
-                            {
-                                "x": 1000,
-                                "y": 1196,
-                                "GUID": "c46c53b6-9214-421e-bc34-d4b99dec0860"
-                            },
-                            {
-                                "x": 1150,
-                                "y": 1196,
-                                "GUID": "0c3527fd-6fed-46e1-9ccc-f6950ede6c02"
-                            },
-                            {
-                                "x": 1300,
-                                "y": 1196,
-                                "GUID": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43"
-                            },
-                            {
-                                "x": 1000,
-                                "y": 1226,
-                                "GUID": "88d413c7-e62e-491e-aa61-0f36e3050279"
-                            },
-                            {
-                                "x": 1150,
-                                "y": 1226,
-                                "GUID": "30dac830-2564-4f31-819c-e99c8b7541a8"
                             }
                         ],
                         "graphView": {
@@ -2276,34 +2012,8 @@
                         "displayOptions": {
                             "hideErdRelationshipsNames": false
                         },
-                        "relationships": [
-                            {
-                                "GUID": "131b50ee-d297-43cd-a0fa-46465eef37b4",
-                                "autoPositioning": true,
-                                "sides": [
-                                    "left",
-                                    "right"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 1317,
-                                        "y": 1100.5
-                                    },
-                                    {
-                                        "x": 1292,
-                                        "y": 1100.5
-                                    },
-                                    {
-                                        "x": 1292,
-                                        "y": 1091.5
-                                    },
-                                    {
-                                        "x": 1267,
-                                        "y": 1091.5
-                                    }
-                                ]
-                            }
-                        ]
+                        "relationships": [],
+                        "hiddenBuckets": []
                     },
                     {
                         "GUID": "6a4890c6-253d-4236-8c42-749a9d08d856",
@@ -2362,7 +2072,7 @@
                                 "GUID": "7c2d2b44-a033-4feb-8b63-3f84b218e16e",
                                 "x": 1608.4532577903674,
                                 "y": 1191.2209631728047,
-                                "width": 217,
+                                "width": 225,
                                 "height": 101,
                                 "color": {
                                     "hex": "#2196F3"
@@ -2461,8 +2171,8 @@
                                 "GUID": "c46c53b6-9214-421e-bc34-d4b99dec0860"
                             },
                             {
-                                "x": 1558.4532577903674,
-                                "y": 991.2209631728045,
+                                "x": 1568.4532577903674,
+                                "y": 1001.2209631728047,
                                 "GUID": "0c3527fd-6fed-46e1-9ccc-f6950ede6c02"
                             },
                             {
@@ -2471,13 +2181,13 @@
                                 "GUID": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43"
                             },
                             {
-                                "x": 2064.232294617564,
-                                "y": 1634.9518413597734,
+                                "x": 2074.232294617564,
+                                "y": 1644.9518413597734,
                                 "GUID": "88d413c7-e62e-491e-aa61-0f36e3050279"
                             },
                             {
-                                "x": 1304.3399433427765,
-                                "y": 1718.3371104815865,
+                                "x": 1314.3399433427765,
+                                "y": 1728.3371104815865,
                                 "GUID": "30dac830-2564-4f31-819c-e99c8b7541a8"
                             }
                         ],
@@ -2607,85 +2317,11 @@
                         "displayOptions": {
                             "hideErdRelationshipsNames": false
                         },
-                        "relationships": [
-                            {
-                                "GUID": "131b50ee-d297-43cd-a0fa-46465eef37b4",
-                                "autoPositioning": true,
-                                "sides": [
-                                    "left",
-                                    "right"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 2410.495750708216,
-                                        "y": 1217.5538243626063
-                                    },
-                                    {
-                                        "x": 2385.495750708216,
-                                        "y": 1217.5538243626063
-                                    },
-                                    {
-                                        "x": 2385.495750708216,
-                                        "y": 1208.5538243626063
-                                    },
-                                    {
-                                        "x": 2360.495750708216,
-                                        "y": 1208.5538243626063
-                                    }
-                                ]
-                            },
-                            {
-                                "GUID": "a830fd2b-270d-4d42-97d0-3df7499496df",
-                                "autoPositioning": true,
-                                "sides": [
-                                    "left",
-                                    "right"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 2381.232294617564,
-                                        "y": 1735.4518413597734
-                                    },
-                                    {
-                                        "x": 2356.232294617564,
-                                        "y": 1735.4518413597734
-                                    },
-                                    {
-                                        "x": 2356.232294617564,
-                                        "y": 1726.4518413597734
-                                    },
-                                    {
-                                        "x": 2331.232294617564,
-                                        "y": 1726.4518413597734
-                                    }
-                                ]
-                            },
-                            {
-                                "GUID": "dddfaeaa-65cc-432c-8932-bcf382b3647a",
-                                "autoPositioning": true,
-                                "sides": [
-                                    "left",
-                                    "right"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 1635.1926345609068,
-                                        "y": 1818.8371104815865
-                                    },
-                                    {
-                                        "x": 1606.1926345609068,
-                                        "y": 1818.8371104815865
-                                    },
-                                    {
-                                        "x": 1606.1926345609068,
-                                        "y": 1809.8371104815865
-                                    },
-                                    {
-                                        "x": 1577.1926345609068,
-                                        "y": 1809.8371104815865
-                                    }
-                                ]
-                            }
+                        "relationships": [],
+                        "hiddenBuckets": [
+                            "ac1bde08-70bf-45b0-b716-3ff1abb8eb43",
+                            "c46c53b6-9214-421e-bc34-d4b99dec0860",
+                            "88d413c7-e62e-491e-aa61-0f36e3050279"
                         ]
                     },
                     {
@@ -2745,7 +2381,7 @@
                                 "GUID": "7c2d2b44-a033-4feb-8b63-3f84b218e16e",
                                 "x": 1646.4957507082154,
                                 "y": 1197.0736543909347,
-                                "width": 217,
+                                "width": 225,
                                 "height": 101,
                                 "color": {
                                     "hex": "#2196F3"
@@ -2753,18 +2389,18 @@
                             },
                             {
                                 "GUID": "7e3996a6-d195-42fb-83f3-1ea851fb11ad",
-                                "x": 1250,
-                                "y": 1396,
+                                "x": 2113.2719546742196,
+                                "y": 1278.946175637394,
                                 "width": 225,
                                 "height": 83,
                                 "color": {
-                                    "hex": "#2196F3"
+                                    "hex": "#008a00"
                                 }
                             },
                             {
                                 "GUID": "e60ec99c-bfb4-4d24-905f-63a6573d4495",
-                                "x": 1050,
-                                "y": 1546,
+                                "x": 2097.631728045323,
+                                "y": 1077.784702549572,
                                 "width": 225,
                                 "height": 101,
                                 "color": {
@@ -2808,13 +2444,13 @@
                                 "width": 225,
                                 "height": 101,
                                 "color": {
-                                    "hex": "#2196F3"
+                                    "hex": "#40e0d0"
                                 }
                             },
                             {
                                 "GUID": "5f3e3e61-45bb-4be5-8cf2-1790dfecb531",
-                                "x": 1107.5,
-                                "y": 1579,
+                                "x": 1970.7719546742196,
+                                "y": 1461.946175637394,
                                 "width": 240,
                                 "height": 100,
                                 "color": {
@@ -2823,8 +2459,8 @@
                             },
                             {
                                 "GUID": "e0458e24-4347-4c26-b3c9-f64da8a8f1f4",
-                                "x": 1377.5,
-                                "y": 1579,
+                                "x": 2471.953257790368,
+                                "y": 1447.314447592068,
                                 "width": 240,
                                 "height": 100,
                                 "color": {
@@ -2844,23 +2480,23 @@
                                 "GUID": "c46c53b6-9214-421e-bc34-d4b99dec0860"
                             },
                             {
-                                "x": 1596.4957507082154,
-                                "y": 997.0736543909348,
+                                "x": 1606.4957507082154,
+                                "y": 1007.0736543909347,
                                 "GUID": "0c3527fd-6fed-46e1-9ccc-f6950ede6c02"
                             },
                             {
-                                "x": 1010,
-                                "y": 1356,
+                                "x": 1930.7719546742196,
+                                "y": 1037.784702549572,
                                 "GUID": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43"
                             },
                             {
-                                "x": 1991.0736543909347,
-                                "y": 1397.9178470254965,
+                                "x": 2001.0736543909347,
+                                "y": 1407.9178470254965,
                                 "GUID": "88d413c7-e62e-491e-aa61-0f36e3050279"
                             },
                             {
-                                "x": 1000,
-                                "y": 1692,
+                                "x": 1010,
+                                "y": 1702,
                                 "GUID": "30dac830-2564-4f31-819c-e99c8b7541a8"
                             }
                         ],
@@ -2990,90 +2626,11 @@
                         "displayOptions": {
                             "hideErdRelationshipsNames": false
                         },
-                        "relationships": [
-                            {
-                                "GUID": "131b50ee-d297-43cd-a0fa-46465eef37b4",
-                                "autoPositioning": true,
-                                "sides": [
-                                    "left",
-                                    "right"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 2732.3937677053827,
-                                        "y": 1322.902266288952
-                                    },
-                                    {
-                                        "x": 2707.3937677053827,
-                                        "y": 1322.902266288952
-                                    },
-                                    {
-                                        "x": 2707.3937677053827,
-                                        "y": 1313.902266288952
-                                    },
-                                    {
-                                        "x": 2682.3937677053827,
-                                        "y": 1313.902266288952
-                                    }
-                                ]
-                            },
-                            {
-                                "GUID": "a830fd2b-270d-4d42-97d0-3df7499496df",
-                                "autoPositioning": true,
-                                "sides": [
-                                    "left",
-                                    "right"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 2308.0736543909347,
-                                        "y": 1498.4178470254965
-                                    },
-                                    {
-                                        "x": 2283.0736543909347,
-                                        "y": 1498.4178470254965
-                                    },
-                                    {
-                                        "x": 2283.0736543909347,
-                                        "y": 1489.4178470254965
-                                    },
-                                    {
-                                        "x": 2258.0736543909347,
-                                        "y": 1489.4178470254965
-                                    }
-                                ]
-                            },
-                            {
-                                "GUID": "dddfaeaa-65cc-432c-8932-bcf382b3647a",
-                                "autoPositioning": true,
-                                "sides": [
-                                    "left",
-                                    "right"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 1325,
-                                        "y": 1792.5
-                                    },
-                                    {
-                                        "x": 1296,
-                                        "y": 1792.5
-                                    },
-                                    {
-                                        "x": 1296,
-                                        "y": 1783.5
-                                    },
-                                    {
-                                        "x": 1267,
-                                        "y": 1783.5
-                                    }
-                                ]
-                            }
-                        ],
+                        "relationships": [],
                         "hiddenBuckets": [
                             "0c3527fd-6fed-46e1-9ccc-f6950ede6c02",
                             "4c801be8-e52c-40d6-9243-331718075f39",
-                            "ac1bde08-70bf-45b0-b716-3ff1abb8eb43",
+                            "88d413c7-e62e-491e-aa61-0f36e3050279",
                             "88d413c7-e62e-491e-aa61-0f36e3050279"
                         ]
                     },
@@ -3087,7 +2644,7 @@
                                 "width": 225,
                                 "height": 83,
                                 "color": {
-                                    "hex": "#3f51b5"
+                                    "hex": "#2196F3"
                                 }
                             },
                             {
@@ -3097,27 +2654,27 @@
                                 "width": 217,
                                 "height": 101,
                                 "color": {
-                                    "hex": "#d80073"
+                                    "hex": "#2196F3"
                                 }
                             },
                             {
                                 "GUID": "784c50d8-6166-4115-bbe9-268011d1e3dd",
-                                "x": 1247.0736543909347,
+                                "x": 1250,
                                 "y": 1050,
                                 "width": 217,
                                 "height": 83,
                                 "color": {
-                                    "hex": "#39ff14"
+                                    "hex": "#2196F3"
                                 }
                             },
                             {
                                 "GUID": "39fb2023-83a2-4c71-b3dd-e75c245ced20",
-                                "x": 1047.0736543909347,
+                                "x": 1050,
                                 "y": 1200,
                                 "width": 225,
                                 "height": 101,
                                 "color": {
-                                    "hex": "#333333"
+                                    "hex": "#d80073"
                                 }
                             },
                             {
@@ -3134,7 +2691,7 @@
                                 "GUID": "7c2d2b44-a033-4feb-8b63-3f84b218e16e",
                                 "x": 1547,
                                 "y": 1200,
-                                "width": 217,
+                                "width": 225,
                                 "height": 101,
                                 "color": {
                                     "hex": "#2196F3"
@@ -3142,7 +2699,7 @@
                             },
                             {
                                 "GUID": "7e3996a6-d195-42fb-83f3-1ea851fb11ad",
-                                "x": 1036.376770538242,
+                                "x": 1033.4504249291767,
                                 "y": 1788.1303116147326,
                                 "width": 225,
                                 "height": 83,
@@ -3152,7 +2709,7 @@
                             },
                             {
                                 "GUID": "e60ec99c-bfb4-4d24-905f-63a6573d4495",
-                                "x": 1050,
+                                "x": 1047.0736543909347,
                                 "y": 1546,
                                 "width": 225,
                                 "height": 101,
@@ -3202,7 +2759,7 @@
                             },
                             {
                                 "GUID": "5f3e3e61-45bb-4be5-8cf2-1790dfecb531",
-                                "x": 694.8852691218161,
+                                "x": 691.958923512751,
                                 "y": 1933.0878186968826,
                                 "width": 240,
                                 "height": 100,
@@ -3212,12 +2769,12 @@
                             },
                             {
                                 "GUID": "e0458e24-4347-4c26-b3c9-f64da8a8f1f4",
-                                "x": 1412.6161473087752,
+                                "x": 1409.6898016997102,
                                 "y": 2015.0254957507075,
                                 "width": 240,
                                 "height": 100,
                                 "color": {
-                                    "hex": "#fc6c85"
+                                    "hex": "#2196F3"
                                 }
                             }
                         ],
@@ -3228,7 +2785,7 @@
                                 "GUID": "4c801be8-e52c-40d6-9243-331718075f39"
                             },
                             {
-                                "x": 1007.0736543909348,
+                                "x": 1010,
                                 "y": 1010,
                                 "GUID": "c46c53b6-9214-421e-bc34-d4b99dec0860"
                             },
@@ -3238,7 +2795,7 @@
                                 "GUID": "0c3527fd-6fed-46e1-9ccc-f6950ede6c02"
                             },
                             {
-                                "x": 654.8852691218161,
+                                "x": 651.958923512751,
                                 "y": 1506,
                                 "GUID": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43"
                             },
@@ -3379,138 +2936,7 @@
                         "displayOptions": {
                             "hideErdRelationshipsNames": false
                         },
-                        "relationships": [
-                            {
-                                "GUID": "131b50ee-d297-43cd-a0fa-46465eef37b4",
-                                "autoPositioning": true,
-                                "sides": [
-                                    "top",
-                                    "top"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 2419.5,
-                                        "y": 1050
-                                    },
-                                    {
-                                        "x": 2419.5,
-                                        "y": 1025
-                                    },
-                                    {
-                                        "x": 2156.5,
-                                        "y": 1025
-                                    },
-                                    {
-                                        "x": 2156.5,
-                                        "y": 1050
-                                    }
-                                ]
-                            },
-                            {
-                                "GUID": "a830fd2b-270d-4d42-97d0-3df7499496df",
-                                "autoPositioning": true,
-                                "sides": [
-                                    "left",
-                                    "right"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 2311,
-                                        "y": 1296.5
-                                    },
-                                    {
-                                        "x": 2286,
-                                        "y": 1296.5
-                                    },
-                                    {
-                                        "x": 2286,
-                                        "y": 1287.5
-                                    },
-                                    {
-                                        "x": 2261,
-                                        "y": 1287.5
-                                    }
-                                ]
-                            },
-                            {
-                                "GUID": "dddfaeaa-65cc-432c-8932-bcf382b3647a",
-                                "autoPositioning": true,
-                                "sides": [
-                                    "left",
-                                    "right"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 1325,
-                                        "y": 1792.5
-                                    },
-                                    {
-                                        "x": 1296,
-                                        "y": 1792.5
-                                    },
-                                    {
-                                        "x": 1296,
-                                        "y": 1783.5
-                                    },
-                                    {
-                                        "x": 1267,
-                                        "y": 1783.5
-                                    }
-                                ]
-                            },
-                            {
-                                "GUID": "2932e02a-5351-4549-bd80-afc8d19ffa09",
-                                "autoPositioning": false,
-                                "sides": [
-                                    "bottom",
-                                    "bottom"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 1125.3881019830023,
-                                        "y": 1301
-                                    },
-                                    {
-                                        "y": 1699.3512747875382,
-                                        "x": 1125.3881019830023
-                                    },
-                                    {
-                                        "x": 2137.314447592067,
-                                        "y": 1699.3512747875382
-                                    },
-                                    {
-                                        "x": 2137.314447592067,
-                                        "y": 1133
-                                    }
-                                ]
-                            },
-                            {
-                                "GUID": "a7bf8056-dbdf-46e5-b042-fc2e967b06ef",
-                                "autoPositioning": true,
-                                "sides": [
-                                    "top",
-                                    "bottom"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 1148.876770538242,
-                                        "y": 1788.1303116147326
-                                    },
-                                    {
-                                        "x": 1148.876770538242,
-                                        "y": 1717.5651558073664
-                                    },
-                                    {
-                                        "x": 1162.5,
-                                        "y": 1717.5651558073664
-                                    },
-                                    {
-                                        "x": 1162.5,
-                                        "y": 1647
-                                    }
-                                ]
-                            }
-                        ],
+                        "relationships": [],
                         "hiddenBuckets": [
                             "30dac830-2564-4f31-819c-e99c8b7541a8",
                             "88d413c7-e62e-491e-aa61-0f36e3050279",
@@ -3519,40 +2945,87 @@
                     }
                 ],
                 "decorativeSymbols": [],
-                "nestedCollectionsLayout": "horizontal",
-                "options": [
-                    {
-                        "GUID": "784c50d8-6166-4115-bbe9-268011d1e3dd"
-                    },
-                    {
-                        "GUID": "39fb2023-83a2-4c71-b3dd-e75c245ced20"
-                    },
-                    {
-                        "GUID": "080ebd3e-2b31-41f9-985b-d7baa4c4270a"
-                    },
-                    {
-                        "GUID": "7c2d2b44-a033-4feb-8b63-3f84b218e16e"
-                    },
-                    {
-                        "GUID": "7e3996a6-d195-42fb-83f3-1ea851fb11ad"
-                    },
-                    {
-                        "GUID": "e60ec99c-bfb4-4d24-905f-63a6573d4495"
-                    },
-                    {
-                        "GUID": "82c45dc9-5b6e-4c3f-a5b5-71eb72ddc544"
-                    },
-                    {
-                        "GUID": "8164890d-cb92-46a0-83ca-2bee07acf81b"
-                    },
-                    {
-                        "GUID": "54755c91-39b6-4309-b2b3-bedef298a771"
-                    },
-                    {
-                        "GUID": "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b"
-                    }
-                ],
-                "relationshipUpdateDisabled": false
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "289b61cc-d188-4196-819f-3e9382a7c661",
+                            "size": 100,
+                            "x": 1007.2957886604056,
+                            "y": 945.4492601236071
+                        },
+                        {
+                            "GUID": "6c9cdf7b-40e9-480b-916f-c9c64d734779",
+                            "size": 100,
+                            "x": 1242.0374549082799,
+                            "y": 1133.5421959656871
+                        },
+                        {
+                            "GUID": "39fb2023-83a2-4c71-b3dd-e75c245ced20",
+                            "size": 100,
+                            "x": 1298.375003715916,
+                            "y": 869.9615908996534
+                        },
+                        {
+                            "GUID": "7c2d2b44-a033-4feb-8b63-3f84b218e16e",
+                            "size": 100,
+                            "x": 1252.278588622315,
+                            "y": 1010.9554400753499
+                        },
+                        {
+                            "GUID": "7e3996a6-d195-42fb-83f3-1ea851fb11ad",
+                            "size": 100,
+                            "x": 1120.407011350512,
+                            "y": 1264.9986094056985
+                        },
+                        {
+                            "GUID": "e60ec99c-bfb4-4d24-905f-63a6573d4495",
+                            "size": 100,
+                            "x": 1412.5903058402398,
+                            "y": 1191.401684775229
+                        },
+                        {
+                            "GUID": "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b",
+                            "size": 100,
+                            "x": 1364.7196764049002,
+                            "y": 1872.279418335682
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 1040,
+                            "y": 1040,
+                            "GUID": "4c801be8-e52c-40d6-9243-331718075f39"
+                        },
+                        {
+                            "x": 1039,
+                            "y": 1034,
+                            "GUID": "c46c53b6-9214-421e-bc34-d4b99dec0860"
+                        },
+                        {
+                            "x": 1039,
+                            "y": 1034,
+                            "GUID": "0c3527fd-6fed-46e1-9ccc-f6950ede6c02"
+                        },
+                        {
+                            "x": 620.5757575757589,
+                            "y": 796.6212121212136,
+                            "GUID": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43"
+                        },
+                        {
+                            "x": 1039,
+                            "y": 1034,
+                            "GUID": "88d413c7-e62e-491e-aa61-0f36e3050279"
+                        },
+                        {
+                            "x": 1035,
+                            "y": 1789,
+                            "GUID": "30dac830-2564-4f31-819c-e99c8b7541a8"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                }
             },
             "collectionLevel": {},
             "changed": false
