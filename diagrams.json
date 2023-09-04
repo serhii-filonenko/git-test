@@ -81,27 +81,13 @@
     "views": [],
     "relationships": [],
     "users": [],
-    "diagramViews": [
-        {
-            "GUID": "3e15f62f-ec31-4ba8-af16-b65231336d75",
-            "name": "New Diagram View",
-            "buckets": [
-                "23c90712-62e7-438e-979b-b0fed4e30ac1",
-                "7f0b6345-b560-4fd5-827e-3889548dbbab",
-                "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c",
-                "b2a29fe9-ea19-4ec0-bc84-8043647d4480",
-                "d712d90f-d791-4bee-92f0-498b1502047c"
-            ],
-            "entities": []
-        }
-    ],
+    "diagramViews": [],
     "idToNameHashTable": {
         "23c90712-62e7-438e-979b-b0fed4e30ac1": "New container",
         "7f0b6345-b560-4fd5-827e-3889548dbbab": "New container(1)",
         "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c": "New container(2)",
         "b2a29fe9-ea19-4ec0-bc84-8043647d4480": "New container(3)",
-        "d712d90f-d791-4bee-92f0-498b1502047c": "New container(4)",
-        "3e15f62f-ec31-4ba8-af16-b65231336d75": "New Diagram View"
+        "d712d90f-d791-4bee-92f0-498b1502047c": "New container(4)"
     },
     "definitions": {
         "type": "definitions",
@@ -125,7 +111,7 @@
     "creationTS": "2023-09-04T15:11:29.352Z",
     "GUID": "c776bada-5b36-4cf6-9054-746dbfbf5526",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-09-04T15:12:10.188Z",
+    "lastModifTS": "2023-09-04T15:15:07.611Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -136,6 +122,7 @@
     "applicationInformation": {
         "version": "6.10.19"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -214,75 +201,7 @@
                     "forceLayout": true,
                     "defaultLinkLength": 300
                 },
-                "diagramViews": [
-                    {
-                        "GUID": "3e15f62f-ec31-4ba8-af16-b65231336d75",
-                        "entities": [],
-                        "buckets": [
-                            {
-                                "x": 1000,
-                                "y": 1000,
-                                "GUID": "23c90712-62e7-438e-979b-b0fed4e30ac1"
-                            },
-                            {
-                                "x": 1000,
-                                "y": 1030,
-                                "GUID": "7f0b6345-b560-4fd5-827e-3889548dbbab"
-                            },
-                            {
-                                "x": 1000,
-                                "y": 1060,
-                                "GUID": "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c"
-                            },
-                            {
-                                "x": 1000,
-                                "y": 1090,
-                                "GUID": "b2a29fe9-ea19-4ec0-bc84-8043647d4480"
-                            },
-                            {
-                                "x": 1000,
-                                "y": 1120,
-                                "GUID": "d712d90f-d791-4bee-92f0-498b1502047c"
-                            }
-                        ],
-                        "graphView": {
-                            "erd": [],
-                            "buckets": [
-                                {
-                                    "x": 1100,
-                                    "y": 1100,
-                                    "GUID": "b2a29fe9-ea19-4ec0-bc84-8043647d4480"
-                                },
-                                {
-                                    "x": 1040,
-                                    "y": 1040,
-                                    "GUID": "23c90712-62e7-438e-979b-b0fed4e30ac1"
-                                },
-                                {
-                                    "x": 1060,
-                                    "y": 1060,
-                                    "GUID": "7f0b6345-b560-4fd5-827e-3889548dbbab"
-                                },
-                                {
-                                    "x": 1080,
-                                    "y": 1080,
-                                    "GUID": "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c"
-                                },
-                                {
-                                    "x": 1120,
-                                    "y": 1120,
-                                    "GUID": "d712d90f-d791-4bee-92f0-498b1502047c"
-                                }
-                            ],
-                            "decorativeSymbols": [],
-                            "forceLayout": true,
-                            "defaultLinkLength": 300
-                        },
-                        "displayOptions": {
-                            "hideErdRelationshipsNames": false
-                        }
-                    }
-                ],
+                "diagramViews": [],
                 "decorativeSymbols": [],
                 "nestedCollectionsLayout": "horizontal",
                 "options": [],
