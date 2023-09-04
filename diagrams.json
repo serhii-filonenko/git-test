@@ -341,9 +341,9 @@
                 "156a51b9-0f66-4a03-b307-18d793da5753"
             ],
             "backgroundColor": {
-                "r": 54,
-                "g": 69,
-                "b": 79,
+                "r": 254,
+                "g": 193,
+                "b": 7,
                 "a": 1
             },
             "show": false,
@@ -557,7 +557,7 @@
     "creationTS": "2023-09-04T13:01:32.133Z",
     "GUID": "1815a36e-65ed-4f99-a371-bc5f3ab89e81",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-09-04T13:03:17.647Z",
+    "lastModifTS": "2023-09-04T13:05:12.930Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -568,6 +568,7 @@
     "applicationInformation": {
         "version": "6.10.19"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -692,12 +693,12 @@
                             },
                             {
                                 "GUID": "156a51b9-0f66-4a03-b307-18d793da5753",
-                                "x": 1384,
-                                "y": 1038,
-                                "width": 217,
-                                "height": 101,
+                                "x": 411,
+                                "y": 928,
+                                "width": 364,
+                                "height": 304,
                                 "color": {
-                                    "hex": "#2196F3"
+                                    "hex": "#d80073"
                                 }
                             },
                             {
@@ -713,18 +714,18 @@
                         ],
                         "buckets": [
                             {
-                                "x": 1000,
-                                "y": 1000,
+                                "x": 1010,
+                                "y": 1010,
                                 "GUID": "8395c9ba-bba5-4fb5-960d-4cc1d0fe0da8"
                             },
                             {
-                                "x": 1344,
-                                "y": 998,
+                                "x": 371,
+                                "y": 888,
                                 "GUID": "afd0acc7-8317-429f-b5ab-1b1c15bb5971"
                             },
                             {
-                                "x": 1000,
-                                "y": 1196,
+                                "x": 1010,
+                                "y": 1206,
                                 "GUID": "0bbd67d1-42b2-4e91-829a-0e7903b9db9d"
                             }
                         ],
@@ -796,27 +797,34 @@
                                 "GUID": "737597a2-3110-4885-95c0-573d48b31526",
                                 "autoPositioning": true,
                                 "sides": [
-                                    "right",
-                                    "left"
+                                    "left",
+                                    "right"
                                 ],
                                 "shape": [
                                     {
-                                        "x": 1267,
+                                        "x": 1050,
                                         "y": 1100.5
                                     },
                                     {
-                                        "x": 1326.5,
+                                        "x": 912.5,
                                         "y": 1100.5
                                     },
                                     {
-                                        "x": 1326.5,
-                                        "y": 1081.5
+                                        "x": 912.5,
+                                        "y": 1078
                                     },
                                     {
-                                        "x": 1386,
-                                        "y": 1081.5
+                                        "x": 775,
+                                        "y": 1078
                                     }
                                 ]
+                            }
+                        ],
+                        "options": [
+                            {
+                                "autoWidth": false,
+                                "autoHeight": false,
+                                "GUID": "156a51b9-0f66-4a03-b307-18d793da5753"
                             }
                         ]
                     },
