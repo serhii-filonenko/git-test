@@ -1,583 +1,131 @@
 {
     "modelName": "New model",
-    "collections": [
-        {
-            "collectionName": "New entity(3)",
-            "type": "object",
-            "properties": [],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "d5289cd6-a1c8-4a08-9920-cbc58f1d2435"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "GUID": "d4845b6a-169c-4884-9eba-b723daf7defc"
-        },
-        {
-            "collectionName": "New entity",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "New attribute",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "alternateKey": false,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "97891a0f-afae-4312-b487-260c4c96a659",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    },
-                    "relationshipType": "Foreign Key",
-                    "foreignCollection": "156a51b9-0f66-4a03-b307-18d793da5753",
-                    "foreignField": [
-                        "156a51b9-0f66-4a03-b307-18d793da5753",
-                        "8e1ea08e-a3e4-4d21-85f7-82e21603abd8"
-                    ],
-                    "parentRelationship": "737597a2-3110-4885-95c0-573d48b31526"
-                },
-                {
-                    "name": "New attribute(1)",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "alternateKey": false,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "37cef912-6ade-4b80-ba63-d5a6b399d8ab",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
-                },
-                {
-                    "name": "New attribute(2)",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "alternateKey": false,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "afee394d-cc22-4851-b8fb-2b1703ab8108",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
-                },
-                {
-                    "name": "New attribute(3)",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "alternateKey": false,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "7e834e4a-3ee4-4db2-bf1b-4426b2a424fc",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "3ca826f5-8220-42df-9e8d-4786f9bb1289"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "GUID": "1c1d8847-6178-407c-8c4f-367bf360e258",
-            "bucketId": "8395c9ba-bba5-4fb5-960d-4cc1d0fe0da8"
-        },
-        {
-            "collectionName": "New entity(1)",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "New attribute",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "alternateKey": false,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "31d1aa4a-4425-42f4-9f2e-5badaacc0bbe",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    },
-                    "foreignCollection": "",
-                    "foreignField": []
-                },
-                {
-                    "name": "New attribute(1)",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "alternateKey": false,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "8e1ea08e-a3e4-4d21-85f7-82e21603abd8",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    },
-                    "foreignCollection": "",
-                    "foreignField": [],
-                    "childRelationships": [
-                        "737597a2-3110-4885-95c0-573d48b31526"
-                    ]
-                },
-                {
-                    "name": "New attribute(2)",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "alternateKey": false,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "0bfa05e6-2d15-4007-a69c-b9acb53e6d30",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    },
-                    "foreignCollection": "",
-                    "foreignField": []
-                },
-                {
-                    "name": "New attribute(3)",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "alternateKey": false,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "bc90e3af-61a1-497c-810b-cb7fca3b8c9e",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    },
-                    "foreignCollection": "",
-                    "foreignField": []
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "2acd5ec2-d4ff-4324-85be-f04b6094c0f6"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "GUID": "156a51b9-0f66-4a03-b307-18d793da5753",
-            "bucketId": "afd0acc7-8317-429f-b5ab-1b1c15bb5971"
-        },
-        {
-            "collectionName": "New entity(2)",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "New attribute",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "alternateKey": false,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "88aaa503-c4a5-4e46-8a41-47ab86cfe70c",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    },
-                    "foreignCollection": "",
-                    "foreignField": [],
-                    "childRelationships": [
-                        "101365f7-9061-4d5b-b7b3-d3919edbb55e"
-                    ]
-                },
-                {
-                    "name": "New attribute(1)",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "alternateKey": false,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "ee029576-9b8e-4103-bcd0-72caa3683a3f",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    },
-                    "foreignCollection": "",
-                    "foreignField": []
-                },
-                {
-                    "name": "New attribute(2)",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "alternateKey": false,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "d2ceddc4-dd8d-44a1-b87a-1df2684a8465",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    },
-                    "foreignCollection": "",
-                    "foreignField": []
-                },
-                {
-                    "name": "New attribute(3)",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "alternateKey": false,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "188f07d6-56c2-4b90-93ff-efaf35f5eb11",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    },
-                    "foreignCollection": "",
-                    "foreignField": []
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "e4143509-82d1-4f2d-b3d9-f41b7addcbe4"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "GUID": "a262257a-a13e-4080-bab0-d9cc0d4722ea",
-            "bucketId": "0bbd67d1-42b2-4e91-829a-0e7903b9db9d"
-        }
-    ],
+    "collections": [],
     "buckets": [
         {
             "name": "New container",
             "type": "bucket",
-            "collectionIds": [
-                "1c1d8847-6178-407c-8c4f-367bf360e258",
-                "1c1d8847-6178-407c-8c4f-367bf360e258",
-                "1c1d8847-6178-407c-8c4f-367bf360e258"
-            ],
+            "collectionIds": [],
             "backgroundColor": {
                 "r": 216,
                 "g": 0,
                 "b": 115,
                 "a": 1
             },
-            "show": false,
+            "show": true,
             "isActivated": true,
             "indexes": [],
-            "GUID": "8395c9ba-bba5-4fb5-960d-4cc1d0fe0da8"
+            "GUID": "23c90712-62e7-438e-979b-b0fed4e30ac1"
         },
         {
             "name": "New container(1)",
             "type": "bucket",
-            "collectionIds": [
-                "156a51b9-0f66-4a03-b307-18d793da5753",
-                "156a51b9-0f66-4a03-b307-18d793da5753",
-                "156a51b9-0f66-4a03-b307-18d793da5753"
-            ],
+            "collectionIds": [],
             "backgroundColor": {
-                "r": 54,
-                "g": 69,
-                "b": 79,
-                "a": 1
-            },
-            "show": false,
-            "isActivated": true,
-            "indexes": [],
-            "GUID": "afd0acc7-8317-429f-b5ab-1b1c15bb5971"
-        },
-        {
-            "name": "New container(2)",
-            "type": "bucket",
-            "collectionIds": [
-                "a262257a-a13e-4080-bab0-d9cc0d4722ea",
-                "a262257a-a13e-4080-bab0-d9cc0d4722ea",
-                "a262257a-a13e-4080-bab0-d9cc0d4722ea"
-            ],
-            "backgroundColor": {
-                "r": 54,
-                "g": 69,
-                "b": 79,
+                "r": 0,
+                "g": 138,
+                "b": 0,
                 "a": 1
             },
             "show": true,
             "isActivated": true,
             "indexes": [],
-            "GUID": "0bbd67d1-42b2-4e91-829a-0e7903b9db9d"
+            "GUID": "7f0b6345-b560-4fd5-827e-3889548dbbab"
+        },
+        {
+            "name": "New container(2)",
+            "type": "bucket",
+            "collectionIds": [],
+            "backgroundColor": {
+                "r": 0,
+                "g": 188,
+                "b": 213,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c"
+        },
+        {
+            "name": "New container(3)",
+            "type": "bucket",
+            "collectionIds": [],
+            "backgroundColor": {
+                "r": 3,
+                "g": 169,
+                "b": 245,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "b2a29fe9-ea19-4ec0-bc84-8043647d4480"
+        },
+        {
+            "name": "New container(4)",
+            "type": "bucket",
+            "collectionIds": [],
+            "backgroundColor": {
+                "r": 33,
+                "g": 150,
+                "b": 243,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "d712d90f-d791-4bee-92f0-498b1502047c"
         }
     ],
     "views": [],
-    "relationships": [
-        {
-            "name": "fk New entity.New attribute to New entity(2).New attribute",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "a262257a-a13e-4080-bab0-d9cc0d4722ea",
-                    "88aaa503-c4a5-4e46-8a41-47ab86cfe70c"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "1c1d8847-6178-407c-8c4f-367bf360e258",
-                    "97891a0f-afae-4312-b487-260c4c96a659"
-                ]
-            ],
-            "isActivated": true,
-            "childCardinality": "1",
-            "parentCollection": "a262257a-a13e-4080-bab0-d9cc0d4722ea",
-            "childCollection": "1c1d8847-6178-407c-8c4f-367bf360e258",
-            "GUID": "101365f7-9061-4d5b-b7b3-d3919edbb55e",
-            "level": "field",
-            "lineSize": 2,
-            "hackoladeStyles": {
-                "GUID": "2086076b-ca14-4eae-8748-1d5111e9ccd0",
-                "autoPositioning": true,
-                "type": "Orthogonal",
-                "thickness": 2,
-                "color": "#79c4ff",
-                "dataType": "",
-                "shape": [
-                    {
-                        "x": 1161,
-                        "y": 1137
-                    },
-                    {
-                        "x": 1161,
-                        "y": 1191.5
-                    },
-                    {
-                        "x": 1162,
-                        "y": 1191.5
-                    },
-                    {
-                        "x": 1162,
-                        "y": 1246
-                    }
-                ],
-                "sides": [
-                    "bottom",
-                    "top"
-                ]
-            }
-        },
-        {
-            "name": "fk New entity.New attribute to New entity(1).New attribute(1)",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "156a51b9-0f66-4a03-b307-18d793da5753",
-                    "8e1ea08e-a3e4-4d21-85f7-82e21603abd8"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "1c1d8847-6178-407c-8c4f-367bf360e258",
-                    "97891a0f-afae-4312-b487-260c4c96a659"
-                ]
-            ],
-            "isActivated": true,
-            "childCardinality": "1",
-            "parentCollection": "156a51b9-0f66-4a03-b307-18d793da5753",
-            "childCollection": "1c1d8847-6178-407c-8c4f-367bf360e258",
-            "GUID": "737597a2-3110-4885-95c0-573d48b31526",
-            "level": "field",
-            "lineSize": 2,
-            "hackoladeStyles": {
-                "GUID": "b5cda42a-cbeb-4de6-a835-1990e49333ee",
-                "autoPositioning": true,
-                "type": "Orthogonal",
-                "thickness": 2,
-                "color": "#79c4ff",
-                "dataType": "",
-                "shape": [
-                    {
-                        "x": 1272,
-                        "y": 1085.5
-                    },
-                    {
-                        "x": 1328,
-                        "y": 1085.5
-                    },
-                    {
-                        "x": 1328,
-                        "y": 1098.5
-                    },
-                    {
-                        "x": 1384,
-                        "y": 1098.5
-                    }
-                ],
-                "sides": [
-                    "right",
-                    "left"
-                ]
-            }
-        }
-    ],
+    "relationships": [],
     "users": [],
     "diagramViews": [
         {
-            "GUID": "c656d24e-7c6e-4496-b9ae-246013dc6348",
+            "GUID": "3e15f62f-ec31-4ba8-af16-b65231336d75",
             "name": "New Diagram View",
             "buckets": [
-                "8395c9ba-bba5-4fb5-960d-4cc1d0fe0da8",
-                "afd0acc7-8317-429f-b5ab-1b1c15bb5971",
-                "0bbd67d1-42b2-4e91-829a-0e7903b9db9d"
+                "23c90712-62e7-438e-979b-b0fed4e30ac1",
+                "7f0b6345-b560-4fd5-827e-3889548dbbab",
+                "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c",
+                "b2a29fe9-ea19-4ec0-bc84-8043647d4480",
+                "d712d90f-d791-4bee-92f0-498b1502047c"
             ],
-            "entities": [
-                "1c1d8847-6178-407c-8c4f-367bf360e258",
-                "156a51b9-0f66-4a03-b307-18d793da5753",
-                "a262257a-a13e-4080-bab0-d9cc0d4722ea"
-            ]
-        },
-        {
-            "GUID": "b6fa81d9-8067-420a-bae0-a98f3ed4f577",
-            "name": "New Diagram View(1)",
-            "buckets": [
-                "afd0acc7-8317-429f-b5ab-1b1c15bb5971",
-                "0bbd67d1-42b2-4e91-829a-0e7903b9db9d"
-            ],
-            "entities": [
-                "156a51b9-0f66-4a03-b307-18d793da5753",
-                "a262257a-a13e-4080-bab0-d9cc0d4722ea",
-                "d4845b6a-169c-4884-9eba-b723daf7defc"
-            ]
+            "entities": []
         }
     ],
     "idToNameHashTable": {
-        "8395c9ba-bba5-4fb5-960d-4cc1d0fe0da8": "New container",
-        "1c1d8847-6178-407c-8c4f-367bf360e258": "New entity",
-        "97891a0f-afae-4312-b487-260c4c96a659": "New attribute",
-        "37cef912-6ade-4b80-ba63-d5a6b399d8ab": "New attribute(1)",
-        "afee394d-cc22-4851-b8fb-2b1703ab8108": "New attribute(2)",
-        "7e834e4a-3ee4-4db2-bf1b-4426b2a424fc": "New attribute(3)",
-        "31d1aa4a-4425-42f4-9f2e-5badaacc0bbe": "New attribute",
-        "8e1ea08e-a3e4-4d21-85f7-82e21603abd8": "New attribute(1)",
-        "0bfa05e6-2d15-4007-a69c-b9acb53e6d30": "New attribute(2)",
-        "bc90e3af-61a1-497c-810b-cb7fca3b8c9e": "New attribute(3)",
-        "156a51b9-0f66-4a03-b307-18d793da5753": "New entity(1)",
-        "afd0acc7-8317-429f-b5ab-1b1c15bb5971": "New container(1)",
-        "88aaa503-c4a5-4e46-8a41-47ab86cfe70c": "New attribute",
-        "ee029576-9b8e-4103-bcd0-72caa3683a3f": "New attribute(1)",
-        "d2ceddc4-dd8d-44a1-b87a-1df2684a8465": "New attribute(2)",
-        "188f07d6-56c2-4b90-93ff-efaf35f5eb11": "New attribute(3)",
-        "a262257a-a13e-4080-bab0-d9cc0d4722ea": "New entity(2)",
-        "0bbd67d1-42b2-4e91-829a-0e7903b9db9d": "New container(2)",
-        "101365f7-9061-4d5b-b7b3-d3919edbb55e": "fk New entity.New attribute to New entity(2).New attribute",
-        "737597a2-3110-4885-95c0-573d48b31526": "fk New entity.New attribute to New entity(1).New attribute(1)",
-        "c656d24e-7c6e-4496-b9ae-246013dc6348": "New Diagram View",
-        "b6fa81d9-8067-420a-bae0-a98f3ed4f577": "New Diagram View(1)",
-        "d4845b6a-169c-4884-9eba-b723daf7defc": "New entity(3)"
+        "23c90712-62e7-438e-979b-b0fed4e30ac1": "New container",
+        "7f0b6345-b560-4fd5-827e-3889548dbbab": "New container(1)",
+        "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c": "New container(2)",
+        "b2a29fe9-ea19-4ec0-bc84-8043647d4480": "New container(3)",
+        "d712d90f-d791-4bee-92f0-498b1502047c": "New container(4)",
+        "3e15f62f-ec31-4ba8-af16-b65231336d75": "New Diagram View"
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "b403d440-6a00-4c40-be8b-2547f9f5fc47"
+        "GUID": "088f8420-5e82-4d37-bc00-5955468b82a9"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "dfff7cdf-219e-44d7-bfd9-065276303c0d"
+        "GUID": "64919660-ebe2-4d17-ae74-935363ed1c93"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "2c9c72fe-5d77-43a2-a53c-5697e85af93f"
+        "GUID": "46a464d9-9939-4e0a-8b44-3df19a360579"
     },
     "sources": [],
     "decorativeSymbols": [],
-    "dbVersion": "v5.0",
     "dbVendor": "Polyglot",
     "appTarget": "Polyglot",
-    "creationTS": "2023-09-04T13:01:32.133Z",
-    "GUID": "1815a36e-65ed-4f99-a371-bc5f3ab89e81",
+    "creationTS": "2023-09-04T15:11:29.352Z",
+    "GUID": "c776bada-5b36-4cf6-9054-746dbfbf5526",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-09-04T15:08:17.801Z",
+    "lastModifTS": "2023-09-04T15:12:10.188Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -588,378 +136,157 @@
     "applicationInformation": {
         "version": "6.10.19"
     },
-    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
-                "erd": [
-                    {
-                        "GUID": "1c1d8847-6178-407c-8c4f-367bf360e258",
-                        "x": 1049,
-                        "y": 1036,
-                        "width": 224,
-                        "height": 101,
-                        "color": {
-                            "hex": "#2196F3"
-                        }
-                    },
-                    {
-                        "GUID": "156a51b9-0f66-4a03-b307-18d793da5753",
-                        "x": 1384,
-                        "y": 1048,
-                        "width": 224,
-                        "height": 101,
-                        "color": {
-                            "hex": "#2196F3"
-                        }
-                    },
-                    {
-                        "GUID": "a262257a-a13e-4080-bab0-d9cc0d4722ea",
-                        "x": 1050,
-                        "y": 1246,
-                        "width": 224,
-                        "height": 101,
-                        "color": {
-                            "hex": "#2196F3"
-                        }
-                    },
-                    {
-                        "GUID": "d4845b6a-169c-4884-9eba-b723daf7defc",
-                        "x": 1466.323566878981,
-                        "y": 1102.532484076433,
-                        "width": 240,
-                        "height": 100,
-                        "color": {
-                            "hex": "#2196F3"
-                        }
-                    }
-                ],
+                "erd": [],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
                 "buckets": [
                     {
-                        "x": 1009,
-                        "y": 996,
-                        "GUID": "8395c9ba-bba5-4fb5-960d-4cc1d0fe0da8"
+                        "x": 1040,
+                        "y": 1040,
+                        "GUID": "23c90712-62e7-438e-979b-b0fed4e30ac1"
                     },
                     {
-                        "x": 1344,
-                        "y": 1008,
-                        "GUID": "afd0acc7-8317-429f-b5ab-1b1c15bb5971"
+                        "x": 1060,
+                        "y": 1060,
+                        "GUID": "7f0b6345-b560-4fd5-827e-3889548dbbab"
                     },
                     {
-                        "x": 1010,
-                        "y": 1206,
-                        "GUID": "0bbd67d1-42b2-4e91-829a-0e7903b9db9d"
+                        "x": 1080,
+                        "y": 1080,
+                        "GUID": "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c"
+                    },
+                    {
+                        "x": 1100,
+                        "y": 1100,
+                        "GUID": "b2a29fe9-ea19-4ec0-bc84-8043647d4480"
+                    },
+                    {
+                        "x": 1120,
+                        "y": 1120,
+                        "GUID": "d712d90f-d791-4bee-92f0-498b1502047c"
                     }
                 ],
-                "diagramViews": [
-                    {
-                        "GUID": "c656d24e-7c6e-4496-b9ae-246013dc6348",
-                        "entities": [
-                            {
-                                "GUID": "156a51b9-0f66-4a03-b307-18d793da5753",
-                                "x": 370.73885350318454,
-                                "y": 1164.9656050955396,
-                                "width": 237,
-                                "height": 121,
-                                "color": {
-                                    "hex": "#36454f"
-                                }
-                            },
-                            {
-                                "GUID": "a262257a-a13e-4080-bab0-d9cc0d4722ea",
-                                "x": 480.9961783439489,
-                                "y": 1185.889171974523,
-                                "width": 217,
-                                "height": 101,
-                                "color": {
-                                    "hex": "#008a00"
-                                }
-                            },
-                            {
-                                "GUID": "1c1d8847-6178-407c-8c4f-367bf360e258",
-                                "x": 870.803821656051,
-                                "y": 1287.252229299363,
-                                "width": 217,
-                                "height": 101,
-                                "color": {
-                                    "hex": "#2196F3"
-                                }
-                            }
-                        ],
-                        "buckets": [
-                            {
-                                "x": 830.803821656051,
-                                "y": 1247.252229299363,
-                                "GUID": "8395c9ba-bba5-4fb5-960d-4cc1d0fe0da8"
-                            },
-                            {
-                                "x": 330.73885350318454,
-                                "y": 1124.9656050955396,
-                                "GUID": "afd0acc7-8317-429f-b5ab-1b1c15bb5971"
-                            },
-                            {
-                                "x": 440.9961783439489,
-                                "y": 1145.889171974523,
-                                "GUID": "0bbd67d1-42b2-4e91-829a-0e7903b9db9d"
-                            }
-                        ],
-                        "graphView": {
-                            "erd": [
-                                {
-                                    "GUID": "1c1d8847-6178-407c-8c4f-367bf360e258",
-                                    "size": 100,
-                                    "x": 1080,
-                                    "y": 1080
-                                },
-                                {
-                                    "GUID": "156a51b9-0f66-4a03-b307-18d793da5753",
-                                    "size": 100,
-                                    "x": 1110,
-                                    "y": 1110
-                                },
-                                {
-                                    "GUID": "a262257a-a13e-4080-bab0-d9cc0d4722ea",
-                                    "size": 100,
-                                    "x": 1130,
-                                    "y": 1130
-                                }
-                            ],
-                            "buckets": [
-                                {
-                                    "x": 1040,
-                                    "y": 1040,
-                                    "GUID": "8395c9ba-bba5-4fb5-960d-4cc1d0fe0da8"
-                                },
-                                {
-                                    "x": 1070,
-                                    "y": 1070,
-                                    "GUID": "afd0acc7-8317-429f-b5ab-1b1c15bb5971"
-                                },
-                                {
-                                    "x": 1070,
-                                    "y": 1070,
-                                    "GUID": "0bbd67d1-42b2-4e91-829a-0e7903b9db9d"
-                                }
-                            ],
-                            "decorativeSymbols": [],
-                            "forceLayout": true,
-                            "defaultLinkLength": 300
-                        },
-                        "displayOptions": {
-                            "hideErdRelationshipsNames": false
-                        },
-                        "relationships": [],
-                        "options": [
-                            {
-                                "autoWidth": false,
-                                "autoHeight": false,
-                                "GUID": "156a51b9-0f66-4a03-b307-18d793da5753"
-                            }
-                        ],
-                        "hiddenBuckets": [
-                            "afd0acc7-8317-429f-b5ab-1b1c15bb5971",
-                            "0bbd67d1-42b2-4e91-829a-0e7903b9db9d"
-                        ]
-                    },
-                    {
-                        "GUID": "b6fa81d9-8067-420a-bae0-a98f3ed4f577",
-                        "entities": [
-                            {
-                                "GUID": "156a51b9-0f66-4a03-b307-18d793da5753",
-                                "x": 1445.9414012738855,
-                                "y": 1434.0675159235666,
-                                "width": 224,
-                                "height": 101,
-                                "color": {
-                                    "hex": "#36454f"
-                                }
-                            },
-                            {
-                                "GUID": "a262257a-a13e-4080-bab0-d9cc0d4722ea",
-                                "x": 1012,
-                                "y": 1342,
-                                "width": 224,
-                                "height": 101,
-                                "color": {
-                                    "hex": "#2196F3"
-                                }
-                            },
-                            {
-                                "GUID": "d4845b6a-169c-4884-9eba-b723daf7defc",
-                                "x": 1466.323566878981,
-                                "y": 1102.532484076433,
-                                "width": 240,
-                                "height": 100,
-                                "color": {
-                                    "hex": "#2196F3"
-                                }
-                            }
-                        ],
-                        "buckets": [
-                            {
-                                "x": 1405.9414012738855,
-                                "y": 1394.0675159235666,
-                                "GUID": "afd0acc7-8317-429f-b5ab-1b1c15bb5971"
-                            },
-                            {
-                                "x": 972,
-                                "y": 1302,
-                                "GUID": "0bbd67d1-42b2-4e91-829a-0e7903b9db9d"
-                            }
-                        ],
-                        "graphView": {
-                            "erd": [
-                                {
-                                    "GUID": "1c1d8847-6178-407c-8c4f-367bf360e258",
-                                    "size": 100,
-                                    "x": 1080,
-                                    "y": 1080
-                                },
-                                {
-                                    "GUID": "156a51b9-0f66-4a03-b307-18d793da5753",
-                                    "size": 100,
-                                    "x": 1110,
-                                    "y": 1110
-                                },
-                                {
-                                    "GUID": "a262257a-a13e-4080-bab0-d9cc0d4722ea",
-                                    "size": 100,
-                                    "x": 1130,
-                                    "y": 1130
-                                },
-                                {
-                                    "GUID": "d4845b6a-169c-4884-9eba-b723daf7defc",
-                                    "size": 100,
-                                    "x": 1466.323566878981,
-                                    "y": 1102.532484076433
-                                }
-                            ],
-                            "buckets": [
-                                {
-                                    "x": 1040,
-                                    "y": 1040,
-                                    "GUID": "8395c9ba-bba5-4fb5-960d-4cc1d0fe0da8"
-                                },
-                                {
-                                    "x": 1070,
-                                    "y": 1070,
-                                    "GUID": "afd0acc7-8317-429f-b5ab-1b1c15bb5971"
-                                },
-                                {
-                                    "x": 1070,
-                                    "y": 1070,
-                                    "GUID": "0bbd67d1-42b2-4e91-829a-0e7903b9db9d"
-                                }
-                            ],
-                            "decorativeSymbols": [],
-                            "forceLayout": true,
-                            "defaultLinkLength": 300
-                        },
-                        "displayOptions": {
-                            "hideErdRelationshipsNames": false
-                        },
-                        "relationships": [
-                            {
-                                "GUID": "101365f7-9061-4d5b-b7b3-d3919edbb55e",
-                                "autoPositioning": true,
-                                "sides": [
-                                    "bottom",
-                                    "top"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 1108,
-                                        "y": 1180
-                                    },
-                                    {
-                                        "x": 1108,
-                                        "y": 1261
-                                    },
-                                    {
-                                        "x": 1124,
-                                        "y": 1261
-                                    },
-                                    {
-                                        "x": 1124,
-                                        "y": 1342
-                                    }
-                                ]
-                            },
-                            {
-                                "GUID": "737597a2-3110-4885-95c0-573d48b31526",
-                                "autoPositioning": true,
-                                "sides": [
-                                    "right",
-                                    "left"
-                                ],
-                                "shape": [
-                                    {
-                                        "x": 1220,
-                                        "y": 1129.5
-                                    },
-                                    {
-                                        "x": 1332.9707006369426,
-                                        "y": 1129.5
-                                    },
-                                    {
-                                        "x": 1332.9707006369426,
-                                        "y": 1484.5675159235666
-                                    },
-                                    {
-                                        "x": 1445.9414012738855,
-                                        "y": 1484.5675159235666
-                                    }
-                                ],
-                                "color": "#36454f",
-                                "thickness": 2,
-                                "type": "Orthogonal"
-                            }
-                        ]
-                    }
-                ],
-                "decorativeSymbols": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
-                    "erd": [
-                        {
-                            "GUID": "1c1d8847-6178-407c-8c4f-367bf360e258",
-                            "size": 100,
-                            "x": 1080,
-                            "y": 1080
-                        },
-                        {
-                            "GUID": "156a51b9-0f66-4a03-b307-18d793da5753",
-                            "size": 100,
-                            "x": 1110,
-                            "y": 1110
-                        },
-                        {
-                            "GUID": "a262257a-a13e-4080-bab0-d9cc0d4722ea",
-                            "size": 100,
-                            "x": 1130,
-                            "y": 1130
-                        }
-                    ],
+                    "erd": [],
                     "buckets": [
                         {
                             "x": 1040,
                             "y": 1040,
-                            "GUID": "8395c9ba-bba5-4fb5-960d-4cc1d0fe0da8"
+                            "GUID": "23c90712-62e7-438e-979b-b0fed4e30ac1"
                         },
                         {
-                            "x": 1070,
-                            "y": 1070,
-                            "GUID": "afd0acc7-8317-429f-b5ab-1b1c15bb5971"
+                            "x": 1060,
+                            "y": 1060,
+                            "GUID": "7f0b6345-b560-4fd5-827e-3889548dbbab"
                         },
                         {
-                            "x": 1070,
-                            "y": 1070,
-                            "GUID": "0bbd67d1-42b2-4e91-829a-0e7903b9db9d"
+                            "x": 1080,
+                            "y": 1080,
+                            "GUID": "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c"
+                        },
+                        {
+                            "x": 1100,
+                            "y": 1100,
+                            "GUID": "b2a29fe9-ea19-4ec0-bc84-8043647d4480"
+                        },
+                        {
+                            "x": 1120,
+                            "y": 1120,
+                            "GUID": "d712d90f-d791-4bee-92f0-498b1502047c"
                         }
                     ],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                }
+                },
+                "diagramViews": [
+                    {
+                        "GUID": "3e15f62f-ec31-4ba8-af16-b65231336d75",
+                        "entities": [],
+                        "buckets": [
+                            {
+                                "x": 1000,
+                                "y": 1000,
+                                "GUID": "23c90712-62e7-438e-979b-b0fed4e30ac1"
+                            },
+                            {
+                                "x": 1000,
+                                "y": 1030,
+                                "GUID": "7f0b6345-b560-4fd5-827e-3889548dbbab"
+                            },
+                            {
+                                "x": 1000,
+                                "y": 1060,
+                                "GUID": "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c"
+                            },
+                            {
+                                "x": 1000,
+                                "y": 1090,
+                                "GUID": "b2a29fe9-ea19-4ec0-bc84-8043647d4480"
+                            },
+                            {
+                                "x": 1000,
+                                "y": 1120,
+                                "GUID": "d712d90f-d791-4bee-92f0-498b1502047c"
+                            }
+                        ],
+                        "graphView": {
+                            "erd": [],
+                            "buckets": [
+                                {
+                                    "x": 1100,
+                                    "y": 1100,
+                                    "GUID": "b2a29fe9-ea19-4ec0-bc84-8043647d4480"
+                                },
+                                {
+                                    "x": 1040,
+                                    "y": 1040,
+                                    "GUID": "23c90712-62e7-438e-979b-b0fed4e30ac1"
+                                },
+                                {
+                                    "x": 1060,
+                                    "y": 1060,
+                                    "GUID": "7f0b6345-b560-4fd5-827e-3889548dbbab"
+                                },
+                                {
+                                    "x": 1080,
+                                    "y": 1080,
+                                    "GUID": "7a6924ca-1462-4dd7-ac19-2d3bbf0d609c"
+                                },
+                                {
+                                    "x": 1120,
+                                    "y": 1120,
+                                    "GUID": "d712d90f-d791-4bee-92f0-498b1502047c"
+                                }
+                            ],
+                            "decorativeSymbols": [],
+                            "forceLayout": true,
+                            "defaultLinkLength": 300
+                        },
+                        "displayOptions": {
+                            "hideErdRelationshipsNames": false
+                        }
+                    }
+                ],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
             "changed": false
