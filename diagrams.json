@@ -1602,8 +1602,7 @@
                 "c46c53b6-9214-421e-bc34-d4b99dec0860",
                 "0c3527fd-6fed-46e1-9ccc-f6950ede6c02",
                 "ac1bde08-70bf-45b0-b716-3ff1abb8eb43",
-                "88d413c7-e62e-491e-aa61-0f36e3050279",
-                "30dac830-2564-4f31-819c-e99c8b7541a8"
+                "88d413c7-e62e-491e-aa61-0f36e3050279"
             ],
             "entities": [
                 "289b61cc-d188-4196-819f-3e9382a7c661",
@@ -1616,8 +1615,6 @@
                 "e60ec99c-bfb4-4d24-905f-63a6573d4495",
                 "82c45dc9-5b6e-4c3f-a5b5-71eb72ddc544",
                 "8164890d-cb92-46a0-83ca-2bee07acf81b",
-                "54755c91-39b6-4309-b2b3-bedef298a771",
-                "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b",
                 "5f3e3e61-45bb-4be5-8cf2-1790dfecb531",
                 "e0458e24-4347-4c26-b3c9-f64da8a8f1f4"
             ]
@@ -1772,13 +1769,13 @@
     },
     "sources": [],
     "decorativeSymbols": [],
-    "dbVersion": "v5.0",
     "dbVendor": "Polyglot",
     "appTarget": "Polyglot",
     "creationTS": "2023-09-04T11:58:34.809Z",
     "GUID": "70a938f6-9994-4ea9-9105-58b0e73d1fef",
+    "dbVersion": "v5.0",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-09-04T12:39:55.511Z",
+    "lastModifTS": "2023-09-04T12:58:50.996Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -1935,6 +1932,12 @@
                         }
                     }
                 ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
                 "buckets": [
                     {
                         "x": 1250.793201133145,
@@ -1962,11 +1965,142 @@
                         "GUID": "88d413c7-e62e-491e-aa61-0f36e3050279"
                     },
                     {
-                        "x": 2041.5099150141646,
-                        "y": 1195.3286118980172,
+                        "x": 1474.793201133145,
+                        "y": 1296.293201133144,
                         "GUID": "30dac830-2564-4f31-819c-e99c8b7541a8"
                     }
                 ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "289b61cc-d188-4196-819f-3e9382a7c661",
+                            "size": 100,
+                            "x": 1080,
+                            "y": 1080
+                        },
+                        {
+                            "GUID": "6c9cdf7b-40e9-480b-916f-c9c64d734779",
+                            "size": 100,
+                            "x": 1100,
+                            "y": 1100
+                        },
+                        {
+                            "GUID": "39fb2023-83a2-4c71-b3dd-e75c245ced20",
+                            "size": 100,
+                            "x": 1379,
+                            "y": 1074
+                        },
+                        {
+                            "GUID": "7c2d2b44-a033-4feb-8b63-3f84b218e16e",
+                            "size": 100,
+                            "x": 1379,
+                            "y": 1074
+                        },
+                        {
+                            "GUID": "7e3996a6-d195-42fb-83f3-1ea851fb11ad",
+                            "size": 100,
+                            "x": 1079,
+                            "y": 1228
+                        },
+                        {
+                            "GUID": "e60ec99c-bfb4-4d24-905f-63a6573d4495",
+                            "size": 100,
+                            "x": 1379,
+                            "y": 1074
+                        },
+                        {
+                            "GUID": "82c45dc9-5b6e-4c3f-a5b5-71eb72ddc544",
+                            "size": 100,
+                            "x": 1079,
+                            "y": 1228
+                        },
+                        {
+                            "GUID": "8164890d-cb92-46a0-83ca-2bee07acf81b",
+                            "size": 100,
+                            "x": 1379,
+                            "y": 1074
+                        },
+                        {
+                            "GUID": "54755c91-39b6-4309-b2b3-bedef298a771",
+                            "size": 100,
+                            "x": 1075,
+                            "y": 1983
+                        },
+                        {
+                            "GUID": "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b",
+                            "size": 100,
+                            "x": 1375,
+                            "y": 1829
+                        },
+                        {
+                            "GUID": "784c50d8-6166-4115-bbe9-268011d1e3dd",
+                            "x": 1139,
+                            "y": 1134,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "080ebd3e-2b31-41f9-985b-d7baa4c4270a",
+                            "x": 1239,
+                            "y": 1234,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "5f3e3e61-45bb-4be5-8cf2-1790dfecb531",
+                            "x": 1339,
+                            "y": 1334,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "e0458e24-4347-4c26-b3c9-f64da8a8f1f4",
+                            "x": 1439,
+                            "y": 1434,
+                            "size": 100
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 1040,
+                            "y": 1040,
+                            "GUID": "4c801be8-e52c-40d6-9243-331718075f39"
+                        },
+                        {
+                            "x": 1039,
+                            "y": 1034,
+                            "GUID": "c46c53b6-9214-421e-bc34-d4b99dec0860"
+                        },
+                        {
+                            "x": 1039,
+                            "y": 1034,
+                            "GUID": "0c3527fd-6fed-46e1-9ccc-f6950ede6c02"
+                        },
+                        {
+                            "x": 1039,
+                            "y": 1034,
+                            "GUID": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43"
+                        },
+                        {
+                            "x": 1039,
+                            "y": 1034,
+                            "GUID": "88d413c7-e62e-491e-aa61-0f36e3050279"
+                        },
+                        {
+                            "x": 1035,
+                            "y": 1789,
+                            "GUID": "30dac830-2564-4f31-819c-e99c8b7541a8"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
                 "diagramViews": [
                     {
                         "GUID": "83e9acd1-9b9e-4670-9fe9-317a8a4a2358",
@@ -2242,26 +2376,6 @@
                                 }
                             },
                             {
-                                "GUID": "54755c91-39b6-4309-b2b3-bedef298a771",
-                                "x": 1354.3399433427765,
-                                "y": 1768.3371104815865,
-                                "width": 217,
-                                "height": 83,
-                                "color": {
-                                    "hex": "#2196F3"
-                                }
-                            },
-                            {
-                                "GUID": "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b",
-                                "x": 1629.3399433427765,
-                                "y": 1768.3371104815865,
-                                "width": 225,
-                                "height": 101,
-                                "color": {
-                                    "hex": "#2196F3"
-                                }
-                            },
-                            {
                                 "GUID": "5f3e3e61-45bb-4be5-8cf2-1790dfecb531",
                                 "x": 1446.956090651559,
                                 "y": 1587.779036827196,
@@ -2307,11 +2421,6 @@
                                 "x": 2074.232294617564,
                                 "y": 1644.9518413597734,
                                 "GUID": "88d413c7-e62e-491e-aa61-0f36e3050279"
-                            },
-                            {
-                                "x": 1314.3399433427765,
-                                "y": 1728.3371104815865,
-                                "GUID": "30dac830-2564-4f31-819c-e99c8b7541a8"
                             }
                         ],
                         "graphView": {
@@ -2440,7 +2549,86 @@
                         "displayOptions": {
                             "hideErdRelationshipsNames": false
                         },
-                        "relationships": [],
+                        "relationships": [
+                            {
+                                "GUID": "131b50ee-d297-43cd-a0fa-46465eef37b4",
+                                "autoPositioning": true,
+                                "sides": [
+                                    "top",
+                                    "top"
+                                ],
+                                "shape": [
+                                    {
+                                        "x": 2518.995750708216,
+                                        "y": 1167.0538243626063
+                                    },
+                                    {
+                                        "x": 2518.995750708216,
+                                        "y": 1142.0538243626063
+                                    },
+                                    {
+                                        "x": 2255.995750708216,
+                                        "y": 1142.0538243626063
+                                    },
+                                    {
+                                        "x": 2255.995750708216,
+                                        "y": 1167.0538243626063
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "dddfaeaa-65cc-432c-8932-bcf382b3647a",
+                                "autoPositioning": true,
+                                "sides": [
+                                    "left",
+                                    "right"
+                                ],
+                                "shape": [
+                                    {
+                                        "x": 1629.3399433427765,
+                                        "y": 1818.8371104815865
+                                    },
+                                    {
+                                        "x": 1600.3399433427765,
+                                        "y": 1818.8371104815865
+                                    },
+                                    {
+                                        "x": 1600.3399433427765,
+                                        "y": 1809.8371104815865
+                                    },
+                                    {
+                                        "x": 1571.3399433427765,
+                                        "y": 1809.8371104815865
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "d3ee4bdf-2e1d-440a-9824-aa5f51428d5c",
+                                "autoPositioning": true,
+                                "sides": [
+                                    "top",
+                                    "bottom"
+                                ],
+                                "shape": [
+                                    {
+                                        "x": 1741.8399433427765,
+                                        "y": 1768.3371104815865
+                                    },
+                                    {
+                                        "x": 1741.8399433427765,
+                                        "y": 1530.2790368271956
+                                    },
+                                    {
+                                        "x": 1720.9532577903674,
+                                        "y": 1530.2790368271956
+                                    },
+                                    {
+                                        "x": 1720.9532577903674,
+                                        "y": 1292.2209631728047
+                                    }
+                                ]
+                            }
+                        ],
                         "hiddenBuckets": [
                             "ac1bde08-70bf-45b0-b716-3ff1abb8eb43",
                             "c46c53b6-9214-421e-bc34-d4b99dec0860",
@@ -3068,105 +3256,9 @@
                     }
                 ],
                 "decorativeSymbols": [],
-                "graphView": {
-                    "erd": [
-                        {
-                            "GUID": "289b61cc-d188-4196-819f-3e9382a7c661",
-                            "size": 100,
-                            "x": 1080,
-                            "y": 1080
-                        },
-                        {
-                            "GUID": "6c9cdf7b-40e9-480b-916f-c9c64d734779",
-                            "size": 100,
-                            "x": 1100,
-                            "y": 1100
-                        },
-                        {
-                            "GUID": "39fb2023-83a2-4c71-b3dd-e75c245ced20",
-                            "size": 100,
-                            "x": 1379,
-                            "y": 1074
-                        },
-                        {
-                            "GUID": "7c2d2b44-a033-4feb-8b63-3f84b218e16e",
-                            "size": 100,
-                            "x": 1379,
-                            "y": 1074
-                        },
-                        {
-                            "GUID": "7e3996a6-d195-42fb-83f3-1ea851fb11ad",
-                            "size": 100,
-                            "x": 1079,
-                            "y": 1228
-                        },
-                        {
-                            "GUID": "e60ec99c-bfb4-4d24-905f-63a6573d4495",
-                            "size": 100,
-                            "x": 1379,
-                            "y": 1074
-                        },
-                        {
-                            "GUID": "82c45dc9-5b6e-4c3f-a5b5-71eb72ddc544",
-                            "size": 100,
-                            "x": 1079,
-                            "y": 1228
-                        },
-                        {
-                            "GUID": "8164890d-cb92-46a0-83ca-2bee07acf81b",
-                            "size": 100,
-                            "x": 1379,
-                            "y": 1074
-                        },
-                        {
-                            "GUID": "54755c91-39b6-4309-b2b3-bedef298a771",
-                            "size": 100,
-                            "x": 1075,
-                            "y": 1983
-                        },
-                        {
-                            "GUID": "c3b2b45f-3f8b-4f6d-bbc5-82af06acc23b",
-                            "size": 100,
-                            "x": 1375,
-                            "y": 1829
-                        }
-                    ],
-                    "buckets": [
-                        {
-                            "x": 1040,
-                            "y": 1040,
-                            "GUID": "4c801be8-e52c-40d6-9243-331718075f39"
-                        },
-                        {
-                            "x": 1039,
-                            "y": 1034,
-                            "GUID": "c46c53b6-9214-421e-bc34-d4b99dec0860"
-                        },
-                        {
-                            "x": 1039,
-                            "y": 1034,
-                            "GUID": "0c3527fd-6fed-46e1-9ccc-f6950ede6c02"
-                        },
-                        {
-                            "x": 1039,
-                            "y": 1034,
-                            "GUID": "ac1bde08-70bf-45b0-b716-3ff1abb8eb43"
-                        },
-                        {
-                            "x": 1039,
-                            "y": 1034,
-                            "GUID": "88d413c7-e62e-491e-aa61-0f36e3050279"
-                        },
-                        {
-                            "x": 1035,
-                            "y": 1789,
-                            "GUID": "30dac830-2564-4f31-819c-e99c8b7541a8"
-                        }
-                    ],
-                    "decorativeSymbols": [],
-                    "forceLayout": true,
-                    "defaultLinkLength": 300
-                }
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
             "changed": false
