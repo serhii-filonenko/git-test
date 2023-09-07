@@ -1,0 +1,228 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "New entity",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "fe4072c9-4aca-4876-90ab-c0f5876e5fff"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "63a31961-7772-419b-ade3-fdc9acf08ac4",
+            "childCollection": [
+                "13eac181-35fa-435e-abdb-171ab5796fb4",
+                "74fd5184-1142-448c-908d-b8fb41f63347",
+                "1a8a0cd9-0c06-4747-b937-9e6c85ee5811"
+            ]
+        },
+        {
+            "collectionName": "New subtype",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "833544ce-8025-4552-b71b-cd2f9832936e"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "13eac181-35fa-435e-abdb-171ab5796fb4",
+            "parentCollection": "63a31961-7772-419b-ade3-fdc9acf08ac4",
+            "parentCollections": [
+                "63a31961-7772-419b-ade3-fdc9acf08ac4"
+            ],
+            "childCollection": [
+                "74fd5184-1142-448c-908d-b8fb41f63347"
+            ]
+        },
+        {
+            "collectionName": "New subtype(1)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "835a75de-e4f3-482e-97ef-209c76df4953"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "74fd5184-1142-448c-908d-b8fb41f63347",
+            "parentCollection": "13eac181-35fa-435e-abdb-171ab5796fb4",
+            "parentCollections": [
+                "63a31961-7772-419b-ade3-fdc9acf08ac4",
+                "13eac181-35fa-435e-abdb-171ab5796fb4"
+            ]
+        },
+        {
+            "collectionName": "New subtype(2)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "9cf6d895-46c5-4fcc-aef3-0c12198cd3a5"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "1a8a0cd9-0c06-4747-b937-9e6c85ee5811",
+            "parentCollection": "63a31961-7772-419b-ade3-fdc9acf08ac4",
+            "parentCollections": [
+                "63a31961-7772-419b-ade3-fdc9acf08ac4"
+            ]
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "63a31961-7772-419b-ade3-fdc9acf08ac4": "New entity",
+        "13eac181-35fa-435e-abdb-171ab5796fb4": "New subtype",
+        "74fd5184-1142-448c-908d-b8fb41f63347": "New subtype(1)",
+        "1a8a0cd9-0c06-4747-b937-9e6c85ee5811": "New subtype(2)"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "354310e2-2c26-43f2-92ab-ceeed50a3a27"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "eae862fe-f83f-4939-8ab0-9b167922b688"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "9d9045d3-0b7b-4522-a549-84f6f6716bbf"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2023-09-06T14:36:15.637Z",
+    "GUID": "49bd8555-7769-47d3-9b35-02006c9395f6",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-09-06T14:38:40.560Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.19"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "63a31961-7772-419b-ade3-fdc9acf08ac4",
+                        "x": 881,
+                        "y": 1040,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "13eac181-35fa-435e-abdb-171ab5796fb4",
+                        "x": 1025,
+                        "y": 1280,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "74fd5184-1142-448c-908d-b8fb41f63347",
+                        "x": 1352,
+                        "y": 1236,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "1a8a0cd9-0c06-4747-b937-9e6c85ee5811",
+                        "x": 881,
+                        "y": 1440,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "63a31961-7772-419b-ade3-fdc9acf08ac4",
+                            "size": 100,
+                            "x": 881,
+                            "y": 1040
+                        },
+                        {
+                            "GUID": "13eac181-35fa-435e-abdb-171ab5796fb4",
+                            "size": 100,
+                            "x": 881,
+                            "y": 1040
+                        },
+                        {
+                            "GUID": "74fd5184-1142-448c-908d-b8fb41f63347",
+                            "size": 100,
+                            "x": 881,
+                            "y": 1240
+                        },
+                        {
+                            "GUID": "1a8a0cd9-0c06-4747-b937-9e6c85ee5811",
+                            "size": 100,
+                            "x": 1423,
+                            "y": 1156
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
