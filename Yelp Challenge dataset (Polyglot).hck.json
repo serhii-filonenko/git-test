@@ -21,7 +21,12 @@
                     "relationshipType": "",
                     "comments": "Sat Nov 04 2017 10:12:00 GMT+0100 (Romance Standard Time): some comments",
                     "GUID": "0dd811fc-2b24-11e6-b7e5-591297143e36",
-                    "type": "objectId"
+                    "type": "objectId",
+                    "childRelationships": [
+                        "8a3660f0-2b26-11e6-b7e5-591297143e36",
+                        "fb857d40-2b26-11e6-b7e5-591297143e36",
+                        "003231f0-91f7-11e9-a924-ddc9cd9b071f"
+                    ]
                 },
                 {
                     "name": "name",
@@ -47,6 +52,8 @@
                     "error": {}
                 },
                 {
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
                     "name": "business_address",
                     "code": "",
                     "isActivated": true,
@@ -60,9 +67,15 @@
                     "ref": "0dd81200-2b24-11e6-b7e5-591297143e36",
                     "GUID": "3c5d7210-9df8-11ec-afe5-55c2aa6d0440",
                     "type": "reference",
-                    "hackoladeMeta": {}
+                    "hackoladeMeta": {},
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ]
                 },
                 {
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
                     "name": "full_address",
                     "code": "",
                     "isActivated": true,
@@ -76,7 +89,11 @@
                     "ref": "0dd81200-2b24-11e6-b7e5-591297143e36",
                     "GUID": "4445c459-a91f-418c-9a59-f771b5cc2858",
                     "type": "reference",
-                    "hackoladeMeta": {}
+                    "hackoladeMeta": {},
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ]
                 },
                 {
                     "name": "attributes",
@@ -1006,7 +1023,8 @@
                     ],
                     "relationshipType": "Foreign Key",
                     "GUID": "0da2aa02-2b24-11e6-b7e5-591297143e36",
-                    "type": "objectId"
+                    "type": "objectId",
+                    "parentRelationship": "fb857d40-2b26-11e6-b7e5-591297143e36"
                 },
                 {
                     "name": "date",
@@ -1066,7 +1084,8 @@
                     ],
                     "relationshipType": "Foreign Key",
                     "GUID": "0da2aa08-2b24-11e6-b7e5-591297143e36",
-                    "type": "objectId"
+                    "type": "objectId",
+                    "parentRelationship": "e2514f70-2b26-11e6-b7e5-591297143e36"
                 },
                 {
                     "name": "votes",
@@ -1156,7 +1175,8 @@
                     ],
                     "relationshipType": "Foreign Key",
                     "GUID": "0de02832-2b24-11e6-b7e5-591297143e36",
-                    "type": "objectId"
+                    "type": "objectId",
+                    "parentRelationship": "8a3660f0-2b26-11e6-b7e5-591297143e36"
                 },
                 {
                     "name": "date",
@@ -1213,7 +1233,8 @@
                     ],
                     "relationshipType": "Foreign Key",
                     "GUID": "0de02837-2b24-11e6-b7e5-591297143e36",
-                    "type": "objectId"
+                    "type": "objectId",
+                    "parentRelationship": "aa956d50-2b26-11e6-b7e5-591297143e36"
                 }
             ],
             "definitions": {
@@ -1244,7 +1265,11 @@
                     "required": true,
                     "relationshipType": "",
                     "GUID": "0df0f126-2b24-11e6-b7e5-591297143e36",
-                    "type": "objectId"
+                    "type": "objectId",
+                    "childRelationships": [
+                        "aa956d50-2b26-11e6-b7e5-591297143e36",
+                        "e2514f70-2b26-11e6-b7e5-591297143e36"
+                    ]
                 },
                 {
                     "name": "type",
@@ -1562,7 +1587,9 @@
             },
             "GUID": "0df0f110-2b24-11e6-b7e5-591297143e36",
             "type": "object",
-            "hackoladeMeta": {}
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "checkins",
@@ -1650,7 +1677,8 @@
                     "relationshipType": "Foreign Key",
                     "sample": "eFA9dqXT5EA_TrMgbo03QQ",
                     "GUID": "9c7dc021-91f6-11e9-a924-ddc9cd9b071f",
-                    "type": "string"
+                    "type": "string",
+                    "parentRelationship": "003231f0-91f7-11e9-a924-ddc9cd9b071f"
                 }
             ],
             "definitions": {
@@ -1670,18 +1698,18 @@
             "name": "yelp",
             "isActivated": true,
             "backgroundColor": {
-                "r": 33,
-                "g": 150,
-                "b": 243,
+                "r": 255,
+                "g": 152,
+                "b": 1,
                 "a": 1
             },
             "GUID": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
             "type": "bucket",
             "collectionIds": [
-                "0df0f110-2b24-11e6-b7e5-591297143e36",
-                "0de02830-2b24-11e6-b7e5-591297143e36",
-                "0da2aa00-2b24-11e6-b7e5-591297143e36",
                 "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                "0de02830-2b24-11e6-b7e5-591297143e36",
+                "0df0f110-2b24-11e6-b7e5-591297143e36",
                 "a080d1d0-91f6-11e9-a924-ddc9cd9b071f"
             ],
             "hackoladeMeta": {
@@ -1724,27 +1752,28 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 617.8006426572822,
-                        "y": 360.7104325125248
+                        "x": 1474.6808655576438,
+                        "y": 1189.2647783421496
                     },
                     {
-                        "x": 559.9602098784603,
-                        "y": 360.7104325125248
+                        "x": 1416.8404327788219,
+                        "y": 1189.2647783421496
                     },
                     {
-                        "x": 559.9602098784603,
-                        "y": 459.6827100483863
+                        "x": 1416.8404327788219,
+                        "y": 1358.5703892113445
                     },
                     {
-                        "x": 502.11977709963844,
-                        "y": 459.6827100483863
+                        "x": 1359,
+                        "y": 1358.5703892113445
                     }
                 ],
                 "sides": [
                     "left",
                     "right"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk_tipsUsers",
@@ -1778,27 +1807,28 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 869.8006426572822,
-                        "y": 360.7104325125248
+                        "x": 1726.6808655576438,
+                        "y": 1189.2647783421496
                     },
                     {
-                        "x": 920.0888069439942,
-                        "y": 360.7104325125248
+                        "x": 1776.9690298443556,
+                        "y": 1189.2647783421496
                     },
                     {
-                        "x": 920.0888069439942,
-                        "y": 408.6827100483863
+                        "x": 1776.9690298443556,
+                        "y": 1237.2370558780112
                     },
                     {
-                        "x": 970.3769712307062,
-                        "y": 408.6827100483863
+                        "x": 1827.2571941310678,
+                        "y": 1237.2370558780112
                     }
                 ],
                 "sides": [
                     "right",
                     "left"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk_reviewsUsers",
@@ -1832,27 +1862,28 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 876.4581875821932,
-                        "y": 570.6216092055856
+                        "x": 1733.3384104825548,
+                        "y": 1399.1759550352103
                     },
                     {
-                        "x": 923.4175794064497,
-                        "y": 570.6216092055856
+                        "x": 1780.2978023068113,
+                        "y": 1399.1759550352103
                     },
                     {
-                        "x": 923.4175794064497,
-                        "y": 569.6827100483863
+                        "x": 1780.2978023068113,
+                        "y": 1398.2370558780112
                     },
                     {
-                        "x": 970.3769712307062,
-                        "y": 569.6827100483863
+                        "x": 1827.2571941310678,
+                        "y": 1398.2370558780112
                     }
                 ],
                 "sides": [
                     "right",
                     "left"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk_reviewsBusinesses",
@@ -1886,27 +1917,28 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 615.4581875821932,
-                        "y": 570.6216092055856
+                        "x": 1472.3384104825548,
+                        "y": 1399.1759550352103
                     },
                     {
-                        "x": 558.7889823409158,
-                        "y": 570.6216092055856
+                        "x": 1415.6692052412773,
+                        "y": 1399.1759550352103
                     },
                     {
-                        "x": 558.7889823409158,
-                        "y": 670.6827100483863
+                        "x": 1415.6692052412773,
+                        "y": 1639.9037225446777
                     },
                     {
-                        "x": 502.11977709963844,
-                        "y": 670.6827100483863
+                        "x": 1359,
+                        "y": 1639.9037225446777
                     }
                 ],
                 "sides": [
                     "left",
                     "right"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk businesses.business_id to checkins.business_id",
@@ -1940,27 +1972,28 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 595.4581875821932,
-                        "y": 765.9016905789251
+                        "x": 1452.3384104825548,
+                        "y": 1594.45603640855
                     },
                     {
-                        "x": 548.7889823409158,
-                        "y": 765.9016905789251
+                        "x": 1405.6692052412773,
+                        "y": 1594.45603640855
                     },
                     {
-                        "x": 548.7889823409158,
-                        "y": 881.6827100483863
+                        "x": 1405.6692052412773,
+                        "y": 1710.2370558780112
                     },
                     {
-                        "x": 502.11977709963844,
-                        "y": 881.6827100483863
+                        "x": 1359,
+                        "y": 1710.2370558780112
                     }
                 ],
                 "sides": [
                     "left",
                     "right"
                 ]
-            }
+            },
+            "isActivated": true
         }
     ],
     "users": [],
@@ -2199,7 +2232,13 @@
                         "sample": "123",
                         "GUID": "7107ebf0-dc5b-11e9-b819-e3f2d5171928",
                         "type": "string",
-                        "hackoladeMeta": {}
+                        "hackoladeMeta": {},
+                        "compositeKey": [
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false
                     },
                     {
                         "name": "street",
@@ -2213,7 +2252,13 @@
                         "GUID": "760da090-dc5b-11e9-b819-e3f2d5171928",
                         "type": "string",
                         "hackoladeMeta": {},
-                        "error": {}
+                        "error": {},
+                        "compositeKey": [
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false
                     },
                     {
                         "name": "box",
@@ -2226,7 +2271,13 @@
                         "sample": "10",
                         "GUID": "7bfbe070-dc5b-11e9-b819-e3f2d5171928",
                         "type": "string",
-                        "hackoladeMeta": {}
+                        "hackoladeMeta": {},
+                        "compositeKey": [
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false
                     },
                     {
                         "name": "city",
@@ -2239,7 +2290,13 @@
                         "sample": "Anytown",
                         "GUID": "7ee803e0-dc5b-11e9-b819-e3f2d5171928",
                         "type": "string",
-                        "hackoladeMeta": {}
+                        "hackoladeMeta": {},
+                        "compositeKey": [
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false
                     },
                     {
                         "name": "state",
@@ -2252,7 +2309,13 @@
                         "sample": "CA",
                         "GUID": "85787730-dc5b-11e9-b819-e3f2d5171928",
                         "type": "string",
-                        "hackoladeMeta": {}
+                        "hackoladeMeta": {},
+                        "compositeKey": [
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false
                     },
                     {
                         "name": "zip",
@@ -2265,11 +2328,23 @@
                         "sample": "12345",
                         "GUID": "87afc990-dc5b-11e9-b819-e3f2d5171928",
                         "type": "string",
-                        "hackoladeMeta": {}
+                        "hackoladeMeta": {},
+                        "compositeKey": [
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false
                     }
                 ],
                 "GUID": "0dd81200-2b24-11e6-b7e5-591297143e36",
-                "type": "document"
+                "type": "document",
+                "compositeKey": [
+                    "compositePrimaryKey",
+                    "compositeUniqueKey"
+                ],
+                "compositePrimaryKey": false,
+                "compositeUniqueKey": false
             }
         ],
         "type": "definitions"
@@ -2318,11 +2393,11 @@
         "pluginVersion": "0.0.1",
         "pluginEngineVersion": "1.0.0"
     },
-    "lastModifTS": "2023-03-15T07:59:35.317Z",
+    "lastModifTS": "2023-10-19T12:14:44.561Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "applicationInformation": {
-        "version": "6.9.6"
+        "version": "6.11.5"
     },
     "settings": {
         "centralPane": {
@@ -2330,528 +2405,57 @@
                 "erd": [
                     {
                         "GUID": "0da2aa00-2b24-11e6-b7e5-591297143e36",
-                        "x": 615.4581875821932,
-                        "y": 459.6216092055856,
+                        "x": 1472.3384104825548,
+                        "y": 1288.1759550352103,
                         "width": 261,
                         "height": 222,
                         "color": {
-                            "hsl": {
-                                "h": 206.57142857142858,
-                                "s": 0.8974358974358974,
-                                "l": 0.5411764705882353,
-                                "a": 1
-                            },
-                            "hex": "#2196f3",
-                            "rgb": {
-                                "r": 33,
-                                "g": 150,
-                                "b": 243,
-                                "a": 1
-                            },
-                            "hsv": {
-                                "h": 206.57142857142858,
-                                "s": 0.8641975308641976,
-                                "v": 0.9529411764705882,
-                                "a": 1
-                            },
-                            "oldHue": 206.57142857142858,
-                            "source": "hex"
+                            "hex": "#fec107"
                         },
                         "size": 100
                     },
                     {
                         "GUID": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
-                        "x": 183.1197770996384,
-                        "y": 248.68271004838633,
+                        "x": 1040,
+                        "y": 1077.2370558780112,
                         "width": 319,
                         "height": 844,
                         "color": {
-                            "hsl": {
-                                "h": 339.7058823529412,
-                                "s": 0.8292682926829267,
-                                "l": 0.5176470588235293,
-                                "a": 1
-                            },
-                            "hex": "#ea1e63",
-                            "rgb": {
-                                "r": 234,
-                                "g": 30,
-                                "b": 99,
-                                "a": 1
-                            },
-                            "hsv": {
-                                "h": 339.7058823529412,
-                                "s": 0.8717948717948718,
-                                "v": 0.9176470588235294,
-                                "a": 1
-                            },
-                            "oldHue": 339.7058823529412,
-                            "source": "hex"
+                            "hex": "#fec107"
                         },
                         "size": 100
                     },
                     {
                         "GUID": "0de02830-2b24-11e6-b7e5-591297143e36",
-                        "x": 617.8006426572822,
-                        "y": 283.2104325125248,
+                        "x": 1474.6808655576438,
+                        "y": 1111.7647783421496,
                         "width": 252,
                         "height": 155,
                         "color": {
-                            "hsl": {
-                                "h": 206.57142857142858,
-                                "s": 0.8974358974358974,
-                                "l": 0.5411764705882353,
-                                "a": 1
-                            },
-                            "hex": "#2196f3",
-                            "rgb": {
-                                "r": 33,
-                                "g": 150,
-                                "b": 243,
-                                "a": 1
-                            },
-                            "hsv": {
-                                "h": 206.57142857142858,
-                                "s": 0.8641975308641976,
-                                "v": 0.9529411764705882,
-                                "a": 1
-                            },
-                            "oldHue": 206.57142857142858,
-                            "source": "hex"
+                            "hex": "#ff9801"
                         },
                         "size": 100
                     },
                     {
                         "GUID": "0df0f110-2b24-11e6-b7e5-591297143e36",
-                        "x": 970.3769712307062,
-                        "y": 247.68271004838633,
+                        "x": 1827.2571941310678,
+                        "y": 1076.2370558780112,
                         "width": 252,
                         "height": 483,
                         "color": {
-                            "hsl": {
-                                "h": 339.7058823529412,
-                                "s": 0.8292682926829267,
-                                "l": 0.5176470588235293,
-                                "a": 1
-                            },
-                            "hex": "#ea1e63",
-                            "rgb": {
-                                "r": 234,
-                                "g": 30,
-                                "b": 99,
-                                "a": 1
-                            },
-                            "hsv": {
-                                "h": 339.7058823529412,
-                                "s": 0.8717948717948718,
-                                "v": 0.9176470588235294,
-                                "a": 1
-                            },
-                            "oldHue": 339.7058823529412,
-                            "source": "hex"
+                            "hex": "#fe5722"
                         },
                         "size": 100
                     },
                     {
-                        "GUID": "350cb9d0-ffec-11e6-bc11-bba283d07659",
-                        "x": 240,
-                        "y": 290,
-                        "width": 193,
-                        "height": 107,
-                        "color": {
-                            "hsl": {
-                                "h": 3.789473684210526,
-                                "s": 0.904761904761905,
-                                "l": 0.5882352941176471,
-                                "a": 1
-                            },
-                            "hex": "#f54337",
-                            "rgb": {
-                                "r": 245,
-                                "g": 67,
-                                "b": 55,
-                                "a": 1
-                            },
-                            "hsv": {
-                                "h": 3.789473684210526,
-                                "s": 0.7755102040816326,
-                                "v": 0.9607843137254902,
-                                "a": 1
-                            },
-                            "oldHue": 3.789473684210526,
-                            "source": "hex"
-                        }
-                    },
-                    {
-                        "GUID": "350d2f07-ffec-11e6-bc11-bba283d07659",
-                        "x": 390,
-                        "y": 90,
-                        "width": 257,
-                        "height": 135,
-                        "color": {
-                            "hsl": {
-                                "h": 3.789473684210526,
-                                "s": 0.904761904761905,
-                                "l": 0.5882352941176471,
-                                "a": 1
-                            },
-                            "hex": "#f54337",
-                            "rgb": {
-                                "r": 245,
-                                "g": 67,
-                                "b": 55,
-                                "a": 1
-                            },
-                            "hsv": {
-                                "h": 3.789473684210526,
-                                "s": 0.7755102040816326,
-                                "v": 0.9607843137254902,
-                                "a": 1
-                            },
-                            "oldHue": 3.789473684210526,
-                            "source": "hex"
-                        }
-                    },
-                    {
-                        "GUID": "350da431-ffec-11e6-bc11-bba283d07659",
-                        "x": 90,
-                        "y": 90,
-                        "width": 194,
-                        "height": 149,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "4a8e3c70-f3f9-11e5-938a-bd54cc414623",
-                        "x": 61,
-                        "y": 516,
-                        "width": 200,
-                        "height": 75,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "c2b2c8b0-f417-11e5-938a-bd54cc414623",
-                        "x": 429,
-                        "y": 472,
-                        "width": 200,
-                        "height": 100,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "4a014da0-f418-11e5-a6f2-dbf6571c2b51",
-                        "x": 422,
-                        "y": 485,
-                        "width": 200,
-                        "height": 100,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "8439e830-f41b-11e5-ad3f-7d283a6e1eb9",
-                        "x": 453.5,
-                        "y": 494,
-                        "width": 233,
-                        "height": 116,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "6e9a9cc0-f422-11e5-ab1e-4fda87c84016",
-                        "x": 431,
-                        "y": 485,
-                        "width": 314,
-                        "height": 204,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "166589b0-0440-11e6-a1a6-29098b60dd65",
-                        "x": 87,
-                        "y": 133,
-                        "width": 234,
-                        "height": 166,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "46aed5e0-0440-11e6-a1a6-29098b60dd65",
-                        "x": 399,
-                        "y": 46,
-                        "width": 315,
-                        "height": 277,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "b63dd6c0-0721-11e6-a0f3-475ccb6d8902",
-                        "x": 459,
-                        "y": 438,
-                        "width": 200,
-                        "height": 100,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "889580b1-00d6-11e7-94c9-270ac0401f9d",
-                        "x": 80,
-                        "y": 80,
-                        "width": 247,
-                        "height": 176,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "ac2700e1-2b1e-11e7-bde4-57d99ab8fafb",
-                        "x": 228,
-                        "y": 396,
-                        "width": 193,
-                        "height": 149,
-                        "color": {
-                            "hsl": {
-                                "h": 339.7058823529412,
-                                "s": 0.8292682926829267,
-                                "l": 0.5176470588235293,
-                                "a": 1
-                            },
-                            "hex": "#ea1e63",
-                            "rgb": {
-                                "r": 234,
-                                "g": 30,
-                                "b": 99,
-                                "a": 1
-                            },
-                            "hsv": {
-                                "h": 339.7058823529412,
-                                "s": 0.8717948717948718,
-                                "v": 0.9176470588235294,
-                                "a": 1
-                            },
-                            "oldHue": 339.7058823529412,
-                            "source": "hex"
-                        }
-                    },
-                    {
-                        "GUID": "ac277619-2b1e-11e7-bde4-57d99ab8fafb",
-                        "x": 223,
-                        "y": 96,
-                        "width": 204,
-                        "height": 231,
-                        "color": {
-                            "hsl": {
-                                "h": 339.7058823529412,
-                                "s": 0.8292682926829267,
-                                "l": 0.5176470588235293,
-                                "a": 1
-                            },
-                            "hex": "#ea1e63",
-                            "rgb": {
-                                "r": 234,
-                                "g": 30,
-                                "b": 99,
-                                "a": 1
-                            },
-                            "hsv": {
-                                "h": 339.7058823529412,
-                                "s": 0.8717948717948718,
-                                "v": 0.9176470588235294,
-                                "a": 1
-                            },
-                            "oldHue": 339.7058823529412,
-                            "source": "hex"
-                        }
-                    },
-                    {
-                        "GUID": "ac283961-2b1e-11e7-bde4-57d99ab8fafb",
-                        "x": 875,
-                        "y": 96,
-                        "width": 308,
-                        "height": 697,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "ac28aeaa-2b1e-11e7-bde4-57d99ab8fafb",
-                        "x": 534,
-                        "y": 396,
-                        "width": 224,
-                        "height": 382,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "ac2923c1-2b1e-11e7-bde4-57d99ab8fafb",
-                        "x": 529,
-                        "y": 96,
-                        "width": 234,
-                        "height": 245,
-                        "color": {
-                            "hsl": {
-                                "h": 339.7058823529412,
-                                "s": 0.8292682926829267,
-                                "l": 0.5176470588235293,
-                                "a": 1
-                            },
-                            "hex": "#ea1e63",
-                            "rgb": {
-                                "r": 234,
-                                "g": 30,
-                                "b": 99,
-                                "a": 1
-                            },
-                            "hsv": {
-                                "h": 339.7058823529412,
-                                "s": 0.8717948717948718,
-                                "v": 0.9176470588235294,
-                                "a": 1
-                            },
-                            "oldHue": 339.7058823529412,
-                            "source": "hex"
-                        }
-                    },
-                    {
-                        "GUID": "1f8c0620-53f6-11e7-b1ef-ab0119d70e5d",
-                        "x": 390,
-                        "y": 190,
-                        "width": 192,
-                        "height": 139,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "1f8cc971-53f6-11e7-b1ef-ab0119d70e5d",
-                        "x": 640,
-                        "y": 90,
-                        "width": 203,
-                        "height": 207,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "1f8d8cc2-53f6-11e7-b1ef-ab0119d70e5d",
-                        "x": 390,
-                        "y": 390,
-                        "width": 307,
-                        "height": 674,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "1f8e01f1-53f6-11e7-b1ef-ab0119d70e5d",
-                        "x": 90,
-                        "y": 440,
-                        "width": 224,
-                        "height": 372,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "1f8e5012-53f6-11e7-b1ef-ab0119d70e5d",
-                        "x": 90,
-                        "y": 140,
-                        "width": 234,
-                        "height": 235,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "03b122bb-899d-11e6-a8d7-35e2bcca9f8c",
-                        "x": 96,
-                        "y": 463,
-                        "width": 250,
-                        "height": 199,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "03b149c6-899d-11e6-a8d7-35e2bcca9f8c",
-                        "x": 1082,
-                        "y": 334,
-                        "width": 250,
-                        "height": 75,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "03b149ca-899d-11e6-a8d7-35e2bcca9f8c",
-                        "x": 471,
-                        "y": 227,
-                        "width": 250,
-                        "height": 199,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "03b149d5-899d-11e6-a8d7-35e2bcca9f8c",
-                        "x": 180,
-                        "y": 180,
-                        "width": 250,
-                        "height": 269,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "03b170de-899d-11e6-a8d7-35e2bcca9f8c",
-                        "x": 200,
-                        "y": 200,
-                        "width": 250,
-                        "height": 129,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "05f96f90-899e-11e6-a8d7-35e2bcca9f8c",
-                        "x": 828,
-                        "y": 685,
-                        "width": 250,
-                        "height": 87,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "05f9e4c3-899e-11e6-a8d7-35e2bcca9f8c",
-                        "x": 828,
-                        "y": 119,
-                        "width": 250,
-                        "height": 199,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "05fa0bd2-899e-11e6-a8d7-35e2bcca9f8c",
-                        "x": 58,
-                        "y": 119,
-                        "width": 248,
-                        "height": 272,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "05fa59f4-899e-11e6-a8d7-35e2bcca9f8c",
-                        "x": 58,
-                        "y": 629,
-                        "width": 250,
-                        "height": 199,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "05fa5a01-899e-11e6-a8d7-35e2bcca9f8c",
-                        "x": 828,
-                        "y": 359,
-                        "width": 250,
-                        "height": 75
-                    },
-                    {
-                        "GUID": "05fa5a05-899e-11e6-a8d7-35e2bcca9f8c",
-                        "x": 453,
-                        "y": 640,
-                        "width": 250,
-                        "height": 177
-                    },
-                    {
-                        "GUID": "05fa5a10-899e-11e6-a8d7-35e2bcca9f8c",
-                        "x": 453,
-                        "y": 119,
-                        "width": 251,
-                        "height": 234
-                    },
-                    {
-                        "GUID": "05faa815-899e-11e6-a8d7-35e2bcca9f8c",
-                        "x": 453,
-                        "y": 449,
-                        "width": 251,
-                        "height": 112
-                    },
-                    {
-                        "GUID": "5a3e1c60-56ec-11e7-b5ff-dd5e79dcd289",
-                        "x": 90,
-                        "y": 90,
-                        "width": 268,
-                        "height": 193
-                    },
-                    {
                         "GUID": "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
-                        "x": 595.4581875821932,
-                        "y": 698.4016905789251,
+                        "x": 1452.3384104825548,
+                        "y": 1526.95603640855,
                         "width": 319,
                         "height": 135,
-                        "color": {},
+                        "color": {
+                            "hex": "#ff9801"
+                        },
                         "size": 100
                     }
                 ],
@@ -2863,8 +2467,8 @@
                 },
                 "buckets": [
                     {
-                        "x": 143.1197770996384,
-                        "y": 171.4456541703752,
+                        "x": 1000,
+                        "y": 1000,
                         "GUID": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6"
                     }
                 ],
@@ -2884,19 +2488,50 @@
                 "selectedCollections": [],
                 "displayColorPicker": false,
                 "graphView": {
-                    "erd": [],
+                    "erd": [
+                        {
+                            "GUID": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                            "x": 1100,
+                            "y": 1100,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                            "x": 1200,
+                            "y": 1200,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "0de02830-2b24-11e6-b7e5-591297143e36",
+                            "x": 1300,
+                            "y": 1300,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                            "x": 1400,
+                            "y": 1400,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+                            "x": 1500,
+                            "y": 1500,
+                            "size": 100
+                        }
+                    ],
                     "buckets": [
                         {
-                            "x": 78.38551217879558,
-                            "y": 82.7944746079254,
+                            "x": 1000,
+                            "y": 1000,
                             "GUID": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6"
                         }
                     ],
                     "decorativeSymbols": [
                         {
                             "GUID": "db86d400-e115-11e9-9835-6108c7a098d9",
-                            "x": 313.6857411381004,
-                            "y": 122.7944746079254
+                            "x": 1235.3002289593048,
+                            "y": 1040
                         }
                     ],
                     "forceLayout": true,
@@ -2908,8 +2543,8 @@
                         "entities": [
                             {
                                 "GUID": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
-                                "x": 115.05374295098757,
-                                "y": 91.12288863677549,
+                                "x": 1040,
+                                "y": 1041,
                                 "width": 360,
                                 "height": 1959,
                                 "color": {
@@ -2939,8 +2574,8 @@
                             },
                             {
                                 "GUID": "0de02830-2b24-11e6-b7e5-591297143e36",
-                                "x": 557.3921534335423,
-                                "y": 128.71362907087837,
+                                "x": 1482.3384104825545,
+                                "y": 1078.5907404341028,
                                 "width": 210,
                                 "height": 159,
                                 "color": {
@@ -2970,8 +2605,8 @@
                             },
                             {
                                 "GUID": "0df0f110-2b24-11e6-b7e5-591297143e36",
-                                "x": 902.3109370820555,
-                                "y": 90.12288863677549,
+                                "x": 1827.257194131068,
+                                "y": 1040,
                                 "width": 252,
                                 "height": 483,
                                 "color": {
@@ -3002,24 +2637,104 @@
                         ],
                         "buckets": [
                             {
-                                "x": 75.05374295098757,
-                                "y": 50.122888636775485,
+                                "x": 1000,
+                                "y": 1000,
                                 "GUID": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6"
                             }
-                        ]
+                        ],
+                        "relationships": [],
+                        "graphView": {
+                            "erd": [
+                                {
+                                    "GUID": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                                    "x": 1100,
+                                    "y": 1100,
+                                    "size": 100
+                                },
+                                {
+                                    "GUID": "0de02830-2b24-11e6-b7e5-591297143e36",
+                                    "x": 1300,
+                                    "y": 1300,
+                                    "size": 100
+                                },
+                                {
+                                    "GUID": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                                    "x": 1400,
+                                    "y": 1400,
+                                    "size": 100
+                                }
+                            ],
+                            "buckets": [
+                                {
+                                    "x": 1000,
+                                    "y": 1000,
+                                    "GUID": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6"
+                                }
+                            ],
+                            "decorativeSymbols": []
+                        }
                     }
                 ],
                 "decorativeSymbols": [
                     {
                         "GUID": "db86d400-e115-11e9-9835-6108c7a098d9",
-                        "x": 568.3067648878132,
-                        "y": 211.4456541703752,
+                        "x": 1425.1869877881747,
+                        "y": 1040,
                         "height": 56,
-                        "width": 362
+                        "width": 362,
+                        "color": {
+                            "hsl": {
+                                "h": 3.789473684210526,
+                                "s": 0.904761904761905,
+                                "l": 0.5882352941176471,
+                                "a": 1
+                            },
+                            "hex": "#f54337",
+                            "rgb": {
+                                "r": 245,
+                                "g": 67,
+                                "b": 55,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 3.789473684210526,
+                                "s": 0.7755102040816326,
+                                "v": 0.9607843137254902,
+                                "a": 1
+                            },
+                            "oldHue": 3.789473684210526,
+                            "source": "hex"
+                        }
                     }
                 ],
                 "nestedCollectionsLayout": "horizontal",
-                "options": [],
+                "options": [
+                    {
+                        "GUID": "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "0de02830-2b24-11e6-b7e5-591297143e36",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    }
+                ],
                 "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
