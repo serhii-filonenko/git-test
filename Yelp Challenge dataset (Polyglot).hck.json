@@ -10,23 +10,30 @@
             "properties": [
                 {
                     "name": "business_id",
-                    "code": "",
+                    "hackoladeMeta": {},
                     "isActivated": true,
-                    "childType": "uuid",
-                    "description": "Unique key for businesses",
                     "primaryKey": true,
+                    "alternateKey": false,
+                    "childType": "timeuuid",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "error": {},
+                    "code": "",
                     "required": true,
-                    "foreignCollection": "",
-                    "foreignField": [],
-                    "relationshipType": "",
+                    "description": "Unique key for businesses",
                     "comments": "Sat Nov 04 2017 10:12:00 GMT+0100 (Romance Standard Time): some comments",
                     "GUID": "0dd811fc-2b24-11e6-b7e5-591297143e36",
-                    "type": "objectId",
                     "childRelationships": [
                         "8a3660f0-2b26-11e6-b7e5-591297143e36",
                         "fb857d40-2b26-11e6-b7e5-591297143e36",
                         "003231f0-91f7-11e9-a924-ddc9cd9b071f"
-                    ]
+                    ],
+                    "relationshipType": ""
                 },
                 {
                     "name": "name",
@@ -2393,7 +2400,7 @@
         "pluginVersion": "0.0.1",
         "pluginEngineVersion": "1.0.0"
     },
-    "lastModifTS": "2023-10-19T12:14:44.561Z",
+    "lastModifTS": "2023-10-19T12:19:40.553Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "applicationInformation": {
