@@ -1,0 +1,3033 @@
+{
+    "modelName": "Yelp Challenge dataset (Polyglot)",
+    "collections": [
+        {
+            "collectionName": "businesses",
+            "code": "",
+            "isActivated": true,
+            "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+            "additionalProperties": true,
+            "properties": [
+                {
+                    "name": "business_id",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "uuid",
+                    "description": "Unique key for businesses",
+                    "primaryKey": true,
+                    "required": true,
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "relationshipType": "",
+                    "comments": "Sat Nov 04 2017 10:12:00 GMT+0100 (Romance Standard Time): some comments",
+                    "GUID": "0dd811fc-2b24-11e6-b7e5-591297143e36",
+                    "type": "objectId"
+                },
+                {
+                    "name": "name",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "fakerFunction": "faker.company.name()",
+                    "GUID": "0dd81219-2b24-11e6-b7e5-591297143e36",
+                    "type": "string",
+                    "error": {}
+                },
+                {
+                    "name": "phoneNumber",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "fakerFunction": "faker.phone.number('+1-###-###-####')",
+                    "GUID": "06399180-d360-11ec-adc4-432dcbbfc12a",
+                    "type": "string",
+                    "hackoladeMeta": {},
+                    "error": {}
+                },
+                {
+                    "name": "business_address",
+                    "code": "",
+                    "isActivated": true,
+                    "$ref": "#model/definitions/full_address",
+                    "refType": "model",
+                    "refIdPath": [
+                        "43822581-4023-491f-aec3-b9530212da2c",
+                        "84a505d0-f031-11e6-8228-e5dfd33d2c24",
+                        "0dd81200-2b24-11e6-b7e5-591297143e36"
+                    ],
+                    "ref": "0dd81200-2b24-11e6-b7e5-591297143e36",
+                    "GUID": "3c5d7210-9df8-11ec-afe5-55c2aa6d0440",
+                    "type": "reference",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "name": "full_address",
+                    "code": "",
+                    "isActivated": true,
+                    "$ref": "#model/definitions/address",
+                    "refType": "model",
+                    "refIdPath": [
+                        "43822581-4023-491f-aec3-b9530212da2c",
+                        "84a505d0-f031-11e6-8228-e5dfd33d2c24",
+                        "0dd81200-2b24-11e6-b7e5-591297143e36"
+                    ],
+                    "ref": "0dd81200-2b24-11e6-b7e5-591297143e36",
+                    "GUID": "4445c459-a91f-418c-9a59-f771b5cc2858",
+                    "type": "reference",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "name": "attributes",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "object",
+                    "primaryKey": false,
+                    "additionalProperties": true,
+                    "properties": [
+                        {
+                            "name": "Accepts Credit Cards",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd7ead3-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Accepts Insurance",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd7ead4-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Alcohol",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "varchar",
+                            "mode": "string",
+                            "primaryKey": false,
+                            "sample": "Full bar",
+                            "GUID": "0dd7ead5-2b24-11e6-b7e5-591297143e36",
+                            "type": "string"
+                        },
+                        {
+                            "name": "Ambience",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "object",
+                            "primaryKey": false,
+                            "additionalProperties": true,
+                            "properties": [
+                                {
+                                    "name": "casual",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7ead7-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "classy",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7ead8-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "divey",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7ead9-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "hipster",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7eada-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "intimate",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7eadb-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "romantic",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7eadc-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "touristy",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7eadd-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "trendy",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7eade-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "upscale",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7eadf-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                }
+                            ],
+                            "GUID": "0dd7ead6-2b24-11e6-b7e5-591297143e36",
+                            "type": "document"
+                        },
+                        {
+                            "name": "Attire",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "varchar",
+                            "mode": "string",
+                            "primaryKey": false,
+                            "sample": "Casual chic",
+                            "GUID": "0dd7eae0-2b24-11e6-b7e5-591297143e36",
+                            "type": "string"
+                        },
+                        {
+                            "name": "By Appointment Only",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd7eae1-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "BYOB/Corkage",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "varchar",
+                            "mode": "string",
+                            "primaryKey": false,
+                            "GUID": "0dd7eae2-2b24-11e6-b7e5-591297143e36",
+                            "type": "string"
+                        },
+                        {
+                            "name": "Caters",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd7eae3-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Coat Check",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd7eae4-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Delivery",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd7eae5-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Dogs Allowed",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd7eae6-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Drive-Thru",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd7eae7-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Good For",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "object",
+                            "primaryKey": false,
+                            "additionalProperties": true,
+                            "properties": [
+                                {
+                                    "name": "breakfast",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7eae9-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "brunch",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7eaea-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "dessert",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7eaeb-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "dinner",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7eaec-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "latenight",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7eaed-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "lunch",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd7eaee-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                }
+                            ],
+                            "GUID": "0dd7eae8-2b24-11e6-b7e5-591297143e36",
+                            "type": "document"
+                        },
+                        {
+                            "name": "Good For Dancing",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd7eaef-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Good For Groups",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd811e0-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Good for Kids",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd811e1-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Happy Hour",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd811e2-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Has TV",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd811e3-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Music",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "object",
+                            "primaryKey": false,
+                            "additionalProperties": true,
+                            "properties": [
+                                {
+                                    "name": "background_music",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd811e5-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "dj",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd811e6-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "jukebox",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd811e7-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "karaoke",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd811e8-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "live",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd811e9-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "video",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd811ea-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                }
+                            ],
+                            "GUID": "0dd811e4-2b24-11e6-b7e5-591297143e36",
+                            "type": "document"
+                        },
+                        {
+                            "name": "Noise Level",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "varchar",
+                            "mode": "string",
+                            "primaryKey": false,
+                            "GUID": "0dd811eb-2b24-11e6-b7e5-591297143e36",
+                            "type": "string"
+                        },
+                        {
+                            "name": "Open 24 Hours",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd811ec-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Order at Counter",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd811ed-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Outdoor Seating",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd811ee-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Parking",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "object",
+                            "primaryKey": false,
+                            "additionalProperties": true,
+                            "properties": [
+                                {
+                                    "name": "garage",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd811f0-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "lot",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd811f1-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "street",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd811f2-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "valet",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd811f3-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                },
+                                {
+                                    "name": "validated",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "boolean",
+                                    "primaryKey": false,
+                                    "GUID": "0dd811f4-2b24-11e6-b7e5-591297143e36",
+                                    "type": "boolean"
+                                }
+                            ],
+                            "GUID": "0dd811ef-2b24-11e6-b7e5-591297143e36",
+                            "type": "document"
+                        },
+                        {
+                            "name": "Price Range",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "GUID": "0dd811f5-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        },
+                        {
+                            "name": "Smoking",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "varchar",
+                            "mode": "string",
+                            "primaryKey": false,
+                            "GUID": "0dd811f6-2b24-11e6-b7e5-591297143e36",
+                            "type": "string"
+                        },
+                        {
+                            "name": "Take-out",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd811f7-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Takes Reservations",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd811f8-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Waiter Service",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd811f9-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Wheelchair Accessible",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "boolean",
+                            "primaryKey": false,
+                            "GUID": "0dd811fa-2b24-11e6-b7e5-591297143e36",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "Wi-Fi",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "varchar",
+                            "mode": "string",
+                            "primaryKey": false,
+                            "GUID": "0dd811fb-2b24-11e6-b7e5-591297143e36",
+                            "type": "string"
+                        }
+                    ],
+                    "GUID": "0dd7ead2-2b24-11e6-b7e5-591297143e36",
+                    "type": "document"
+                },
+                {
+                    "name": "categories",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "array",
+                    "primaryKey": false,
+                    "properties": [
+                        {
+                            "isActivated": true,
+                            "childType": "varchar",
+                            "mode": "string",
+                            "primaryKey": false,
+                            "GUID": "0dd811fe-2b24-11e6-b7e5-591297143e36",
+                            "type": "string",
+                            "arrayItem": true
+                        }
+                    ],
+                    "GUID": "0dd811fd-2b24-11e6-b7e5-591297143e36",
+                    "type": "array"
+                },
+                {
+                    "name": "hours",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "object",
+                    "primaryKey": false,
+                    "additionalProperties": true,
+                    "properties": [
+                        {
+                            "name": "Friday",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "object",
+                            "primaryKey": false,
+                            "additionalProperties": true,
+                            "properties": [
+                                {
+                                    "name": "close",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd81203-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "open",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd81204-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                }
+                            ],
+                            "GUID": "0dd81202-2b24-11e6-b7e5-591297143e36",
+                            "type": "document"
+                        },
+                        {
+                            "name": "Monday",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "object",
+                            "primaryKey": false,
+                            "additionalProperties": true,
+                            "properties": [
+                                {
+                                    "name": "close",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd81206-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "open",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd81207-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                }
+                            ],
+                            "GUID": "0dd81205-2b24-11e6-b7e5-591297143e36",
+                            "type": "document"
+                        },
+                        {
+                            "name": "Saturday",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "object",
+                            "primaryKey": false,
+                            "additionalProperties": true,
+                            "properties": [
+                                {
+                                    "name": "close",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd81209-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "open",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd8120a-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                }
+                            ],
+                            "GUID": "0dd81208-2b24-11e6-b7e5-591297143e36",
+                            "type": "document"
+                        },
+                        {
+                            "name": "Sunday",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "object",
+                            "primaryKey": false,
+                            "additionalProperties": true,
+                            "properties": [
+                                {
+                                    "name": "close",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd8120c-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "open",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd8120d-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                }
+                            ],
+                            "GUID": "0dd8120b-2b24-11e6-b7e5-591297143e36",
+                            "type": "document"
+                        },
+                        {
+                            "name": "Thursday",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "object",
+                            "primaryKey": false,
+                            "additionalProperties": true,
+                            "properties": [
+                                {
+                                    "name": "close",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd8120f-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "open",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd81210-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                }
+                            ],
+                            "GUID": "0dd8120e-2b24-11e6-b7e5-591297143e36",
+                            "type": "document"
+                        },
+                        {
+                            "name": "Tuesday",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "object",
+                            "primaryKey": false,
+                            "additionalProperties": true,
+                            "properties": [
+                                {
+                                    "name": "close",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd81212-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "open",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd81213-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                }
+                            ],
+                            "GUID": "0dd81211-2b24-11e6-b7e5-591297143e36",
+                            "type": "document"
+                        },
+                        {
+                            "name": "Wednesday",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "object",
+                            "primaryKey": false,
+                            "additionalProperties": true,
+                            "properties": [
+                                {
+                                    "name": "close",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd81215-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "open",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "varchar",
+                                    "mode": "string",
+                                    "primaryKey": false,
+                                    "GUID": "0dd81216-2b24-11e6-b7e5-591297143e36",
+                                    "type": "string"
+                                }
+                            ],
+                            "GUID": "0dd81214-2b24-11e6-b7e5-591297143e36",
+                            "type": "document"
+                        }
+                    ],
+                    "GUID": "0dd81201-2b24-11e6-b7e5-591297143e36",
+                    "type": "document"
+                },
+                {
+                    "name": "latitude",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "number",
+                    "mode": "numeric",
+                    "primaryKey": false,
+                    "GUID": "0dd81217-2b24-11e6-b7e5-591297143e36",
+                    "type": "numeric"
+                },
+                {
+                    "name": "longitude",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "number",
+                    "mode": "numeric",
+                    "primaryKey": false,
+                    "GUID": "0dd81218-2b24-11e6-b7e5-591297143e36",
+                    "type": "numeric"
+                },
+                {
+                    "name": "neighborhoods",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "array",
+                    "primaryKey": false,
+                    "properties": [
+                        {
+                            "isActivated": true,
+                            "childType": "varchar",
+                            "mode": "string",
+                            "primaryKey": false,
+                            "GUID": "0dd8121b-2b24-11e6-b7e5-591297143e36",
+                            "type": "string",
+                            "arrayItem": true
+                        }
+                    ],
+                    "GUID": "0dd8121a-2b24-11e6-b7e5-591297143e36",
+                    "type": "array"
+                },
+                {
+                    "name": "open",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "boolean",
+                    "primaryKey": false,
+                    "GUID": "0dd8121c-2b24-11e6-b7e5-591297143e36",
+                    "type": "boolean"
+                },
+                {
+                    "name": "review_count",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "number",
+                    "mode": "numeric",
+                    "primaryKey": false,
+                    "minimum": 0,
+                    "GUID": "0dd8121d-2b24-11e6-b7e5-591297143e36",
+                    "type": "numeric"
+                },
+                {
+                    "name": "stars",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "number",
+                    "mode": "numeric",
+                    "primaryKey": false,
+                    "minimum": 1,
+                    "maximum": 5,
+                    "GUID": "0dd8121e-2b24-11e6-b7e5-591297143e36",
+                    "type": "numeric"
+                },
+                {
+                    "name": "type",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "GUID": "0dd81220-2b24-11e6-b7e5-591297143e36",
+                    "type": "string"
+                }
+            ],
+            "definitions": {
+                "GUID": "84a505d1-f031-11e6-8228-e5dfd33d2c24",
+                "properties": [],
+                "type": "definitions"
+            },
+            "GUID": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+            "type": "object",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "reviews",
+            "code": "",
+            "isActivated": true,
+            "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+            "additionalProperties": true,
+            "properties": [
+                {
+                    "name": "review_id",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "uuid",
+                    "primaryKey": true,
+                    "required": true,
+                    "relationshipType": "",
+                    "GUID": "0da2aa04-2b24-11e6-b7e5-591297143e36",
+                    "type": "objectId"
+                },
+                {
+                    "name": "business_id",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "uuid",
+                    "primaryKey": false,
+                    "required": true,
+                    "foreignCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                    "foreignField": [
+                        "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "GUID": "0da2aa02-2b24-11e6-b7e5-591297143e36",
+                    "type": "objectId"
+                },
+                {
+                    "name": "date",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "fakerFunction": "faker.date.past()",
+                    "GUID": "0da2aa03-2b24-11e6-b7e5-591297143e36",
+                    "type": "string"
+                },
+                {
+                    "name": "stars",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "number",
+                    "mode": "numeric",
+                    "primaryKey": false,
+                    "minimum": 1,
+                    "maximum": 5,
+                    "GUID": "0da2aa05-2b24-11e6-b7e5-591297143e36",
+                    "type": "numeric"
+                },
+                {
+                    "name": "text",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "fakerFunction": "faker.lorem.paragraphs(3)",
+                    "GUID": "0da2aa06-2b24-11e6-b7e5-591297143e36",
+                    "type": "string"
+                },
+                {
+                    "name": "type",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "GUID": "0da2aa07-2b24-11e6-b7e5-591297143e36",
+                    "type": "string"
+                },
+                {
+                    "name": "user_id",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "uuid",
+                    "primaryKey": false,
+                    "required": true,
+                    "foreignCollection": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                    "foreignField": [
+                        "0df0f110-2b24-11e6-b7e5-591297143e36",
+                        "0df0f126-2b24-11e6-b7e5-591297143e36"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "GUID": "0da2aa08-2b24-11e6-b7e5-591297143e36",
+                    "type": "objectId"
+                },
+                {
+                    "name": "votes",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "object",
+                    "primaryKey": false,
+                    "additionalProperties": true,
+                    "properties": [
+                        {
+                            "name": "cool",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "minimum": 0,
+                            "GUID": "0da2aa0a-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        },
+                        {
+                            "name": "funny",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "minimum": 0,
+                            "GUID": "0da2aa0b-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        },
+                        {
+                            "name": "useful",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "minimum": 0,
+                            "GUID": "0da2aa0c-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        }
+                    ],
+                    "GUID": "0da2aa09-2b24-11e6-b7e5-591297143e36",
+                    "type": "document"
+                }
+            ],
+            "definitions": {
+                "GUID": "84a505d3-f031-11e6-8228-e5dfd33d2c24",
+                "properties": [],
+                "type": "definitions"
+            },
+            "GUID": "0da2aa00-2b24-11e6-b7e5-591297143e36",
+            "type": "object",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "tips",
+            "code": "",
+            "isActivated": true,
+            "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+            "additionalProperties": true,
+            "properties": [
+                {
+                    "name": "_id",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "uuid",
+                    "primaryKey": true,
+                    "required": true,
+                    "GUID": "0de02831-2b24-11e6-b7e5-591297143e36",
+                    "type": "objectId"
+                },
+                {
+                    "name": "business_id",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "uuid",
+                    "primaryKey": false,
+                    "required": true,
+                    "foreignCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                    "foreignField": [
+                        "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "GUID": "0de02832-2b24-11e6-b7e5-591297143e36",
+                    "type": "objectId"
+                },
+                {
+                    "name": "date",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "fakerFunction": "faker.date.past()",
+                    "GUID": "0de02833-2b24-11e6-b7e5-591297143e36",
+                    "type": "string"
+                },
+                {
+                    "name": "likes",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "number",
+                    "mode": "numeric",
+                    "primaryKey": false,
+                    "GUID": "0de02834-2b24-11e6-b7e5-591297143e36",
+                    "type": "numeric"
+                },
+                {
+                    "name": "text",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "GUID": "0de02835-2b24-11e6-b7e5-591297143e36",
+                    "type": "string"
+                },
+                {
+                    "name": "type",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "GUID": "0de02836-2b24-11e6-b7e5-591297143e36",
+                    "type": "string"
+                },
+                {
+                    "name": "user_id",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "uuid",
+                    "primaryKey": false,
+                    "required": true,
+                    "foreignCollection": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                    "foreignField": [
+                        "0df0f110-2b24-11e6-b7e5-591297143e36",
+                        "0df0f126-2b24-11e6-b7e5-591297143e36"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "GUID": "0de02837-2b24-11e6-b7e5-591297143e36",
+                    "type": "objectId"
+                }
+            ],
+            "definitions": {
+                "GUID": "84a505d4-f031-11e6-8228-e5dfd33d2c24",
+                "properties": [],
+                "type": "definitions"
+            },
+            "GUID": "0de02830-2b24-11e6-b7e5-591297143e36",
+            "type": "object",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "users",
+            "code": "",
+            "isActivated": true,
+            "description": "Users description",
+            "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+            "additionalProperties": true,
+            "properties": [
+                {
+                    "name": "user_id",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "uuid",
+                    "primaryKey": true,
+                    "required": true,
+                    "relationshipType": "",
+                    "GUID": "0df0f126-2b24-11e6-b7e5-591297143e36",
+                    "type": "objectId"
+                },
+                {
+                    "name": "type",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "required": true,
+                    "relationshipType": "",
+                    "enum": [
+                        "user",
+                        "owner",
+                        "tester"
+                    ],
+                    "GUID": "0df0f125-2b24-11e6-b7e5-591297143e36",
+                    "type": "string"
+                },
+                {
+                    "name": "name",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "description": "First name plus surname",
+                    "primaryKey": false,
+                    "required": true,
+                    "relationshipType": "",
+                    "fakerFunction": "faker.fake('{{name.firstName}} {{name.lastName}}')",
+                    "sample": "John Doe",
+                    "comments": "Fri Sep 15 2017 17:31:32 GMT+0200 (Romance Summer Time): \nMongoDB Demo",
+                    "GUID": "0df0f123-2b24-11e6-b7e5-591297143e36",
+                    "type": "string"
+                },
+                {
+                    "name": "average_stars",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "number",
+                    "mode": "numeric",
+                    "description": "Star rating: from 1 to 5. ",
+                    "primaryKey": false,
+                    "required": true,
+                    "relationshipType": "",
+                    "unit": "stars",
+                    "minimum": 1,
+                    "maximum": 5,
+                    "exclusiveMaximum": false,
+                    "sample": 3,
+                    "GUID": "0df0f112-2b24-11e6-b7e5-591297143e36",
+                    "type": "numeric"
+                },
+                {
+                    "name": "compliments",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "object",
+                    "primaryKey": false,
+                    "additionalProperties": true,
+                    "properties": [
+                        {
+                            "name": "cool",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "minimum": 1,
+                            "maximum": 5,
+                            "GUID": "0df0f114-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        },
+                        {
+                            "name": "cute",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "minimum": 1,
+                            "maximum": 5,
+                            "GUID": "0df0f115-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        },
+                        {
+                            "name": "funny",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "minimum": 1,
+                            "maximum": 5,
+                            "GUID": "0df0f116-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        },
+                        {
+                            "name": "hot",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "minimum": 1,
+                            "maximum": 5,
+                            "GUID": "0df0f117-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        },
+                        {
+                            "name": "note",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "minimum": 1,
+                            "maximum": 5,
+                            "GUID": "0df0f119-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        },
+                        {
+                            "name": "photos",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "minimum": 1,
+                            "maximum": 5,
+                            "GUID": "0df0f11a-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        },
+                        {
+                            "name": "plain",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "minimum": 1,
+                            "maximum": 5,
+                            "GUID": "0df0f11b-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        },
+                        {
+                            "name": "profile",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "minimum": 1,
+                            "maximum": 5,
+                            "GUID": "0df0f11c-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        },
+                        {
+                            "name": "writer",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "minimum": 1,
+                            "maximum": 5,
+                            "GUID": "0df0f11d-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        }
+                    ],
+                    "GUID": "0df0f113-2b24-11e6-b7e5-591297143e36",
+                    "type": "document"
+                },
+                {
+                    "name": "elite",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "array",
+                    "primaryKey": false,
+                    "properties": [
+                        {
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "GUID": "0df0f11f-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric",
+                            "arrayItem": true
+                        }
+                    ],
+                    "GUID": "0df0f11e-2b24-11e6-b7e5-591297143e36",
+                    "type": "array"
+                },
+                {
+                    "name": "fans",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "number",
+                    "mode": "numeric",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "minimum": 0,
+                    "GUID": "0df0f120-2b24-11e6-b7e5-591297143e36",
+                    "type": "numeric"
+                },
+                {
+                    "name": "friends",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "array",
+                    "primaryKey": false,
+                    "properties": [
+                        {
+                            "isActivated": true,
+                            "childType": "varchar",
+                            "mode": "string",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "fakerFunction": "faker.name.findName(undefined, undefined, 'female')",
+                            "sample": "Jane Doe",
+                            "GUID": "0df0f122-2b24-11e6-b7e5-591297143e36",
+                            "type": "string",
+                            "arrayItem": true
+                        }
+                    ],
+                    "GUID": "0df0f121-2b24-11e6-b7e5-591297143e36",
+                    "type": "array"
+                },
+                {
+                    "name": "review_count",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "number",
+                    "mode": "numeric",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "minimum": 0,
+                    "GUID": "0df0f124-2b24-11e6-b7e5-591297143e36",
+                    "type": "numeric"
+                },
+                {
+                    "name": "votes",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "object",
+                    "primaryKey": false,
+                    "additionalProperties": true,
+                    "properties": [
+                        {
+                            "name": "cool",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "minimum": 0,
+                            "GUID": "0df0f128-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        },
+                        {
+                            "name": "funny",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "minimum": 0,
+                            "GUID": "0df0f129-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        },
+                        {
+                            "name": "useful",
+                            "code": "",
+                            "isActivated": true,
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "minimum": 0,
+                            "GUID": "0df0f12a-2b24-11e6-b7e5-591297143e36",
+                            "type": "numeric"
+                        }
+                    ],
+                    "GUID": "0df0f127-2b24-11e6-b7e5-591297143e36",
+                    "type": "document"
+                },
+                {
+                    "name": "yelping_since",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "fakerFunction": "faker.date.between('2010-01-01T00:00:00.000Z', '2021-12-31T00:00:00.000Z')",
+                    "GUID": "0df0f12b-2b24-11e6-b7e5-591297143e36",
+                    "type": "string"
+                }
+            ],
+            "definitions": {
+                "GUID": "55caffe0-8293-11e7-9b4f-81add10918fb",
+                "properties": [],
+                "type": "definitions"
+            },
+            "GUID": "0df0f110-2b24-11e6-b7e5-591297143e36",
+            "type": "object",
+            "hackoladeMeta": {}
+        },
+        {
+            "collectionName": "checkins",
+            "code": "",
+            "isActivated": true,
+            "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+            "additionalProperties": true,
+            "properties": [
+                {
+                    "name": "_id",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "uuid",
+                    "primaryKey": true,
+                    "required": true,
+                    "relationshipType": "",
+                    "GUID": "9c7dc020-91f6-11e9-a924-ddc9cd9b071f",
+                    "type": "objectId"
+                },
+                {
+                    "name": "checkin_info",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "object",
+                    "primaryKey": false,
+                    "required": true,
+                    "additionalProperties": false,
+                    "properties": [
+                        {
+                            "name": "^[a-zA-Z0-9_.-]{3}$",
+                            "code": "",
+                            "isActivated": true,
+                            "sampleName": "9-6",
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "GUID": "9c7e0e76-91f6-11e9-a924-ddc9cd9b071f",
+                            "type": "numeric",
+                            "hackoladeMeta": {}
+                        },
+                        {
+                            "name": "^[a-zA-Z0-9_.-]{4}$",
+                            "code": "",
+                            "isActivated": true,
+                            "sampleName": "23-6",
+                            "childType": "number",
+                            "mode": "numeric",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "GUID": "9c7e0e45-91f6-11e9-a924-ddc9cd9b071f",
+                            "type": "numeric",
+                            "hackoladeMeta": {}
+                        }
+                    ],
+                    "GUID": "9c7dc022-91f6-11e9-a924-ddc9cd9b071f",
+                    "type": "document"
+                },
+                {
+                    "name": "type",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "required": true,
+                    "relationshipType": "",
+                    "sample": "checkin",
+                    "GUID": "9c7e0e77-91f6-11e9-a924-ddc9cd9b071f",
+                    "type": "string"
+                },
+                {
+                    "name": "business_id",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "required": true,
+                    "foreignCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                    "foreignField": [
+                        "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "sample": "eFA9dqXT5EA_TrMgbo03QQ",
+                    "GUID": "9c7dc021-91f6-11e9-a924-ddc9cd9b071f",
+                    "type": "string"
+                }
+            ],
+            "definitions": {
+                "GUID": "a080f8e0-91f6-11e9-a924-ddc9cd9b071f",
+                "properties": [],
+                "type": "definitions"
+            },
+            "GUID": "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+            "type": "object",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "name": "yelp",
+            "isActivated": true,
+            "backgroundColor": {
+                "r": 33,
+                "g": 150,
+                "b": 243,
+                "a": 1
+            },
+            "GUID": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+            "type": "bucket",
+            "collectionIds": [
+                "0df0f110-2b24-11e6-b7e5-591297143e36",
+                "0de02830-2b24-11e6-b7e5-591297143e36",
+                "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                "a080d1d0-91f6-11e9-a924-ddc9cd9b071f"
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "show": true
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "fk_tipsBusinesses",
+            "description": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+            "parentField": [
+                [
+                    "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                    "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "0de02830-2b24-11e6-b7e5-591297143e36",
+            "childField": [
+                [
+                    "0de02830-2b24-11e6-b7e5-591297143e36",
+                    "0de02832-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "comments": "",
+            "GUID": "8a3660f0-2b26-11e6-b7e5-591297143e36",
+            "level": "field",
+            "hackoladeStyles": {
+                "GUID": "5d20db04-ed0f-4e2d-badf-1bb8145fdd60",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 617.8006426572822,
+                        "y": 360.7104325125248
+                    },
+                    {
+                        "x": 559.9602098784603,
+                        "y": 360.7104325125248
+                    },
+                    {
+                        "x": 559.9602098784603,
+                        "y": 459.6827100483863
+                    },
+                    {
+                        "x": 502.11977709963844,
+                        "y": 459.6827100483863
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            }
+        },
+        {
+            "name": "fk_tipsUsers",
+            "description": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "0df0f110-2b24-11e6-b7e5-591297143e36",
+            "parentField": [
+                [
+                    "0df0f110-2b24-11e6-b7e5-591297143e36",
+                    "0df0f126-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "0de02830-2b24-11e6-b7e5-591297143e36",
+            "childField": [
+                [
+                    "0de02830-2b24-11e6-b7e5-591297143e36",
+                    "0de02837-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "comments": "",
+            "GUID": "aa956d50-2b26-11e6-b7e5-591297143e36",
+            "level": "field",
+            "hackoladeStyles": {
+                "GUID": "7b6f08a6-250e-4e83-920b-0c50a8b357c2",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 869.8006426572822,
+                        "y": 360.7104325125248
+                    },
+                    {
+                        "x": 920.0888069439942,
+                        "y": 360.7104325125248
+                    },
+                    {
+                        "x": 920.0888069439942,
+                        "y": 408.6827100483863
+                    },
+                    {
+                        "x": 970.3769712307062,
+                        "y": 408.6827100483863
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            }
+        },
+        {
+            "name": "fk_reviewsUsers",
+            "description": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "0df0f110-2b24-11e6-b7e5-591297143e36",
+            "parentField": [
+                [
+                    "0df0f110-2b24-11e6-b7e5-591297143e36",
+                    "0df0f126-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "0da2aa00-2b24-11e6-b7e5-591297143e36",
+            "childField": [
+                [
+                    "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                    "0da2aa08-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "comments": "",
+            "GUID": "e2514f70-2b26-11e6-b7e5-591297143e36",
+            "level": "field",
+            "hackoladeStyles": {
+                "GUID": "5bae4ec7-a06a-49c4-8e35-1ede4279ee64",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 876.4581875821932,
+                        "y": 570.6216092055856
+                    },
+                    {
+                        "x": 923.4175794064497,
+                        "y": 570.6216092055856
+                    },
+                    {
+                        "x": 923.4175794064497,
+                        "y": 569.6827100483863
+                    },
+                    {
+                        "x": 970.3769712307062,
+                        "y": 569.6827100483863
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            }
+        },
+        {
+            "name": "fk_reviewsBusinesses",
+            "description": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+            "parentField": [
+                [
+                    "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                    "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "0da2aa00-2b24-11e6-b7e5-591297143e36",
+            "childField": [
+                [
+                    "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                    "0da2aa02-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "comments": "",
+            "GUID": "fb857d40-2b26-11e6-b7e5-591297143e36",
+            "level": "field",
+            "hackoladeStyles": {
+                "GUID": "4a8a4e7b-9efe-4d65-9a90-2fc0fdd12667",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 615.4581875821932,
+                        "y": 570.6216092055856
+                    },
+                    {
+                        "x": 558.7889823409158,
+                        "y": 570.6216092055856
+                    },
+                    {
+                        "x": 558.7889823409158,
+                        "y": 670.6827100483863
+                    },
+                    {
+                        "x": 502.11977709963844,
+                        "y": 670.6827100483863
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            }
+        },
+        {
+            "name": "fk businesses.business_id to checkins.business_id",
+            "description": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+            "parentField": [
+                [
+                    "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                    "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+            "childField": [
+                [
+                    "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+                    "9c7dc021-91f6-11e9-a924-ddc9cd9b071f"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "comments": "",
+            "GUID": "003231f0-91f7-11e9-a924-ddc9cd9b071f",
+            "level": "field",
+            "hackoladeStyles": {
+                "GUID": "a9d4d88e-8ca0-42b4-a560-36101ca7ef29",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 595.4581875821932,
+                        "y": 765.9016905789251
+                    },
+                    {
+                        "x": 548.7889823409158,
+                        "y": 765.9016905789251
+                    },
+                    {
+                        "x": 548.7889823409158,
+                        "y": 881.6827100483863
+                    },
+                    {
+                        "x": 502.11977709963844,
+                        "y": 881.6827100483863
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            }
+        }
+    ],
+    "users": [],
+    "diagramViews": [
+        {
+            "GUID": "65013f10-4748-11eb-a6d2-ebfe0d19463b",
+            "name": "Domain view",
+            "buckets": [
+                "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6"
+            ],
+            "entities": [
+                "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                "0de02830-2b24-11e6-b7e5-591297143e36",
+                "0df0f110-2b24-11e6-b7e5-591297143e36"
+            ]
+        }
+    ],
+    "idToNameHashTable": {
+        "0dd7ead0-2b24-11e6-b7e5-591297143e36": "businesses",
+        "0dd811fc-2b24-11e6-b7e5-591297143e36": "business_id",
+        "0dd81219-2b24-11e6-b7e5-591297143e36": "name",
+        "06399180-d360-11ec-adc4-432dcbbfc12a": "phoneNumber",
+        "3c5d7210-9df8-11ec-afe5-55c2aa6d0440": "business_address",
+        "4445c459-a91f-418c-9a59-f771b5cc2858": "full_address",
+        "0dd7ead2-2b24-11e6-b7e5-591297143e36": "attributes",
+        "0dd7ead3-2b24-11e6-b7e5-591297143e36": "Accepts Credit Cards",
+        "0dd7ead4-2b24-11e6-b7e5-591297143e36": "Accepts Insurance",
+        "0dd7ead5-2b24-11e6-b7e5-591297143e36": "Alcohol",
+        "0dd7ead6-2b24-11e6-b7e5-591297143e36": "Ambience",
+        "0dd7ead7-2b24-11e6-b7e5-591297143e36": "casual",
+        "0dd7ead8-2b24-11e6-b7e5-591297143e36": "classy",
+        "0dd7ead9-2b24-11e6-b7e5-591297143e36": "divey",
+        "0dd7eada-2b24-11e6-b7e5-591297143e36": "hipster",
+        "0dd7eadb-2b24-11e6-b7e5-591297143e36": "intimate",
+        "0dd7eadc-2b24-11e6-b7e5-591297143e36": "romantic",
+        "0dd7eadd-2b24-11e6-b7e5-591297143e36": "touristy",
+        "0dd7eade-2b24-11e6-b7e5-591297143e36": "trendy",
+        "0dd7eadf-2b24-11e6-b7e5-591297143e36": "upscale",
+        "0dd7eae0-2b24-11e6-b7e5-591297143e36": "Attire",
+        "0dd7eae1-2b24-11e6-b7e5-591297143e36": "By Appointment Only",
+        "0dd7eae2-2b24-11e6-b7e5-591297143e36": "BYOB/Corkage",
+        "0dd7eae3-2b24-11e6-b7e5-591297143e36": "Caters",
+        "0dd7eae4-2b24-11e6-b7e5-591297143e36": "Coat Check",
+        "0dd7eae5-2b24-11e6-b7e5-591297143e36": "Delivery",
+        "0dd7eae6-2b24-11e6-b7e5-591297143e36": "Dogs Allowed",
+        "0dd7eae7-2b24-11e6-b7e5-591297143e36": "Drive-Thru",
+        "0dd7eae8-2b24-11e6-b7e5-591297143e36": "Good For",
+        "0dd7eae9-2b24-11e6-b7e5-591297143e36": "breakfast",
+        "0dd7eaea-2b24-11e6-b7e5-591297143e36": "brunch",
+        "0dd7eaeb-2b24-11e6-b7e5-591297143e36": "dessert",
+        "0dd7eaec-2b24-11e6-b7e5-591297143e36": "dinner",
+        "0dd7eaed-2b24-11e6-b7e5-591297143e36": "latenight",
+        "0dd7eaee-2b24-11e6-b7e5-591297143e36": "lunch",
+        "0dd7eaef-2b24-11e6-b7e5-591297143e36": "Good For Dancing",
+        "0dd811e0-2b24-11e6-b7e5-591297143e36": "Good For Groups",
+        "0dd811e1-2b24-11e6-b7e5-591297143e36": "Good for Kids",
+        "0dd811e2-2b24-11e6-b7e5-591297143e36": "Happy Hour",
+        "0dd811e3-2b24-11e6-b7e5-591297143e36": "Has TV",
+        "0dd811e4-2b24-11e6-b7e5-591297143e36": "Music",
+        "0dd811e5-2b24-11e6-b7e5-591297143e36": "background_music",
+        "0dd811e6-2b24-11e6-b7e5-591297143e36": "dj",
+        "0dd811e7-2b24-11e6-b7e5-591297143e36": "jukebox",
+        "0dd811e8-2b24-11e6-b7e5-591297143e36": "karaoke",
+        "0dd811e9-2b24-11e6-b7e5-591297143e36": "live",
+        "0dd811ea-2b24-11e6-b7e5-591297143e36": "video",
+        "0dd811eb-2b24-11e6-b7e5-591297143e36": "Noise Level",
+        "0dd811ec-2b24-11e6-b7e5-591297143e36": "Open 24 Hours",
+        "0dd811ed-2b24-11e6-b7e5-591297143e36": "Order at Counter",
+        "0dd811ee-2b24-11e6-b7e5-591297143e36": "Outdoor Seating",
+        "0dd811ef-2b24-11e6-b7e5-591297143e36": "Parking",
+        "0dd811f0-2b24-11e6-b7e5-591297143e36": "garage",
+        "0dd811f1-2b24-11e6-b7e5-591297143e36": "lot",
+        "0dd811f2-2b24-11e6-b7e5-591297143e36": "street",
+        "0dd811f3-2b24-11e6-b7e5-591297143e36": "valet",
+        "0dd811f4-2b24-11e6-b7e5-591297143e36": "validated",
+        "0dd811f5-2b24-11e6-b7e5-591297143e36": "Price Range",
+        "0dd811f6-2b24-11e6-b7e5-591297143e36": "Smoking",
+        "0dd811f7-2b24-11e6-b7e5-591297143e36": "Take-out",
+        "0dd811f8-2b24-11e6-b7e5-591297143e36": "Takes Reservations",
+        "0dd811f9-2b24-11e6-b7e5-591297143e36": "Waiter Service",
+        "0dd811fa-2b24-11e6-b7e5-591297143e36": "Wheelchair Accessible",
+        "0dd811fb-2b24-11e6-b7e5-591297143e36": "Wi-Fi",
+        "0dd811fd-2b24-11e6-b7e5-591297143e36": "categories",
+        "0dd81201-2b24-11e6-b7e5-591297143e36": "hours",
+        "0dd81202-2b24-11e6-b7e5-591297143e36": "Friday",
+        "0dd81203-2b24-11e6-b7e5-591297143e36": "close",
+        "0dd81204-2b24-11e6-b7e5-591297143e36": "open",
+        "0dd81205-2b24-11e6-b7e5-591297143e36": "Monday",
+        "0dd81206-2b24-11e6-b7e5-591297143e36": "close",
+        "0dd81207-2b24-11e6-b7e5-591297143e36": "open",
+        "0dd81208-2b24-11e6-b7e5-591297143e36": "Saturday",
+        "0dd81209-2b24-11e6-b7e5-591297143e36": "close",
+        "0dd8120a-2b24-11e6-b7e5-591297143e36": "open",
+        "0dd8120b-2b24-11e6-b7e5-591297143e36": "Sunday",
+        "0dd8120c-2b24-11e6-b7e5-591297143e36": "close",
+        "0dd8120d-2b24-11e6-b7e5-591297143e36": "open",
+        "0dd8120e-2b24-11e6-b7e5-591297143e36": "Thursday",
+        "0dd8120f-2b24-11e6-b7e5-591297143e36": "close",
+        "0dd81210-2b24-11e6-b7e5-591297143e36": "open",
+        "0dd81211-2b24-11e6-b7e5-591297143e36": "Tuesday",
+        "0dd81212-2b24-11e6-b7e5-591297143e36": "close",
+        "0dd81213-2b24-11e6-b7e5-591297143e36": "open",
+        "0dd81214-2b24-11e6-b7e5-591297143e36": "Wednesday",
+        "0dd81215-2b24-11e6-b7e5-591297143e36": "close",
+        "0dd81216-2b24-11e6-b7e5-591297143e36": "open",
+        "0dd81217-2b24-11e6-b7e5-591297143e36": "latitude",
+        "0dd81218-2b24-11e6-b7e5-591297143e36": "longitude",
+        "0dd8121a-2b24-11e6-b7e5-591297143e36": "neighborhoods",
+        "0dd8121c-2b24-11e6-b7e5-591297143e36": "open",
+        "0dd8121d-2b24-11e6-b7e5-591297143e36": "review_count",
+        "0dd8121e-2b24-11e6-b7e5-591297143e36": "stars",
+        "0dd81220-2b24-11e6-b7e5-591297143e36": "type",
+        "0da2aa00-2b24-11e6-b7e5-591297143e36": "reviews",
+        "0da2aa04-2b24-11e6-b7e5-591297143e36": "review_id",
+        "0da2aa02-2b24-11e6-b7e5-591297143e36": "business_id",
+        "0da2aa03-2b24-11e6-b7e5-591297143e36": "date",
+        "0da2aa05-2b24-11e6-b7e5-591297143e36": "stars",
+        "0da2aa06-2b24-11e6-b7e5-591297143e36": "text",
+        "0da2aa07-2b24-11e6-b7e5-591297143e36": "type",
+        "0da2aa08-2b24-11e6-b7e5-591297143e36": "user_id",
+        "0da2aa09-2b24-11e6-b7e5-591297143e36": "votes",
+        "0da2aa0a-2b24-11e6-b7e5-591297143e36": "cool",
+        "0da2aa0b-2b24-11e6-b7e5-591297143e36": "funny",
+        "0da2aa0c-2b24-11e6-b7e5-591297143e36": "useful",
+        "0de02830-2b24-11e6-b7e5-591297143e36": "tips",
+        "0de02831-2b24-11e6-b7e5-591297143e36": "_id",
+        "0de02832-2b24-11e6-b7e5-591297143e36": "business_id",
+        "0de02833-2b24-11e6-b7e5-591297143e36": "date",
+        "0de02834-2b24-11e6-b7e5-591297143e36": "likes",
+        "0de02835-2b24-11e6-b7e5-591297143e36": "text",
+        "0de02836-2b24-11e6-b7e5-591297143e36": "type",
+        "0de02837-2b24-11e6-b7e5-591297143e36": "user_id",
+        "0df0f110-2b24-11e6-b7e5-591297143e36": "users",
+        "0df0f126-2b24-11e6-b7e5-591297143e36": "user_id",
+        "0df0f125-2b24-11e6-b7e5-591297143e36": "type",
+        "0df0f123-2b24-11e6-b7e5-591297143e36": "name",
+        "0df0f112-2b24-11e6-b7e5-591297143e36": "average_stars",
+        "0df0f113-2b24-11e6-b7e5-591297143e36": "compliments",
+        "0df0f114-2b24-11e6-b7e5-591297143e36": "cool",
+        "0df0f115-2b24-11e6-b7e5-591297143e36": "cute",
+        "0df0f116-2b24-11e6-b7e5-591297143e36": "funny",
+        "0df0f117-2b24-11e6-b7e5-591297143e36": "hot",
+        "0df0f119-2b24-11e6-b7e5-591297143e36": "note",
+        "0df0f11a-2b24-11e6-b7e5-591297143e36": "photos",
+        "0df0f11b-2b24-11e6-b7e5-591297143e36": "plain",
+        "0df0f11c-2b24-11e6-b7e5-591297143e36": "profile",
+        "0df0f11d-2b24-11e6-b7e5-591297143e36": "writer",
+        "0df0f11e-2b24-11e6-b7e5-591297143e36": "elite",
+        "0df0f120-2b24-11e6-b7e5-591297143e36": "fans",
+        "0df0f121-2b24-11e6-b7e5-591297143e36": "friends",
+        "0df0f124-2b24-11e6-b7e5-591297143e36": "review_count",
+        "0df0f127-2b24-11e6-b7e5-591297143e36": "votes",
+        "0df0f128-2b24-11e6-b7e5-591297143e36": "cool",
+        "0df0f129-2b24-11e6-b7e5-591297143e36": "funny",
+        "0df0f12a-2b24-11e6-b7e5-591297143e36": "useful",
+        "0df0f12b-2b24-11e6-b7e5-591297143e36": "yelping_since",
+        "a080d1d0-91f6-11e9-a924-ddc9cd9b071f": "checkins",
+        "9c7dc020-91f6-11e9-a924-ddc9cd9b071f": "_id",
+        "9c7dc022-91f6-11e9-a924-ddc9cd9b071f": "checkin_info",
+        "9c7e0e76-91f6-11e9-a924-ddc9cd9b071f": "^[a-zA-Z0-9_.-]{3}$",
+        "9c7e0e45-91f6-11e9-a924-ddc9cd9b071f": "^[a-zA-Z0-9_.-]{4}$",
+        "9c7e0e77-91f6-11e9-a924-ddc9cd9b071f": "type",
+        "9c7dc021-91f6-11e9-a924-ddc9cd9b071f": "business_id",
+        "5c771580-5193-11e7-b9f2-49270a53df2c": "rov_bussiness",
+        "66a25927-d9e7-48f5-86c2-a7323934cb40": "business_id",
+        "1ccf838d-b403-44fb-88f7-223c6ab93f54": "name",
+        "b0743577-12b3-426e-a7a7-f9e13074f3d3": "full_address",
+        "8763731d-773f-47b4-873c-01f272e1bbb6": "type",
+        "090874c0-5206-11e7-8e65-9b1d6a151b1d": "review_id",
+        "344f0c20-ce04-4c92-97f5-68f9a8b7a0de": "review_id",
+        "35cb7590-bf6f-4c72-a3e7-dfdc3e43125f": "date",
+        "26f62ad2-04df-476c-95f9-f57583781319": "stars",
+        "771eb048-ca4d-40dc-8d24-04a7e23aad62": "type",
+        "6e13d0bf-5e6e-4660-ab13-f89604b2db09": "business",
+        "fc064d54-52a2-4830-a664-b6111f62a904": "longitude",
+        "c2d2cb44-ae00-4973-9141-ffb4f5ecfb31": "business_id",
+        "f0dcaf30-847f-444e-a444-3ed85e20bb1b": "name",
+        "317353b8-8297-466c-af00-93a5fed7ea88": "type",
+        "561e4db2-3308-4720-a353-cff9b1aacd7e": "open",
+        "d0da6f5f-f70f-441f-8e5d-a274030f1240": "stars",
+        "1e0ccdf6-2f4d-4d3a-a520-625fcab3f018": "review_count",
+        "d3b138d1-cb5d-4277-a793-0b89121e0c2b": "full_address",
+        "3eec9ba1-2d21-4662-b7d6-e8ae424ee6f5": "latitude",
+        "7728f5da-d8f1-4db9-8a56-0b260199b2ba": "longitude",
+        "f5def556-79dc-4875-8618-22472653e365": "user",
+        "52134e2c-2576-4e12-9c32-4d72189f622f": "name",
+        "5d9c3e1a-e839-4ebe-bede-371c88535377": "user_id",
+        "c976d13c-4157-4962-a806-ccd2a40ab1c4": "name",
+        "6237d5b9-2bfc-4e45-9e37-2667a8c5aa90": "type",
+        "badd886a-854a-4797-9cd3-e7508e0866cf": "votes",
+        "bd3d4cc2-bcf8-497c-99ca-7d4aa929013d": "yelping_since",
+        "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6": "yelp",
+        "8a3660f0-2b26-11e6-b7e5-591297143e36": "fk_tipsBusinesses",
+        "aa956d50-2b26-11e6-b7e5-591297143e36": "fk_tipsUsers",
+        "e2514f70-2b26-11e6-b7e5-591297143e36": "fk_reviewsUsers",
+        "fb857d40-2b26-11e6-b7e5-591297143e36": "fk_reviewsBusinesses",
+        "003231f0-91f7-11e9-a924-ddc9cd9b071f": "fk businesses.business_id to checkins.business_id",
+        "0dd81200-2b24-11e6-b7e5-591297143e36": "address",
+        "7107ebf0-dc5b-11e9-b819-e3f2d5171928": "houseNum",
+        "760da090-dc5b-11e9-b819-e3f2d5171928": "street",
+        "7bfbe070-dc5b-11e9-b819-e3f2d5171928": "box",
+        "7ee803e0-dc5b-11e9-b819-e3f2d5171928": "city",
+        "85787730-dc5b-11e9-b819-e3f2d5171928": "state",
+        "87afc990-dc5b-11e9-b819-e3f2d5171928": "zip",
+        "65013f10-4748-11eb-a6d2-ebfe0d19463b": "Domain view"
+    },
+    "definitions": {
+        "GUID": "84a505d0-f031-11e6-8228-e5dfd33d2c24",
+        "properties": [
+            {
+                "name": "address",
+                "code": "",
+                "isActivated": true,
+                "childType": "object",
+                "primaryKey": false,
+                "additionalProperties": false,
+                "definitionRefs": [
+                    [
+                        "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "3c5d7210-9df8-11ec-afe5-55c2aa6d0440"
+                    ],
+                    [
+                        "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "4445c459-a91f-418c-9a59-f771b5cc2858"
+                    ]
+                ],
+                "properties": [
+                    {
+                        "name": "houseNum",
+                        "code": "",
+                        "isActivated": true,
+                        "childType": "varchar",
+                        "mode": "string",
+                        "primaryKey": false,
+                        "fakerFunction": "faker.address.buildingNumber()",
+                        "sample": "123",
+                        "GUID": "7107ebf0-dc5b-11e9-b819-e3f2d5171928",
+                        "type": "string",
+                        "hackoladeMeta": {}
+                    },
+                    {
+                        "name": "street",
+                        "code": "",
+                        "isActivated": true,
+                        "childType": "varchar",
+                        "mode": "string",
+                        "primaryKey": false,
+                        "fakerFunction": "faker.address.street()",
+                        "sample": "Main Street",
+                        "GUID": "760da090-dc5b-11e9-b819-e3f2d5171928",
+                        "type": "string",
+                        "hackoladeMeta": {},
+                        "error": {}
+                    },
+                    {
+                        "name": "box",
+                        "code": "",
+                        "isActivated": true,
+                        "childType": "varchar",
+                        "mode": "string",
+                        "primaryKey": false,
+                        "fakerFunction": "faker.address.secondaryAddress()",
+                        "sample": "10",
+                        "GUID": "7bfbe070-dc5b-11e9-b819-e3f2d5171928",
+                        "type": "string",
+                        "hackoladeMeta": {}
+                    },
+                    {
+                        "name": "city",
+                        "code": "",
+                        "isActivated": true,
+                        "childType": "varchar",
+                        "mode": "string",
+                        "primaryKey": false,
+                        "fakerFunction": "faker.address.city()",
+                        "sample": "Anytown",
+                        "GUID": "7ee803e0-dc5b-11e9-b819-e3f2d5171928",
+                        "type": "string",
+                        "hackoladeMeta": {}
+                    },
+                    {
+                        "name": "state",
+                        "code": "",
+                        "isActivated": true,
+                        "childType": "varchar",
+                        "mode": "string",
+                        "primaryKey": false,
+                        "fakerFunction": "faker.address.stateAbbr()",
+                        "sample": "CA",
+                        "GUID": "85787730-dc5b-11e9-b819-e3f2d5171928",
+                        "type": "string",
+                        "hackoladeMeta": {}
+                    },
+                    {
+                        "name": "zip",
+                        "code": "",
+                        "isActivated": true,
+                        "childType": "varchar",
+                        "mode": "string",
+                        "primaryKey": false,
+                        "fakerFunction": "faker.address.zipCodeByState()",
+                        "sample": "12345",
+                        "GUID": "87afc990-dc5b-11e9-b819-e3f2d5171928",
+                        "type": "string",
+                        "hackoladeMeta": {}
+                    }
+                ],
+                "GUID": "0dd81200-2b24-11e6-b7e5-591297143e36",
+                "type": "document"
+            }
+        ],
+        "type": "definitions"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "5758e1a3-1caf-11ec-b7e4-fd58e83dafb4"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "2531ad62-34bf-11e7-8a73-634c6b725c5e"
+    },
+    "sources": [],
+    "decorativeSymbols": [
+        {
+            "GUID": "db86d400-e115-11e9-9835-6108c7a098d9",
+            "type": "annotation",
+            "value": "Hackolade demo",
+            "name": "Yelp data model",
+            "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+            "disableInitialFocus": true,
+            "isActivated": true
+        }
+    ],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2022-11-18T13:07:59.214Z",
+    "GUID": "43822581-4023-491f-aec3-b9530212da2c",
+    "description": "Schema inferred from the reverse-engineering of a Yelp Challenge dataset available from https://www.yelp.com/dataset_challenge/dataset",
+    "author": "Pascal",
+    "version": "1.2",
+    "syncId": "db8a6750-5b42-11e8-9c3f-1d376af9020b",
+    "comments": "The dataset was downloaded and loaded to a MongoDB, then reverse-engineered with Hackolade.  The relationships were manually documented to enrich the model.\n\nThis schema shows the power of JSON with the embedding of many attributes logically grouped, one form of implicit relationships.  At the same time, the schema is fairly relational, which makes total sense given the conceptual entities.  As a result, there's no denormalization.  Given the size of the collections, it makes sense to perform this kind of traditional foreing key relationships.\n\nNote that only fields found in 100% of the sampled documents are 'required' (and differentiated thanks to a solid line box) as opposed to the other fields with dashed line boxes.\n\nThe sampling parameters were:\n- absolute up to 1000 documents max per collection\n- alpha order of fields",
+    "dbVersion": "v5.0",
+    "hackoladeMeta": {
+        "customPropertiesUpdated": true,
+        "validationErrors": {
+            "code": false,
+            "modelName": false
+        }
+    },
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "lastModifTS": "2023-03-15T07:59:35.317Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "applicationInformation": {
+        "version": "6.9.6"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                        "x": 615.4581875821932,
+                        "y": 459.6216092055856,
+                        "width": 261,
+                        "height": 222,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0.8974358974358974,
+                                "l": 0.5411764705882353,
+                                "a": 1
+                            },
+                            "hex": "#2196f3",
+                            "rgb": {
+                                "r": 33,
+                                "g": 150,
+                                "b": 243,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0.8641975308641976,
+                                "v": 0.9529411764705882,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        },
+                        "size": 100
+                    },
+                    {
+                        "GUID": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "x": 183.1197770996384,
+                        "y": 248.68271004838633,
+                        "width": 319,
+                        "height": 844,
+                        "color": {
+                            "hsl": {
+                                "h": 339.7058823529412,
+                                "s": 0.8292682926829267,
+                                "l": 0.5176470588235293,
+                                "a": 1
+                            },
+                            "hex": "#ea1e63",
+                            "rgb": {
+                                "r": 234,
+                                "g": 30,
+                                "b": 99,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 339.7058823529412,
+                                "s": 0.8717948717948718,
+                                "v": 0.9176470588235294,
+                                "a": 1
+                            },
+                            "oldHue": 339.7058823529412,
+                            "source": "hex"
+                        },
+                        "size": 100
+                    },
+                    {
+                        "GUID": "0de02830-2b24-11e6-b7e5-591297143e36",
+                        "x": 617.8006426572822,
+                        "y": 283.2104325125248,
+                        "width": 252,
+                        "height": 155,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0.8974358974358974,
+                                "l": 0.5411764705882353,
+                                "a": 1
+                            },
+                            "hex": "#2196f3",
+                            "rgb": {
+                                "r": 33,
+                                "g": 150,
+                                "b": 243,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0.8641975308641976,
+                                "v": 0.9529411764705882,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        },
+                        "size": 100
+                    },
+                    {
+                        "GUID": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                        "x": 970.3769712307062,
+                        "y": 247.68271004838633,
+                        "width": 252,
+                        "height": 483,
+                        "color": {
+                            "hsl": {
+                                "h": 339.7058823529412,
+                                "s": 0.8292682926829267,
+                                "l": 0.5176470588235293,
+                                "a": 1
+                            },
+                            "hex": "#ea1e63",
+                            "rgb": {
+                                "r": 234,
+                                "g": 30,
+                                "b": 99,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 339.7058823529412,
+                                "s": 0.8717948717948718,
+                                "v": 0.9176470588235294,
+                                "a": 1
+                            },
+                            "oldHue": 339.7058823529412,
+                            "source": "hex"
+                        },
+                        "size": 100
+                    },
+                    {
+                        "GUID": "350cb9d0-ffec-11e6-bc11-bba283d07659",
+                        "x": 240,
+                        "y": 290,
+                        "width": 193,
+                        "height": 107,
+                        "color": {
+                            "hsl": {
+                                "h": 3.789473684210526,
+                                "s": 0.904761904761905,
+                                "l": 0.5882352941176471,
+                                "a": 1
+                            },
+                            "hex": "#f54337",
+                            "rgb": {
+                                "r": 245,
+                                "g": 67,
+                                "b": 55,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 3.789473684210526,
+                                "s": 0.7755102040816326,
+                                "v": 0.9607843137254902,
+                                "a": 1
+                            },
+                            "oldHue": 3.789473684210526,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "350d2f07-ffec-11e6-bc11-bba283d07659",
+                        "x": 390,
+                        "y": 90,
+                        "width": 257,
+                        "height": 135,
+                        "color": {
+                            "hsl": {
+                                "h": 3.789473684210526,
+                                "s": 0.904761904761905,
+                                "l": 0.5882352941176471,
+                                "a": 1
+                            },
+                            "hex": "#f54337",
+                            "rgb": {
+                                "r": 245,
+                                "g": 67,
+                                "b": 55,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 3.789473684210526,
+                                "s": 0.7755102040816326,
+                                "v": 0.9607843137254902,
+                                "a": 1
+                            },
+                            "oldHue": 3.789473684210526,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "350da431-ffec-11e6-bc11-bba283d07659",
+                        "x": 90,
+                        "y": 90,
+                        "width": 194,
+                        "height": 149,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "4a8e3c70-f3f9-11e5-938a-bd54cc414623",
+                        "x": 61,
+                        "y": 516,
+                        "width": 200,
+                        "height": 75,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "c2b2c8b0-f417-11e5-938a-bd54cc414623",
+                        "x": 429,
+                        "y": 472,
+                        "width": 200,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "4a014da0-f418-11e5-a6f2-dbf6571c2b51",
+                        "x": 422,
+                        "y": 485,
+                        "width": 200,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "8439e830-f41b-11e5-ad3f-7d283a6e1eb9",
+                        "x": 453.5,
+                        "y": 494,
+                        "width": 233,
+                        "height": 116,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "6e9a9cc0-f422-11e5-ab1e-4fda87c84016",
+                        "x": 431,
+                        "y": 485,
+                        "width": 314,
+                        "height": 204,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "166589b0-0440-11e6-a1a6-29098b60dd65",
+                        "x": 87,
+                        "y": 133,
+                        "width": 234,
+                        "height": 166,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "46aed5e0-0440-11e6-a1a6-29098b60dd65",
+                        "x": 399,
+                        "y": 46,
+                        "width": 315,
+                        "height": 277,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "b63dd6c0-0721-11e6-a0f3-475ccb6d8902",
+                        "x": 459,
+                        "y": 438,
+                        "width": 200,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "889580b1-00d6-11e7-94c9-270ac0401f9d",
+                        "x": 80,
+                        "y": 80,
+                        "width": 247,
+                        "height": 176,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "ac2700e1-2b1e-11e7-bde4-57d99ab8fafb",
+                        "x": 228,
+                        "y": 396,
+                        "width": 193,
+                        "height": 149,
+                        "color": {
+                            "hsl": {
+                                "h": 339.7058823529412,
+                                "s": 0.8292682926829267,
+                                "l": 0.5176470588235293,
+                                "a": 1
+                            },
+                            "hex": "#ea1e63",
+                            "rgb": {
+                                "r": 234,
+                                "g": 30,
+                                "b": 99,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 339.7058823529412,
+                                "s": 0.8717948717948718,
+                                "v": 0.9176470588235294,
+                                "a": 1
+                            },
+                            "oldHue": 339.7058823529412,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "ac277619-2b1e-11e7-bde4-57d99ab8fafb",
+                        "x": 223,
+                        "y": 96,
+                        "width": 204,
+                        "height": 231,
+                        "color": {
+                            "hsl": {
+                                "h": 339.7058823529412,
+                                "s": 0.8292682926829267,
+                                "l": 0.5176470588235293,
+                                "a": 1
+                            },
+                            "hex": "#ea1e63",
+                            "rgb": {
+                                "r": 234,
+                                "g": 30,
+                                "b": 99,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 339.7058823529412,
+                                "s": 0.8717948717948718,
+                                "v": 0.9176470588235294,
+                                "a": 1
+                            },
+                            "oldHue": 339.7058823529412,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "ac283961-2b1e-11e7-bde4-57d99ab8fafb",
+                        "x": 875,
+                        "y": 96,
+                        "width": 308,
+                        "height": 697,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "ac28aeaa-2b1e-11e7-bde4-57d99ab8fafb",
+                        "x": 534,
+                        "y": 396,
+                        "width": 224,
+                        "height": 382,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "ac2923c1-2b1e-11e7-bde4-57d99ab8fafb",
+                        "x": 529,
+                        "y": 96,
+                        "width": 234,
+                        "height": 245,
+                        "color": {
+                            "hsl": {
+                                "h": 339.7058823529412,
+                                "s": 0.8292682926829267,
+                                "l": 0.5176470588235293,
+                                "a": 1
+                            },
+                            "hex": "#ea1e63",
+                            "rgb": {
+                                "r": 234,
+                                "g": 30,
+                                "b": 99,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 339.7058823529412,
+                                "s": 0.8717948717948718,
+                                "v": 0.9176470588235294,
+                                "a": 1
+                            },
+                            "oldHue": 339.7058823529412,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "1f8c0620-53f6-11e7-b1ef-ab0119d70e5d",
+                        "x": 390,
+                        "y": 190,
+                        "width": 192,
+                        "height": 139,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "1f8cc971-53f6-11e7-b1ef-ab0119d70e5d",
+                        "x": 640,
+                        "y": 90,
+                        "width": 203,
+                        "height": 207,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "1f8d8cc2-53f6-11e7-b1ef-ab0119d70e5d",
+                        "x": 390,
+                        "y": 390,
+                        "width": 307,
+                        "height": 674,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "1f8e01f1-53f6-11e7-b1ef-ab0119d70e5d",
+                        "x": 90,
+                        "y": 440,
+                        "width": 224,
+                        "height": 372,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "1f8e5012-53f6-11e7-b1ef-ab0119d70e5d",
+                        "x": 90,
+                        "y": 140,
+                        "width": 234,
+                        "height": 235,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "03b122bb-899d-11e6-a8d7-35e2bcca9f8c",
+                        "x": 96,
+                        "y": 463,
+                        "width": 250,
+                        "height": 199,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "03b149c6-899d-11e6-a8d7-35e2bcca9f8c",
+                        "x": 1082,
+                        "y": 334,
+                        "width": 250,
+                        "height": 75,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "03b149ca-899d-11e6-a8d7-35e2bcca9f8c",
+                        "x": 471,
+                        "y": 227,
+                        "width": 250,
+                        "height": 199,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "03b149d5-899d-11e6-a8d7-35e2bcca9f8c",
+                        "x": 180,
+                        "y": 180,
+                        "width": 250,
+                        "height": 269,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "03b170de-899d-11e6-a8d7-35e2bcca9f8c",
+                        "x": 200,
+                        "y": 200,
+                        "width": 250,
+                        "height": 129,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "05f96f90-899e-11e6-a8d7-35e2bcca9f8c",
+                        "x": 828,
+                        "y": 685,
+                        "width": 250,
+                        "height": 87,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "05f9e4c3-899e-11e6-a8d7-35e2bcca9f8c",
+                        "x": 828,
+                        "y": 119,
+                        "width": 250,
+                        "height": 199,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "05fa0bd2-899e-11e6-a8d7-35e2bcca9f8c",
+                        "x": 58,
+                        "y": 119,
+                        "width": 248,
+                        "height": 272,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "05fa59f4-899e-11e6-a8d7-35e2bcca9f8c",
+                        "x": 58,
+                        "y": 629,
+                        "width": 250,
+                        "height": 199,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "05fa5a01-899e-11e6-a8d7-35e2bcca9f8c",
+                        "x": 828,
+                        "y": 359,
+                        "width": 250,
+                        "height": 75
+                    },
+                    {
+                        "GUID": "05fa5a05-899e-11e6-a8d7-35e2bcca9f8c",
+                        "x": 453,
+                        "y": 640,
+                        "width": 250,
+                        "height": 177
+                    },
+                    {
+                        "GUID": "05fa5a10-899e-11e6-a8d7-35e2bcca9f8c",
+                        "x": 453,
+                        "y": 119,
+                        "width": 251,
+                        "height": 234
+                    },
+                    {
+                        "GUID": "05faa815-899e-11e6-a8d7-35e2bcca9f8c",
+                        "x": 453,
+                        "y": 449,
+                        "width": 251,
+                        "height": 112
+                    },
+                    {
+                        "GUID": "5a3e1c60-56ec-11e7-b5ff-dd5e79dcd289",
+                        "x": 90,
+                        "y": 90,
+                        "width": 268,
+                        "height": 193
+                    },
+                    {
+                        "GUID": "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+                        "x": 595.4581875821932,
+                        "y": 698.4016905789251,
+                        "width": 319,
+                        "height": 135,
+                        "color": {},
+                        "size": 100
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 143.1197770996384,
+                        "y": 171.4456541703752,
+                        "GUID": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6"
+                    }
+                ],
+                "collapsedNodes": [
+                    "17a49b53-196e-11e7-8a00-7d16bdc1d762",
+                    "17a49b58-196e-11e7-8a00-7d16bdc1d762",
+                    "17a53756-196e-11e7-8a00-7d16bdc1d762",
+                    "17a53765-196e-11e7-8a00-7d16bdc1d762",
+                    "17a49b10-196e-11e7-8a00-7d16bdc1d762",
+                    "17a49b1e-196e-11e7-8a00-7d16bdc1d762"
+                ],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [
+                        {
+                            "x": 78.38551217879558,
+                            "y": 82.7944746079254,
+                            "GUID": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6"
+                        }
+                    ],
+                    "decorativeSymbols": [
+                        {
+                            "GUID": "db86d400-e115-11e9-9835-6108c7a098d9",
+                            "x": 313.6857411381004,
+                            "y": 122.7944746079254
+                        }
+                    ],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [
+                    {
+                        "GUID": "65013f10-4748-11eb-a6d2-ebfe0d19463b",
+                        "entities": [
+                            {
+                                "GUID": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                                "x": 115.05374295098757,
+                                "y": 91.12288863677549,
+                                "width": 360,
+                                "height": 1959,
+                                "color": {
+                                    "hsl": {
+                                        "h": 339.7058823529412,
+                                        "s": 0.8292682926829267,
+                                        "l": 0.5176470588235293,
+                                        "a": 1
+                                    },
+                                    "hex": "#ea1e63",
+                                    "rgb": {
+                                        "r": 234,
+                                        "g": 30,
+                                        "b": 99,
+                                        "a": 1
+                                    },
+                                    "hsv": {
+                                        "h": 339.7058823529412,
+                                        "s": 0.8717948717948718,
+                                        "v": 0.9176470588235294,
+                                        "a": 1
+                                    },
+                                    "oldHue": 339.7058823529412,
+                                    "source": "hex"
+                                },
+                                "size": 100
+                            },
+                            {
+                                "GUID": "0de02830-2b24-11e6-b7e5-591297143e36",
+                                "x": 557.3921534335423,
+                                "y": 128.71362907087837,
+                                "width": 210,
+                                "height": 159,
+                                "color": {
+                                    "hsl": {
+                                        "h": 206.57142857142858,
+                                        "s": 0.8974358974358974,
+                                        "l": 0.5411764705882353,
+                                        "a": 1
+                                    },
+                                    "hex": "#2196f3",
+                                    "rgb": {
+                                        "r": 33,
+                                        "g": 150,
+                                        "b": 243,
+                                        "a": 1
+                                    },
+                                    "hsv": {
+                                        "h": 206.57142857142858,
+                                        "s": 0.8641975308641976,
+                                        "v": 0.9529411764705882,
+                                        "a": 1
+                                    },
+                                    "oldHue": 206.57142857142858,
+                                    "source": "hex"
+                                },
+                                "size": 100
+                            },
+                            {
+                                "GUID": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                                "x": 902.3109370820555,
+                                "y": 90.12288863677549,
+                                "width": 252,
+                                "height": 483,
+                                "color": {
+                                    "hsl": {
+                                        "h": 339.7058823529412,
+                                        "s": 0.8292682926829267,
+                                        "l": 0.5176470588235293,
+                                        "a": 1
+                                    },
+                                    "hex": "#ea1e63",
+                                    "rgb": {
+                                        "r": 234,
+                                        "g": 30,
+                                        "b": 99,
+                                        "a": 1
+                                    },
+                                    "hsv": {
+                                        "h": 339.7058823529412,
+                                        "s": 0.8717948717948718,
+                                        "v": 0.9176470588235294,
+                                        "a": 1
+                                    },
+                                    "oldHue": 339.7058823529412,
+                                    "source": "hex"
+                                },
+                                "size": 100
+                            }
+                        ],
+                        "buckets": [
+                            {
+                                "x": 75.05374295098757,
+                                "y": 50.122888636775485,
+                                "GUID": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6"
+                            }
+                        ]
+                    }
+                ],
+                "decorativeSymbols": [
+                    {
+                        "GUID": "db86d400-e115-11e9-9835-6108c7a098d9",
+                        "x": 568.3067648878132,
+                        "y": 211.4456541703752,
+                        "height": 56,
+                        "width": 362
+                    }
+                ],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
