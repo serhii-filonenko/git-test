@@ -22,6 +22,9 @@
             },
             "hackoladeMeta": {
                 "validationErrors": {}
+            },
+            "error": {
+                "refPath": false
             }
         },
         {
@@ -48,7 +51,18 @@
                 "properties": [
                     {
                         "GUID": "e371e183-e4be-4829-ad3f-63d00f3b44f2",
-                        "referenceDiffDeleted": true
+                        "format": "date-time",
+                        "error": {}
+                    },
+                    {
+                        "name": "New Field",
+                        "hackoladeMeta": {
+                            "referenceDiffField": true
+                        },
+                        "isActivated": true,
+                        "type": "string",
+                        "GUID": "74b1729e-2a9e-4639-a13e-390f66033c17",
+                        "error": {}
                     }
                 ]
             }
@@ -106,13 +120,14 @@
         "type": "polyglotDefinitions",
         "properties": [
             {
+                "code": "",
                 "collectionName": "New entity",
                 "type": "object",
                 "properties": [
                     {
+                        "code": "",
                         "type": "string",
                         "name": "New attribute",
-                        "hackoladeMeta": {},
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "e371e183-e4be-4829-ad3f-63d00f3b44f2",
@@ -128,10 +143,10 @@
                 "additionalProperties": false,
                 "GUID": "e5072784-d0df-4147-91e3-b7cb836c45dc",
                 "bucketId": "186885e1-b84b-46f6-9c29-dad736f09629",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
                 "definitionEntityType": "collection",
-                "link": "/home/serhii/Downloads/Polyglot model New model.hck.json",
-                "kind": "localPath",
-                "fieldRelativePath": "#/New container/New entity",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
@@ -141,11 +156,12 @@
                         "17818882-4f4f-43f2-af0e-41edc7108a90"
                     ]
                 ],
-                "hackoladeMeta": {
-                    "validationErrors": {}
-                }
+                "kind": "localPath",
+                "link": "/home/serhii/Downloads/Polyglot model New model.hck.json",
+                "fieldRelativePath": "#/New container/New entity"
             },
             {
+                "code": "",
                 "name": "New container",
                 "type": "bucket",
                 "collectionIds": [
@@ -161,21 +177,21 @@
                 "isActivated": true,
                 "indexes": [],
                 "GUID": "186885e1-b84b-46f6-9c29-dad736f09629",
+                "hackoladeMeta": {
+                    "validationErrors": {
+                        "name": true
+                    }
+                },
                 "definitionEntityType": "bucket",
-                "link": "/home/serhii/Downloads/Polyglot model New model.hck.json",
-                "kind": "localPath",
-                "fieldRelativePath": "#/New container",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
                         "5b5d7d1e-015f-4f04-8742-00a31b3e1259"
                     ]
                 ],
-                "hackoladeMeta": {
-                    "validationErrors": {
-                        "name": true
-                    }
-                }
+                "kind": "localPath",
+                "link": "/home/serhii/Downloads/Polyglot model New model.hck.json",
+                "fieldRelativePath": "#/New container"
             }
         ],
         "GUID": "4244ea79-a51d-43b1-9b54-ae4f0bed9809"
@@ -201,7 +217,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2023-11-20T14:58:18.234Z",
+    "lastModifTS": "2023-11-20T15:01:52.466Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -217,20 +233,20 @@
                 "erd": [
                     {
                         "GUID": "f796cc4c-d679-47cd-b86e-ae0cf3a521fe",
-                        "x": 1107,
-                        "y": 1177,
-                        "width": 210,
-                        "height": 51,
+                        "x": 1094,
+                        "y": 1176,
+                        "width": 226,
+                        "height": 52,
                         "color": {
                             "hex": "#2196F3"
                         }
                     },
                     {
                         "GUID": "17818882-4f4f-43f2-af0e-41edc7108a90",
-                        "x": 1110,
-                        "y": 1110,
-                        "width": 209,
-                        "height": 48,
+                        "x": 1093,
+                        "y": 1091,
+                        "width": 220,
+                        "height": 71,
                         "color": {
                             "hex": "#2196F3"
                         }
@@ -244,8 +260,8 @@
                 },
                 "buckets": [
                     {
-                        "x": 1067,
-                        "y": 1070,
+                        "x": 1053,
+                        "y": 1051,
                         "GUID": "5b5d7d1e-015f-4f04-8742-00a31b3e1259"
                     }
                 ],
@@ -272,6 +288,11 @@
                         "autoWidth": false,
                         "autoHeight": false,
                         "GUID": "17818882-4f4f-43f2-af0e-41edc7108a90"
+                    },
+                    {
+                        "autoWidth": false,
+                        "autoHeight": false,
+                        "GUID": "f796cc4c-d679-47cd-b86e-ae0cf3a521fe"
                     }
                 ],
                 "relationshipUpdateDisabled": false
