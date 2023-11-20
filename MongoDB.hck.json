@@ -171,6 +171,11 @@
                             "4aaea997-d4f8-4fd2-b78a-b12d6241ae02"
                         ],
                         "error": {}
+                    },
+                    {
+                        "GUID": "0df0f123-2b24-11e6-b7e5-591297143e36",
+                        "format": "hostname",
+                        "error": {}
                     }
                 ]
             },
@@ -2810,7 +2815,7 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-11-20T15:49:15.679Z",
+    "lastModifTS": "2023-11-20T16:29:02.809Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -2929,7 +2934,7 @@
                         "GUID": "61db0434-ee58-4194-a25f-94001eb5a335",
                         "x": 1827.2571941310678,
                         "y": 1076.2370558780112,
-                        "width": 252,
+                        "width": 261,
                         "height": 483,
                         "color": {
                             "hsl": {
