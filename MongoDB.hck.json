@@ -1,12 +1,78 @@
 {
     "modelName": "New Model",
-    "collections": [],
-    "buckets": [],
+    "collections": [
+        {
+            "GUID": "27645992-89d8-40df-98d7-d79add9675a6",
+            "type": "reference",
+            "$ref": "#external/definitions/New entity",
+            "refType": "polyglot",
+            "ref": "e5072784-d0df-4147-91e3-b7cb836c45dc",
+            "refIdPath": [
+                "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
+                "37e36f9e-2f6b-4306-991d-bd0b734bbfe9",
+                "e5072784-d0df-4147-91e3-b7cb836c45dc"
+            ],
+            "isActivated": true,
+            "collectionName": "New entity",
+            "bucketId": "7bab87de-5a3f-40f4-abbc-0d6f9794855c",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "fc3e2a04-59dc-47e1-845c-973a3dee871e"
+            },
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "e371e183-e4be-4829-ad3f-63d00f3b44f2",
+                        "format": "date",
+                        "error": {}
+                    }
+                ]
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "7bab87de-5a3f-40f4-abbc-0d6f9794855c",
+            "name": "New container",
+            "type": "reference",
+            "$ref": "#external/definitions/New container",
+            "refType": "polyglot",
+            "ref": "186885e1-b84b-46f6-9c29-dad736f09629",
+            "refIdPath": [
+                "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
+                "37e36f9e-2f6b-4306-991d-bd0b734bbfe9",
+                "186885e1-b84b-46f6-9c29-dad736f09629"
+            ],
+            "isActivated": true,
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "collectionIds": [
+                "27645992-89d8-40df-98d7-d79add9675a6"
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": true
+                }
+            }
+        }
+    ],
     "views": [],
     "relationships": [],
     "users": [],
     "diagramViews": [],
-    "idToNameHashTable": {},
+    "idToNameHashTable": {
+        "27645992-89d8-40df-98d7-d79add9675a6": "New entity",
+        "7bab87de-5a3f-40f4-abbc-0d6f9794855c": "New container"
+    },
     "definitions": {
         "type": "definitions",
         "properties": [],
@@ -14,7 +80,77 @@
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
-        "properties": [],
+        "properties": [
+            {
+                "collectionName": "New entity",
+                "type": "object",
+                "properties": [
+                    {
+                        "type": "string",
+                        "name": "New attribute",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "e371e183-e4be-4829-ad3f-63d00f3b44f2",
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "type": "definitions",
+                    "properties": [],
+                    "GUID": "792730b7-208e-4847-9c85-517a2b4bd51f"
+                },
+                "isActivated": true,
+                "additionalProperties": false,
+                "GUID": "e5072784-d0df-4147-91e3-b7cb836c45dc",
+                "bucketId": "186885e1-b84b-46f6-9c29-dad736f09629",
+                "definitionEntityType": "collection",
+                "link": "Polyglot.hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/New container/New entity",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "27645992-89d8-40df-98d7-d79add9675a6"
+                    ]
+                ],
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                }
+            },
+            {
+                "name": "New container",
+                "type": "bucket",
+                "collectionIds": [
+                    "e5072784-d0df-4147-91e3-b7cb836c45dc"
+                ],
+                "backgroundColor": {
+                    "r": 216,
+                    "g": 0,
+                    "b": 115,
+                    "a": 1
+                },
+                "show": true,
+                "isActivated": true,
+                "indexes": [],
+                "GUID": "186885e1-b84b-46f6-9c29-dad736f09629",
+                "definitionEntityType": "bucket",
+                "link": "Polyglot.hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/New container",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "7bab87de-5a3f-40f4-abbc-0d6f9794855c"
+                    ]
+                ],
+                "hackoladeMeta": {
+                    "validationErrors": {
+                        "name": true
+                    }
+                }
+            }
+        ],
         "GUID": "37e36f9e-2f6b-4306-991d-bd0b734bbfe9"
     },
     "externalDefinitions": {
@@ -30,7 +166,7 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-11-20T15:07:24.755Z",
+    "lastModifTS": "2023-11-20T15:09:27.531Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -39,17 +175,43 @@
     "applicationInformation": {
         "version": "6.11.7"
     },
+    "hackoladeMeta": {},
+    "polyglotModelPaths": [
+        {
+            "GUID": "6bf6d15f-a61a-433d-a652-8ea0b7388a78",
+            "polyglotModelName": "Polyglot.hck",
+            "polyglotModelPath": "Polyglot.hck.json",
+            "normalization": false
+        }
+    ],
     "settings": {
         "centralPane": {
             "dbLevel": {
-                "erd": [],
+                "erd": [
+                    {
+                        "GUID": "27645992-89d8-40df-98d7-d79add9675a6",
+                        "x": 1316,
+                        "y": 1153,
+                        "width": 204,
+                        "height": 51,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    }
+                ],
                 "erdDefinitions": {
                     "erd": [],
                     "rootPath": [],
                     "entities": [],
                     "decorativeSymbols": []
                 },
-                "buckets": [],
+                "buckets": [
+                    {
+                        "x": 1276,
+                        "y": 1113,
+                        "GUID": "7bab87de-5a3f-40f4-abbc-0d6f9794855c"
+                    }
+                ],
                 "collapsedNodes": [],
                 "activeRelationship": "",
                 "activeRelationshipFields": {
