@@ -59,7 +59,7 @@
                     "isActivated": true,
                     "primaryKey": false,
                     "GUID": "8db7ca96-8f8e-4590-88ac-9f33f2932b43",
-                    "format": "time",
+                    "format": "hostname",
                     "hackoladeMeta": {},
                     "error": {}
                 }
@@ -178,7 +178,7 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-11-20T15:21:49.755Z",
+    "lastModifTS": "2023-11-20T15:24:46.862Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
