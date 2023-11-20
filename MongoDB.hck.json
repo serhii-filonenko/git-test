@@ -7,15 +7,23 @@
             "type": "object",
             "properties": [
                 {
+                    "name": "id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "1916f6de-1f01-47e6-a05d-516b508cb298",
+                    "error": {}
+                },
+                {
                     "code": "",
                     "type": "string",
-                    "name": "New attribute",
+                    "name": "email",
                     "isActivated": true,
                     "primaryKey": false,
                     "GUID": "0aa179a5-7861-469d-aba7-1e2da20923a0",
-                    "error": {},
                     "format": "email",
-                    "hackoladeMeta": {}
+                    "hackoladeMeta": {},
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -64,7 +72,8 @@
     "idToNameHashTable": {
         "27645992-89d8-40df-98d7-d79add9675a6": "New entity",
         "7bab87de-5a3f-40f4-abbc-0d6f9794855c": "New container",
-        "0aa179a5-7861-469d-aba7-1e2da20923a0": "New attribute"
+        "0aa179a5-7861-469d-aba7-1e2da20923a0": "email",
+        "1916f6de-1f01-47e6-a05d-516b508cb298": "id"
     },
     "definitions": {
         "type": "definitions",
@@ -89,7 +98,7 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-11-20T15:13:15.234Z",
+    "lastModifTS": "2023-11-20T15:14:34.935Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -113,31 +122,48 @@
                 "erd": [
                     {
                         "GUID": "27645992-89d8-40df-98d7-d79add9675a6",
-                        "x": 1316,
-                        "y": 1153,
-                        "width": 210,
-                        "height": 51,
+                        "x": 1358,
+                        "y": 1159,
+                        "width": 181,
+                        "height": 69,
                         "color": {
                             "hex": "#2196F3"
                         }
                     }
                 ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
                 "buckets": [
                     {
-                        "x": 1276,
-                        "y": 1113,
+                        "x": 1318,
+                        "y": 1119,
                         "GUID": "7bab87de-5a3f-40f4-abbc-0d6f9794855c"
                     }
                 ],
-                "diagramViews": [],
-                "decorativeSymbols": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                }
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
             "changed": false
