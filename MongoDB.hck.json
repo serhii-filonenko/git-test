@@ -38,6 +38,78 @@
             },
             "GUID": "27645992-89d8-40df-98d7-d79add9675a6",
             "bucketId": "7bab87de-5a3f-40f4-abbc-0d6f9794855c"
+        },
+        {
+            "code": "",
+            "collectionName": "New entity copy",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "be619db7-6924-48eb-ae44-946d7b698420",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "type": "string",
+                    "name": "email",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "GUID": "8db7ca96-8f8e-4590-88ac-9f33f2932b43",
+                    "format": "email",
+                    "hackoladeMeta": {},
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "8fc35a59-6012-4343-b123-da4b57691654"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "hackoladeMeta": {},
+            "GUID": "d5a39c0f-877b-4d3e-8769-dba8d0e7e732",
+            "bucketId": "7bab87de-5a3f-40f4-abbc-0d6f9794855c"
+        },
+        {
+            "code": "",
+            "collectionName": "New entity copy(1)",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "bc59c657-6171-4b63-8a1f-9abdd6450b2f",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "type": "string",
+                    "name": "email",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "GUID": "6e5eebae-9922-4a99-8087-64858bee1b44",
+                    "format": "email",
+                    "hackoladeMeta": {},
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "e21ed1b4-0c32-425d-a4b6-79941352fd55"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "hackoladeMeta": {},
+            "GUID": "a5a8749a-d1ad-4ada-9b24-aad756963679",
+            "bucketId": "7bab87de-5a3f-40f4-abbc-0d6f9794855c"
         }
     ],
     "buckets": [
@@ -61,7 +133,9 @@
             },
             "GUID": "7bab87de-5a3f-40f4-abbc-0d6f9794855c",
             "collectionIds": [
-                "27645992-89d8-40df-98d7-d79add9675a6"
+                "27645992-89d8-40df-98d7-d79add9675a6",
+                "d5a39c0f-877b-4d3e-8769-dba8d0e7e732",
+                "a5a8749a-d1ad-4ada-9b24-aad756963679"
             ]
         }
     ],
@@ -73,7 +147,13 @@
         "27645992-89d8-40df-98d7-d79add9675a6": "New entity",
         "7bab87de-5a3f-40f4-abbc-0d6f9794855c": "New container",
         "0aa179a5-7861-469d-aba7-1e2da20923a0": "email",
-        "1916f6de-1f01-47e6-a05d-516b508cb298": "id"
+        "1916f6de-1f01-47e6-a05d-516b508cb298": "id",
+        "d5a39c0f-877b-4d3e-8769-dba8d0e7e732": "New entity copy",
+        "be619db7-6924-48eb-ae44-946d7b698420": "id",
+        "8db7ca96-8f8e-4590-88ac-9f33f2932b43": "email",
+        "a5a8749a-d1ad-4ada-9b24-aad756963679": "New entity copy(1)",
+        "bc59c657-6171-4b63-8a1f-9abdd6450b2f": "id",
+        "6e5eebae-9922-4a99-8087-64858bee1b44": "email"
     },
     "definitions": {
         "type": "definitions",
@@ -98,7 +178,7 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-11-20T15:14:34.935Z",
+    "lastModifTS": "2023-11-20T15:21:05.224Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -122,8 +202,28 @@
                 "erd": [
                     {
                         "GUID": "27645992-89d8-40df-98d7-d79add9675a6",
-                        "x": 1358,
-                        "y": 1159,
+                        "x": 1812,
+                        "y": 1199,
+                        "width": 181,
+                        "height": 69,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "d5a39c0f-877b-4d3e-8769-dba8d0e7e732",
+                        "x": 1384,
+                        "y": 1195,
+                        "width": 181,
+                        "height": 69,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "a5a8749a-d1ad-4ada-9b24-aad756963679",
+                        "x": 1599,
+                        "y": 1198,
                         "width": 181,
                         "height": 69,
                         "color": {
@@ -139,8 +239,8 @@
                 },
                 "buckets": [
                     {
-                        "x": 1318,
-                        "y": 1119,
+                        "x": 1344,
+                        "y": 1155,
                         "GUID": "7bab87de-5a3f-40f4-abbc-0d6f9794855c"
                     }
                 ],
