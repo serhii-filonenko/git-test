@@ -27,7 +27,7 @@
                 "properties": [
                     {
                         "GUID": "e371e183-e4be-4829-ad3f-63d00f3b44f2",
-                        "format": "date",
+                        "format": "email",
                         "error": {}
                     }
                 ]
@@ -166,7 +166,7 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-11-20T15:09:27.531Z",
+    "lastModifTS": "2023-11-20T15:11:45.930Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -192,7 +192,7 @@
                         "GUID": "27645992-89d8-40df-98d7-d79add9675a6",
                         "x": 1316,
                         "y": 1153,
-                        "width": 204,
+                        "width": 210,
                         "height": 51,
                         "color": {
                             "hex": "#2196F3"
