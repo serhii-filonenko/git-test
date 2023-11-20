@@ -59,7 +59,7 @@
                     "isActivated": true,
                     "primaryKey": false,
                     "GUID": "8db7ca96-8f8e-4590-88ac-9f33f2932b43",
-                    "format": "email",
+                    "format": "time",
                     "hackoladeMeta": {},
                     "error": {}
                 }
@@ -178,7 +178,7 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-11-20T15:21:05.224Z",
+    "lastModifTS": "2023-11-20T15:21:49.755Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -214,7 +214,7 @@
                         "GUID": "d5a39c0f-877b-4d3e-8769-dba8d0e7e732",
                         "x": 1384,
                         "y": 1195,
-                        "width": 181,
+                        "width": 211,
                         "height": 69,
                         "color": {
                             "hex": "#2196F3"
