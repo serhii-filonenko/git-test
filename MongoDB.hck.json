@@ -26,7 +26,9 @@
             "referenceDiff": {
                 "properties": [
                     {
-                        "GUID": "e371e183-e4be-4829-ad3f-63d00f3b44f2"
+                        "GUID": "e371e183-e4be-4829-ad3f-63d00f3b44f2",
+                        "format": "email",
+                        "error": {}
                     },
                     {
                         "name": "New Field",
@@ -295,7 +297,7 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-11-20T15:30:06.154Z",
+    "lastModifTS": "2023-11-20T15:43:25.505Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -321,7 +323,7 @@
                         "GUID": "3f79bb61-1040-4021-9b92-e652eecbd4e4",
                         "x": 1066,
                         "y": 1152,
-                        "width": 187,
+                        "width": 210,
                         "height": 65,
                         "color": {
                             "hex": "#2196F3"
