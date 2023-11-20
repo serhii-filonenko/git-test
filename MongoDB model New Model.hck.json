@@ -22,6 +22,15 @@
             },
             "hackoladeMeta": {
                 "validationErrors": {}
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "e371e183-e4be-4829-ad3f-63d00f3b44f2",
+                        "format": "date-time",
+                        "error": {}
+                    }
+                ]
             }
         },
         {
@@ -201,7 +210,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2023-11-20T14:58:18.234Z",
+    "lastModifTS": "2023-11-20T15:02:15.712Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -219,7 +228,7 @@
                         "GUID": "f796cc4c-d679-47cd-b86e-ae0cf3a521fe",
                         "x": 1107,
                         "y": 1177,
-                        "width": 210,
+                        "width": 234,
                         "height": 51,
                         "color": {
                             "hex": "#2196F3"
