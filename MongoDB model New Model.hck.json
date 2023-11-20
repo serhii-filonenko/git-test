@@ -116,7 +116,7 @@
                     },
                     {
                         "type": "string",
-                        "name": "asd",
+                        "name": "123",
                         "hackoladeMeta": {
                             "referenceDiffField": true
                         },
@@ -262,7 +262,7 @@
         "ea4b91a6-215f-4df4-b618-b5936a5da5b2": "New entity(1)",
         "9a7515ca-3a3b-4e36-ab18-decadc18241e": "New entity(2)",
         "c4d654f1-d46d-4def-af4d-cb19506b93be": "fk New entity(2).New attribute to New entity(1).New attribute",
-        "20db4370-559d-4f6d-9b74-8b4f2abda938": "asd"
+        "20db4370-559d-4f6d-9b74-8b4f2abda938": "123"
     },
     "definitions": {
         "type": "definitions",
@@ -422,7 +422,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2023-11-20T14:46:02.932Z",
+    "lastModifTS": "2023-11-20T14:47:37.088Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
