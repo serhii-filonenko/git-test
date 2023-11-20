@@ -116,7 +116,7 @@
                     },
                     {
                         "type": "string",
-                        "name": "New attribute(1)",
+                        "name": "asd",
                         "hackoladeMeta": {
                             "referenceDiffField": true
                         },
@@ -132,9 +132,6 @@
                         "GUID": "db61db97-ba84-4b6f-8eb4-3e40fab62ba0"
                     }
                 ]
-            },
-            "error": {
-                "refPath": false
             }
         }
     ],
@@ -264,7 +261,8 @@
         "3d9d0c8f-8f62-4966-b612-774bf1ae7ea4": "New container(1)",
         "ea4b91a6-215f-4df4-b618-b5936a5da5b2": "New entity(1)",
         "9a7515ca-3a3b-4e36-ab18-decadc18241e": "New entity(2)",
-        "c4d654f1-d46d-4def-af4d-cb19506b93be": "fk New entity(2).New attribute to New entity(1).New attribute"
+        "c4d654f1-d46d-4def-af4d-cb19506b93be": "fk New entity(2).New attribute to New entity(1).New attribute",
+        "20db4370-559d-4f6d-9b74-8b4f2abda938": "asd"
     },
     "definitions": {
         "type": "definitions",
@@ -424,7 +422,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2023-11-20T14:43:56.162Z",
+    "lastModifTS": "2023-11-20T14:46:02.932Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
