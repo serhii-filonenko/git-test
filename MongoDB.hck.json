@@ -145,7 +145,7 @@
                     },
                     {
                         "GUID": "0de02834-2b24-11e6-b7e5-591297143e36",
-                        "mode": "decimal128",
+                        "mode": "integer32",
                         "error": {}
                     },
                     {
@@ -2838,7 +2838,7 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-12-29T17:15:18.825Z",
+    "lastModifTS": "2023-12-29T17:18:55.586Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
