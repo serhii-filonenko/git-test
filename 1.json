@@ -39,9 +39,9 @@
                     "primaryKey": false,
                     "fakerFunction": "faker.date.past()",
                     "GUID": "f217f37f-ce08-4d63-a0ac-694d41232653",
-                    "error": {},
-                    "format": "date-time",
-                    "hackoladeMeta": {}
+                    "format": "duration",
+                    "hackoladeMeta": {},
+                    "error": {}
                 },
                 {
                     "type": "numeric",
@@ -264,7 +264,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2023-12-29T18:08:28.091Z",
+    "lastModifTS": "2023-12-29T18:12:03.068Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -310,16 +310,33 @@
                         "size": 100
                     }
                 ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
                 "buckets": [],
-                "diagramViews": [],
-                "decorativeSymbols": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                }
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
             "changed": false

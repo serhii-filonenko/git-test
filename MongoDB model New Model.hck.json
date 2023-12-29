@@ -22,6 +22,15 @@
             "additionalProperties": false,
             "hackoladeMeta": {
                 "validationErrors": {}
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "c4786ceb-885a-43d8-89eb-6118742ca6d7",
+                        "format": "duration",
+                        "error": {}
+                    }
+                ]
             }
         }
     ],
@@ -101,7 +110,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2023-12-29T18:10:32.119Z",
+    "lastModifTS": "2023-12-29T18:12:15.542Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -110,6 +119,7 @@
     "applicationInformation": {
         "version": "7.0.6"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -118,7 +128,7 @@
                         "GUID": "785ae21d-a3c3-4dbe-961b-1fa3b114d4af",
                         "x": 1040,
                         "y": 1040,
-                        "width": 211,
+                        "width": 228,
                         "height": 51,
                         "color": {
                             "hex": "#2196F3"
