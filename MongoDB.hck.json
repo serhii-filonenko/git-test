@@ -40,6 +40,47 @@
             "additionalProperties": true
         },
         {
+            "GUID": "55536212-6aa4-4d13-b828-333e0b4e4c4f",
+            "type": "reference",
+            "$ref": "#external/definitions/checkins",
+            "refType": "polyglot",
+            "ref": "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+            "refIdPath": [
+                "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
+                "37e36f9e-2f6b-4306-991d-bd0b734bbfe9",
+                "a080d1d0-91f6-11e9-a924-ddc9cd9b071f"
+            ],
+            "isActivated": true,
+            "collectionName": "checkins",
+            "code": "",
+            "bucketId": "c8e369ae-70f5-4af8-8a0f-ff22fc268627",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "6d73efc1-b1be-42b6-8793-aa27cf4099d8"
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "9c7dc021-91f6-11e9-a924-ddc9cd9b071f",
+                        "relationshipType": "Foreign Key",
+                        "foreignCollection": "cabcb7cd-a2cd-4f82-9f98-ff617e903daf",
+                        "foreignField": [
+                            "cabcb7cd-a2cd-4f82-9f98-ff617e903daf",
+                            "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                            "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "parentRelationship": "ee17539e-0eb8-4104-beda-597effd567a9",
+                        "error": {}
+                    }
+                ]
+            },
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "additionalProperties": true
+        },
+        {
             "GUID": "d16547c8-1632-4902-8818-d52706bbd99f",
             "type": "reference",
             "$ref": "#external/definitions/reviews",
@@ -145,12 +186,12 @@
                     },
                     {
                         "GUID": "0de02834-2b24-11e6-b7e5-591297143e36",
-                        "mode": "double",
+                        "mode": "integer32",
                         "error": {}
                     },
                     {
                         "GUID": "0de02833-2b24-11e6-b7e5-591297143e36",
-                        "format": "date-time",
+                        "format": "uri",
                         "error": {}
                     }
                 ]
@@ -201,47 +242,6 @@
                 "validationErrors": {}
             },
             "description": "Users description",
-            "additionalProperties": true
-        },
-        {
-            "GUID": "55536212-6aa4-4d13-b828-333e0b4e4c4f",
-            "type": "reference",
-            "$ref": "#external/definitions/checkins",
-            "refType": "polyglot",
-            "ref": "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
-            "refIdPath": [
-                "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
-                "37e36f9e-2f6b-4306-991d-bd0b734bbfe9",
-                "a080d1d0-91f6-11e9-a924-ddc9cd9b071f"
-            ],
-            "isActivated": true,
-            "collectionName": "checkins",
-            "code": "",
-            "bucketId": "c8e369ae-70f5-4af8-8a0f-ff22fc268627",
-            "properties": [],
-            "definitions": {
-                "properties": [],
-                "GUID": "6d73efc1-b1be-42b6-8793-aa27cf4099d8"
-            },
-            "referenceDiff": {
-                "properties": [
-                    {
-                        "GUID": "9c7dc021-91f6-11e9-a924-ddc9cd9b071f",
-                        "relationshipType": "Foreign Key",
-                        "foreignCollection": "cabcb7cd-a2cd-4f82-9f98-ff617e903daf",
-                        "foreignField": [
-                            "cabcb7cd-a2cd-4f82-9f98-ff617e903daf",
-                            "0dd7ead0-2b24-11e6-b7e5-591297143e36",
-                            "0dd811fc-2b24-11e6-b7e5-591297143e36"
-                        ],
-                        "parentRelationship": "ee17539e-0eb8-4104-beda-597effd567a9",
-                        "error": {}
-                    }
-                ]
-            },
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
             "additionalProperties": true
         }
     ],
@@ -377,15 +377,15 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1720.6808655576438,
+                        "x": 1714.6808655576438,
                         "y": 1189.2647783421496
                     },
                     {
-                        "x": 1773.9690298443556,
+                        "x": 1770.9690298443556,
                         "y": 1189.2647783421496
                     },
                     {
-                        "x": 1773.9690298443556,
+                        "x": 1770.9690298443556,
                         "y": 1237.2370558780112
                     },
                     {
@@ -621,7 +621,153 @@
         "487d897d-bce3-4167-b9ac-d19744246863": "fk_tipsUsers",
         "4aaea997-d4f8-4fd2-b78a-b12d6241ae02": "fk_reviewsUsers",
         "af0f4a17-b547-4775-9380-cdd6017d761e": "fk_reviewsBusinesses",
-        "ee17539e-0eb8-4104-beda-597effd567a9": "fk businesses.business_id to checkins.business_id"
+        "ee17539e-0eb8-4104-beda-597effd567a9": "fk businesses.business_id to checkins.business_id",
+        "cfdb5ec6-f8ab-4d13-a3f4-bec6c50b44d6": "houseNum",
+        "f71314a8-e2ca-4d39-9303-1eb3c57d8f1d": "street",
+        "844d2150-b544-48a9-bc6a-ff84fba0cd52": "box",
+        "f0e92d33-2c77-4e0f-b566-c31364188667": "city",
+        "083ea2cf-06f7-4110-8460-acc2bb49412c": "state",
+        "aaaf39eb-62d5-4308-b8c9-31335063875f": "zip",
+        "2f318a98-776d-4dd4-a6c5-fb2a21de3004": "business_id",
+        "2e86c859-77b7-4458-a3d5-bc76148f4694": "name",
+        "deeed98e-7eec-499a-9cdc-42558c186b01": "phoneNumber",
+        "610f14de-fb7d-4786-9418-8165b88f2483": "business_address",
+        "6cc64793-f9a5-414e-9618-411659d40453": "full_address",
+        "f1ad0cf3-dc8f-454f-a575-77b3e25c9d74": "attributes",
+        "18c9a13f-8655-468f-a132-eed1580e543b": "Accepts Credit Cards",
+        "8cd39094-5d58-4f9e-82c0-209a69e7d603": "Accepts Insurance",
+        "f9f37513-5347-462c-b313-31fe7b66681c": "Alcohol",
+        "b7b5c705-a045-44bc-a6b7-32bbeff1e1d9": "Ambience",
+        "164a8e51-5996-4c34-9d6f-d72c358276ad": "casual",
+        "aa569b32-a597-421c-af46-30e63d92f21d": "classy",
+        "34898131-e643-44c1-b5fc-74b48a890c62": "divey",
+        "d44b5556-ed51-4402-ac8c-327409515783": "hipster",
+        "d6694827-2146-4fba-bfe5-2137980b8200": "intimate",
+        "c755e161-115b-45ad-a503-f777bfad6a45": "romantic",
+        "6e612a22-643b-48b4-aa5b-521c133bdbac": "touristy",
+        "94ac79e7-c403-4197-afa0-4658968eca1c": "trendy",
+        "8c594e50-0133-4b36-9940-68f7950c6bd4": "upscale",
+        "3bed05e1-71e7-4fb2-a7d2-f3343379f357": "Attire",
+        "b4797e0e-0f58-4cc3-9cd4-3f6569020c04": "By Appointment Only",
+        "c1234abb-df28-4aee-b08d-7409278e1209": "BYOB/Corkage",
+        "e2cded6f-7f26-4ad6-9350-9b1f3ef026e9": "Caters",
+        "2edc67fc-8ed4-4434-bc0d-1aee42a57168": "Coat Check",
+        "c063ec1f-6f44-462f-b091-197eb5ea6304": "Delivery",
+        "823ab1cb-d6bf-4aea-ae5c-83f1c9a29ae9": "Dogs Allowed",
+        "b175a155-8cad-46dd-a454-c10cc26c810f": "Drive-Thru",
+        "ac295960-a6d3-460f-a8c9-733bd0b78746": "Good For",
+        "07060b21-201f-4ce2-899f-974313268af3": "breakfast",
+        "54a02b99-6ce1-41fd-9c12-ef35abf3d08e": "brunch",
+        "d2d02337-6c73-4e1d-a37f-4a890c5414b2": "dessert",
+        "542af433-3995-499a-abc7-5b7eb2991ee4": "dinner",
+        "97e14fdb-7658-4882-bbca-a7f5a3c03e8d": "latenight",
+        "6c534523-a07d-4ee9-85df-5decb6aef967": "lunch",
+        "48272cf4-d877-47dd-a914-b6793f3cee45": "Good For Dancing",
+        "1b6c1857-4908-49f2-afcf-23a4b120f95b": "Good For Groups",
+        "368a8708-9f89-4417-931a-dfecb56a7c52": "Good for Kids",
+        "d40183ea-1ff1-4976-ade1-181e4d8c32d2": "Happy Hour",
+        "f7b0986c-0ae4-4111-a821-a2683ca83ba5": "Has TV",
+        "02485eaa-d17a-4974-8434-39f5d37a0135": "Music",
+        "73be84d8-d913-4879-82b6-d48273097863": "background_music",
+        "eca5a764-529c-4ab3-bee5-5129d647cef1": "dj",
+        "0e8ec909-6e98-4f2e-8d89-58f68fa6dd2a": "jukebox",
+        "f38bdff9-1949-4157-b1c3-e61457c8c8c8": "karaoke",
+        "c8c17054-f8ee-4043-849b-3b2ff2efaad0": "live",
+        "f39d2395-e036-4ad6-bb5e-29bf67133fd0": "video",
+        "194fa2a8-760e-4e89-8b29-920bb6743aa5": "Noise Level",
+        "3a2bb03c-0e84-4b30-8ed0-82c15623f31b": "Open 24 Hours",
+        "d885fbdc-f83b-4655-ae55-735ffbf05193": "Order at Counter",
+        "27851465-1d20-484c-ab5a-716c733408fe": "Outdoor Seating",
+        "69429f53-ce20-4a23-8f80-d58580a706fb": "Parking",
+        "9f4ddb17-4e50-4397-af64-4dc265ffe58c": "garage",
+        "88e6079d-88c2-4981-a5a7-2012129f271b": "lot",
+        "cc3b8651-f05e-4b70-8237-802074e5fa7a": "street",
+        "09b91b7e-b6a9-4af6-9559-ea01bbaecb13": "valet",
+        "effccf64-37a7-4350-a256-05ce4eff271e": "validated",
+        "3f323168-deb2-46ab-a36b-b00a68252185": "Price Range",
+        "de25fe35-39a7-4d34-91c6-a66579c4056d": "Smoking",
+        "a2b9773d-f3c6-4a44-b288-01c4362c5c0b": "Take-out",
+        "42714f86-5b22-488a-a1f9-50c1059fdc97": "Takes Reservations",
+        "410c2893-70f8-4157-ac56-c08ec061dcd2": "Waiter Service",
+        "3a0bc435-f3e0-4223-b088-e50f7dab8fab": "Wheelchair Accessible",
+        "65669fda-df4a-4f97-8630-547041d97728": "Wi-Fi",
+        "d1bcddb1-0bcb-4320-8953-dea57ae43939": "categories",
+        "a3774714-db0e-403b-98c7-15ad0046c456": "hours",
+        "7c2b0e4b-0110-42c1-bba9-a7d3b691c490": "Friday",
+        "717a6558-694d-4256-8b21-44ec15d5579a": "close",
+        "cf0f8fc7-27da-4427-9e98-080642ca2b1e": "open",
+        "cb1c956f-2e51-4a0c-94af-e9436966b016": "Monday",
+        "6f7291ef-6027-4f31-97a8-7b78bb348711": "close",
+        "f36342b3-3e41-4abe-80f9-c813dcca7cc3": "open",
+        "822a7981-5ea1-47f8-bc2c-42ea7f8646e2": "Saturday",
+        "e8aac580-cd1a-4d7d-b292-a51dadb3c572": "close",
+        "f7693bb7-acf9-43e3-a74e-fc079162f438": "open",
+        "a8b746ef-340a-413c-95f5-f5ea3007f84f": "Sunday",
+        "db5bd244-ddf7-4cd8-a816-491a9eeee5e6": "close",
+        "51e0494f-9c0a-45e0-91a1-0b99c77425b4": "open",
+        "bb89248b-cd4b-497a-bf91-56c9e50330c7": "Thursday",
+        "b78f7b1b-36f8-464a-8574-85cc2cec0010": "close",
+        "cc5a61a2-a2f6-42e0-9198-db79b3513078": "open",
+        "d94c0cd3-b030-46e3-b2cd-bcd123afec73": "Tuesday",
+        "a3d16edc-ffd1-4e42-8103-293b5238c610": "close",
+        "3dcc6921-4d8d-4c47-a9f3-78457fb9423c": "open",
+        "5d8cf428-35cf-46e1-b307-935a5fe72a7c": "Wednesday",
+        "639245b8-2900-400c-b154-ae17283287b2": "close",
+        "6e2a0877-4b13-4816-8a09-c5db3769c1dc": "open",
+        "66d81803-9b32-4584-a743-9bb2f1b37164": "latitude",
+        "bf4d575c-6df2-404f-a591-04627addd452": "longitude",
+        "707d7df3-fa92-4739-aaa4-88932b42ee20": "neighborhoods",
+        "475b93fd-deac-48b5-b6a3-e7b8ab3c9983": "open",
+        "3f7a99ac-081e-4911-9543-7afd0c4cf6a0": "review_count",
+        "fdadbcd8-2c53-405a-b87c-f928ad075cc9": "stars",
+        "592f30d5-bf03-4191-9c08-254148335b97": "type",
+        "98dacd01-711f-4754-939e-e77f3db920e4": "review_id",
+        "e9867c79-c901-458a-8557-ca2c9afb3006": "business_id",
+        "4192c507-5a62-4943-af77-0348d7712229": "date",
+        "141f1bbf-c7b0-4ca6-8936-62115992ec7d": "stars",
+        "e50b2e8d-60c3-4f53-b91b-e695e1ae18a8": "text",
+        "46c43a75-a6e1-49e7-889e-3a6a000f5207": "type",
+        "916614c6-e5df-4255-acc7-0e6891058745": "user_id",
+        "d0340e85-c268-4468-8f52-1e9e01c2f668": "votes",
+        "2f71fa15-71f1-47de-bbf7-116716144db1": "cool",
+        "2e563cdf-a496-4fd6-a535-eb66db8a7e59": "funny",
+        "92cd7914-11ee-4bbe-9da4-bcbc023c138b": "useful",
+        "85ae74be-acc5-46c7-868b-5dd60aa5599d": "_id",
+        "ee4276ef-c262-4013-af6d-266c58dc9860": "business_id",
+        "328d17a4-97ef-4e79-a57f-540c1c5f7804": "date",
+        "83f870f0-90ee-4dd4-be66-5d25a5fd7a4e": "likes",
+        "988f0c6b-ad35-4208-928c-d7c76ce8bd1a": "text",
+        "2c1905f4-6c4c-4f89-bbc2-ef898d80e914": "type",
+        "2ed87402-c373-4452-87c3-28056bcbb1ac": "user_id",
+        "cf31ff1f-77c5-4858-bdef-78d47e5f0879": "user_id",
+        "38196476-c46e-4248-adc0-c15207908d59": "type",
+        "128bb7d8-22f5-44e3-8694-9ebfa48826c6": "name",
+        "2dc08784-4ac9-48f2-99d8-c17889d942bb": "average_stars",
+        "b216daec-6832-4ab3-9f68-60851fadcab9": "compliments",
+        "e696b45b-5460-4323-b23c-6fa1c09050c7": "cool",
+        "addf617f-122e-4edd-95e7-823becd7a859": "cute",
+        "0d9b0ec2-1cf3-4187-bcfa-7a847c01ee78": "funny",
+        "45d7c6a1-a2a3-4a36-9bd0-48a7de282426": "hot",
+        "9e58aa88-a65d-4809-a43c-4e04be741a8f": "note",
+        "ec77fa68-aea5-4ce9-bd3b-60b692e6a7c5": "photos",
+        "d0d86267-bdc1-4ece-a041-1e331422450b": "plain",
+        "19055a7e-136f-42b1-8208-ab7db60bc45c": "profile",
+        "d13b5bd5-63da-4493-9fe9-c4643fbcba6e": "writer",
+        "9cc12a89-88d4-4c88-b747-6f80f86aaaef": "elite",
+        "aa479db9-d815-4b13-beef-d2613fe4e69e": "fans",
+        "9bb1c875-4b0b-42a3-b3b9-de5c658a0df3": "friends",
+        "5b9399d1-a742-4a5d-9da3-45093989c887": "review_count",
+        "1025aa05-b0b6-468b-b2f2-cb7c3274a5b9": "votes",
+        "7e70c27c-c4ee-4af4-8c3d-b55014eab2f0": "cool",
+        "ded40bca-e245-4e31-8787-5e9d1d2427e9": "funny",
+        "ab4b64a9-f016-4bf4-8132-c721b4e79174": "useful",
+        "90bc682b-930f-42e0-a3b9-0da6c8ab485b": "yelping_since",
+        "88899587-0284-4b89-983c-fee61a8e0434": "_id",
+        "3ad4bc11-3951-4a42-9e75-b16161eb6370": "checkin_info",
+        "f929a647-2b56-4c85-a311-c7d353c17a74": "^[a-zA-Z0-9_.-]{3}$",
+        "28987454-693a-4d1d-90f7-4bacc6db4af8": "^[a-zA-Z0-9_.-]{4}$",
+        "8a2e72ae-c319-43d4-ac46-d117ef317c54": "type",
+        "e6a622e3-f08f-4bc6-a44e-922b3345a4fc": "business_id"
     },
     "definitions": {
         "type": "definitions",
@@ -642,7 +788,8 @@
                 "code": "",
                 "primaryKey": false,
                 "additionalProperties": false,
-                "error": {}
+                "error": {},
+                "referenceDiff": {}
             }
         ],
         "GUID": "5c8e34c7-8653-4099-adc5-232193a671a0"
@@ -2838,7 +2985,7 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-12-29T17:19:22.155Z",
+    "lastModifTS": "2023-12-29T17:46:59.511Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -2994,12 +3141,6 @@
                         "size": 100
                     }
                 ],
-                "erdDefinitions": {
-                    "erd": [],
-                    "rootPath": [],
-                    "entities": [],
-                    "decorativeSymbols": []
-                },
                 "buckets": [
                     {
                         "x": 1000,
@@ -3007,21 +3148,6 @@
                         "GUID": "c8e369ae-70f5-4af8-8a0f-ff22fc268627"
                     }
                 ],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
-                "graphView": {
-                    "erd": [],
-                    "buckets": [],
-                    "decorativeSymbols": [],
-                    "forceLayout": true,
-                    "defaultLinkLength": 300
-                },
                 "diagramViews": [],
                 "decorativeSymbols": [
                     {
@@ -3032,9 +3158,13 @@
                         "width": 362
                     }
                 ],
-                "nestedCollectionsLayout": "horizontal",
-                "options": [],
-                "relationshipUpdateDisabled": false
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                }
             },
             "collectionLevel": {},
             "changed": false
