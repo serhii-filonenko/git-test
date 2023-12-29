@@ -140,17 +140,17 @@
                     },
                     {
                         "GUID": "0de02835-2b24-11e6-b7e5-591297143e36",
-                        "format": "date-time",
+                        "format": "duration",
                         "error": {}
                     },
                     {
                         "GUID": "0de02834-2b24-11e6-b7e5-591297143e36",
-                        "mode": "integer32",
+                        "mode": "decimal128",
                         "error": {}
                     },
                     {
                         "GUID": "0de02833-2b24-11e6-b7e5-591297143e36",
-                        "format": "date-time",
+                        "format": "uri",
                         "error": {}
                     }
                 ]
@@ -377,15 +377,15 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1720.6808655576438,
+                        "x": 1714.6808655576438,
                         "y": 1189.2647783421496
                     },
                     {
-                        "x": 1773.9690298443556,
+                        "x": 1770.9690298443556,
                         "y": 1189.2647783421496
                     },
                     {
-                        "x": 1773.9690298443556,
+                        "x": 1770.9690298443556,
                         "y": 1237.2370558780112
                     },
                     {
@@ -2838,7 +2838,7 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-12-29T17:14:24.865Z",
+    "lastModifTS": "2023-12-29T17:15:18.825Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -2926,7 +2926,7 @@
                         "GUID": "3f9987f8-5461-4322-ae4f-7f3704713ab9",
                         "x": 1474.6808655576438,
                         "y": 1111.7647783421496,
-                        "width": 246,
+                        "width": 240,
                         "height": 155,
                         "color": {
                             "hsl": {
