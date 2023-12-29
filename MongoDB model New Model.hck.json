@@ -27,7 +27,7 @@
                 "properties": [
                     {
                         "GUID": "c4786ceb-885a-43d8-89eb-6118742ca6d7",
-                        "format": "duration",
+                        "format": "email",
                         "error": {}
                     }
                 ]
@@ -40,7 +40,8 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "785ae21d-a3c3-4dbe-961b-1fa3b114d4af": "New entity"
+        "785ae21d-a3c3-4dbe-961b-1fa3b114d4af": "New entity",
+        "6746f846-701a-493e-a91b-3245ae6fd2fb": "New attribute"
     },
     "definitions": {
         "type": "definitions",
@@ -110,7 +111,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2023-12-29T18:12:15.542Z",
+    "lastModifTS": "2023-12-29T18:12:54.729Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -135,33 +136,16 @@
                         }
                     }
                 ],
-                "erdDefinitions": {
-                    "erd": [],
-                    "rootPath": [],
-                    "entities": [],
-                    "decorativeSymbols": []
-                },
                 "buckets": [],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
+                "diagramViews": [],
+                "decorativeSymbols": [],
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                },
-                "diagramViews": [],
-                "decorativeSymbols": [],
-                "nestedCollectionsLayout": "horizontal",
-                "options": [],
-                "relationshipUpdateDisabled": false
+                }
             },
             "collectionLevel": {},
             "changed": false
