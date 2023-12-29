@@ -1204,10 +1204,11 @@
                     "code": "",
                     "isActivated": true,
                     "childType": "varchar",
-                    "mode": "string",
+                    "mode": "text",
                     "primaryKey": false,
                     "GUID": "0de02835-2b24-11e6-b7e5-591297143e36",
-                    "type": "string"
+                    "type": "string",
+                    "error": {}
                 },
                 {
                     "name": "type",
@@ -2393,11 +2394,11 @@
         "pluginVersion": "0.0.1",
         "pluginEngineVersion": "1.0.0"
     },
-    "lastModifTS": "2023-11-20T13:42:14.633Z",
-    "persistenceSchemaVersion": "6",
+    "lastModifTS": "2023-12-29T17:17:27.348Z",
+    "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "applicationInformation": {
-        "version": "6.11.7"
+        "version": "7.0.6"
     },
     "settings": {
         "centralPane": {
