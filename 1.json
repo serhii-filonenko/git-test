@@ -2,37 +2,110 @@
     "modelName": "New Model",
     "collections": [
         {
-            "GUID": "059366f0-601b-4863-9906-91ebbb114ea8",
-            "type": "reference",
-            "$ref": "#external/definitions/tips",
-            "refType": "polyglot",
-            "ref": "0de02830-2b24-11e6-b7e5-591297143e36",
-            "refIdPath": [
-                "a7ce5a79-5f97-4f3e-9108-b607497e6c1c",
-                "3268a6cc-0adc-4ec9-bc60-82b2768df5b0",
-                "0de02830-2b24-11e6-b7e5-591297143e36"
+            "properties": [
+                {
+                    "type": "objectId",
+                    "name": "_id",
+                    "code": "",
+                    "isActivated": true,
+                    "primaryKey": true,
+                    "required": true,
+                    "GUID": "1bb77d56-2f00-4946-afc0-8898809c5262",
+                    "error": {},
+                    "hackoladeMeta": {}
+                },
+                {
+                    "type": "objectId",
+                    "name": "business_id",
+                    "code": "",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "required": true,
+                    "foreignCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                    "foreignField": [
+                        "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "GUID": "df4d269e-816e-40bd-b4af-ed2d48d08131",
+                    "error": {},
+                    "hackoladeMeta": {}
+                },
+                {
+                    "type": "string",
+                    "name": "date",
+                    "code": "",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "fakerFunction": "faker.date.past()",
+                    "GUID": "f217f37f-ce08-4d63-a0ac-694d41232653",
+                    "error": {},
+                    "format": "date-time",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "type": "numeric",
+                    "name": "likes",
+                    "code": "",
+                    "isActivated": true,
+                    "mode": "",
+                    "primaryKey": false,
+                    "GUID": "afb248ce-f15b-498d-862e-51721c38d447",
+                    "error": {},
+                    "hackoladeMeta": {}
+                },
+                {
+                    "type": "string",
+                    "name": "text",
+                    "code": "",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "GUID": "d2ae442f-1a09-416b-a992-50d79690856c",
+                    "error": {},
+                    "hackoladeMeta": {}
+                },
+                {
+                    "type": "string",
+                    "name": "type",
+                    "code": "",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "GUID": "0e384717-7504-4073-8c92-cc56740803c9",
+                    "error": {},
+                    "hackoladeMeta": {}
+                },
+                {
+                    "type": "objectId",
+                    "name": "user_id",
+                    "code": "",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "required": true,
+                    "foreignCollection": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                    "foreignField": [
+                        "0df0f110-2b24-11e6-b7e5-591297143e36",
+                        "0df0f126-2b24-11e6-b7e5-591297143e36"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "GUID": "fbf334e1-0d8e-4c34-873c-c5fb9bd5b847",
+                    "error": {},
+                    "hackoladeMeta": {}
+                }
             ],
-            "isActivated": true,
-            "collectionName": "tips",
-            "code": "",
-            "properties": [],
             "definitions": {
+                "GUID": "e879c76a-dd71-4c01-a7f3-5d9057727cc7",
                 "properties": [],
-                "GUID": "79851e38-3266-42a9-9f09-65396dab1e9f"
+                "type": "definitions"
             },
-            "additionalProperties": true,
+            "type": "object",
             "hackoladeMeta": {
                 "validationErrors": {}
             },
-            "referenceDiff": {
-                "properties": [
-                    {
-                        "GUID": "0de02833-2b24-11e6-b7e5-591297143e36",
-                        "format": "duration",
-                        "error": {}
-                    }
-                ]
-            }
+            "GUID": "059366f0-601b-4863-9906-91ebbb114ea8",
+            "isActivated": true,
+            "collectionName": "tips",
+            "code": "",
+            "additionalProperties": true
         }
     ],
     "buckets": [],
@@ -41,7 +114,14 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "059366f0-601b-4863-9906-91ebbb114ea8": "tips"
+        "059366f0-601b-4863-9906-91ebbb114ea8": "tips",
+        "1bb77d56-2f00-4946-afc0-8898809c5262": "_id",
+        "df4d269e-816e-40bd-b4af-ed2d48d08131": "business_id",
+        "f217f37f-ce08-4d63-a0ac-694d41232653": "date",
+        "afb248ce-f15b-498d-862e-51721c38d447": "likes",
+        "d2ae442f-1a09-416b-a992-50d79690856c": "text",
+        "0e384717-7504-4073-8c92-cc56740803c9": "type",
+        "fbf334e1-0d8e-4c34-873c-c5fb9bd5b847": "user_id"
     },
     "definitions": {
         "type": "definitions",
@@ -184,7 +264,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2023-12-29T17:57:08.967Z",
+    "lastModifTS": "2023-12-29T18:08:28.091Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -230,33 +310,16 @@
                         "size": 100
                     }
                 ],
-                "erdDefinitions": {
-                    "erd": [],
-                    "rootPath": [],
-                    "entities": [],
-                    "decorativeSymbols": []
-                },
                 "buckets": [],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
+                "diagramViews": [],
+                "decorativeSymbols": [],
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                },
-                "diagramViews": [],
-                "decorativeSymbols": [],
-                "nestedCollectionsLayout": "horizontal",
-                "options": [],
-                "relationshipUpdateDisabled": false
+                }
             },
             "collectionLevel": {},
             "changed": false

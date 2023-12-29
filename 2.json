@@ -42,7 +42,30 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "3396afec-00eb-4a46-bfb7-f377a91ac432": "users"
+        "3396afec-00eb-4a46-bfb7-f377a91ac432": "users",
+        "440fca93-61ae-4fdd-a172-fe9900e0a8ea": "user_id",
+        "cc6335f5-521f-41f3-b6ec-afad18d429bb": "type",
+        "230e1ad3-5b34-4175-b7be-cde1261864b0": "name",
+        "ca1a8fa0-5cdc-4ac6-bafa-9b057004d1ed": "average_stars",
+        "0f497b74-7911-42f4-bdda-a38bd08d736e": "compliments",
+        "2aba78a1-e3dd-45da-8324-3c65ece3e598": "cool",
+        "624521ef-b190-4470-a4e9-07baaca07fc0": "cute",
+        "7b5ba38c-06e3-4f6d-a0ee-79f747c776e2": "funny",
+        "144ca005-b589-4384-9742-1394885b715f": "hot",
+        "ed0429ff-e18a-4014-90c4-d9a92642599e": "note",
+        "58b75c7d-5db3-4d8c-807b-615c526db60e": "photos",
+        "0ced73b9-7039-422e-8f3d-84f6bde9837e": "plain",
+        "7f772b45-50ad-47e0-ad26-b05f815ab4d2": "profile",
+        "0aa8ea46-320d-43ce-8a28-5725c363d19c": "writer",
+        "2b633329-c24a-4b12-b5e6-5a14553b0fe0": "elite",
+        "a115dffe-57ad-4dbc-869e-08cd5f35964e": "fans",
+        "ff33909a-a8c2-4110-9d31-7cbc1af99164": "friends",
+        "11b91b98-38b0-4584-b928-039f93fb087a": "review_count",
+        "c3d165ca-1647-4e39-8d8b-4baec66ac986": "votes",
+        "339d2214-3616-4634-96ba-0c14ea7d6cf9": "cool",
+        "5cdcee5a-b93b-4f0a-bf19-107067fb6e92": "funny",
+        "7dc2a046-4996-4cae-92f9-ada21b6aa65e": "useful",
+        "2feee417-12dd-4004-92c8-d979b79b1137": "yelping_since"
     },
     "definitions": {
         "type": "definitions",
@@ -423,7 +446,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2023-12-29T17:57:20.660Z",
+    "lastModifTS": "2023-12-29T18:08:28.098Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -469,33 +492,16 @@
                         "size": 100
                     }
                 ],
-                "erdDefinitions": {
-                    "erd": [],
-                    "rootPath": [],
-                    "entities": [],
-                    "decorativeSymbols": []
-                },
                 "buckets": [],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
+                "diagramViews": [],
+                "decorativeSymbols": [],
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                },
-                "diagramViews": [],
-                "decorativeSymbols": [],
-                "nestedCollectionsLayout": "horizontal",
-                "options": [],
-                "relationshipUpdateDisabled": false
+                }
             },
             "collectionLevel": {},
             "changed": false
