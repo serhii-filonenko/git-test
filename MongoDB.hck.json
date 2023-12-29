@@ -1850,11 +1850,11 @@
                     },
                     {
                         "x": 1416.8404327788219,
-                        "y": 1288.2370558780112
+                        "y": 1499.2370558780112
                     },
                     {
                         "x": 1359,
-                        "y": 1288.2370558780112
+                        "y": 1499.2370558780112
                     }
                 ],
                 "sides": [
@@ -1904,11 +1904,11 @@
                     },
                     {
                         "x": 1773.9690298443556,
-                        "y": 1317.7370558780112
+                        "y": 1237.2370558780112
                     },
                     {
                         "x": 1827.2571941310678,
-                        "y": 1317.7370558780112
+                        "y": 1237.2370558780112
                     }
                 ],
                 "sides": [
@@ -4691,7 +4691,7 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-12-29T17:51:58.949Z",
+    "lastModifTS": "2023-12-29T17:52:57.018Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -4847,6 +4847,12 @@
                         "size": 100
                     }
                 ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
                 "buckets": [
                     {
                         "x": 1000,
@@ -4854,6 +4860,21 @@
                         "GUID": "c8e369ae-70f5-4af8-8a0f-ff22fc268627"
                     }
                 ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
                 "diagramViews": [],
                 "decorativeSymbols": [
                     {
@@ -4864,13 +4885,9 @@
                         "width": 362
                     }
                 ],
-                "graphView": {
-                    "erd": [],
-                    "buckets": [],
-                    "decorativeSymbols": [],
-                    "forceLayout": true,
-                    "defaultLinkLength": 300
-                }
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
             "changed": false

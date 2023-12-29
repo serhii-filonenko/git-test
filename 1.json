@@ -1,0 +1,259 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "GUID": "059366f0-601b-4863-9906-91ebbb114ea8",
+            "type": "reference",
+            "$ref": "#external/definitions/tips",
+            "refType": "polyglot",
+            "ref": "0de02830-2b24-11e6-b7e5-591297143e36",
+            "refIdPath": [
+                "a7ce5a79-5f97-4f3e-9108-b607497e6c1c",
+                "3268a6cc-0adc-4ec9-bc60-82b2768df5b0",
+                "0de02830-2b24-11e6-b7e5-591297143e36"
+            ],
+            "isActivated": true,
+            "collectionName": "tips",
+            "code": "",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "79851e38-3266-42a9-9f09-65396dab1e9f"
+            },
+            "additionalProperties": true,
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "059366f0-601b-4863-9906-91ebbb114ea8": "tips"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "cb65f6c4-7b51-4b8f-9e2b-c5358693b0a6"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [
+            {
+                "collectionName": "tips",
+                "code": "",
+                "isActivated": true,
+                "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+                "additionalProperties": true,
+                "properties": [
+                    {
+                        "type": "objectId",
+                        "name": "_id",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": true,
+                        "required": true,
+                        "GUID": "0de02831-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "objectId",
+                        "name": "business_id",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "required": true,
+                        "foreignCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "foreignField": [
+                            "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                            "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "relationshipType": "Foreign Key",
+                        "GUID": "0de02832-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "date",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "fakerFunction": "faker.date.past()",
+                        "GUID": "0de02833-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "numeric",
+                        "name": "likes",
+                        "code": "",
+                        "isActivated": true,
+                        "mode": "",
+                        "primaryKey": false,
+                        "GUID": "0de02834-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "text",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0de02835-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "type",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0de02836-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "objectId",
+                        "name": "user_id",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "required": true,
+                        "foreignCollection": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                        "foreignField": [
+                            "0df0f110-2b24-11e6-b7e5-591297143e36",
+                            "0df0f126-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "relationshipType": "Foreign Key",
+                        "GUID": "0de02837-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "GUID": "84a505d4-f031-11e6-8228-e5dfd33d2c24",
+                    "properties": [],
+                    "type": "definitions"
+                },
+                "GUID": "0de02830-2b24-11e6-b7e5-591297143e36",
+                "type": "object",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "definitionEntityType": "collection",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/yelp/tips",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "059366f0-601b-4863-9906-91ebbb114ea8"
+                    ]
+                ]
+            }
+        ],
+        "GUID": "3268a6cc-0adc-4ec9-bc60-82b2768df5b0"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "9dee1905-534e-4eb0-9df9-413e34b1def7"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v7.x",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2023-12-29T17:54:31.163Z",
+    "GUID": "a7ce5a79-5f97-4f3e-9108-b607497e6c1c",
+    "isLineageEnabled": false,
+    "polyglotModelPaths": [
+        {
+            "GUID": "24a66c31-ae93-4241-967d-874de084f35f",
+            "polyglotModelName": "Yelp Challenge dataset (Polyglot).hck",
+            "polyglotModelPath": "Yelp Challenge dataset (Polyglot).hck.json",
+            "normalization": false
+        }
+    ],
+    "lastModifTS": "2023-12-29T17:55:09.705Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.0.6"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "059366f0-601b-4863-9906-91ebbb114ea8",
+                        "x": 1474.6808655576438,
+                        "y": 1111.7647783421496,
+                        "width": 252,
+                        "height": 155,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0.8974358974358974,
+                                "l": 0.5411764705882353,
+                                "a": 1
+                            },
+                            "hex": "#2196f3",
+                            "rgb": {
+                                "r": 33,
+                                "g": 150,
+                                "b": 243,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0.8641975308641976,
+                                "v": 0.9529411764705882,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        },
+                        "size": 100
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
