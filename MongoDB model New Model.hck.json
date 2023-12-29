@@ -1,0 +1,164 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "GUID": "785ae21d-a3c3-4dbe-961b-1fa3b114d4af",
+            "type": "reference",
+            "$ref": "#external/definitions/New entity",
+            "refType": "polyglot",
+            "ref": "9656e9cd-5205-4401-90a9-85e3feca9514",
+            "refIdPath": [
+                "3d88b55f-08dd-4775-b1ca-0a3e723ce8ee",
+                "cb10cbda-df93-4213-a4f6-9f1ff364add1",
+                "9656e9cd-5205-4401-90a9-85e3feca9514"
+            ],
+            "isActivated": true,
+            "collectionName": "New entity",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "4d48c247-b68a-464b-83b2-ed82c742e518"
+            },
+            "additionalProperties": false,
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "785ae21d-a3c3-4dbe-961b-1fa3b114d4af": "New entity"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "3b640946-3cc6-40c6-9705-edba1fd7c727"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [
+            {
+                "collectionName": "New entity",
+                "type": "object",
+                "properties": [
+                    {
+                        "type": "string",
+                        "name": "New attribute",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "c4786ceb-885a-43d8-89eb-6118742ca6d7",
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "type": "definitions",
+                    "properties": [],
+                    "GUID": "b58c9f77-a44b-49eb-8504-0adb5308221b"
+                },
+                "isActivated": true,
+                "additionalProperties": false,
+                "GUID": "9656e9cd-5205-4401-90a9-85e3feca9514",
+                "definitionEntityType": "collection",
+                "link": "polyglot.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/New entity",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "785ae21d-a3c3-4dbe-961b-1fa3b114d4af"
+                    ]
+                ],
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                }
+            }
+        ],
+        "GUID": "cb10cbda-df93-4213-a4f6-9f1ff364add1"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "a3d4af4b-dace-4a2f-a917-a4d332bb3997"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v7.x",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2023-12-29T18:10:08.340Z",
+    "GUID": "3d88b55f-08dd-4775-b1ca-0a3e723ce8ee",
+    "isLineageEnabled": false,
+    "polyglotModelPaths": [
+        {
+            "GUID": "7268dada-4b29-4dc5-9f06-ae5b54f464c5",
+            "polyglotModelName": "polyglot",
+            "polyglotModelPath": "polyglot.json",
+            "normalization": false
+        }
+    ],
+    "lastModifTS": "2023-12-29T18:10:32.119Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.0.6"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "785ae21d-a3c3-4dbe-961b-1fa3b114d4af",
+                        "x": 1040,
+                        "y": 1040,
+                        "width": 211,
+                        "height": 51,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
