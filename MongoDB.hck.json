@@ -36,6 +36,10 @@
             },
             "hackoladeMeta": {
                 "validationErrors": {}
+            },
+            "additionalProperties": true,
+            "error": {
+                "refPath": false
             }
         },
         {
@@ -61,18 +65,6 @@
             "referenceDiff": {
                 "properties": [
                     {
-                        "GUID": "0da2aa08-2b24-11e6-b7e5-591297143e36",
-                        "relationshipType": "Foreign Key",
-                        "foreignCollection": "61db0434-ee58-4194-a25f-94001eb5a335",
-                        "foreignField": [
-                            "61db0434-ee58-4194-a25f-94001eb5a335",
-                            "0df0f110-2b24-11e6-b7e5-591297143e36",
-                            "0df0f126-2b24-11e6-b7e5-591297143e36"
-                        ],
-                        "parentRelationship": "4aaea997-d4f8-4fd2-b78a-b12d6241ae02",
-                        "error": {}
-                    },
-                    {
                         "GUID": "0da2aa02-2b24-11e6-b7e5-591297143e36",
                         "relationshipType": "Foreign Key",
                         "foreignCollection": "cabcb7cd-a2cd-4f82-9f98-ff617e903daf",
@@ -83,11 +75,27 @@
                         ],
                         "parentRelationship": "af0f4a17-b547-4775-9380-cdd6017d761e",
                         "error": {}
+                    },
+                    {
+                        "GUID": "0da2aa08-2b24-11e6-b7e5-591297143e36",
+                        "relationshipType": "Foreign Key",
+                        "foreignCollection": "61db0434-ee58-4194-a25f-94001eb5a335",
+                        "foreignField": [
+                            "61db0434-ee58-4194-a25f-94001eb5a335",
+                            "0df0f110-2b24-11e6-b7e5-591297143e36",
+                            "0df0f126-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "parentRelationship": "4aaea997-d4f8-4fd2-b78a-b12d6241ae02",
+                        "error": {}
                     }
                 ]
             },
             "hackoladeMeta": {
                 "validationErrors": {}
+            },
+            "additionalProperties": true,
+            "error": {
+                "refPath": false
             }
         },
         {
@@ -135,12 +143,26 @@
                         ],
                         "parentRelationship": "487d897d-bce3-4167-b9ac-d19744246863",
                         "error": {}
+                    },
+                    {
+                        "GUID": "0de02836-2b24-11e6-b7e5-591297143e36",
+                        "referenceDiffDeleted": true
+                    },
+                    {
+                        "GUID": "0de02835-2b24-11e6-b7e5-591297143e36",
+                        "referenceDiffDeleted": true
+                    },
+                    {
+                        "GUID": "0de02834-2b24-11e6-b7e5-591297143e36",
+                        "mode": "integer32",
+                        "error": {}
                     }
                 ]
             },
             "hackoladeMeta": {
                 "validationErrors": {}
-            }
+            },
+            "additionalProperties": true
         },
         {
             "GUID": "61db0434-ee58-4194-a25f-94001eb5a335",
@@ -181,6 +203,11 @@
             },
             "hackoladeMeta": {
                 "validationErrors": {}
+            },
+            "description": "Users description",
+            "additionalProperties": true,
+            "error": {
+                "refPath": false
             }
         },
         {
@@ -221,6 +248,10 @@
             },
             "hackoladeMeta": {
                 "validationErrors": {}
+            },
+            "additionalProperties": true,
+            "error": {
+                "refPath": false
             }
         }
     ],
@@ -252,9 +283,7 @@
                 "61db0434-ee58-4194-a25f-94001eb5a335",
                 "55536212-6aa4-4d13-b828-333e0b4e4c4f"
             ],
-            "hackoladeMeta": {
-                "validationErrors": {}
-            }
+            "hackoladeMeta": {}
         }
     ],
     "views": [],
@@ -292,11 +321,11 @@
                 "shape": [
                     {
                         "x": 1474.6808655576438,
-                        "y": 1189.2647783421496
+                        "y": 1173.2647783421496
                     },
                     {
                         "x": 1416.8404327788219,
-                        "y": 1189.2647783421496
+                        "y": 1173.2647783421496
                     },
                     {
                         "x": 1416.8404327788219,
@@ -356,15 +385,15 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1726.6808655576438,
-                        "y": 1189.2647783421496
+                        "x": 1694.6808655576438,
+                        "y": 1173.2647783421496
                     },
                     {
-                        "x": 1776.9690298443556,
-                        "y": 1189.2647783421496
+                        "x": 1760.9690298443556,
+                        "y": 1173.2647783421496
                     },
                     {
-                        "x": 1776.9690298443556,
+                        "x": 1760.9690298443556,
                         "y": 1237.2370558780112
                     },
                     {
@@ -620,7 +649,10 @@
                 "isActivated": true,
                 "code": "",
                 "primaryKey": false,
-                "error": {}
+                "additionalProperties": false,
+                "error": {
+                    "refPath": false
+                }
             }
         ],
         "GUID": "5c8e34c7-8653-4099-adc5-232193a671a0"
@@ -629,16 +661,16 @@
         "type": "polyglotDefinitions",
         "properties": [
             {
-                "collectionName": "businesses",
                 "code": "",
+                "collectionName": "businesses",
                 "isActivated": true,
                 "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
                 "additionalProperties": true,
                 "properties": [
                     {
+                        "code": "",
                         "type": "objectId",
                         "name": "business_id",
-                        "code": "",
                         "isActivated": true,
                         "description": "Unique key for businesses",
                         "primaryKey": true,
@@ -651,9 +683,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "name",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "fakerFunction": "faker.company.name()",
@@ -661,17 +693,17 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "phoneNumber",
                         "isActivated": true,
                         "fakerFunction": "faker.phone.number('+1-###-###-####')",
                         "GUID": "06399180-d360-11ec-adc4-432dcbbfc12a",
-                        "hackoladeMeta": {},
                         "error": {}
                     },
                     {
-                        "name": "business_address",
                         "code": "",
+                        "name": "business_address",
                         "isActivated": true,
                         "$ref": "#model/definitions/full_address",
                         "refType": "model",
@@ -690,8 +722,8 @@
                         "error": {}
                     },
                     {
-                        "name": "full_address",
                         "code": "",
+                        "name": "full_address",
                         "isActivated": true,
                         "$ref": "#model/definitions/address",
                         "refType": "model",
@@ -710,30 +742,31 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "document",
                         "properties": [
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Accepts Credit Cards",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd7ead3-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Accepts Insurance",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd7ead4-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "string",
                                 "name": "Alcohol",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "sample": "Full bar",
@@ -741,84 +774,85 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "document",
                                 "properties": [
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "casual",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7ead7-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "classy",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7ead8-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "divey",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7ead9-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "hipster",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7eada-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "intimate",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7eadb-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "romantic",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7eadc-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "touristy",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7eadd-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "trendy",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7eade-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "upscale",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7eadf-2b24-11e6-b7e5-591297143e36",
@@ -827,16 +861,15 @@
                                 ],
                                 "additionalProperties": true,
                                 "name": "Ambience",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd7ead6-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "string",
                                 "name": "Attire",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "sample": "Casual chic",
@@ -844,120 +877,121 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "By Appointment Only",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd7eae1-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "string",
                                 "name": "BYOB/Corkage",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd7eae2-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Caters",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd7eae3-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Coat Check",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd7eae4-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Delivery",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd7eae5-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Dogs Allowed",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd7eae6-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Drive-Thru",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd7eae7-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "document",
                                 "properties": [
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "breakfast",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7eae9-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "brunch",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7eaea-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "dessert",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7eaeb-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "dinner",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7eaec-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "latenight",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7eaed-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "lunch",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd7eaee-2b24-11e6-b7e5-591297143e36",
@@ -966,109 +1000,109 @@
                                 ],
                                 "additionalProperties": true,
                                 "name": "Good For",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd7eae8-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Good For Dancing",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd7eaef-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Good For Groups",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811e0-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Good for Kids",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811e1-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Happy Hour",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811e2-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Has TV",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811e3-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "document",
                                 "properties": [
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "background_music",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd811e5-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "dj",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd811e6-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "jukebox",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd811e7-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "karaoke",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd811e8-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "live",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd811e9-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "video",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd811ea-2b24-11e6-b7e5-591297143e36",
@@ -1077,91 +1111,91 @@
                                 ],
                                 "additionalProperties": true,
                                 "name": "Music",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811e4-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "string",
                                 "name": "Noise Level",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811eb-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Open 24 Hours",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811ec-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Order at Counter",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811ed-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Outdoor Seating",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811ee-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "document",
                                 "properties": [
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "garage",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd811f0-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "lot",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd811f1-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "street",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd811f2-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "valet",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd811f3-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "boolean",
                                         "name": "validated",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd811f4-2b24-11e6-b7e5-591297143e36",
@@ -1170,16 +1204,15 @@
                                 ],
                                 "additionalProperties": true,
                                 "name": "Parking",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811ef-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "Price Range",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -1187,54 +1220,54 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "string",
                                 "name": "Smoking",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811f6-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Take-out",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811f7-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Takes Reservations",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811f8-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Waiter Service",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811f9-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "boolean",
                                 "name": "Wheelchair Accessible",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811fa-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "string",
                                 "name": "Wi-Fi",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd811fb-2b24-11e6-b7e5-591297143e36",
@@ -1243,13 +1276,13 @@
                         ],
                         "additionalProperties": true,
                         "name": "attributes",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0dd7ead2-2b24-11e6-b7e5-591297143e36",
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "array",
                         "properties": [
                             {
@@ -1263,31 +1296,32 @@
                         ],
                         "additionalItems": true,
                         "name": "categories",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0dd811fd-2b24-11e6-b7e5-591297143e36",
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "document",
                         "properties": [
                             {
+                                "code": "",
                                 "type": "document",
                                 "properties": [
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "close",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd81203-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "open",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd81204-2b24-11e6-b7e5-591297143e36",
@@ -1296,28 +1330,28 @@
                                 ],
                                 "additionalProperties": true,
                                 "name": "Friday",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd81202-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "document",
                                 "properties": [
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "close",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd81206-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "open",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd81207-2b24-11e6-b7e5-591297143e36",
@@ -1326,28 +1360,28 @@
                                 ],
                                 "additionalProperties": true,
                                 "name": "Monday",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd81205-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "document",
                                 "properties": [
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "close",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd81209-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "open",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd8120a-2b24-11e6-b7e5-591297143e36",
@@ -1356,28 +1390,28 @@
                                 ],
                                 "additionalProperties": true,
                                 "name": "Saturday",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd81208-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "document",
                                 "properties": [
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "close",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd8120c-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "open",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd8120d-2b24-11e6-b7e5-591297143e36",
@@ -1386,28 +1420,28 @@
                                 ],
                                 "additionalProperties": true,
                                 "name": "Sunday",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd8120b-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "document",
                                 "properties": [
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "close",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd8120f-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "open",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd81210-2b24-11e6-b7e5-591297143e36",
@@ -1416,28 +1450,28 @@
                                 ],
                                 "additionalProperties": true,
                                 "name": "Thursday",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd8120e-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "document",
                                 "properties": [
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "close",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd81212-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "open",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd81213-2b24-11e6-b7e5-591297143e36",
@@ -1446,28 +1480,28 @@
                                 ],
                                 "additionalProperties": true,
                                 "name": "Tuesday",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd81211-2b24-11e6-b7e5-591297143e36",
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "document",
                                 "properties": [
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "close",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd81215-2b24-11e6-b7e5-591297143e36",
                                         "error": {}
                                     },
                                     {
+                                        "code": "",
                                         "type": "string",
                                         "name": "open",
-                                        "code": "",
                                         "isActivated": true,
                                         "primaryKey": false,
                                         "GUID": "0dd81216-2b24-11e6-b7e5-591297143e36",
@@ -1476,7 +1510,6 @@
                                 ],
                                 "additionalProperties": true,
                                 "name": "Wednesday",
-                                "code": "",
                                 "isActivated": true,
                                 "primaryKey": false,
                                 "GUID": "0dd81214-2b24-11e6-b7e5-591297143e36",
@@ -1485,16 +1518,15 @@
                         ],
                         "additionalProperties": true,
                         "name": "hours",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0dd81201-2b24-11e6-b7e5-591297143e36",
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "numeric",
                         "name": "latitude",
-                        "code": "",
                         "isActivated": true,
                         "mode": "",
                         "primaryKey": false,
@@ -1502,9 +1534,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "numeric",
                         "name": "longitude",
-                        "code": "",
                         "isActivated": true,
                         "mode": "",
                         "primaryKey": false,
@@ -1512,6 +1544,7 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "array",
                         "properties": [
                             {
@@ -1525,25 +1558,24 @@
                         ],
                         "additionalItems": true,
                         "name": "neighborhoods",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0dd8121a-2b24-11e6-b7e5-591297143e36",
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "boolean",
                         "name": "open",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0dd8121c-2b24-11e6-b7e5-591297143e36",
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "numeric",
                         "name": "review_count",
-                        "code": "",
                         "isActivated": true,
                         "mode": "",
                         "primaryKey": false,
@@ -1552,9 +1584,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "numeric",
                         "name": "stars",
-                        "code": "",
                         "isActivated": true,
                         "mode": "",
                         "primaryKey": false,
@@ -1564,9 +1596,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "type",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0dd81220-2b24-11e6-b7e5-591297143e36",
@@ -1584,27 +1616,27 @@
                     "validationErrors": {}
                 },
                 "definitionEntityType": "collection",
-                "link": "Yelp Challenge dataset (Polyglot).hck.json",
-                "kind": "relativePath",
-                "fieldRelativePath": "#/yelp/businesses",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
                         "cabcb7cd-a2cd-4f82-9f98-ff617e903daf"
                     ]
-                ]
+                ],
+                "kind": "relativePath",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "fieldRelativePath": "#/yelp/businesses"
             },
             {
-                "collectionName": "reviews",
                 "code": "",
+                "collectionName": "reviews",
                 "isActivated": true,
                 "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
                 "additionalProperties": true,
                 "properties": [
                     {
+                        "code": "",
                         "type": "objectId",
                         "name": "review_id",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": true,
                         "required": true,
@@ -1613,9 +1645,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "objectId",
                         "name": "business_id",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "required": true,
@@ -1629,9 +1661,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "date",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "fakerFunction": "faker.date.past()",
@@ -1639,9 +1671,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "numeric",
                         "name": "stars",
-                        "code": "",
                         "isActivated": true,
                         "mode": "",
                         "primaryKey": false,
@@ -1651,9 +1683,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "text",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "fakerFunction": "faker.lorem.paragraphs(3)",
@@ -1661,18 +1693,18 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "type",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0da2aa07-2b24-11e6-b7e5-591297143e36",
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "objectId",
                         "name": "user_id",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "required": true,
@@ -1686,12 +1718,13 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "document",
                         "properties": [
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "cool",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -1700,9 +1733,9 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "funny",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -1711,9 +1744,9 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "useful",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -1724,7 +1757,6 @@
                         ],
                         "additionalProperties": true,
                         "name": "votes",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0da2aa09-2b24-11e6-b7e5-591297143e36",
@@ -1742,27 +1774,27 @@
                     "validationErrors": {}
                 },
                 "definitionEntityType": "collection",
-                "link": "Yelp Challenge dataset (Polyglot).hck.json",
-                "kind": "relativePath",
-                "fieldRelativePath": "#/yelp/reviews",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
                         "d16547c8-1632-4902-8818-d52706bbd99f"
                     ]
-                ]
+                ],
+                "kind": "relativePath",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "fieldRelativePath": "#/yelp/reviews"
             },
             {
-                "collectionName": "tips",
                 "code": "",
+                "collectionName": "tips",
                 "isActivated": true,
                 "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
                 "additionalProperties": true,
                 "properties": [
                     {
+                        "code": "",
                         "type": "objectId",
                         "name": "_id",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": true,
                         "required": true,
@@ -1770,9 +1802,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "objectId",
                         "name": "business_id",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "required": true,
@@ -1786,9 +1818,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "date",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "fakerFunction": "faker.date.past()",
@@ -1796,9 +1828,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "numeric",
                         "name": "likes",
-                        "code": "",
                         "isActivated": true,
                         "mode": "",
                         "primaryKey": false,
@@ -1806,27 +1838,27 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "text",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0de02835-2b24-11e6-b7e5-591297143e36",
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "type",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0de02836-2b24-11e6-b7e5-591297143e36",
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "objectId",
                         "name": "user_id",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "required": true,
@@ -1851,28 +1883,28 @@
                     "validationErrors": {}
                 },
                 "definitionEntityType": "collection",
-                "link": "Yelp Challenge dataset (Polyglot).hck.json",
-                "kind": "relativePath",
-                "fieldRelativePath": "#/yelp/tips",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
                         "3f9987f8-5461-4322-ae4f-7f3704713ab9"
                     ]
-                ]
+                ],
+                "kind": "relativePath",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "fieldRelativePath": "#/yelp/tips"
             },
             {
-                "collectionName": "users",
                 "code": "",
+                "collectionName": "users",
                 "isActivated": true,
                 "description": "Users description",
                 "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
                 "additionalProperties": true,
                 "properties": [
                     {
+                        "code": "",
                         "type": "objectId",
                         "name": "user_id",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": true,
                         "required": true,
@@ -1881,9 +1913,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "type",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "required": true,
@@ -1897,9 +1929,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "name",
-                        "code": "",
                         "isActivated": true,
                         "description": "First name plus surname",
                         "primaryKey": false,
@@ -1912,9 +1944,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "numeric",
                         "name": "average_stars",
-                        "code": "",
                         "isActivated": true,
                         "mode": "",
                         "description": "Star rating: from 1 to 5. ",
@@ -1930,12 +1962,13 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "document",
                         "properties": [
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "cool",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -1946,9 +1979,9 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "cute",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -1959,9 +1992,9 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "funny",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -1972,9 +2005,9 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "hot",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -1985,9 +2018,9 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "note",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -1998,9 +2031,9 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "photos",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -2011,9 +2044,9 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "plain",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -2024,9 +2057,9 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "profile",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -2037,9 +2070,9 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "writer",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -2052,13 +2085,13 @@
                         ],
                         "additionalProperties": true,
                         "name": "compliments",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0df0f113-2b24-11e6-b7e5-591297143e36",
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "array",
                         "properties": [
                             {
@@ -2074,16 +2107,15 @@
                         ],
                         "additionalItems": true,
                         "name": "elite",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0df0f11e-2b24-11e6-b7e5-591297143e36",
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "numeric",
                         "name": "fans",
-                        "code": "",
                         "isActivated": true,
                         "mode": "",
                         "primaryKey": false,
@@ -2093,6 +2125,7 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "array",
                         "properties": [
                             {
@@ -2109,16 +2142,15 @@
                         ],
                         "additionalItems": true,
                         "name": "friends",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0df0f121-2b24-11e6-b7e5-591297143e36",
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "numeric",
                         "name": "review_count",
-                        "code": "",
                         "isActivated": true,
                         "mode": "",
                         "primaryKey": false,
@@ -2128,12 +2160,13 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "document",
                         "properties": [
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "cool",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -2143,9 +2176,9 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "funny",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -2155,9 +2188,9 @@
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "useful",
-                                "code": "",
                                 "isActivated": true,
                                 "mode": "",
                                 "primaryKey": false,
@@ -2169,16 +2202,15 @@
                         ],
                         "additionalProperties": true,
                         "name": "votes",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "GUID": "0df0f127-2b24-11e6-b7e5-591297143e36",
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "yelping_since",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "relationshipType": "",
@@ -2198,27 +2230,27 @@
                     "validationErrors": {}
                 },
                 "definitionEntityType": "collection",
-                "link": "Yelp Challenge dataset (Polyglot).hck.json",
-                "kind": "relativePath",
-                "fieldRelativePath": "#/yelp/users",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
                         "61db0434-ee58-4194-a25f-94001eb5a335"
                     ]
-                ]
+                ],
+                "kind": "relativePath",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "fieldRelativePath": "#/yelp/users"
             },
             {
-                "collectionName": "checkins",
                 "code": "",
+                "collectionName": "checkins",
                 "isActivated": true,
                 "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
                 "additionalProperties": true,
                 "properties": [
                     {
+                        "code": "",
                         "type": "objectId",
                         "name": "_id",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": true,
                         "required": true,
@@ -2227,38 +2259,36 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "document",
                         "properties": [
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "^[a-zA-Z0-9_.-]{3}$",
-                                "code": "",
                                 "isActivated": true,
                                 "sampleName": "9-6",
                                 "mode": "",
                                 "primaryKey": false,
                                 "relationshipType": "",
                                 "GUID": "9c7e0e76-91f6-11e9-a924-ddc9cd9b071f",
-                                "hackoladeMeta": {},
                                 "error": {}
                             },
                             {
+                                "code": "",
                                 "type": "numeric",
                                 "name": "^[a-zA-Z0-9_.-]{4}$",
-                                "code": "",
                                 "isActivated": true,
                                 "sampleName": "23-6",
                                 "mode": "",
                                 "primaryKey": false,
                                 "relationshipType": "",
                                 "GUID": "9c7e0e45-91f6-11e9-a924-ddc9cd9b071f",
-                                "hackoladeMeta": {},
                                 "error": {}
                             }
                         ],
                         "additionalProperties": false,
                         "name": "checkin_info",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "required": true,
@@ -2266,9 +2296,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "type",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "required": true,
@@ -2278,9 +2308,9 @@
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "business_id",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "required": true,
@@ -2306,15 +2336,15 @@
                     "validationErrors": {}
                 },
                 "definitionEntityType": "collection",
-                "link": "Yelp Challenge dataset (Polyglot).hck.json",
-                "kind": "relativePath",
-                "fieldRelativePath": "#/yelp/checkins",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
                         "55536212-6aa4-4d13-b828-333e0b4e4c4f"
                     ]
-                ]
+                ],
+                "kind": "relativePath",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "fieldRelativePath": "#/yelp/checkins"
             },
             {
                 "GUID": "db86d400-e115-11e9-9835-6108c7a098d9",
@@ -2325,102 +2355,94 @@
                 "disableInitialFocus": true,
                 "isActivated": true,
                 "definitionEntityType": "decorativeSymbol",
-                "link": "Yelp Challenge dataset (Polyglot).hck.json",
-                "kind": "relativePath",
-                "fieldRelativePath": "#/yelp/Yelp data model",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
                         "ee0279a5-f3a4-41e3-8ceb-bfceff511c52"
                     ]
-                ]
+                ],
+                "kind": "relativePath",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "fieldRelativePath": "#/yelp/Yelp data model"
             },
             {
+                "code": "",
                 "type": "document",
                 "properties": [
                     {
+                        "code": "",
                         "type": "string",
                         "name": "houseNum",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "fakerFunction": "faker.address.buildingNumber()",
                         "sample": "123",
                         "GUID": "7107ebf0-dc5b-11e9-b819-e3f2d5171928",
-                        "hackoladeMeta": {},
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "street",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "fakerFunction": "faker.address.street()",
                         "sample": "Main Street",
                         "GUID": "760da090-dc5b-11e9-b819-e3f2d5171928",
-                        "hackoladeMeta": {},
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "box",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "fakerFunction": "faker.address.secondaryAddress()",
                         "sample": "10",
                         "GUID": "7bfbe070-dc5b-11e9-b819-e3f2d5171928",
-                        "hackoladeMeta": {},
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "city",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "fakerFunction": "faker.address.city()",
                         "sample": "Anytown",
                         "GUID": "7ee803e0-dc5b-11e9-b819-e3f2d5171928",
-                        "hackoladeMeta": {},
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "state",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "fakerFunction": "faker.address.stateAbbr()",
                         "sample": "CA",
                         "GUID": "85787730-dc5b-11e9-b819-e3f2d5171928",
-                        "hackoladeMeta": {},
                         "error": {}
                     },
                     {
+                        "code": "",
                         "type": "string",
                         "name": "zip",
-                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
                         "fakerFunction": "faker.address.zipCodeByState()",
                         "sample": "12345",
                         "GUID": "87afc990-dc5b-11e9-b819-e3f2d5171928",
-                        "hackoladeMeta": {},
                         "error": {}
                     }
                 ],
                 "additionalProperties": false,
                 "name": "address",
-                "code": "",
                 "isActivated": true,
                 "primaryKey": false,
                 "GUID": "0dd81200-2b24-11e6-b7e5-591297143e36",
+                "error": {},
                 "definitionEntityType": "modelDefinition",
-                "link": "Yelp Challenge dataset (Polyglot).hck.json",
-                "kind": "relativePath",
-                "fieldRelativePath": "#/definitions/properties/address",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
@@ -2429,7 +2451,9 @@
                         "832dc783-3041-4b85-9291-b6adace979ea"
                     ]
                 ],
-                "error": {}
+                "kind": "relativePath",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "fieldRelativePath": "#/definitions/properties/address"
             },
             {
                 "name": "fk_tipsBusinesses",
@@ -2485,15 +2509,15 @@
                 },
                 "isActivated": true,
                 "definitionEntityType": "relationship",
-                "link": "Yelp Challenge dataset (Polyglot).hck.json",
-                "kind": "relativePath",
-                "fieldRelativePath": "#/relationships/fk_tipsBusinesses",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
                         "db9e4b1f-a529-4ed2-bbc7-c8a4ee96c78e"
                     ]
-                ]
+                ],
+                "kind": "relativePath",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "fieldRelativePath": "#/relationships/fk_tipsBusinesses"
             },
             {
                 "name": "fk_tipsUsers",
@@ -2549,15 +2573,15 @@
                 },
                 "isActivated": true,
                 "definitionEntityType": "relationship",
-                "link": "Yelp Challenge dataset (Polyglot).hck.json",
-                "kind": "relativePath",
-                "fieldRelativePath": "#/relationships/fk_tipsUsers",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
                         "487d897d-bce3-4167-b9ac-d19744246863"
                     ]
-                ]
+                ],
+                "kind": "relativePath",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "fieldRelativePath": "#/relationships/fk_tipsUsers"
             },
             {
                 "name": "fk_reviewsUsers",
@@ -2613,15 +2637,15 @@
                 },
                 "isActivated": true,
                 "definitionEntityType": "relationship",
-                "link": "Yelp Challenge dataset (Polyglot).hck.json",
-                "kind": "relativePath",
-                "fieldRelativePath": "#/relationships/fk_reviewsUsers",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
                         "4aaea997-d4f8-4fd2-b78a-b12d6241ae02"
                     ]
-                ]
+                ],
+                "kind": "relativePath",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "fieldRelativePath": "#/relationships/fk_reviewsUsers"
             },
             {
                 "name": "fk_reviewsBusinesses",
@@ -2677,15 +2701,15 @@
                 },
                 "isActivated": true,
                 "definitionEntityType": "relationship",
-                "link": "Yelp Challenge dataset (Polyglot).hck.json",
-                "kind": "relativePath",
-                "fieldRelativePath": "#/relationships/fk_reviewsBusinesses",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
                         "af0f4a17-b547-4775-9380-cdd6017d761e"
                     ]
-                ]
+                ],
+                "kind": "relativePath",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "fieldRelativePath": "#/relationships/fk_reviewsBusinesses"
             },
             {
                 "name": "fk businesses.business_id to checkins.business_id",
@@ -2741,17 +2765,18 @@
                 },
                 "isActivated": true,
                 "definitionEntityType": "relationship",
-                "link": "Yelp Challenge dataset (Polyglot).hck.json",
-                "kind": "relativePath",
-                "fieldRelativePath": "#/relationships/fk businesses.business_id to checkins.business_id",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
                         "ee17539e-0eb8-4104-beda-597effd567a9"
                     ]
-                ]
+                ],
+                "kind": "relativePath",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "fieldRelativePath": "#/relationships/fk businesses.business_id to checkins.business_id"
             },
             {
+                "code": "",
                 "name": "yelp",
                 "isActivated": true,
                 "backgroundColor": {
@@ -2774,15 +2799,15 @@
                 },
                 "show": true,
                 "definitionEntityType": "bucket",
-                "link": "Yelp Challenge dataset (Polyglot).hck.json",
-                "kind": "relativePath",
-                "fieldRelativePath": "#/yelp",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
                         "c8e369ae-70f5-4af8-8a0f-ff22fc268627"
                     ]
-                ]
+                ],
+                "kind": "relativePath",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "fieldRelativePath": "#/yelp"
             }
         ],
         "GUID": "37e36f9e-2f6b-4306-991d-bd0b734bbfe9"
@@ -2806,7 +2831,8 @@
             "type": "reference",
             "ref": "db86d400-e115-11e9-9835-6108c7a098d9",
             "bucketId": "c8e369ae-70f5-4af8-8a0f-ff22fc268627",
-            "disableInitialFocus": true
+            "disableInitialFocus": true,
+            "value": "Hackolade demo"
         }
     ],
     "dbVersion": "v7.x",
@@ -2815,14 +2841,14 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-11-20T15:50:15.865Z",
-    "persistenceSchemaVersion": "6",
+    "lastModifTS": "2023-12-29T17:06:11.823Z",
+    "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.11.7"
+        "version": "7.0.6"
     },
     "hackoladeMeta": {},
     "polyglotModelPaths": [
@@ -2903,8 +2929,8 @@
                         "GUID": "3f9987f8-5461-4322-ae4f-7f3704713ab9",
                         "x": 1474.6808655576438,
                         "y": 1111.7647783421496,
-                        "width": 252,
-                        "height": 155,
+                        "width": 220,
+                        "height": 123,
                         "color": {
                             "hsl": {
                                 "h": 206.57142857142858,
