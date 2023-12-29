@@ -36,7 +36,8 @@
             },
             "hackoladeMeta": {
                 "validationErrors": {}
-            }
+            },
+            "additionalProperties": true
         },
         {
             "GUID": "d16547c8-1632-4902-8818-d52706bbd99f",
@@ -88,7 +89,8 @@
             },
             "hackoladeMeta": {
                 "validationErrors": {}
-            }
+            },
+            "additionalProperties": true
         },
         {
             "GUID": "3f9987f8-5461-4322-ae4f-7f3704713ab9",
@@ -135,12 +137,23 @@
                         ],
                         "parentRelationship": "487d897d-bce3-4167-b9ac-d19744246863",
                         "error": {}
+                    },
+                    {
+                        "GUID": "0de02835-2b24-11e6-b7e5-591297143e36",
+                        "format": "date-time",
+                        "error": {}
+                    },
+                    {
+                        "GUID": "0de02834-2b24-11e6-b7e5-591297143e36",
+                        "mode": "double",
+                        "error": {}
                     }
                 ]
             },
             "hackoladeMeta": {
                 "validationErrors": {}
-            }
+            },
+            "additionalProperties": true
         },
         {
             "GUID": "61db0434-ee58-4194-a25f-94001eb5a335",
@@ -181,7 +194,9 @@
             },
             "hackoladeMeta": {
                 "validationErrors": {}
-            }
+            },
+            "description": "Users description",
+            "additionalProperties": true
         },
         {
             "GUID": "55536212-6aa4-4d13-b828-333e0b4e4c4f",
@@ -221,7 +236,8 @@
             },
             "hackoladeMeta": {
                 "validationErrors": {}
-            }
+            },
+            "additionalProperties": true
         }
     ],
     "buckets": [
@@ -356,15 +372,15 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1726.6808655576438,
+                        "x": 1720.6808655576438,
                         "y": 1189.2647783421496
                     },
                     {
-                        "x": 1776.9690298443556,
+                        "x": 1773.9690298443556,
                         "y": 1189.2647783421496
                     },
                     {
-                        "x": 1776.9690298443556,
+                        "x": 1773.9690298443556,
                         "y": 1237.2370558780112
                     },
                     {
@@ -620,6 +636,7 @@
                 "isActivated": true,
                 "code": "",
                 "primaryKey": false,
+                "additionalProperties": false,
                 "error": {}
             }
         ],
@@ -2806,7 +2823,8 @@
             "type": "reference",
             "ref": "db86d400-e115-11e9-9835-6108c7a098d9",
             "bucketId": "c8e369ae-70f5-4af8-8a0f-ff22fc268627",
-            "disableInitialFocus": true
+            "disableInitialFocus": true,
+            "value": "Hackolade demo"
         }
     ],
     "dbVersion": "v7.x",
@@ -2815,14 +2833,14 @@
     "creationTS": "2023-11-20T15:06:53.574Z",
     "GUID": "2d946adf-244f-42c2-88d6-3b9d4210d1fa",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-11-20T16:29:02.809Z",
-    "persistenceSchemaVersion": "6",
+    "lastModifTS": "2023-12-29T17:07:07.544Z",
+    "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.11.7"
+        "version": "7.0.6"
     },
     "hackoladeMeta": {},
     "polyglotModelPaths": [
@@ -2903,7 +2921,7 @@
                         "GUID": "3f9987f8-5461-4322-ae4f-7f3704713ab9",
                         "x": 1474.6808655576438,
                         "y": 1111.7647783421496,
-                        "width": 252,
+                        "width": 246,
                         "height": 155,
                         "color": {
                             "hsl": {
