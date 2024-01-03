@@ -105,7 +105,8 @@
             "isActivated": true,
             "collectionName": "tips",
             "code": "",
-            "additionalProperties": true
+            "additionalProperties": true,
+            "referenceDiff": {}
         }
     ],
     "buckets": [],
@@ -264,7 +265,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2023-12-29T18:11:28.439Z",
+    "lastModifTS": "2023-12-29T18:12:54.728Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -282,7 +283,7 @@
                         "GUID": "059366f0-601b-4863-9906-91ebbb114ea8",
                         "x": 1474.6808655576438,
                         "y": 1111.7647783421496,
-                        "width": 216,
+                        "width": 240,
                         "height": 155,
                         "color": {
                             "hsl": {
@@ -310,33 +311,16 @@
                         "size": 100
                     }
                 ],
-                "erdDefinitions": {
-                    "erd": [],
-                    "rootPath": [],
-                    "entities": [],
-                    "decorativeSymbols": []
-                },
                 "buckets": [],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
+                "diagramViews": [],
+                "decorativeSymbols": [],
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                },
-                "diagramViews": [],
-                "decorativeSymbols": [],
-                "nestedCollectionsLayout": "horizontal",
-                "options": [],
-                "relationshipUpdateDisabled": false
+                }
             },
             "collectionLevel": {},
             "changed": false
