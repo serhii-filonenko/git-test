@@ -329,6 +329,59 @@
     "views": [],
     "relationships": [
         {
+            "name": "FK_A_TO_B",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
+                    "69252806-a5ab-47c7-a2ec-685c05394e00"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "0d311462-8800-400e-a21e-bd742d1a2af1",
+                    "a1191c2c-74d6-4884-bebc-827f4ca17a48"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "e1054426-4f68-4158-aa03-0e5e4ef8c32e",
+            "parentCollection": "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
+            "childCollection": "0d311462-8800-400e-a21e-bd742d1a2af1",
+            "hackoladeMeta": {},
+            "hackoladeStyles": {
+                "GUID": "f5dabe48-644d-4404-bd9b-30b8ceef3725",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1695.5,
+                        "y": 1284
+                    },
+                    {
+                        "x": 1695.5,
+                        "y": 1226.5
+                    },
+                    {
+                        "x": 1694,
+                        "y": 1226.5
+                    },
+                    {
+                        "x": 1694,
+                        "y": 1169
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "bottom"
+                ]
+            }
+        },
+        {
             "name": "fk New table.New column to New table(1).New column",
             "relationshipType": "Foreign Key",
             "parentField": [
@@ -384,59 +437,6 @@
                     "left"
                 ]
             }
-        },
-        {
-            "name": "FK_A_TO_B",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
-                    "69252806-a5ab-47c7-a2ec-685c05394e00"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "0d311462-8800-400e-a21e-bd742d1a2af1",
-                    "a1191c2c-74d6-4884-bebc-827f4ca17a48"
-                ]
-            ],
-            "isActivated": true,
-            "childCardinality": "1",
-            "GUID": "e1054426-4f68-4158-aa03-0e5e4ef8c32e",
-            "parentCollection": "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
-            "childCollection": "0d311462-8800-400e-a21e-bd742d1a2af1",
-            "hackoladeMeta": {},
-            "hackoladeStyles": {
-                "GUID": "f5dabe48-644d-4404-bd9b-30b8ceef3725",
-                "autoPositioning": true,
-                "type": "Orthogonal",
-                "thickness": 2,
-                "color": "#79c4ff",
-                "dataType": "",
-                "shape": [
-                    {
-                        "x": 1695.5,
-                        "y": 1284
-                    },
-                    {
-                        "x": 1695.5,
-                        "y": 1226.5
-                    },
-                    {
-                        "x": 1694,
-                        "y": 1226.5
-                    },
-                    {
-                        "x": 1694,
-                        "y": 1169
-                    }
-                ],
-                "sides": [
-                    "top",
-                    "bottom"
-                ]
-            }
         }
     ],
     "users": [],
@@ -481,7 +481,7 @@
     "creationTS": "2024-01-03T09:27:52.033Z",
     "GUID": "e815ad8d-d4e8-4064-b235-dd8ceefbfa02",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-01-03T09:28:47.187Z",
+    "lastModifTS": "2024-01-03T09:31:19.473Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -490,8 +490,9 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.0.3"
+        "version": "7.0.6"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
