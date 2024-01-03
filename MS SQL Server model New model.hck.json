@@ -1,0 +1,570 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "New table",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "New column",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "subtype": "string",
+                    "required": false,
+                    "alternateKey": false,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "1ff9c6af-2f9d-42d8-8bb9-d8d3995b04c3",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
+                    "foreignField": [
+                        "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
+                        "69252806-a5ab-47c7-a2ec-685c05394e00"
+                    ],
+                    "parentRelationship": "c68c4753-439a-4584-8b2b-808a2b1feb74"
+                },
+                {
+                    "name": "New column(1)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "subtype": "string",
+                    "required": false,
+                    "alternateKey": false,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "2a19e082-84d2-46cf-b3a8-a5f51f00465d",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "New column(2)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "subtype": "string",
+                    "required": false,
+                    "alternateKey": false,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "25ef5d81-ed50-42b6-b7d6-940b1383bb92",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "7dd71886-bd99-4f7e-b981-1d39db756e7d"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "memory_optimized": false,
+            "collectionUsers": [],
+            "temporal": false,
+            "ledger": false,
+            "append_only": false,
+            "GUID": "3c6b44ce-b7d4-4931-a01b-3b28d76d2756",
+            "bucketId": "467fe8ed-a4ce-4b8b-bb8b-70b5eb199018"
+        },
+        {
+            "collectionName": "New table(1)",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "New column",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": true,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "subtype": "string",
+                    "required": true,
+                    "alternateKey": false,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "69252806-a5ab-47c7-a2ec-685c05394e00",
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "error": {},
+                    "childRelationships": [
+                        "c68c4753-439a-4584-8b2b-808a2b1feb74",
+                        "e1054426-4f68-4158-aa03-0e5e4ef8c32e"
+                    ]
+                },
+                {
+                    "name": "New column(1)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "subtype": "string",
+                    "required": false,
+                    "alternateKey": false,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "243b329a-a8d4-4d6d-ab0e-624b7ba47157",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "New column(2)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "subtype": "string",
+                    "required": false,
+                    "alternateKey": false,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "031fe36e-79b3-4831-af8c-188a35ed66a5",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "foreignCollection": "",
+                    "foreignField": []
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f63aea17-6a5e-4616-b7ea-daff9abc3d43"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "memory_optimized": false,
+            "collectionUsers": [],
+            "temporal": false,
+            "ledger": false,
+            "append_only": false,
+            "GUID": "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
+            "bucketId": "467fe8ed-a4ce-4b8b-bb8b-70b5eb199018"
+        },
+        {
+            "collectionName": "New table copy",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "New column",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "subtype": "string",
+                    "required": false,
+                    "alternateKey": false,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "a1191c2c-74d6-4884-bebc-827f4ca17a48",
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
+                    "foreignField": [
+                        "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
+                        "69252806-a5ab-47c7-a2ec-685c05394e00"
+                    ],
+                    "parentRelationship": "e1054426-4f68-4158-aa03-0e5e4ef8c32e",
+                    "error": {}
+                },
+                {
+                    "name": "New column(1)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "subtype": "string",
+                    "required": false,
+                    "alternateKey": false,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "add124e4-5df7-42df-96e5-f74693f6f073",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "New column(2)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "subtype": "string",
+                    "required": false,
+                    "alternateKey": false,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "412613d8-3600-45e2-99c5-7a66b8e1a24c",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "88e5cb66-57c6-4d88-ae50-fa78879d10eb"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "memory_optimized": false,
+            "collectionUsers": [],
+            "temporal": false,
+            "ledger": false,
+            "append_only": false,
+            "GUID": "0d311462-8800-400e-a21e-bd742d1a2af1",
+            "bucketId": "467fe8ed-a4ce-4b8b-bb8b-70b5eb199018"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "New schema",
+            "type": "bucket",
+            "collectionIds": [
+                "3c6b44ce-b7d4-4931-a01b-3b28d76d2756",
+                "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
+                "0d311462-8800-400e-a21e-bd742d1a2af1"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "467fe8ed-a4ce-4b8b-bb8b-70b5eb199018"
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "fk New table.New column to New table(1).New column",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
+                    "69252806-a5ab-47c7-a2ec-685c05394e00"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "3c6b44ce-b7d4-4931-a01b-3b28d76d2756",
+                    "1ff9c6af-2f9d-42d8-8bb9-d8d3995b04c3"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
+            "childCollection": "3c6b44ce-b7d4-4931-a01b-3b28d76d2756",
+            "GUID": "c68c4753-439a-4584-8b2b-808a2b1feb74",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": true
+                }
+            },
+            "hackoladeStyles": {
+                "GUID": "f5dabe48-644d-4404-bd9b-30b8ceef3725",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1331,
+                        "y": 1123.5
+                    },
+                    {
+                        "x": 1443.5,
+                        "y": 1123.5
+                    },
+                    {
+                        "x": 1443.5,
+                        "y": 1125.5
+                    },
+                    {
+                        "x": 1556,
+                        "y": 1125.5
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            }
+        },
+        {
+            "name": "FK_A_TO_B",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
+                    "69252806-a5ab-47c7-a2ec-685c05394e00"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "0d311462-8800-400e-a21e-bd742d1a2af1",
+                    "a1191c2c-74d6-4884-bebc-827f4ca17a48"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "e1054426-4f68-4158-aa03-0e5e4ef8c32e",
+            "parentCollection": "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
+            "childCollection": "0d311462-8800-400e-a21e-bd742d1a2af1",
+            "hackoladeMeta": {},
+            "hackoladeStyles": {
+                "GUID": "f5dabe48-644d-4404-bd9b-30b8ceef3725",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1695.5,
+                        "y": 1284
+                    },
+                    {
+                        "x": 1695.5,
+                        "y": 1226.5
+                    },
+                    {
+                        "x": 1694,
+                        "y": 1226.5
+                    },
+                    {
+                        "x": 1694,
+                        "y": 1169
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "bottom"
+                ]
+            }
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "467fe8ed-a4ce-4b8b-bb8b-70b5eb199018": "New schema",
+        "3c6b44ce-b7d4-4931-a01b-3b28d76d2756": "New table",
+        "1ff9c6af-2f9d-42d8-8bb9-d8d3995b04c3": "New column",
+        "2a19e082-84d2-46cf-b3a8-a5f51f00465d": "New column(1)",
+        "25ef5d81-ed50-42b6-b7d6-940b1383bb92": "New column(2)",
+        "69252806-a5ab-47c7-a2ec-685c05394e00": "New column",
+        "243b329a-a8d4-4d6d-ab0e-624b7ba47157": "New column(1)",
+        "031fe36e-79b3-4831-af8c-188a35ed66a5": "New column(2)",
+        "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c": "New table(1)",
+        "c68c4753-439a-4584-8b2b-808a2b1feb74": "fk New table.New column to New table(1).New column",
+        "0d311462-8800-400e-a21e-bd742d1a2af1": "New table copy",
+        "a1191c2c-74d6-4884-bebc-827f4ca17a48": "New column",
+        "add124e4-5df7-42df-96e5-f74693f6f073": "New column(1)",
+        "412613d8-3600-45e2-99c5-7a66b8e1a24c": "New column(2)",
+        "e1054426-4f68-4158-aa03-0e5e4ef8c32e": "FK_A_TO_B"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "e2d62eaa-b2a0-437d-a77c-5847d73627be"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "1e4a89ea-63bd-41e6-b0dd-07bc03742bd6"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "323bb8d0-614f-4882-81e9-a429dd19d3da"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "2019",
+    "dbVendor": "MSSQLServer",
+    "appTarget": "MSSQLServer",
+    "creationTS": "2024-01-03T09:27:52.033Z",
+    "GUID": "e815ad8d-d4e8-4064-b235-dd8ceefbfa02",
+    "isLineageEnabled": false,
+    "lastModifTS": "2024-01-03T09:28:47.187Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "SQLServer",
+        "pluginVersion": "0.1.71",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.0.3"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "3c6b44ce-b7d4-4931-a01b-3b28d76d2756",
+                        "x": 1080,
+                        "y": 1080,
+                        "width": 251,
+                        "height": 87,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c",
+                        "x": 1556,
+                        "y": 1082,
+                        "width": 276,
+                        "height": 87,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "0d311462-8800-400e-a21e-bd742d1a2af1",
+                        "x": 1570,
+                        "y": 1284,
+                        "width": 251,
+                        "height": 87,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1040,
+                        "y": 1040,
+                        "GUID": "467fe8ed-a4ce-4b8b-bb8b-70b5eb199018"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "GUID": "e0a0cad1-e3d2-4590-b13a-a2ecf3cc339c"
+                    }
+                ],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
