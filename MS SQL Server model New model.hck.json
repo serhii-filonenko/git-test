@@ -60,7 +60,14 @@
                     "error": {
                         "name": false,
                         "code": false
-                    }
+                    },
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "0d311462-8800-400e-a21e-bd742d1a2af1",
+                    "foreignField": [
+                        "0d311462-8800-400e-a21e-bd742d1a2af1",
+                        "a1191c2c-74d6-4884-bebc-827f4ca17a48"
+                    ],
+                    "parentRelationship": "eb12b1af-c264-4d01-949c-1204e19da8f3"
                 },
                 {
                     "name": "New column(2)",
@@ -213,12 +220,12 @@
                     "name": "New column",
                     "hackoladeMeta": {},
                     "isActivated": true,
-                    "primaryKey": false,
+                    "primaryKey": true,
                     "unique": false,
                     "mode": "varchar",
                     "length": 10,
                     "subtype": "string",
-                    "required": false,
+                    "required": true,
                     "alternateKey": false,
                     "childType": "char",
                     "type": "string",
@@ -236,7 +243,10 @@
                         "69252806-a5ab-47c7-a2ec-685c05394e00"
                     ],
                     "parentRelationship": "e1054426-4f68-4158-aa03-0e5e4ef8c32e",
-                    "error": {}
+                    "error": {},
+                    "childRelationships": [
+                        "eb12b1af-c264-4d01-949c-1204e19da8f3"
+                    ]
                 },
                 {
                     "name": "New column(1)",
@@ -364,11 +374,11 @@
                 "shape": [
                     {
                         "x": 1331,
-                        "y": 1123.5
+                        "y": 1109
                     },
                     {
                         "x": 1443.5,
-                        "y": 1123.5
+                        "y": 1109
                     },
                     {
                         "x": 1443.5,
@@ -377,6 +387,63 @@
                     {
                         "x": 1556,
                         "y": 1125.5
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            }
+        },
+        {
+            "name": "fk New table.New column(1) to New table copy.New column",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "0d311462-8800-400e-a21e-bd742d1a2af1",
+                    "a1191c2c-74d6-4884-bebc-827f4ca17a48"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "3c6b44ce-b7d4-4931-a01b-3b28d76d2756",
+                    "2a19e082-84d2-46cf-b3a8-a5f51f00465d"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "0..n",
+            "parentCollection": "0d311462-8800-400e-a21e-bd742d1a2af1",
+            "childCollection": "3c6b44ce-b7d4-4931-a01b-3b28d76d2756",
+            "GUID": "eb12b1af-c264-4d01-949c-1204e19da8f3",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": true
+                }
+            },
+            "hackoladeStyles": {
+                "GUID": "dc826dc8-2bcc-46a5-8025-fe4111d9fb77",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1331,
+                        "y": 1138
+                    },
+                    {
+                        "x": 1450.5,
+                        "y": 1138
+                    },
+                    {
+                        "x": 1450.5,
+                        "y": 1327.5
+                    },
+                    {
+                        "x": 1570,
+                        "y": 1327.5
                     }
                 ],
                 "sides": [
@@ -416,11 +483,11 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1695.5,
+                        "x": 1716,
                         "y": 1284
                     },
                     {
-                        "x": 1695.5,
+                        "x": 1716,
                         "y": 1226.5
                     },
                     {
@@ -456,7 +523,8 @@
         "a1191c2c-74d6-4884-bebc-827f4ca17a48": "New column",
         "add124e4-5df7-42df-96e5-f74693f6f073": "New column(1)",
         "412613d8-3600-45e2-99c5-7a66b8e1a24c": "New column(2)",
-        "e1054426-4f68-4158-aa03-0e5e4ef8c32e": "FK_A_TO_B"
+        "e1054426-4f68-4158-aa03-0e5e4ef8c32e": "FK_A_TO_B",
+        "eb12b1af-c264-4d01-949c-1204e19da8f3": "fk New table.New column(1) to New table copy.New column"
     },
     "definitions": {
         "type": "definitions",
@@ -481,7 +549,7 @@
     "creationTS": "2024-01-03T09:27:52.033Z",
     "GUID": "e815ad8d-d4e8-4064-b235-dd8ceefbfa02",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-01-03T09:28:47.187Z",
+    "lastModifTS": "2024-01-03T09:31:02.947Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -490,8 +558,9 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.0.3"
+        "version": "7.0.6"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -516,7 +585,7 @@
                         "GUID": "0d311462-8800-400e-a21e-bd742d1a2af1",
                         "x": 1570,
                         "y": 1284,
-                        "width": 251,
+                        "width": 292,
                         "height": 87,
                         "color": {}
                     }
@@ -535,7 +604,7 @@
                     }
                 ],
                 "collapsedNodes": [],
-                "activeRelationship": "",
+                "activeRelationship": "eb12b1af-c264-4d01-949c-1204e19da8f3",
                 "activeRelationshipFields": {
                     "childField": [],
                     "parentField": []
