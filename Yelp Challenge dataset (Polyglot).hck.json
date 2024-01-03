@@ -2187,7 +2187,7 @@
         "badd886a-854a-4797-9cd3-e7508e0866cf": "votes",
         "bd3d4cc2-bcf8-497c-99ca-7d4aa929013d": "yelping_since",
         "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6": "yelp",
-        "8a3660f0-2b26-11e6-b7e5-591297143e36": "fk_tipsBBusinesses",
+        "8a3660f0-2b26-11e6-b7e5-591297143e36": "fk_tipsBusinessSes",
         "aa956d50-2b26-11e6-b7e5-591297143e36": "fk_tipsUsers",
         "e2514f70-2b26-11e6-b7e5-591297143e36": "fk_reviewsUsers",
         "fb857d40-2b26-11e6-b7e5-591297143e36": "fk_reviewsBusinesses",
@@ -2372,6 +2372,7 @@
             "isActivated": true
         }
     ],
+    "dbVersion": "v5.0",
     "dbVendor": "Polyglot",
     "appTarget": "Polyglot",
     "creationTS": "2022-11-18T13:07:59.214Z",
@@ -2381,7 +2382,6 @@
     "version": "1.2",
     "syncId": "db8a6750-5b42-11e8-9c3f-1d376af9020b",
     "comments": "The dataset was downloaded and loaded to a MongoDB, then reverse-engineered with Hackolade.  The relationships were manually documented to enrich the model.\n\nThis schema shows the power of JSON with the embedding of many attributes logically grouped, one form of implicit relationships.  At the same time, the schema is fairly relational, which makes total sense given the conceptual entities.  As a result, there's no denormalization.  Given the size of the collections, it makes sense to perform this kind of traditional foreing key relationships.\n\nNote that only fields found in 100% of the sampled documents are 'required' (and differentiated thanks to a solid line box) as opposed to the other fields with dashed line boxes.\n\nThe sampling parameters were:\n- absolute up to 1000 documents max per collection\n- alpha order of fields",
-    "dbVersion": "v5.0",
     "hackoladeMeta": {
         "customPropertiesUpdated": true,
         "validationErrors": {
@@ -2394,7 +2394,7 @@
         "pluginVersion": "0.0.1",
         "pluginEngineVersion": "1.0.0"
     },
-    "lastModifTS": "2024-01-03T09:48:33.402Z",
+    "lastModifTS": "2024-01-03T09:49:46.067Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "applicationInformation": {
@@ -2538,12 +2538,6 @@
                         "size": 100
                     }
                 ],
-                "erdDefinitions": {
-                    "erd": [],
-                    "rootPath": [],
-                    "entities": [],
-                    "decorativeSymbols": []
-                },
                 "buckets": [
                     {
                         "x": 1000,
@@ -2551,64 +2545,6 @@
                         "GUID": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6"
                     }
                 ],
-                "collapsedNodes": [],
-                "activeRelationship": "8a3660f0-2b26-11e6-b7e5-591297143e36",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
-                "graphView": {
-                    "erd": [
-                        {
-                            "GUID": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
-                            "x": 1100,
-                            "y": 1100,
-                            "size": 100
-                        },
-                        {
-                            "GUID": "0da2aa00-2b24-11e6-b7e5-591297143e36",
-                            "x": 1200,
-                            "y": 1200,
-                            "size": 100
-                        },
-                        {
-                            "GUID": "0de02830-2b24-11e6-b7e5-591297143e36",
-                            "x": 1300,
-                            "y": 1300,
-                            "size": 100
-                        },
-                        {
-                            "GUID": "0df0f110-2b24-11e6-b7e5-591297143e36",
-                            "x": 1400,
-                            "y": 1400,
-                            "size": 100
-                        },
-                        {
-                            "GUID": "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
-                            "x": 1500,
-                            "y": 1500,
-                            "size": 100
-                        }
-                    ],
-                    "buckets": [
-                        {
-                            "x": 1000,
-                            "y": 1000,
-                            "GUID": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6"
-                        }
-                    ],
-                    "decorativeSymbols": [
-                        {
-                            "GUID": "db86d400-e115-11e9-9835-6108c7a098d9",
-                            "x": 1235.3002289593048,
-                            "y": 1040
-                        }
-                    ],
-                    "forceLayout": true,
-                    "defaultLinkLength": 300
-                },
                 "diagramViews": [
                     {
                         "GUID": "65013f10-4748-11eb-a6d2-ebfe0d19463b",
@@ -2756,9 +2692,56 @@
                         "width": 362
                     }
                 ],
-                "nestedCollectionsLayout": "horizontal",
-                "options": [],
-                "relationshipUpdateDisabled": false
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                            "x": 1100,
+                            "y": 1100,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                            "x": 1200,
+                            "y": 1200,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "0de02830-2b24-11e6-b7e5-591297143e36",
+                            "x": 1300,
+                            "y": 1300,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                            "x": 1400,
+                            "y": 1400,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+                            "x": 1500,
+                            "y": 1500,
+                            "size": 100
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 1000,
+                            "y": 1000,
+                            "GUID": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6"
+                        }
+                    ],
+                    "decorativeSymbols": [
+                        {
+                            "GUID": "db86d400-e115-11e9-9835-6108c7a098d9",
+                            "x": 1235.3002289593048,
+                            "y": 1040
+                        }
+                    ],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                }
             },
             "collectionLevel": {},
             "changed": false
