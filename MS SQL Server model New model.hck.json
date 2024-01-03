@@ -73,12 +73,12 @@
                     "name": "New column(2)",
                     "hackoladeMeta": {},
                     "isActivated": true,
-                    "primaryKey": false,
+                    "primaryKey": true,
                     "unique": false,
                     "mode": "varchar",
                     "length": 10,
                     "subtype": "string",
-                    "required": false,
+                    "required": true,
                     "alternateKey": false,
                     "childType": "char",
                     "type": "string",
@@ -89,10 +89,10 @@
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
                     "GUID": "25ef5d81-ed50-42b6-b7d6-940b1383bb92",
-                    "error": {
-                        "name": false,
-                        "code": false
-                    }
+                    "error": {},
+                    "childRelationships": [
+                        "de994f83-9469-4d59-b277-7e0913a6dfe9"
+                    ]
                 }
             ],
             "definitions": {
@@ -296,7 +296,14 @@
                     "error": {
                         "name": false,
                         "code": false
-                    }
+                    },
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "3c6b44ce-b7d4-4931-a01b-3b28d76d2756",
+                    "foreignField": [
+                        "3c6b44ce-b7d4-4931-a01b-3b28d76d2756",
+                        "25ef5d81-ed50-42b6-b7d6-940b1383bb92"
+                    ],
+                    "parentRelationship": "de994f83-9469-4d59-b277-7e0913a6dfe9"
                 }
             ],
             "definitions": {
@@ -373,15 +380,15 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1331,
-                        "y": 1109
+                        "x": 1356,
+                        "y": 1101.75
                     },
                     {
-                        "x": 1443.5,
-                        "y": 1109
+                        "x": 1456,
+                        "y": 1101.75
                     },
                     {
-                        "x": 1443.5,
+                        "x": 1456,
                         "y": 1125.5
                     },
                     {
@@ -430,25 +437,82 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1331,
-                        "y": 1138
+                        "x": 1356,
+                        "y": 1145.25
                     },
                     {
-                        "x": 1450.5,
-                        "y": 1138
+                        "x": 1463,
+                        "y": 1145.25
                     },
                     {
-                        "x": 1450.5,
-                        "y": 1327.5
+                        "x": 1463,
+                        "y": 1342
                     },
                     {
                         "x": 1570,
-                        "y": 1327.5
+                        "y": 1342
                     }
                 ],
                 "sides": [
                     "right",
                     "left"
+                ]
+            }
+        },
+        {
+            "name": "fk New table copy.New column(2) to New table.New column(2)",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "3c6b44ce-b7d4-4931-a01b-3b28d76d2756",
+                    "25ef5d81-ed50-42b6-b7d6-940b1383bb92"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "0d311462-8800-400e-a21e-bd742d1a2af1",
+                    "412613d8-3600-45e2-99c5-7a66b8e1a24c"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "0..n",
+            "parentCollection": "3c6b44ce-b7d4-4931-a01b-3b28d76d2756",
+            "childCollection": "0d311462-8800-400e-a21e-bd742d1a2af1",
+            "GUID": "de994f83-9469-4d59-b277-7e0913a6dfe9",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": true
+                }
+            },
+            "hackoladeStyles": {
+                "GUID": "b3da2916-9bad-4a38-815a-56188831b4d0",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1570,
+                        "y": 1313
+                    },
+                    {
+                        "x": 1463,
+                        "y": 1313
+                    },
+                    {
+                        "x": 1463,
+                        "y": 1123.5
+                    },
+                    {
+                        "x": 1356,
+                        "y": 1123.5
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
                 ]
             }
         },
@@ -524,7 +588,8 @@
         "add124e4-5df7-42df-96e5-f74693f6f073": "New column(1)",
         "412613d8-3600-45e2-99c5-7a66b8e1a24c": "New column(2)",
         "e1054426-4f68-4158-aa03-0e5e4ef8c32e": "FK_A_TO_B",
-        "eb12b1af-c264-4d01-949c-1204e19da8f3": "fk New table.New column(1) to New table copy.New column"
+        "eb12b1af-c264-4d01-949c-1204e19da8f3": "fk New table.New column(1) to New table copy.New column",
+        "de994f83-9469-4d59-b277-7e0913a6dfe9": "fk New table copy.New column(2) to New table.New column(2)"
     },
     "definitions": {
         "type": "definitions",
@@ -549,7 +614,7 @@
     "creationTS": "2024-01-03T09:27:52.033Z",
     "GUID": "e815ad8d-d4e8-4064-b235-dd8ceefbfa02",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-01-03T09:31:02.947Z",
+    "lastModifTS": "2024-01-03T09:33:46.054Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -569,7 +634,7 @@
                         "GUID": "3c6b44ce-b7d4-4931-a01b-3b28d76d2756",
                         "x": 1080,
                         "y": 1080,
-                        "width": 251,
+                        "width": 276,
                         "height": 87,
                         "color": {}
                     },
@@ -604,7 +669,7 @@
                     }
                 ],
                 "collapsedNodes": [],
-                "activeRelationship": "eb12b1af-c264-4d01-949c-1204e19da8f3",
+                "activeRelationship": "",
                 "activeRelationshipFields": {
                     "childField": [],
                     "parentField": []
