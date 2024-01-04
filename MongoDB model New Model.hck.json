@@ -34,12 +34,13 @@
                     },
                     {
                         "GUID": "0dd81219-2b24-11e6-b7e5-591297143e36",
-                        "format": "ipv6",
-                        "error": {}
+                        "format": "date-time",
+                        "error": {},
+                        "name": "name_new"
                     },
                     {
                         "GUID": "06399180-d360-11ec-adc4-432dcbbfc12a",
-                        "format": "duration",
+                        "format": "date",
                         "error": {}
                     }
                 ]
@@ -306,15 +307,15 @@
                         "y": 1189.2647783421496
                     },
                     {
-                        "x": 1432.8404327788219,
+                        "x": 1435.8404327788219,
                         "y": 1189.2647783421496
                     },
                     {
-                        "x": 1432.8404327788219,
+                        "x": 1435.8404327788219,
                         "y": 1288.2370558780112
                     },
                     {
-                        "x": 1391,
+                        "x": 1397,
                         "y": 1288.2370558780112
                     }
                 ],
@@ -501,15 +502,15 @@
                         "y": 1399.1759550352103
                     },
                     {
-                        "x": 1431.6692052412773,
+                        "x": 1434.6692052412773,
                         "y": 1399.1759550352103
                     },
                     {
-                        "x": 1431.6692052412773,
+                        "x": 1434.6692052412773,
                         "y": 1499.2370558780112
                     },
                     {
-                        "x": 1391,
+                        "x": 1397,
                         "y": 1499.2370558780112
                     }
                 ],
@@ -566,15 +567,15 @@
                         "y": 1594.45603640855
                     },
                     {
-                        "x": 1421.6692052412773,
+                        "x": 1424.6692052412773,
                         "y": 1594.45603640855
                     },
                     {
-                        "x": 1421.6692052412773,
+                        "x": 1424.6692052412773,
                         "y": 1710.2370558780112
                     },
                     {
-                        "x": 1391,
+                        "x": 1397,
                         "y": 1710.2370558780112
                     }
                 ],
@@ -611,7 +612,154 @@
         "2fd71eae-1cf2-4135-95d8-cfe5288a3d83": "fk_tipsUsers",
         "883a603f-3eb3-4293-80fc-f57bc583bb61": "fk_reviewsUsers",
         "811b5b6a-2201-4dab-97c1-c948a9502c5a": "fk_reviewsBusinesses",
-        "46028e52-b49b-4a0a-8e4b-d26a1436a4bb": "fk businesses.business_id to checkins.business_id"
+        "46028e52-b49b-4a0a-8e4b-d26a1436a4bb": "fk businesses.business_id to checkins.business_id",
+        "ef159d0a-8164-47e4-bb2c-026505bada1b": "houseNum",
+        "af60c349-8bfa-43bf-97df-17a8c7857810": "street",
+        "0eadb972-4741-4be6-af1b-7b18a97a43b0": "box",
+        "e2c59bb9-6fd3-4154-a22a-9d4a45b66a2a": "city",
+        "88ee2cb2-667d-4125-96fb-6dbe8b390998": "state",
+        "e37a2744-952e-44e5-b997-2836a306ac50": "zip",
+        "9660217c-a47d-4626-9a54-853dcd40205a": "business_id",
+        "b365e307-2225-40a5-8968-ea2f46fa8d84": "name_new",
+        "c11963a6-c2b9-4476-bbc6-81883836bb28": "phoneNumber",
+        "bea5fc22-6bf9-4fc1-bd73-cc775bfe177f": "business_address",
+        "9b04a67a-5e53-417b-ba6c-c70b056a8ff0": "full_address",
+        "66f1b2c2-1181-4eb2-896a-4085b7794eb4": "attributes",
+        "78368185-7695-4357-85e1-a1e75b6ebbdf": "Accepts Credit Cards",
+        "c538e56b-a9fb-44c8-af83-e51a3942812c": "Accepts Insurance",
+        "93a00f00-0ff2-4006-8dd8-458dcb85bf92": "Alcohol",
+        "73bdac2b-11fd-4198-82c2-d24bce816323": "Ambience",
+        "950541e1-f434-4dc3-91d1-d26133073177": "casual",
+        "1dc837fc-4a61-4a0d-a10b-38410c7278b6": "classy",
+        "44f6f820-6d6c-4bed-be06-190fbacc5713": "divey",
+        "aa12b430-12e9-425a-9604-8088ef2a1be0": "hipster",
+        "c649c284-5526-4638-a875-5589466f2469": "intimate",
+        "18342afe-3d01-445c-9ce3-bbfc0c95d54a": "romantic",
+        "b7c4a17d-7721-4861-8c5d-2436f77cd0d0": "touristy",
+        "e81fcb62-6150-42c9-a345-95c8bbbea067": "trendy",
+        "bff85551-c76d-442a-b61a-3830d2bb5e9c": "upscale",
+        "3083eaa0-d426-4b68-a051-6babf9706c77": "Attire",
+        "21ca6114-517d-408d-ae16-2b5ba85b0cd2": "By Appointment Only",
+        "36667689-b9df-460d-9f7b-b50c8401bea5": "BYOB/Corkage",
+        "3c011b6b-bf97-4dcd-8b4d-57f9277b6d17": "Caters",
+        "23d59e30-5d7e-4c5d-aaa6-d290a57c5908": "Coat Check",
+        "7bf01e40-f322-483a-8ee2-16657a7ae0d9": "Delivery",
+        "145bc5e9-8fc2-43a7-b9a3-8d9f04b4246c": "Dogs Allowed",
+        "416af0d2-1b2c-4a71-8fdc-b9c05febc6f4": "Drive-Thru",
+        "0895ee65-4959-4482-b978-bbb014f7a413": "Good For",
+        "4c22d292-dd9a-4285-99d8-dba86ab57a38": "breakfast",
+        "e4b742b1-23d9-48ab-8470-c9e84063a1be": "brunch",
+        "4c4e9c22-7ef3-4583-b3b9-8d889bbd145e": "dessert",
+        "880b72c6-964f-40d3-ae5a-0f296f72c22b": "dinner",
+        "d5badf31-5d13-404c-a488-9cf7a70f92d3": "latenight",
+        "959847e8-1b35-48ed-92ff-3e82d14aa4c2": "lunch",
+        "7e8743cc-d94d-4cbd-8960-d8f90f043ef6": "Good For Dancing",
+        "06f79de5-8f07-4bd1-8669-938bdcd00763": "Good For Groups",
+        "837c61d7-4f1f-4b68-80f3-9db0020ba226": "Good for Kids",
+        "dc25e61b-dfc8-46ad-a56a-8304489dad24": "Happy Hour",
+        "f12a7b28-c31d-41ad-995d-bc159953872d": "Has TV",
+        "4ca46157-e0a5-4d47-b70a-76a02085a874": "Music",
+        "30f9a9f4-fb27-4843-86f8-0e5616fd2b5d": "background_music",
+        "39b538c7-6f24-467e-a6a6-7b23a6d8b580": "dj",
+        "4c35b839-da0a-4def-bed5-7e11fb51fb03": "jukebox",
+        "55c78362-a6a8-4fc4-84b1-6e95ffd0c56b": "karaoke",
+        "0caaf25b-fe01-4033-af48-bd936e49b5e2": "live",
+        "7848a3b4-8d4c-4d78-a673-1b71c2297c44": "video",
+        "8af123a6-cd3f-41d9-a4c7-2dbf711d44d7": "Noise Level",
+        "c831c4eb-d735-46ca-a4f1-1331ab089132": "Open 24 Hours",
+        "4273a14a-35ec-46f0-b6ac-87a1ad070052": "Order at Counter",
+        "30c23b20-bde4-4fb4-8b70-44023091f4cd": "Outdoor Seating",
+        "2436ac3a-eca7-4891-abc0-809ee2b5283f": "Parking",
+        "924401ff-df13-4568-a1a8-fe91eb24a848": "garage",
+        "45b17d23-1d20-42a7-8c6f-1b36f267f30f": "lot",
+        "1db35963-db65-4033-8f44-3466fcbff84a": "street",
+        "0fef0d35-73c8-4e08-a9bb-48f5ff46c403": "valet",
+        "b148e340-2033-4d33-aad3-3636ba574df4": "validated",
+        "8c1600fa-fd2f-44fc-b948-f8089f894cf8": "Price Range",
+        "77c6d1a4-ab14-4920-aa08-cac94f7e29ff": "Smoking",
+        "c26ff2d8-30c1-4b60-9257-1cde0c9b149f": "Take-out",
+        "adf9457f-db20-4474-8fcc-9246a292b2a3": "Takes Reservations",
+        "d36196b1-36b9-45f8-b82c-153e54b9bd3a": "Waiter Service",
+        "af532352-5c81-4369-b48a-389c70c4fcc2": "Wheelchair Accessible",
+        "8bacf154-9eb9-4fe8-a5ea-870f88570bc8": "Wi-Fi",
+        "2bc6f2a7-cf4d-4b5a-a212-89b7edb3de50": "categories",
+        "bbe3edb1-49e4-4358-ae19-fb9c285458d4": "hours",
+        "3d58b368-a526-4c73-86e6-7634185c3a27": "Friday",
+        "74dfa0be-eabf-440b-ad1d-a03cb8837fde": "close",
+        "b8d85c6e-1eff-4730-87de-0b06dc1d4771": "open",
+        "3c39f75d-28a4-43a5-b7af-3d70bae4f09c": "Monday",
+        "389c6618-794d-4aee-b63e-9f43fb5f4296": "close",
+        "c122e19f-3dc2-4d78-b23d-9e0cb9866035": "open",
+        "0f3454fc-f5c0-410f-8872-3d65b593c086": "Saturday",
+        "a6735456-19df-4a66-87a1-f42212e1d1a8": "close",
+        "d89b4e09-ad6c-4747-8c0e-5bdef8790cea": "open",
+        "c1e7d2ad-dfb6-4c82-a540-d7a6d164738a": "Sunday",
+        "882af42a-c887-47a1-b8a4-cb1602dff2ca": "close",
+        "3c91efd8-df56-4f99-9f29-14d688e16906": "open",
+        "8018eabd-8ae9-420e-a3d5-b32b4f44f127": "Thursday",
+        "834e457e-511b-4ffa-a30c-a8d910cf864f": "close",
+        "c275cedb-6928-4a50-b318-08885f2dbf53": "open",
+        "4bd0caae-1760-4e13-916f-d90024e47835": "Tuesday",
+        "55ed2b47-a80a-492b-a7e7-0eaeeadca683": "close",
+        "ddf601b6-3784-48e8-8119-4e65d05c345f": "open",
+        "e5447868-ada3-48e5-a5b6-f7901716baab": "Wednesday",
+        "9c875170-b7f4-4d5d-9c5a-716bf68b3aa5": "close",
+        "49d02def-ca2d-42db-94ee-9bed4eaba509": "open",
+        "a1987df3-f1f0-48c1-9bbc-c09975bec0ed": "latitude",
+        "cc651b1c-5eca-48d2-bf2e-05b6a558d22f": "longitude",
+        "51e59d10-4bb4-4f09-854d-ed39e567cc54": "neighborhoods",
+        "a3511897-096a-48b1-82fb-24269a08da1d": "open",
+        "224596a2-3eeb-4c0b-83bb-77541e9a5878": "review_count",
+        "0b25a4d2-cd0f-41bb-9c39-edca90910208": "stars",
+        "4b69281e-937e-44ee-a5e4-9cacb30f444f": "type",
+        "b8db916f-e3d3-4aec-81fb-b741267690ff": "_id",
+        "d4782b89-d9c9-4905-ad49-bcb004508715": "checkin_info",
+        "af2a33f0-979f-456e-a472-23536523bf05": "^[a-zA-Z0-9_.-]{3}$",
+        "ddea1500-e764-4969-ac3e-c8074ca3da02": "^[a-zA-Z0-9_.-]{4}$",
+        "9dd5f5eb-bcb9-407f-8f86-bb74de8c2d7b": "type",
+        "eb5789e8-6bbd-4b3d-8e7a-e6938f5543b9": "business_id",
+        "7ebab249-a45a-428d-a877-5b2b990ad997": "review_id",
+        "58a65108-f098-4a0e-afa4-c999b6be752b": "business_id",
+        "03ba8102-00e8-4aac-b4f5-2dcd090150a3": "date",
+        "d2f237b5-7d32-4ab9-8304-3ac2863dbbee": "stars",
+        "cd5b4f6b-ef5a-4586-8af1-69eddaecf5ef": "text",
+        "058d79a1-4ccd-4f44-ad71-c4fba0a6c3e2": "type",
+        "5a062b1e-906f-433b-b8c4-e4aa790cc779": "user_id",
+        "c703dbde-d5e5-4a11-a969-1fa3dbf6482d": "votes",
+        "ffff18a2-e260-4392-b39e-733c9a4c0be8": "cool",
+        "dc153c72-fed3-4d76-9afb-917d8184ac1b": "funny",
+        "707d2511-e8ce-4442-847a-b5980a34318c": "useful",
+        "18f1fd50-7d4b-413e-bbc2-e881fad68df1": "_id",
+        "b9f50890-03da-4d32-b659-cbca4a632fe3": "business_id",
+        "46ef489d-2570-40be-a3b9-4585f1f494c1": "date",
+        "9996fb7c-7893-45f8-a79a-27a74e87438f": "likes",
+        "9aec2534-f482-4a82-be6f-50d536af0218": "text",
+        "6b35d08f-a620-4695-87b7-b4175153f968": "type",
+        "95b1c074-901c-452a-9693-d3a6a6c911e2": "user_id",
+        "7ae2b441-f10f-4e78-a5f7-7745345556ab": "user_id",
+        "f6d3b3a1-c2e9-4b5c-bdb0-564930bca466": "type",
+        "d87e4e37-cff3-4e7c-88fc-5d08d4de26df": "name",
+        "d8b7eb1a-0259-4188-b4b4-6cab4ef40828": "average_stars",
+        "1f358783-09c1-41ae-b619-eb5868eb44a0": "compliments",
+        "7e50018a-df19-4fe6-adf0-9dc36d101d03": "cool",
+        "acd1f6be-5bf6-4b0f-9e8b-71de2464a153": "cute",
+        "ad1ae4f4-9636-430f-80f7-89637ed5f8a6": "funny",
+        "f91d3f8f-a114-4b39-b929-1ed7420367ae": "hot",
+        "6941873a-507c-4bc2-a11b-14b9713e9aa6": "note",
+        "f7b463f1-3d4a-4a2e-9a8f-5caeacc4461c": "photos",
+        "be26c258-d76e-4e7d-9f84-057f21d89a01": "plain",
+        "1c0b4aeb-a6ab-4a16-bc31-0bdcbd0d68f9": "profile",
+        "140ee28e-3c2d-4824-8397-2f3132e54856": "writer",
+        "7439e74e-48ad-4124-b364-24565ea58fea": "elite",
+        "71f3cc79-a577-4690-95e9-32c6a1007892": "fans",
+        "3d69e3c5-f0ba-49ac-bb3f-a32005efa30d": "friends",
+        "cdf68c25-1917-4a40-a90c-c189fccec8bf": "review_count",
+        "4a7cd963-cf3a-471c-94b4-9eb26541ee37": "votes",
+        "4e46c126-9d00-48b3-8f7e-7a37efc3d5d1": "cool",
+        "c59a856a-88f8-436b-b88a-68522377def9": "funny",
+        "d112c3f2-a573-4273-b56b-6179a5191ca8": "useful",
+        "ae4efbd1-56b4-4669-92f3-583015a10061": "yelping_since",
+        "0dd81219-2b24-11e6-b7e5-591297143e36": "name_new"
     },
     "definitions": {
         "type": "definitions",
@@ -632,7 +780,8 @@
                 "code": "",
                 "primaryKey": false,
                 "additionalProperties": false,
-                "error": {}
+                "error": {},
+                "referenceDiff": {}
             }
         ],
         "GUID": "1fd60632-74b4-44ef-a574-58ef13e973c2"
@@ -2836,7 +2985,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2024-01-04T12:24:27.392Z",
+    "lastModifTS": "2024-01-04T12:24:49.518Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -2984,12 +3133,6 @@
                         "size": 100
                     }
                 ],
-                "erdDefinitions": {
-                    "erd": [],
-                    "rootPath": [],
-                    "entities": [],
-                    "decorativeSymbols": []
-                },
                 "buckets": [
                     {
                         "x": 1000,
@@ -2997,21 +3140,6 @@
                         "GUID": "03a50d5f-1044-4936-ac70-6d597ef23975"
                     }
                 ],
-                "collapsedNodes": [],
-                "activeRelationship": "",
-                "activeRelationshipFields": {
-                    "childField": [],
-                    "parentField": []
-                },
-                "selectedCollections": [],
-                "displayColorPicker": false,
-                "graphView": {
-                    "erd": [],
-                    "buckets": [],
-                    "decorativeSymbols": [],
-                    "forceLayout": true,
-                    "defaultLinkLength": 300
-                },
                 "diagramViews": [],
                 "decorativeSymbols": [
                     {
@@ -3022,9 +3150,13 @@
                         "width": 362
                     }
                 ],
-                "nestedCollectionsLayout": "horizontal",
-                "options": [],
-                "relationshipUpdateDisabled": false
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                }
             },
             "collectionLevel": {},
             "changed": false
