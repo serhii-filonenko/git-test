@@ -8479,7 +8479,7 @@
                         "57d1a0a0-92f4-4f83-b78d-c8c29e533997",
                         "93d51cb5-2c2c-4975-8c82-48a133ded692"
                     ],
-                    "relationshipType": "Foreign Key",
+                    "relationshipType": "Foreign Master",
                     "parentRelationship": "3af1a743-4f60-4dfc-92d4-2e9727b6a3f2",
                     "code": "DATE_RESTRICTION_ID",
                     "error": {}
@@ -9422,11 +9422,11 @@
                     },
                     {
                         "x": 2140.877279783306,
-                        "y": 6109.333333333333
+                        "y": 6137
                     },
                     {
                         "x": 2000.4212262332794,
-                        "y": 6109.333333333333
+                        "y": 6137
                     }
                 ],
                 "sides": [
@@ -9512,19 +9512,19 @@
                 "shape": [
                     {
                         "x": 2467.995123985559,
-                        "y": 4763.1280691778275
+                        "y": 4734.1280691778275
                     },
                     {
                         "x": 2234.2081751094192,
-                        "y": 4763.1280691778275
+                        "y": 4734.1280691778275
                     },
                     {
                         "x": 2234.2081751094192,
-                        "y": 6081.666666666667
+                        "y": 6095.5
                     },
                     {
                         "x": 2000.4212262332794,
-                        "y": 6081.666666666667
+                        "y": 6095.5
                     }
                 ],
                 "sides": [
@@ -9699,10 +9699,7 @@
                     "left"
                 ]
             },
-            "hackoladeMeta": {},
-            "disableparent": false,
-            "rootPath": [],
-            "disablechild": false
+            "hackoladeMeta": {}
         },
         {
             "name": "FK_RESTRICTION_TYPE_DATE_RESTRICTION",
@@ -9763,10 +9760,7 @@
                     "bottom"
                 ]
             },
-            "hackoladeMeta": {},
-            "disableparent": false,
-            "rootPath": [],
-            "disablechild": false
+            "hackoladeMeta": {}
         },
         {
             "name": "FK_PROPERTY_DATE_RESTRICTION",
@@ -9929,7 +9923,7 @@
         },
         {
             "name": "FK_DATE_RESTRICTION_RATE",
-            "relationshipType": "Foreign Key",
+            "relationshipType": "Foreign Master",
             "parentField": [
                 [
                     "57d1a0a0-92f4-4f83-b78d-c8c29e533997",
@@ -10038,10 +10032,7 @@
                     "bottom",
                     "top"
                 ]
-            },
-            "disableparent": false,
-            "rootPath": [],
-            "disablechild": false
+            }
         },
         {
             "name": "FK_PROPERTY_TYPE_PROPERTY_SITE",
@@ -10339,11 +10330,11 @@
                 "shape": [
                     {
                         "x": 4469.096704873888,
-                        "y": 8694.883852999545
+                        "y": 8617.217186332879
                     },
                     {
                         "x": 4530.135984033328,
-                        "y": 8694.883852999545
+                        "y": 8617.217186332879
                     },
                     {
                         "x": 4530.135984033328,
@@ -10468,10 +10459,7 @@
                     "top",
                     "bottom"
                 ]
-            },
-            "disableparent": false,
-            "rootPath": [],
-            "disablechild": false
+            }
         },
         {
             "name": "FK_PROPERTY_SITE_RESERVATION_SITE_MAP",
@@ -10923,19 +10911,19 @@
                 "shape": [
                     {
                         "x": 4591.175263192768,
-                        "y": 8254.066740969274
+                        "y": 8140.066740969274
                     },
                     {
                         "x": 3295.798244713024,
-                        "y": 8254.066740969274
+                        "y": 8140.066740969274
                     },
                     {
                         "x": 3295.798244713024,
-                        "y": 6247.666666666667
+                        "y": 6220
                     },
                     {
                         "x": 2000.4212262332794,
-                        "y": 6247.666666666667
+                        "y": 6220
                     }
                 ],
                 "sides": [
@@ -10975,19 +10963,19 @@
                 "shape": [
                     {
                         "x": 4591.175263192768,
-                        "y": 8140.066740969274
+                        "y": 8083.066740969274
                     },
                     {
                         "x": 3295.798244713024,
-                        "y": 8140.066740969274
+                        "y": 8083.066740969274
                     },
                     {
                         "x": 3295.798244713024,
-                        "y": 6220
+                        "y": 6178.5
                     },
                     {
                         "x": 2000.4212262332794,
-                        "y": 6220
+                        "y": 6178.5
                     }
                 ],
                 "sides": [
@@ -11051,10 +11039,7 @@
                     "left"
                 ]
             },
-            "hackoladeMeta": {},
-            "disableparent": false,
-            "rootPath": [],
-            "disablechild": false
+            "hackoladeMeta": {}
         },
         {
             "name": "FK_COMPANY_RESERVATION_SITE",
@@ -11087,19 +11072,19 @@
                 "shape": [
                     {
                         "x": 3926.096704873887,
-                        "y": 8694.883852999545
+                        "y": 8578.383852999545
                     },
                     {
                         "x": 2963.258965553583,
-                        "y": 8694.883852999545
+                        "y": 8578.383852999545
                     },
                     {
                         "x": 2963.258965553583,
-                        "y": 6275.333333333333
+                        "y": 6261.5
                     },
                     {
                         "x": 2000.4212262332794,
-                        "y": 6275.333333333333
+                        "y": 6261.5
                     }
                 ],
                 "sides": [
@@ -11772,7 +11757,7 @@
         }
     },
     "author": "Pete Stiglich",
-    "lastModifTS": "2024-01-03T09:45:45.243Z",
+    "lastModifTS": "2024-01-04T09:39:14.223Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -11981,6 +11966,12 @@
                         "color": {}
                     }
                 ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
                 "buckets": [
                     {
                         "x": 2427.995123985559,
@@ -11998,6 +11989,21 @@
                         "GUID": "bd0646bf-24e7-4475-b5ec-c527a77856eb"
                     }
                 ],
+                "collapsedNodes": [],
+                "activeRelationship": "b8207c45-f1fe-49e8-ad1a-79e5aa240441",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
                 "diagramViews": [
                     {
                         "GUID": "44952d71-aad4-46cf-bebb-9a64e28d3103",
@@ -12514,13 +12520,9 @@
                         "width": 259
                     }
                 ],
-                "graphView": {
-                    "erd": [],
-                    "buckets": [],
-                    "decorativeSymbols": [],
-                    "forceLayout": true,
-                    "defaultLinkLength": 300
-                }
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
             "changed": false

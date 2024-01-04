@@ -2,116 +2,2831 @@
     "modelName": "New Model",
     "collections": [
         {
-            "GUID": "785ae21d-a3c3-4dbe-961b-1fa3b114d4af",
+            "GUID": "bfb51380-d420-4b9c-99e5-29a8457c267a",
             "type": "reference",
-            "$ref": "#external/definitions/New entity",
+            "$ref": "#external/definitions/businesses",
             "refType": "polyglot",
-            "ref": "9656e9cd-5205-4401-90a9-85e3feca9514",
+            "ref": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
             "refIdPath": [
-                "3d88b55f-08dd-4775-b1ca-0a3e723ce8ee",
-                "cb10cbda-df93-4213-a4f6-9f1ff364add1",
-                "9656e9cd-5205-4401-90a9-85e3feca9514"
+                "80cadda3-8507-48e6-8aa7-214e034644d7",
+                "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                "0dd7ead0-2b24-11e6-b7e5-591297143e36"
             ],
             "isActivated": true,
-            "collectionName": "New entity",
+            "collectionName": "businesses",
+            "code": "",
+            "bucketId": "03a50d5f-1044-4936-ac70-6d597ef23975",
             "properties": [],
             "definitions": {
                 "properties": [],
-                "GUID": "4d48c247-b68a-464b-83b2-ed82c742e518"
-            },
-            "additionalProperties": false,
-            "hackoladeMeta": {
-                "validationErrors": {}
+                "GUID": "c5e44344-c5ce-4377-bdd6-e15cf043b149"
             },
             "referenceDiff": {
                 "properties": [
                     {
-                        "GUID": "c4786ceb-885a-43d8-89eb-6118742ca6d7",
-                        "format": "email",
+                        "GUID": "0dd811fc-2b24-11e6-b7e5-591297143e36",
+                        "childRelationships": [
+                            "cecb6a9f-f473-4d0e-b03a-6f89e0eeec6e",
+                            "811b5b6a-2201-4dab-97c1-c948a9502c5a",
+                            "46028e52-b49b-4a0a-8e4b-d26a1436a4bb"
+                        ],
                         "error": {}
                     }
                 ]
+            },
+            "additionalProperties": true,
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "GUID": "e5bbbeb5-afc4-4ebc-9b13-89630bd279d9",
+            "type": "reference",
+            "$ref": "#external/definitions/checkins",
+            "refType": "polyglot",
+            "ref": "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+            "refIdPath": [
+                "80cadda3-8507-48e6-8aa7-214e034644d7",
+                "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                "a080d1d0-91f6-11e9-a924-ddc9cd9b071f"
+            ],
+            "isActivated": true,
+            "collectionName": "checkins",
+            "code": "",
+            "bucketId": "03a50d5f-1044-4936-ac70-6d597ef23975",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "d34a1f25-320c-4636-8833-30bbebaab1c6"
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "9c7dc021-91f6-11e9-a924-ddc9cd9b071f",
+                        "relationshipType": "Foreign Key",
+                        "foreignCollection": "bfb51380-d420-4b9c-99e5-29a8457c267a",
+                        "foreignField": [
+                            "bfb51380-d420-4b9c-99e5-29a8457c267a",
+                            "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                            "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "parentRelationship": "46028e52-b49b-4a0a-8e4b-d26a1436a4bb",
+                        "error": {}
+                    }
+                ]
+            },
+            "additionalProperties": true,
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "GUID": "d7653227-c699-4ff7-a589-014dce6b27e8",
+            "type": "reference",
+            "$ref": "#external/definitions/reviews",
+            "refType": "polyglot",
+            "ref": "0da2aa00-2b24-11e6-b7e5-591297143e36",
+            "refIdPath": [
+                "80cadda3-8507-48e6-8aa7-214e034644d7",
+                "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                "0da2aa00-2b24-11e6-b7e5-591297143e36"
+            ],
+            "isActivated": true,
+            "collectionName": "reviews",
+            "code": "",
+            "bucketId": "03a50d5f-1044-4936-ac70-6d597ef23975",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "0c03f4e2-a945-490d-bb49-818aeefe64ae"
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "0da2aa08-2b24-11e6-b7e5-591297143e36",
+                        "relationshipType": "Foreign Key",
+                        "foreignCollection": "6045a720-e512-4b82-a3d4-bca8e6c76a93",
+                        "foreignField": [
+                            "6045a720-e512-4b82-a3d4-bca8e6c76a93",
+                            "0df0f110-2b24-11e6-b7e5-591297143e36",
+                            "0df0f126-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "parentRelationship": "883a603f-3eb3-4293-80fc-f57bc583bb61",
+                        "error": {}
+                    },
+                    {
+                        "GUID": "0da2aa02-2b24-11e6-b7e5-591297143e36",
+                        "relationshipType": "Foreign Key",
+                        "foreignCollection": "bfb51380-d420-4b9c-99e5-29a8457c267a",
+                        "foreignField": [
+                            "bfb51380-d420-4b9c-99e5-29a8457c267a",
+                            "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                            "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "parentRelationship": "811b5b6a-2201-4dab-97c1-c948a9502c5a",
+                        "error": {}
+                    }
+                ]
+            },
+            "additionalProperties": true,
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "GUID": "38bcaaa6-8661-4d84-b3d3-e9aba0879c7c",
+            "type": "reference",
+            "$ref": "#external/definitions/tips",
+            "refType": "polyglot",
+            "ref": "0de02830-2b24-11e6-b7e5-591297143e36",
+            "refIdPath": [
+                "80cadda3-8507-48e6-8aa7-214e034644d7",
+                "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                "0de02830-2b24-11e6-b7e5-591297143e36"
+            ],
+            "isActivated": true,
+            "collectionName": "tips",
+            "code": "",
+            "bucketId": "03a50d5f-1044-4936-ac70-6d597ef23975",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "cf55dfbf-090f-4c5e-972a-2645b2a1e682"
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "0de02832-2b24-11e6-b7e5-591297143e36",
+                        "relationshipType": "Foreign Key",
+                        "foreignCollection": "bfb51380-d420-4b9c-99e5-29a8457c267a",
+                        "foreignField": [
+                            "bfb51380-d420-4b9c-99e5-29a8457c267a",
+                            "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                            "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "parentRelationship": "cecb6a9f-f473-4d0e-b03a-6f89e0eeec6e",
+                        "error": {}
+                    },
+                    {
+                        "GUID": "0de02837-2b24-11e6-b7e5-591297143e36",
+                        "relationshipType": "Foreign Key",
+                        "foreignCollection": "6045a720-e512-4b82-a3d4-bca8e6c76a93",
+                        "foreignField": [
+                            "6045a720-e512-4b82-a3d4-bca8e6c76a93",
+                            "0df0f110-2b24-11e6-b7e5-591297143e36",
+                            "0df0f126-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "parentRelationship": "2fd71eae-1cf2-4135-95d8-cfe5288a3d83",
+                        "error": {}
+                    }
+                ]
+            },
+            "additionalProperties": true,
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "GUID": "6045a720-e512-4b82-a3d4-bca8e6c76a93",
+            "type": "reference",
+            "$ref": "#external/definitions/users",
+            "refType": "polyglot",
+            "ref": "0df0f110-2b24-11e6-b7e5-591297143e36",
+            "refIdPath": [
+                "80cadda3-8507-48e6-8aa7-214e034644d7",
+                "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                "0df0f110-2b24-11e6-b7e5-591297143e36"
+            ],
+            "isActivated": true,
+            "collectionName": "users",
+            "code": "",
+            "bucketId": "03a50d5f-1044-4936-ac70-6d597ef23975",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "5fb2645d-1281-4974-88a2-0a6c241c29b4"
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "0df0f126-2b24-11e6-b7e5-591297143e36",
+                        "childRelationships": [
+                            "2fd71eae-1cf2-4135-95d8-cfe5288a3d83",
+                            "883a603f-3eb3-4293-80fc-f57bc583bb61"
+                        ],
+                        "error": {}
+                    }
+                ]
+            },
+            "description": "Users description",
+            "additionalProperties": true,
+            "hackoladeMeta": {
+                "validationErrors": {}
             }
         }
     ],
-    "buckets": [],
+    "buckets": [
+        {
+            "GUID": "03a50d5f-1044-4936-ac70-6d597ef23975",
+            "name": "yelp",
+            "type": "reference",
+            "$ref": "#external/definitions/yelp",
+            "refType": "polyglot",
+            "ref": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+            "refIdPath": [
+                "80cadda3-8507-48e6-8aa7-214e034644d7",
+                "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6"
+            ],
+            "isActivated": true,
+            "backgroundColor": {
+                "r": 33,
+                "g": 150,
+                "b": 243,
+                "a": 1
+            },
+            "show": true,
+            "collectionIds": [
+                "bfb51380-d420-4b9c-99e5-29a8457c267a",
+                "e5bbbeb5-afc4-4ebc-9b13-89630bd279d9",
+                "d7653227-c699-4ff7-a589-014dce6b27e8",
+                "38bcaaa6-8661-4d84-b3d3-e9aba0879c7c",
+                "6045a720-e512-4b82-a3d4-bca8e6c76a93"
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
     "views": [],
-    "relationships": [],
+    "relationships": [
+        {
+            "name": "fk_tipsBBusinesses",
+            "description": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "bfb51380-d420-4b9c-99e5-29a8457c267a",
+            "parentField": [
+                [
+                    "bfb51380-d420-4b9c-99e5-29a8457c267a",
+                    "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                    "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "38bcaaa6-8661-4d84-b3d3-e9aba0879c7c",
+            "childField": [
+                [
+                    "38bcaaa6-8661-4d84-b3d3-e9aba0879c7c",
+                    "0de02830-2b24-11e6-b7e5-591297143e36",
+                    "0de02832-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "comments": "",
+            "hackoladeStyles": {
+                "GUID": "5d20db04-ed0f-4e2d-badf-1bb8145fdd60",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1474.6808655576438,
+                        "y": 1189.2647783421496
+                    },
+                    {
+                        "x": 1416.8404327788219,
+                        "y": 1189.2647783421496
+                    },
+                    {
+                        "x": 1416.8404327788219,
+                        "y": 1499.2370558780112
+                    },
+                    {
+                        "x": 1359,
+                        "y": 1499.2370558780112
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            },
+            "isActivated": true,
+            "type": "reference",
+            "refType": "polyglot",
+            "$ref": "#external/definitions/fk_tipsBBusinesses",
+            "refIdPath": [
+                "80cadda3-8507-48e6-8aa7-214e034644d7",
+                "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                "8a3660f0-2b26-11e6-b7e5-591297143e36"
+            ],
+            "ref": "8a3660f0-2b26-11e6-b7e5-591297143e36",
+            "GUID": "cecb6a9f-f473-4d0e-b03a-6f89e0eeec6e"
+        },
+        {
+            "name": "fk_tipsUsers",
+            "description": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "6045a720-e512-4b82-a3d4-bca8e6c76a93",
+            "parentField": [
+                [
+                    "6045a720-e512-4b82-a3d4-bca8e6c76a93",
+                    "0df0f110-2b24-11e6-b7e5-591297143e36",
+                    "0df0f126-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "38bcaaa6-8661-4d84-b3d3-e9aba0879c7c",
+            "childField": [
+                [
+                    "38bcaaa6-8661-4d84-b3d3-e9aba0879c7c",
+                    "0de02830-2b24-11e6-b7e5-591297143e36",
+                    "0de02837-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "comments": "",
+            "hackoladeStyles": {
+                "GUID": "7b6f08a6-250e-4e83-920b-0c50a8b357c2",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1726.6808655576438,
+                        "y": 1189.2647783421496
+                    },
+                    {
+                        "x": 1776.9690298443556,
+                        "y": 1189.2647783421496
+                    },
+                    {
+                        "x": 1776.9690298443556,
+                        "y": 1237.2370558780112
+                    },
+                    {
+                        "x": 1827.2571941310678,
+                        "y": 1237.2370558780112
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            },
+            "isActivated": true,
+            "type": "reference",
+            "refType": "polyglot",
+            "$ref": "#external/definitions/fk_tipsUsers",
+            "refIdPath": [
+                "80cadda3-8507-48e6-8aa7-214e034644d7",
+                "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                "aa956d50-2b26-11e6-b7e5-591297143e36"
+            ],
+            "ref": "aa956d50-2b26-11e6-b7e5-591297143e36",
+            "GUID": "2fd71eae-1cf2-4135-95d8-cfe5288a3d83"
+        },
+        {
+            "name": "fk_reviewsUsers",
+            "description": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "6045a720-e512-4b82-a3d4-bca8e6c76a93",
+            "parentField": [
+                [
+                    "6045a720-e512-4b82-a3d4-bca8e6c76a93",
+                    "0df0f110-2b24-11e6-b7e5-591297143e36",
+                    "0df0f126-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "d7653227-c699-4ff7-a589-014dce6b27e8",
+            "childField": [
+                [
+                    "d7653227-c699-4ff7-a589-014dce6b27e8",
+                    "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                    "0da2aa08-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "comments": "",
+            "hackoladeStyles": {
+                "GUID": "5bae4ec7-a06a-49c4-8e35-1ede4279ee64",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1733.3384104825548,
+                        "y": 1399.1759550352103
+                    },
+                    {
+                        "x": 1780.2978023068113,
+                        "y": 1399.1759550352103
+                    },
+                    {
+                        "x": 1780.2978023068113,
+                        "y": 1398.2370558780112
+                    },
+                    {
+                        "x": 1827.2571941310678,
+                        "y": 1398.2370558780112
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            },
+            "isActivated": true,
+            "type": "reference",
+            "refType": "polyglot",
+            "$ref": "#external/definitions/fk_reviewsUsers",
+            "refIdPath": [
+                "80cadda3-8507-48e6-8aa7-214e034644d7",
+                "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                "e2514f70-2b26-11e6-b7e5-591297143e36"
+            ],
+            "ref": "e2514f70-2b26-11e6-b7e5-591297143e36",
+            "GUID": "883a603f-3eb3-4293-80fc-f57bc583bb61"
+        },
+        {
+            "name": "fk_reviewsBusinesses",
+            "description": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "bfb51380-d420-4b9c-99e5-29a8457c267a",
+            "parentField": [
+                [
+                    "bfb51380-d420-4b9c-99e5-29a8457c267a",
+                    "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                    "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "d7653227-c699-4ff7-a589-014dce6b27e8",
+            "childField": [
+                [
+                    "d7653227-c699-4ff7-a589-014dce6b27e8",
+                    "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                    "0da2aa02-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "comments": "",
+            "hackoladeStyles": {
+                "GUID": "4a8a4e7b-9efe-4d65-9a90-2fc0fdd12667",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1472.3384104825548,
+                        "y": 1399.1759550352103
+                    },
+                    {
+                        "x": 1415.6692052412773,
+                        "y": 1399.1759550352103
+                    },
+                    {
+                        "x": 1415.6692052412773,
+                        "y": 1499.2370558780112
+                    },
+                    {
+                        "x": 1359,
+                        "y": 1499.2370558780112
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            },
+            "isActivated": true,
+            "type": "reference",
+            "refType": "polyglot",
+            "$ref": "#external/definitions/fk_reviewsBusinesses",
+            "refIdPath": [
+                "80cadda3-8507-48e6-8aa7-214e034644d7",
+                "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                "fb857d40-2b26-11e6-b7e5-591297143e36"
+            ],
+            "ref": "fb857d40-2b26-11e6-b7e5-591297143e36",
+            "GUID": "811b5b6a-2201-4dab-97c1-c948a9502c5a"
+        },
+        {
+            "name": "fk businesses.business_id to checkins.business_id",
+            "description": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "bfb51380-d420-4b9c-99e5-29a8457c267a",
+            "parentField": [
+                [
+                    "bfb51380-d420-4b9c-99e5-29a8457c267a",
+                    "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                    "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "e5bbbeb5-afc4-4ebc-9b13-89630bd279d9",
+            "childField": [
+                [
+                    "e5bbbeb5-afc4-4ebc-9b13-89630bd279d9",
+                    "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+                    "9c7dc021-91f6-11e9-a924-ddc9cd9b071f"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "comments": "",
+            "hackoladeStyles": {
+                "GUID": "a9d4d88e-8ca0-42b4-a560-36101ca7ef29",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1452.3384104825548,
+                        "y": 1594.45603640855
+                    },
+                    {
+                        "x": 1405.6692052412773,
+                        "y": 1594.45603640855
+                    },
+                    {
+                        "x": 1405.6692052412773,
+                        "y": 1710.2370558780112
+                    },
+                    {
+                        "x": 1359,
+                        "y": 1710.2370558780112
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            },
+            "isActivated": true,
+            "type": "reference",
+            "refType": "polyglot",
+            "$ref": "#external/definitions/fk businesses.business_id to checkins.business_id",
+            "refIdPath": [
+                "80cadda3-8507-48e6-8aa7-214e034644d7",
+                "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                "003231f0-91f7-11e9-a924-ddc9cd9b071f"
+            ],
+            "ref": "003231f0-91f7-11e9-a924-ddc9cd9b071f",
+            "GUID": "46028e52-b49b-4a0a-8e4b-d26a1436a4bb"
+        }
+    ],
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "785ae21d-a3c3-4dbe-961b-1fa3b114d4af": "New entity",
-        "6746f846-701a-493e-a91b-3245ae6fd2fb": "New attribute"
+        "bfb51380-d420-4b9c-99e5-29a8457c267a": "businesses",
+        "e5bbbeb5-afc4-4ebc-9b13-89630bd279d9": "checkins",
+        "d7653227-c699-4ff7-a589-014dce6b27e8": "reviews",
+        "38bcaaa6-8661-4d84-b3d3-e9aba0879c7c": "tips",
+        "6045a720-e512-4b82-a3d4-bca8e6c76a93": "users",
+        "7c758f06-168b-4bc8-8811-506c556eeea0": "address",
+        "03a50d5f-1044-4936-ac70-6d597ef23975": "yelp",
+        "9e88ffb7-5e90-438b-905d-90e33c082bd5": "Yelp data model",
+        "cecb6a9f-f473-4d0e-b03a-6f89e0eeec6e": "fk_tipsBBusinesses",
+        "2fd71eae-1cf2-4135-95d8-cfe5288a3d83": "fk_tipsUsers",
+        "883a603f-3eb3-4293-80fc-f57bc583bb61": "fk_reviewsUsers",
+        "811b5b6a-2201-4dab-97c1-c948a9502c5a": "fk_reviewsBusinesses",
+        "46028e52-b49b-4a0a-8e4b-d26a1436a4bb": "fk businesses.business_id to checkins.business_id"
     },
     "definitions": {
         "type": "definitions",
-        "properties": [],
-        "GUID": "3b640946-3cc6-40c6-9705-edba1fd7c727"
+        "properties": [
+            {
+                "GUID": "7c758f06-168b-4bc8-8811-506c556eeea0",
+                "name": "address",
+                "type": "reference",
+                "$ref": "#external/definitions/address",
+                "refType": "polyglot",
+                "ref": "0dd81200-2b24-11e6-b7e5-591297143e36",
+                "refIdPath": [
+                    "80cadda3-8507-48e6-8aa7-214e034644d7",
+                    "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                    "0dd81200-2b24-11e6-b7e5-591297143e36"
+                ],
+                "isActivated": true,
+                "code": "",
+                "primaryKey": false,
+                "additionalProperties": false,
+                "error": {}
+            }
+        ],
+        "GUID": "1fd60632-74b4-44ef-a574-58ef13e973c2"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [
             {
-                "collectionName": "New entity",
-                "type": "object",
+                "collectionName": "businesses",
+                "code": "",
+                "isActivated": true,
+                "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+                "additionalProperties": true,
                 "properties": [
                     {
+                        "type": "objectId",
+                        "name": "business_id",
+                        "code": "",
+                        "isActivated": true,
+                        "description": "Unique key for businesses",
+                        "primaryKey": true,
+                        "required": true,
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "relationshipType": "",
+                        "comments": "Sat Nov 04 2017 10:12:00 GMT+0100 (Romance Standard Time): some comments",
+                        "GUID": "0dd811fc-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
                         "type": "string",
-                        "name": "New attribute",
-                        "hackoladeMeta": {},
+                        "name": "name",
+                        "code": "",
                         "isActivated": true,
                         "primaryKey": false,
-                        "GUID": "c4786ceb-885a-43d8-89eb-6118742ca6d7",
+                        "fakerFunction": "faker.company.name()",
+                        "GUID": "0dd81219-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "phoneNumber",
+                        "isActivated": true,
+                        "fakerFunction": "faker.phone.number('+1-###-###-####')",
+                        "GUID": "06399180-d360-11ec-adc4-432dcbbfc12a",
+                        "hackoladeMeta": {},
+                        "error": {}
+                    },
+                    {
+                        "name": "business_address",
+                        "code": "",
+                        "isActivated": true,
+                        "$ref": "#model/definitions/full_address",
+                        "refType": "model",
+                        "refIdPath": [
+                            "80cadda3-8507-48e6-8aa7-214e034644d7",
+                            "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                            "0dd81200-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "ref": "0dd81200-2b24-11e6-b7e5-591297143e36",
+                        "GUID": "3c5d7210-9df8-11ec-afe5-55c2aa6d0440",
+                        "type": "reference",
+                        "hackoladeMeta": {
+                            "polyglotRootReferenceId": "7c758f06-168b-4bc8-8811-506c556eeea0",
+                            "polyglotFieldRelativePath": []
+                        },
+                        "error": {}
+                    },
+                    {
+                        "name": "full_address",
+                        "code": "",
+                        "isActivated": true,
+                        "$ref": "#model/definitions/address",
+                        "refType": "model",
+                        "refIdPath": [
+                            "80cadda3-8507-48e6-8aa7-214e034644d7",
+                            "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                            "0dd81200-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "ref": "0dd81200-2b24-11e6-b7e5-591297143e36",
+                        "GUID": "4445c459-a91f-418c-9a59-f771b5cc2858",
+                        "type": "reference",
+                        "hackoladeMeta": {
+                            "polyglotRootReferenceId": "7c758f06-168b-4bc8-8811-506c556eeea0",
+                            "polyglotFieldRelativePath": []
+                        },
+                        "error": {}
+                    },
+                    {
+                        "type": "document",
+                        "properties": [
+                            {
+                                "type": "boolean",
+                                "name": "Accepts Credit Cards",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd7ead3-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Accepts Insurance",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd7ead4-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "string",
+                                "name": "Alcohol",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "sample": "Full bar",
+                                "GUID": "0dd7ead5-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "document",
+                                "properties": [
+                                    {
+                                        "type": "boolean",
+                                        "name": "casual",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7ead7-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "classy",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7ead8-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "divey",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7ead9-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "hipster",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7eada-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "intimate",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7eadb-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "romantic",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7eadc-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "touristy",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7eadd-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "trendy",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7eade-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "upscale",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7eadf-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    }
+                                ],
+                                "additionalProperties": true,
+                                "name": "Ambience",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd7ead6-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "string",
+                                "name": "Attire",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "sample": "Casual chic",
+                                "GUID": "0dd7eae0-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "By Appointment Only",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd7eae1-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "string",
+                                "name": "BYOB/Corkage",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd7eae2-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Caters",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd7eae3-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Coat Check",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd7eae4-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Delivery",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd7eae5-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Dogs Allowed",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd7eae6-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Drive-Thru",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd7eae7-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "document",
+                                "properties": [
+                                    {
+                                        "type": "boolean",
+                                        "name": "breakfast",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7eae9-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "brunch",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7eaea-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "dessert",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7eaeb-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "dinner",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7eaec-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "latenight",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7eaed-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "lunch",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd7eaee-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    }
+                                ],
+                                "additionalProperties": true,
+                                "name": "Good For",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd7eae8-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Good For Dancing",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd7eaef-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Good For Groups",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811e0-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Good for Kids",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811e1-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Happy Hour",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811e2-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Has TV",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811e3-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "document",
+                                "properties": [
+                                    {
+                                        "type": "boolean",
+                                        "name": "background_music",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd811e5-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "dj",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd811e6-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "jukebox",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd811e7-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "karaoke",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd811e8-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "live",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd811e9-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "video",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd811ea-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    }
+                                ],
+                                "additionalProperties": true,
+                                "name": "Music",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811e4-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "string",
+                                "name": "Noise Level",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811eb-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Open 24 Hours",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811ec-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Order at Counter",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811ed-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Outdoor Seating",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811ee-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "document",
+                                "properties": [
+                                    {
+                                        "type": "boolean",
+                                        "name": "garage",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd811f0-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "lot",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd811f1-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "street",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd811f2-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "valet",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd811f3-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "boolean",
+                                        "name": "validated",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd811f4-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    }
+                                ],
+                                "additionalProperties": true,
+                                "name": "Parking",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811ef-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "Price Range",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "GUID": "0dd811f5-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "string",
+                                "name": "Smoking",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811f6-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Take-out",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811f7-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Takes Reservations",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811f8-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Waiter Service",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811f9-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "boolean",
+                                "name": "Wheelchair Accessible",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811fa-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "string",
+                                "name": "Wi-Fi",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811fb-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            }
+                        ],
+                        "additionalProperties": true,
+                        "name": "attributes",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0dd7ead2-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "array",
+                        "properties": [
+                            {
+                                "type": "string",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd811fe-2b24-11e6-b7e5-591297143e36",
+                                "arrayItem": true,
+                                "error": {}
+                            }
+                        ],
+                        "additionalItems": true,
+                        "name": "categories",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0dd811fd-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "document",
+                        "properties": [
+                            {
+                                "type": "document",
+                                "properties": [
+                                    {
+                                        "type": "string",
+                                        "name": "close",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd81203-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "string",
+                                        "name": "open",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd81204-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    }
+                                ],
+                                "additionalProperties": true,
+                                "name": "Friday",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd81202-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "document",
+                                "properties": [
+                                    {
+                                        "type": "string",
+                                        "name": "close",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd81206-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "string",
+                                        "name": "open",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd81207-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    }
+                                ],
+                                "additionalProperties": true,
+                                "name": "Monday",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd81205-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "document",
+                                "properties": [
+                                    {
+                                        "type": "string",
+                                        "name": "close",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd81209-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "string",
+                                        "name": "open",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd8120a-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    }
+                                ],
+                                "additionalProperties": true,
+                                "name": "Saturday",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd81208-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "document",
+                                "properties": [
+                                    {
+                                        "type": "string",
+                                        "name": "close",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd8120c-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "string",
+                                        "name": "open",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd8120d-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    }
+                                ],
+                                "additionalProperties": true,
+                                "name": "Sunday",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd8120b-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "document",
+                                "properties": [
+                                    {
+                                        "type": "string",
+                                        "name": "close",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd8120f-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "string",
+                                        "name": "open",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd81210-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    }
+                                ],
+                                "additionalProperties": true,
+                                "name": "Thursday",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd8120e-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "document",
+                                "properties": [
+                                    {
+                                        "type": "string",
+                                        "name": "close",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd81212-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "string",
+                                        "name": "open",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd81213-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    }
+                                ],
+                                "additionalProperties": true,
+                                "name": "Tuesday",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd81211-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "document",
+                                "properties": [
+                                    {
+                                        "type": "string",
+                                        "name": "close",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd81215-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    },
+                                    {
+                                        "type": "string",
+                                        "name": "open",
+                                        "code": "",
+                                        "isActivated": true,
+                                        "primaryKey": false,
+                                        "GUID": "0dd81216-2b24-11e6-b7e5-591297143e36",
+                                        "error": {}
+                                    }
+                                ],
+                                "additionalProperties": true,
+                                "name": "Wednesday",
+                                "code": "",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd81214-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            }
+                        ],
+                        "additionalProperties": true,
+                        "name": "hours",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0dd81201-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "numeric",
+                        "name": "latitude",
+                        "code": "",
+                        "isActivated": true,
+                        "mode": "",
+                        "primaryKey": false,
+                        "GUID": "0dd81217-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "numeric",
+                        "name": "longitude",
+                        "code": "",
+                        "isActivated": true,
+                        "mode": "",
+                        "primaryKey": false,
+                        "GUID": "0dd81218-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "array",
+                        "properties": [
+                            {
+                                "type": "string",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "0dd8121b-2b24-11e6-b7e5-591297143e36",
+                                "arrayItem": true,
+                                "error": {}
+                            }
+                        ],
+                        "additionalItems": true,
+                        "name": "neighborhoods",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0dd8121a-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "boolean",
+                        "name": "open",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0dd8121c-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "numeric",
+                        "name": "review_count",
+                        "code": "",
+                        "isActivated": true,
+                        "mode": "",
+                        "primaryKey": false,
+                        "minimum": 0,
+                        "GUID": "0dd8121d-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "numeric",
+                        "name": "stars",
+                        "code": "",
+                        "isActivated": true,
+                        "mode": "",
+                        "primaryKey": false,
+                        "minimum": 1,
+                        "maximum": 5,
+                        "GUID": "0dd8121e-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "type",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0dd81220-2b24-11e6-b7e5-591297143e36",
                         "error": {}
                     }
                 ],
                 "definitions": {
-                    "type": "definitions",
+                    "GUID": "84a505d1-f031-11e6-8228-e5dfd33d2c24",
                     "properties": [],
-                    "GUID": "b58c9f77-a44b-49eb-8504-0adb5308221b"
+                    "type": "definitions"
                 },
-                "isActivated": true,
-                "additionalProperties": false,
-                "GUID": "9656e9cd-5205-4401-90a9-85e3feca9514",
+                "GUID": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                "type": "object",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
                 "definitionEntityType": "collection",
-                "link": "polyglot.json",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
                 "kind": "relativePath",
-                "fieldRelativePath": "#/New entity",
+                "fieldRelativePath": "#/yelp/businesses",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
                     [
-                        "785ae21d-a3c3-4dbe-961b-1fa3b114d4af"
+                        "bfb51380-d420-4b9c-99e5-29a8457c267a"
                     ]
+                ]
+            },
+            {
+                "collectionName": "checkins",
+                "code": "",
+                "isActivated": true,
+                "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+                "additionalProperties": true,
+                "properties": [
+                    {
+                        "type": "objectId",
+                        "name": "_id",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": true,
+                        "required": true,
+                        "relationshipType": "",
+                        "GUID": "9c7dc020-91f6-11e9-a924-ddc9cd9b071f",
+                        "error": {}
+                    },
+                    {
+                        "type": "document",
+                        "properties": [
+                            {
+                                "type": "numeric",
+                                "name": "^[a-zA-Z0-9_.-]{3}$",
+                                "code": "",
+                                "isActivated": true,
+                                "sampleName": "9-6",
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "GUID": "9c7e0e76-91f6-11e9-a924-ddc9cd9b071f",
+                                "hackoladeMeta": {},
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "^[a-zA-Z0-9_.-]{4}$",
+                                "code": "",
+                                "isActivated": true,
+                                "sampleName": "23-6",
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "GUID": "9c7e0e45-91f6-11e9-a924-ddc9cd9b071f",
+                                "hackoladeMeta": {},
+                                "error": {}
+                            }
+                        ],
+                        "additionalProperties": false,
+                        "name": "checkin_info",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "required": true,
+                        "GUID": "9c7dc022-91f6-11e9-a924-ddc9cd9b071f",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "type",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "required": true,
+                        "relationshipType": "",
+                        "sample": "checkin",
+                        "GUID": "9c7e0e77-91f6-11e9-a924-ddc9cd9b071f",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "business_id",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "required": true,
+                        "foreignCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "foreignField": [
+                            "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                            "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "relationshipType": "Foreign Key",
+                        "sample": "eFA9dqXT5EA_TrMgbo03QQ",
+                        "GUID": "9c7dc021-91f6-11e9-a924-ddc9cd9b071f",
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "GUID": "a080f8e0-91f6-11e9-a924-ddc9cd9b071f",
+                    "properties": [],
+                    "type": "definitions"
+                },
+                "GUID": "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+                "type": "object",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "definitionEntityType": "collection",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/yelp/checkins",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "e5bbbeb5-afc4-4ebc-9b13-89630bd279d9"
+                    ]
+                ]
+            },
+            {
+                "collectionName": "reviews",
+                "code": "",
+                "isActivated": true,
+                "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+                "additionalProperties": true,
+                "properties": [
+                    {
+                        "type": "objectId",
+                        "name": "review_id",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": true,
+                        "required": true,
+                        "relationshipType": "",
+                        "GUID": "0da2aa04-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "objectId",
+                        "name": "business_id",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "required": true,
+                        "foreignCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "foreignField": [
+                            "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                            "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "relationshipType": "Foreign Key",
+                        "GUID": "0da2aa02-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "date",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "fakerFunction": "faker.date.past()",
+                        "GUID": "0da2aa03-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "numeric",
+                        "name": "stars",
+                        "code": "",
+                        "isActivated": true,
+                        "mode": "",
+                        "primaryKey": false,
+                        "minimum": 1,
+                        "maximum": 5,
+                        "GUID": "0da2aa05-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "text",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "fakerFunction": "faker.lorem.paragraphs(3)",
+                        "GUID": "0da2aa06-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "type",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0da2aa07-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "objectId",
+                        "name": "user_id",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "required": true,
+                        "foreignCollection": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                        "foreignField": [
+                            "0df0f110-2b24-11e6-b7e5-591297143e36",
+                            "0df0f126-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "relationshipType": "Foreign Key",
+                        "GUID": "0da2aa08-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "document",
+                        "properties": [
+                            {
+                                "type": "numeric",
+                                "name": "cool",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "minimum": 0,
+                                "GUID": "0da2aa0a-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "funny",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "minimum": 0,
+                                "GUID": "0da2aa0b-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "useful",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "minimum": 0,
+                                "GUID": "0da2aa0c-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            }
+                        ],
+                        "additionalProperties": true,
+                        "name": "votes",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0da2aa09-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "GUID": "84a505d3-f031-11e6-8228-e5dfd33d2c24",
+                    "properties": [],
+                    "type": "definitions"
+                },
+                "GUID": "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                "type": "object",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "definitionEntityType": "collection",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/yelp/reviews",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "d7653227-c699-4ff7-a589-014dce6b27e8"
+                    ]
+                ]
+            },
+            {
+                "collectionName": "tips",
+                "code": "",
+                "isActivated": true,
+                "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+                "additionalProperties": true,
+                "properties": [
+                    {
+                        "type": "objectId",
+                        "name": "_id",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": true,
+                        "required": true,
+                        "GUID": "0de02831-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "objectId",
+                        "name": "business_id",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "required": true,
+                        "foreignCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "foreignField": [
+                            "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                            "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "relationshipType": "Foreign Key",
+                        "GUID": "0de02832-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "date",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "fakerFunction": "faker.date.past()",
+                        "GUID": "0de02833-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "numeric",
+                        "name": "likes",
+                        "code": "",
+                        "isActivated": true,
+                        "mode": "",
+                        "primaryKey": false,
+                        "GUID": "0de02834-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "text",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0de02835-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "type",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0de02836-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "objectId",
+                        "name": "user_id",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "required": true,
+                        "foreignCollection": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                        "foreignField": [
+                            "0df0f110-2b24-11e6-b7e5-591297143e36",
+                            "0df0f126-2b24-11e6-b7e5-591297143e36"
+                        ],
+                        "relationshipType": "Foreign Key",
+                        "GUID": "0de02837-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "GUID": "84a505d4-f031-11e6-8228-e5dfd33d2c24",
+                    "properties": [],
+                    "type": "definitions"
+                },
+                "GUID": "0de02830-2b24-11e6-b7e5-591297143e36",
+                "type": "object",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "definitionEntityType": "collection",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/yelp/tips",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "38bcaaa6-8661-4d84-b3d3-e9aba0879c7c"
+                    ]
+                ]
+            },
+            {
+                "collectionName": "users",
+                "code": "",
+                "isActivated": true,
+                "description": "Users description",
+                "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+                "additionalProperties": true,
+                "properties": [
+                    {
+                        "type": "objectId",
+                        "name": "user_id",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": true,
+                        "required": true,
+                        "relationshipType": "",
+                        "GUID": "0df0f126-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "type",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "required": true,
+                        "relationshipType": "",
+                        "enum": [
+                            "user",
+                            "owner",
+                            "tester"
+                        ],
+                        "GUID": "0df0f125-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "name",
+                        "code": "",
+                        "isActivated": true,
+                        "description": "First name plus surname",
+                        "primaryKey": false,
+                        "required": true,
+                        "relationshipType": "",
+                        "fakerFunction": "faker.fake('{{name.firstName}} {{name.lastName}}')",
+                        "sample": "John Doe",
+                        "comments": "Fri Sep 15 2017 17:31:32 GMT+0200 (Romance Summer Time): \nMongoDB Demo",
+                        "GUID": "0df0f123-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "numeric",
+                        "name": "average_stars",
+                        "code": "",
+                        "isActivated": true,
+                        "mode": "",
+                        "description": "Star rating: from 1 to 5. ",
+                        "primaryKey": false,
+                        "required": true,
+                        "relationshipType": "",
+                        "unit": "stars",
+                        "minimum": 1,
+                        "maximum": 5,
+                        "exclusiveMaximum": false,
+                        "sample": 3,
+                        "GUID": "0df0f112-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "document",
+                        "properties": [
+                            {
+                                "type": "numeric",
+                                "name": "cool",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f114-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "cute",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f115-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "funny",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f116-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "hot",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f117-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "note",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f119-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "photos",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f11a-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "plain",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f11b-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "profile",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f11c-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "writer",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f11d-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            }
+                        ],
+                        "additionalProperties": true,
+                        "name": "compliments",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0df0f113-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "array",
+                        "properties": [
+                            {
+                                "type": "numeric",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "GUID": "0df0f11f-2b24-11e6-b7e5-591297143e36",
+                                "arrayItem": true,
+                                "error": {}
+                            }
+                        ],
+                        "additionalItems": true,
+                        "name": "elite",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0df0f11e-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "numeric",
+                        "name": "fans",
+                        "code": "",
+                        "isActivated": true,
+                        "mode": "",
+                        "primaryKey": false,
+                        "relationshipType": "",
+                        "minimum": 0,
+                        "GUID": "0df0f120-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "array",
+                        "properties": [
+                            {
+                                "type": "string",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "fakerFunction": "faker.name.findName(undefined, undefined, 'female')",
+                                "sample": "Jane Doe",
+                                "GUID": "0df0f122-2b24-11e6-b7e5-591297143e36",
+                                "arrayItem": true,
+                                "error": {}
+                            }
+                        ],
+                        "additionalItems": true,
+                        "name": "friends",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0df0f121-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "numeric",
+                        "name": "review_count",
+                        "code": "",
+                        "isActivated": true,
+                        "mode": "",
+                        "primaryKey": false,
+                        "relationshipType": "",
+                        "minimum": 0,
+                        "GUID": "0df0f124-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "document",
+                        "properties": [
+                            {
+                                "type": "numeric",
+                                "name": "cool",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 0,
+                                "GUID": "0df0f128-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "funny",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 0,
+                                "GUID": "0df0f129-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "useful",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 0,
+                                "GUID": "0df0f12a-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            }
+                        ],
+                        "additionalProperties": true,
+                        "name": "votes",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0df0f127-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "yelping_since",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "relationshipType": "",
+                        "fakerFunction": "faker.date.between('2010-01-01T00:00:00.000Z', '2021-12-31T00:00:00.000Z')",
+                        "GUID": "0df0f12b-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "GUID": "55caffe0-8293-11e7-9b4f-81add10918fb",
+                    "properties": [],
+                    "type": "definitions"
+                },
+                "GUID": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                "type": "object",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "definitionEntityType": "collection",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/yelp/users",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "6045a720-e512-4b82-a3d4-bca8e6c76a93"
+                    ]
+                ]
+            },
+            {
+                "GUID": "db86d400-e115-11e9-9835-6108c7a098d9",
+                "type": "annotation",
+                "value": "Hackolade demo",
+                "name": "Yelp data model",
+                "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+                "disableInitialFocus": true,
+                "isActivated": true,
+                "definitionEntityType": "decorativeSymbol",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/yelp/Yelp data model",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "9e88ffb7-5e90-438b-905d-90e33c082bd5"
+                    ]
+                ]
+            },
+            {
+                "type": "document",
+                "properties": [
+                    {
+                        "type": "string",
+                        "name": "houseNum",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "fakerFunction": "faker.address.buildingNumber()",
+                        "sample": "123",
+                        "GUID": "7107ebf0-dc5b-11e9-b819-e3f2d5171928",
+                        "hackoladeMeta": {},
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "street",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "fakerFunction": "faker.address.street()",
+                        "sample": "Main Street",
+                        "GUID": "760da090-dc5b-11e9-b819-e3f2d5171928",
+                        "hackoladeMeta": {},
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "box",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "fakerFunction": "faker.address.secondaryAddress()",
+                        "sample": "10",
+                        "GUID": "7bfbe070-dc5b-11e9-b819-e3f2d5171928",
+                        "hackoladeMeta": {},
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "city",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "fakerFunction": "faker.address.city()",
+                        "sample": "Anytown",
+                        "GUID": "7ee803e0-dc5b-11e9-b819-e3f2d5171928",
+                        "hackoladeMeta": {},
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "state",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "fakerFunction": "faker.address.stateAbbr()",
+                        "sample": "CA",
+                        "GUID": "85787730-dc5b-11e9-b819-e3f2d5171928",
+                        "hackoladeMeta": {},
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "zip",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "fakerFunction": "faker.address.zipCodeByState()",
+                        "sample": "12345",
+                        "GUID": "87afc990-dc5b-11e9-b819-e3f2d5171928",
+                        "hackoladeMeta": {},
+                        "error": {}
+                    }
+                ],
+                "additionalProperties": false,
+                "name": "address",
+                "code": "",
+                "isActivated": true,
+                "primaryKey": false,
+                "GUID": "0dd81200-2b24-11e6-b7e5-591297143e36",
+                "definitionEntityType": "modelDefinition",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/definitions/properties/address",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "80cadda3-8507-48e6-8aa7-214e034644d7",
+                        "1fd60632-74b4-44ef-a574-58ef13e973c2",
+                        "7c758f06-168b-4bc8-8811-506c556eeea0"
+                    ]
+                ],
+                "error": {}
+            },
+            {
+                "name": "fk_tipsBBusinesses",
+                "description": "",
+                "relationshipType": "Foreign Key",
+                "parentCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                "parentField": [
+                    [
+                        "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                    ]
+                ],
+                "parentCardinality": "1",
+                "childCollection": "0de02830-2b24-11e6-b7e5-591297143e36",
+                "childField": [
+                    [
+                        "0de02830-2b24-11e6-b7e5-591297143e36",
+                        "0de02832-2b24-11e6-b7e5-591297143e36"
+                    ]
+                ],
+                "childCardinality": "0..n",
+                "comments": "",
+                "GUID": "8a3660f0-2b26-11e6-b7e5-591297143e36",
+                "hackoladeStyles": {
+                    "GUID": "5d20db04-ed0f-4e2d-badf-1bb8145fdd60",
+                    "autoPositioning": true,
+                    "type": "Orthogonal",
+                    "thickness": 2,
+                    "color": "#79c4ff",
+                    "dataType": "",
+                    "shape": [
+                        {
+                            "x": 1474.6808655576438,
+                            "y": 1189.2647783421496
+                        },
+                        {
+                            "x": 1416.8404327788219,
+                            "y": 1189.2647783421496
+                        },
+                        {
+                            "x": 1416.8404327788219,
+                            "y": 1288.2370558780112
+                        },
+                        {
+                            "x": 1359,
+                            "y": 1288.2370558780112
+                        }
+                    ],
+                    "sides": [
+                        "left",
+                        "right"
+                    ]
+                },
+                "isActivated": true,
+                "definitionEntityType": "relationship",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/relationships/fk_tipsBBusinesses",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "cecb6a9f-f473-4d0e-b03a-6f89e0eeec6e"
+                    ]
+                ]
+            },
+            {
+                "name": "fk_tipsUsers",
+                "description": "",
+                "relationshipType": "Foreign Key",
+                "parentCollection": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                "parentField": [
+                    [
+                        "0df0f110-2b24-11e6-b7e5-591297143e36",
+                        "0df0f126-2b24-11e6-b7e5-591297143e36"
+                    ]
+                ],
+                "parentCardinality": "1",
+                "childCollection": "0de02830-2b24-11e6-b7e5-591297143e36",
+                "childField": [
+                    [
+                        "0de02830-2b24-11e6-b7e5-591297143e36",
+                        "0de02837-2b24-11e6-b7e5-591297143e36"
+                    ]
+                ],
+                "childCardinality": "0..n",
+                "comments": "",
+                "GUID": "aa956d50-2b26-11e6-b7e5-591297143e36",
+                "hackoladeStyles": {
+                    "GUID": "7b6f08a6-250e-4e83-920b-0c50a8b357c2",
+                    "autoPositioning": true,
+                    "type": "Orthogonal",
+                    "thickness": 2,
+                    "color": "#79c4ff",
+                    "dataType": "",
+                    "shape": [
+                        {
+                            "x": 1726.6808655576438,
+                            "y": 1189.2647783421496
+                        },
+                        {
+                            "x": 1776.9690298443556,
+                            "y": 1189.2647783421496
+                        },
+                        {
+                            "x": 1776.9690298443556,
+                            "y": 1317.7370558780112
+                        },
+                        {
+                            "x": 1827.2571941310678,
+                            "y": 1317.7370558780112
+                        }
+                    ],
+                    "sides": [
+                        "right",
+                        "left"
+                    ]
+                },
+                "isActivated": true,
+                "definitionEntityType": "relationship",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/relationships/fk_tipsUsers",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "2fd71eae-1cf2-4135-95d8-cfe5288a3d83"
+                    ]
+                ]
+            },
+            {
+                "name": "fk_reviewsUsers",
+                "description": "",
+                "relationshipType": "Foreign Key",
+                "parentCollection": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                "parentField": [
+                    [
+                        "0df0f110-2b24-11e6-b7e5-591297143e36",
+                        "0df0f126-2b24-11e6-b7e5-591297143e36"
+                    ]
+                ],
+                "parentCardinality": "1",
+                "childCollection": "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                "childField": [
+                    [
+                        "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                        "0da2aa08-2b24-11e6-b7e5-591297143e36"
+                    ]
+                ],
+                "childCardinality": "0..n",
+                "comments": "",
+                "GUID": "e2514f70-2b26-11e6-b7e5-591297143e36",
+                "hackoladeStyles": {
+                    "GUID": "5bae4ec7-a06a-49c4-8e35-1ede4279ee64",
+                    "autoPositioning": true,
+                    "type": "Orthogonal",
+                    "thickness": 2,
+                    "color": "#79c4ff",
+                    "dataType": "",
+                    "shape": [
+                        {
+                            "x": 1733.3384104825548,
+                            "y": 1399.1759550352103
+                        },
+                        {
+                            "x": 1780.2978023068113,
+                            "y": 1399.1759550352103
+                        },
+                        {
+                            "x": 1780.2978023068113,
+                            "y": 1398.2370558780112
+                        },
+                        {
+                            "x": 1827.2571941310678,
+                            "y": 1398.2370558780112
+                        }
+                    ],
+                    "sides": [
+                        "right",
+                        "left"
+                    ]
+                },
+                "isActivated": true,
+                "definitionEntityType": "relationship",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/relationships/fk_reviewsUsers",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "883a603f-3eb3-4293-80fc-f57bc583bb61"
+                    ]
+                ]
+            },
+            {
+                "name": "fk_reviewsBusinesses",
+                "description": "",
+                "relationshipType": "Foreign Key",
+                "parentCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                "parentField": [
+                    [
+                        "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                    ]
+                ],
+                "parentCardinality": "1",
+                "childCollection": "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                "childField": [
+                    [
+                        "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                        "0da2aa02-2b24-11e6-b7e5-591297143e36"
+                    ]
+                ],
+                "childCardinality": "0..n",
+                "comments": "",
+                "GUID": "fb857d40-2b26-11e6-b7e5-591297143e36",
+                "hackoladeStyles": {
+                    "GUID": "4a8a4e7b-9efe-4d65-9a90-2fc0fdd12667",
+                    "autoPositioning": true,
+                    "type": "Orthogonal",
+                    "thickness": 2,
+                    "color": "#79c4ff",
+                    "dataType": "",
+                    "shape": [
+                        {
+                            "x": 1472.3384104825548,
+                            "y": 1399.1759550352103
+                        },
+                        {
+                            "x": 1415.6692052412773,
+                            "y": 1399.1759550352103
+                        },
+                        {
+                            "x": 1415.6692052412773,
+                            "y": 1499.2370558780112
+                        },
+                        {
+                            "x": 1359,
+                            "y": 1499.2370558780112
+                        }
+                    ],
+                    "sides": [
+                        "left",
+                        "right"
+                    ]
+                },
+                "isActivated": true,
+                "definitionEntityType": "relationship",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/relationships/fk_reviewsBusinesses",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "811b5b6a-2201-4dab-97c1-c948a9502c5a"
+                    ]
+                ]
+            },
+            {
+                "name": "fk businesses.business_id to checkins.business_id",
+                "description": "",
+                "relationshipType": "Foreign Key",
+                "parentCollection": "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                "parentField": [
+                    [
+                        "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                        "0dd811fc-2b24-11e6-b7e5-591297143e36"
+                    ]
+                ],
+                "parentCardinality": "1",
+                "childCollection": "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+                "childField": [
+                    [
+                        "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+                        "9c7dc021-91f6-11e9-a924-ddc9cd9b071f"
+                    ]
+                ],
+                "childCardinality": "0..n",
+                "comments": "",
+                "GUID": "003231f0-91f7-11e9-a924-ddc9cd9b071f",
+                "hackoladeStyles": {
+                    "GUID": "a9d4d88e-8ca0-42b4-a560-36101ca7ef29",
+                    "autoPositioning": true,
+                    "type": "Orthogonal",
+                    "thickness": 2,
+                    "color": "#79c4ff",
+                    "dataType": "",
+                    "shape": [
+                        {
+                            "x": 1452.3384104825548,
+                            "y": 1594.45603640855
+                        },
+                        {
+                            "x": 1405.6692052412773,
+                            "y": 1594.45603640855
+                        },
+                        {
+                            "x": 1405.6692052412773,
+                            "y": 1710.2370558780112
+                        },
+                        {
+                            "x": 1359,
+                            "y": 1710.2370558780112
+                        }
+                    ],
+                    "sides": [
+                        "left",
+                        "right"
+                    ]
+                },
+                "isActivated": true,
+                "definitionEntityType": "relationship",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/relationships/fk businesses.business_id to checkins.business_id",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "46028e52-b49b-4a0a-8e4b-d26a1436a4bb"
+                    ]
+                ]
+            },
+            {
+                "name": "yelp",
+                "isActivated": true,
+                "backgroundColor": {
+                    "r": 33,
+                    "g": 150,
+                    "b": 243,
+                    "a": 1
+                },
+                "GUID": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+                "type": "bucket",
+                "collectionIds": [
+                    "0dd7ead0-2b24-11e6-b7e5-591297143e36",
+                    "a080d1d0-91f6-11e9-a924-ddc9cd9b071f",
+                    "0da2aa00-2b24-11e6-b7e5-591297143e36",
+                    "0de02830-2b24-11e6-b7e5-591297143e36",
+                    "0df0f110-2b24-11e6-b7e5-591297143e36"
                 ],
                 "hackoladeMeta": {
                     "validationErrors": {}
-                }
+                },
+                "show": true,
+                "definitionEntityType": "bucket",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/yelp",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "03a50d5f-1044-4936-ac70-6d597ef23975"
+                    ]
+                ]
             }
         ],
-        "GUID": "cb10cbda-df93-4213-a4f6-9f1ff364add1"
+        "GUID": "d7c67db0-d450-432a-9ac3-345eda06a89e"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "a3d4af4b-dace-4a2f-a917-a4d332bb3997"
+        "GUID": "2c51d26c-ac34-4e25-8e83-75bbf9afe93a"
     },
     "sources": [],
-    "decorativeSymbols": [],
+    "decorativeSymbols": [
+        {
+            "GUID": "9e88ffb7-5e90-438b-905d-90e33c082bd5",
+            "name": "Yelp data model",
+            "refType": "polyglot",
+            "refIdPath": [
+                "80cadda3-8507-48e6-8aa7-214e034644d7",
+                "d7c67db0-d450-432a-9ac3-345eda06a89e",
+                "db86d400-e115-11e9-9835-6108c7a098d9"
+            ],
+            "type": "reference",
+            "ref": "db86d400-e115-11e9-9835-6108c7a098d9",
+            "bucketId": "03a50d5f-1044-4936-ac70-6d597ef23975",
+            "value": "Hackolade demo",
+            "disableInitialFocus": true
+        }
+    ],
     "dbVersion": "v7.x",
     "dbVendor": "MongoDB",
     "appTarget": "MONGODB",
-    "creationTS": "2023-12-29T18:10:08.340Z",
-    "GUID": "3d88b55f-08dd-4775-b1ca-0a3e723ce8ee",
+    "creationTS": "2024-01-04T12:22:05.258Z",
+    "GUID": "80cadda3-8507-48e6-8aa7-214e034644d7",
     "isLineageEnabled": false,
     "polyglotModelPaths": [
         {
-            "GUID": "7268dada-4b29-4dc5-9f06-ae5b54f464c5",
-            "polyglotModelName": "polyglot",
-            "polyglotModelPath": "polyglot.json",
+            "GUID": "ded3108d-ae74-469a-a1d2-c2a111c3b959",
+            "polyglotModelName": "Yelp Challenge dataset (Polyglot).hck",
+            "polyglotModelPath": "Yelp Challenge dataset (Polyglot).hck.json",
             "normalization": false
         }
     ],
-    "lastModifTS": "2023-12-29T18:12:54.729Z",
+    "lastModifTS": "2024-01-04T12:22:49.137Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -120,32 +2835,185 @@
     "applicationInformation": {
         "version": "7.0.6"
     },
-    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "785ae21d-a3c3-4dbe-961b-1fa3b114d4af",
-                        "x": 1040,
-                        "y": 1040,
-                        "width": 228,
-                        "height": 51,
+                        "GUID": "d7653227-c699-4ff7-a589-014dce6b27e8",
+                        "x": 1472.3384104825548,
+                        "y": 1288.1759550352103,
+                        "width": 261,
+                        "height": 222,
                         "color": {
-                            "hex": "#2196F3"
-                        }
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0.8974358974358974,
+                                "l": 0.5411764705882353,
+                                "a": 1
+                            },
+                            "hex": "#2196f3",
+                            "rgb": {
+                                "r": 33,
+                                "g": 150,
+                                "b": 243,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0.8641975308641976,
+                                "v": 0.9529411764705882,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        },
+                        "size": 100
+                    },
+                    {
+                        "GUID": "bfb51380-d420-4b9c-99e5-29a8457c267a",
+                        "x": 1040,
+                        "y": 1077.2370558780112,
+                        "width": 319,
+                        "height": 844,
+                        "color": {
+                            "hsl": {
+                                "h": 339.7058823529412,
+                                "s": 0.8292682926829267,
+                                "l": 0.5176470588235293,
+                                "a": 1
+                            },
+                            "hex": "#ea1e63",
+                            "rgb": {
+                                "r": 234,
+                                "g": 30,
+                                "b": 99,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 339.7058823529412,
+                                "s": 0.8717948717948718,
+                                "v": 0.9176470588235294,
+                                "a": 1
+                            },
+                            "oldHue": 339.7058823529412,
+                            "source": "hex"
+                        },
+                        "size": 100
+                    },
+                    {
+                        "GUID": "38bcaaa6-8661-4d84-b3d3-e9aba0879c7c",
+                        "x": 1474.6808655576438,
+                        "y": 1111.7647783421496,
+                        "width": 252,
+                        "height": 155,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0.8974358974358974,
+                                "l": 0.5411764705882353,
+                                "a": 1
+                            },
+                            "hex": "#2196f3",
+                            "rgb": {
+                                "r": 33,
+                                "g": 150,
+                                "b": 243,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0.8641975308641976,
+                                "v": 0.9529411764705882,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        },
+                        "size": 100
+                    },
+                    {
+                        "GUID": "6045a720-e512-4b82-a3d4-bca8e6c76a93",
+                        "x": 1827.2571941310678,
+                        "y": 1076.2370558780112,
+                        "width": 252,
+                        "height": 483,
+                        "color": {
+                            "hsl": {
+                                "h": 339.7058823529412,
+                                "s": 0.8292682926829267,
+                                "l": 0.5176470588235293,
+                                "a": 1
+                            },
+                            "hex": "#ea1e63",
+                            "rgb": {
+                                "r": 234,
+                                "g": 30,
+                                "b": 99,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 339.7058823529412,
+                                "s": 0.8717948717948718,
+                                "v": 0.9176470588235294,
+                                "a": 1
+                            },
+                            "oldHue": 339.7058823529412,
+                            "source": "hex"
+                        },
+                        "size": 100
+                    },
+                    {
+                        "GUID": "e5bbbeb5-afc4-4ebc-9b13-89630bd279d9",
+                        "x": 1452.3384104825548,
+                        "y": 1526.95603640855,
+                        "width": 319,
+                        "height": 135,
+                        "color": {},
+                        "size": 100
                     }
                 ],
-                "buckets": [],
-                "diagramViews": [],
-                "decorativeSymbols": [],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1000,
+                        "y": 1000,
+                        "GUID": "03a50d5f-1044-4936-ac70-6d597ef23975"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                }
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [
+                    {
+                        "GUID": "9e88ffb7-5e90-438b-905d-90e33c082bd5",
+                        "x": 1425.1869877881747,
+                        "y": 1040,
+                        "height": 56,
+                        "width": 362
+                    }
+                ],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
             "changed": false
