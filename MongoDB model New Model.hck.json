@@ -226,6 +226,11 @@
                             "883a603f-3eb3-4293-80fc-f57bc583bb61"
                         ],
                         "error": {}
+                    },
+                    {
+                        "GUID": "0df0f125-2b24-11e6-b7e5-591297143e36",
+                        "format": "date",
+                        "error": {}
                     }
                 ]
             },
@@ -307,15 +312,15 @@
                         "y": 1189.2647783421496
                     },
                     {
-                        "x": 1435.8404327788219,
+                        "x": 1432.8404327788219,
                         "y": 1189.2647783421496
                     },
                     {
-                        "x": 1435.8404327788219,
+                        "x": 1432.8404327788219,
                         "y": 1288.2370558780112
                     },
                     {
-                        "x": 1397,
+                        "x": 1391,
                         "y": 1288.2370558780112
                     }
                 ],
@@ -502,15 +507,15 @@
                         "y": 1399.1759550352103
                     },
                     {
-                        "x": 1434.6692052412773,
+                        "x": 1431.6692052412773,
                         "y": 1399.1759550352103
                     },
                     {
-                        "x": 1434.6692052412773,
+                        "x": 1431.6692052412773,
                         "y": 1499.2370558780112
                     },
                     {
-                        "x": 1397,
+                        "x": 1391,
                         "y": 1499.2370558780112
                     }
                 ],
@@ -567,15 +572,15 @@
                         "y": 1594.45603640855
                     },
                     {
-                        "x": 1424.6692052412773,
+                        "x": 1421.6692052412773,
                         "y": 1594.45603640855
                     },
                     {
-                        "x": 1424.6692052412773,
+                        "x": 1421.6692052412773,
                         "y": 1710.2370558780112
                     },
                     {
-                        "x": 1397,
+                        "x": 1391,
                         "y": 1710.2370558780112
                     }
                 ],
@@ -2985,7 +2990,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2024-01-04T12:24:49.518Z",
+    "lastModifTS": "2024-01-04T13:43:22.601Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -3096,7 +3101,7 @@
                         "GUID": "6045a720-e512-4b82-a3d4-bca8e6c76a93",
                         "x": 1827.2571941310678,
                         "y": 1076.2370558780112,
-                        "width": 252,
+                        "width": 229,
                         "height": 483,
                         "color": {
                             "hsl": {
@@ -3133,6 +3138,12 @@
                         "size": 100
                     }
                 ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
                 "buckets": [
                     {
                         "x": 1000,
@@ -3140,6 +3151,21 @@
                         "GUID": "03a50d5f-1044-4936-ac70-6d597ef23975"
                     }
                 ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
                 "diagramViews": [],
                 "decorativeSymbols": [
                     {
@@ -3150,13 +3176,9 @@
                         "width": 362
                     }
                 ],
-                "graphView": {
-                    "erd": [],
-                    "buckets": [],
-                    "decorativeSymbols": [],
-                    "forceLayout": true,
-                    "defaultLinkLength": 300
-                }
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
             "changed": false
