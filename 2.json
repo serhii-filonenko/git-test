@@ -1,0 +1,514 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "GUID": "3396afec-00eb-4a46-bfb7-f377a91ac432",
+            "type": "reference",
+            "$ref": "#external/definitions/users",
+            "refType": "polyglot",
+            "ref": "0df0f110-2b24-11e6-b7e5-591297143e36",
+            "refIdPath": [
+                "4bfaddf6-4d2c-432b-b339-2428694d38b8",
+                "76dd820e-e85e-42e9-be9d-445a7b23fc59",
+                "0df0f110-2b24-11e6-b7e5-591297143e36"
+            ],
+            "isActivated": true,
+            "collectionName": "users",
+            "code": "",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "595ef370-f72a-44e6-877e-ff169c24cf76"
+            },
+            "description": "Users description",
+            "additionalProperties": true,
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "0df0f125-2b24-11e6-b7e5-591297143e36",
+                        "format": "duration",
+                        "error": {}
+                    }
+                ]
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "3396afec-00eb-4a46-bfb7-f377a91ac432": "users",
+        "440fca93-61ae-4fdd-a172-fe9900e0a8ea": "user_id",
+        "cc6335f5-521f-41f3-b6ec-afad18d429bb": "type",
+        "230e1ad3-5b34-4175-b7be-cde1261864b0": "name",
+        "ca1a8fa0-5cdc-4ac6-bafa-9b057004d1ed": "average_stars",
+        "0f497b74-7911-42f4-bdda-a38bd08d736e": "compliments",
+        "2aba78a1-e3dd-45da-8324-3c65ece3e598": "cool",
+        "624521ef-b190-4470-a4e9-07baaca07fc0": "cute",
+        "7b5ba38c-06e3-4f6d-a0ee-79f747c776e2": "funny",
+        "144ca005-b589-4384-9742-1394885b715f": "hot",
+        "ed0429ff-e18a-4014-90c4-d9a92642599e": "note",
+        "58b75c7d-5db3-4d8c-807b-615c526db60e": "photos",
+        "0ced73b9-7039-422e-8f3d-84f6bde9837e": "plain",
+        "7f772b45-50ad-47e0-ad26-b05f815ab4d2": "profile",
+        "0aa8ea46-320d-43ce-8a28-5725c363d19c": "writer",
+        "2b633329-c24a-4b12-b5e6-5a14553b0fe0": "elite",
+        "a115dffe-57ad-4dbc-869e-08cd5f35964e": "fans",
+        "ff33909a-a8c2-4110-9d31-7cbc1af99164": "friends",
+        "11b91b98-38b0-4584-b928-039f93fb087a": "review_count",
+        "c3d165ca-1647-4e39-8d8b-4baec66ac986": "votes",
+        "339d2214-3616-4634-96ba-0c14ea7d6cf9": "cool",
+        "5cdcee5a-b93b-4f0a-bf19-107067fb6e92": "funny",
+        "7dc2a046-4996-4cae-92f9-ada21b6aa65e": "useful",
+        "2feee417-12dd-4004-92c8-d979b79b1137": "yelping_since"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "136e85d0-a7df-4898-8eea-c9e5c9ba2b4d"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [
+            {
+                "collectionName": "users",
+                "code": "",
+                "isActivated": true,
+                "description": "Users description",
+                "bucketId": "3dee5aa0-f5dc-11e6-aaa0-997d0683e5e6",
+                "additionalProperties": true,
+                "properties": [
+                    {
+                        "type": "objectId",
+                        "name": "user_id",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": true,
+                        "required": true,
+                        "relationshipType": "",
+                        "GUID": "0df0f126-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "type",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "required": true,
+                        "relationshipType": "",
+                        "enum": [
+                            "user",
+                            "owner",
+                            "tester"
+                        ],
+                        "GUID": "0df0f125-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "name",
+                        "code": "",
+                        "isActivated": true,
+                        "description": "First name plus surname",
+                        "primaryKey": false,
+                        "required": true,
+                        "relationshipType": "",
+                        "fakerFunction": "faker.fake('{{name.firstName}} {{name.lastName}}')",
+                        "sample": "John Doe",
+                        "comments": "Fri Sep 15 2017 17:31:32 GMT+0200 (Romance Summer Time): \nMongoDB Demo",
+                        "GUID": "0df0f123-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "numeric",
+                        "name": "average_stars",
+                        "code": "",
+                        "isActivated": true,
+                        "mode": "",
+                        "description": "Star rating: from 1 to 5. ",
+                        "primaryKey": false,
+                        "required": true,
+                        "relationshipType": "",
+                        "unit": "stars",
+                        "minimum": 1,
+                        "maximum": 5,
+                        "exclusiveMaximum": false,
+                        "sample": 3,
+                        "GUID": "0df0f112-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "document",
+                        "properties": [
+                            {
+                                "type": "numeric",
+                                "name": "cool",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f114-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "cute",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f115-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "funny",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f116-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "hot",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f117-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "note",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f119-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "photos",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f11a-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "plain",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f11b-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "profile",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f11c-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "writer",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 1,
+                                "maximum": 5,
+                                "GUID": "0df0f11d-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            }
+                        ],
+                        "additionalProperties": true,
+                        "name": "compliments",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0df0f113-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "array",
+                        "properties": [
+                            {
+                                "type": "numeric",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "GUID": "0df0f11f-2b24-11e6-b7e5-591297143e36",
+                                "arrayItem": true,
+                                "error": {}
+                            }
+                        ],
+                        "additionalItems": true,
+                        "name": "elite",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0df0f11e-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "numeric",
+                        "name": "fans",
+                        "code": "",
+                        "isActivated": true,
+                        "mode": "",
+                        "primaryKey": false,
+                        "relationshipType": "",
+                        "minimum": 0,
+                        "GUID": "0df0f120-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "array",
+                        "properties": [
+                            {
+                                "type": "string",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "fakerFunction": "faker.name.findName(undefined, undefined, 'female')",
+                                "sample": "Jane Doe",
+                                "GUID": "0df0f122-2b24-11e6-b7e5-591297143e36",
+                                "arrayItem": true,
+                                "error": {}
+                            }
+                        ],
+                        "additionalItems": true,
+                        "name": "friends",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0df0f121-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "numeric",
+                        "name": "review_count",
+                        "code": "",
+                        "isActivated": true,
+                        "mode": "",
+                        "primaryKey": false,
+                        "relationshipType": "",
+                        "minimum": 0,
+                        "GUID": "0df0f124-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "document",
+                        "properties": [
+                            {
+                                "type": "numeric",
+                                "name": "cool",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 0,
+                                "GUID": "0df0f128-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "funny",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 0,
+                                "GUID": "0df0f129-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            },
+                            {
+                                "type": "numeric",
+                                "name": "useful",
+                                "code": "",
+                                "isActivated": true,
+                                "mode": "",
+                                "primaryKey": false,
+                                "relationshipType": "",
+                                "minimum": 0,
+                                "GUID": "0df0f12a-2b24-11e6-b7e5-591297143e36",
+                                "error": {}
+                            }
+                        ],
+                        "additionalProperties": true,
+                        "name": "votes",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "0df0f127-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    },
+                    {
+                        "type": "string",
+                        "name": "yelping_since",
+                        "code": "",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "relationshipType": "",
+                        "fakerFunction": "faker.date.between('2010-01-01T00:00:00.000Z', '2021-12-31T00:00:00.000Z')",
+                        "GUID": "0df0f12b-2b24-11e6-b7e5-591297143e36",
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "GUID": "55caffe0-8293-11e7-9b4f-81add10918fb",
+                    "properties": [],
+                    "type": "definitions"
+                },
+                "GUID": "0df0f110-2b24-11e6-b7e5-591297143e36",
+                "type": "object",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "definitionEntityType": "collection",
+                "link": "Yelp Challenge dataset (Polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/yelp/users",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "3396afec-00eb-4a46-bfb7-f377a91ac432"
+                    ]
+                ]
+            }
+        ],
+        "GUID": "76dd820e-e85e-42e9-be9d-445a7b23fc59"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "efcf7eb8-c91d-4dee-802f-375024860c01"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v7.x",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2023-12-29T17:55:15.213Z",
+    "GUID": "4bfaddf6-4d2c-432b-b339-2428694d38b8",
+    "isLineageEnabled": false,
+    "polyglotModelPaths": [
+        {
+            "GUID": "923207da-d661-48fc-b114-87f5c92e0fd1",
+            "polyglotModelName": "Yelp Challenge dataset (Polyglot).hck",
+            "polyglotModelPath": "Yelp Challenge dataset (Polyglot).hck.json",
+            "normalization": false
+        }
+    ],
+    "lastModifTS": "2023-12-29T18:08:28.098Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.0.6"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "3396afec-00eb-4a46-bfb7-f377a91ac432",
+                        "x": 1827.2571941310678,
+                        "y": 1076.2370558780112,
+                        "width": 252,
+                        "height": 483,
+                        "color": {
+                            "hsl": {
+                                "h": 339.7058823529412,
+                                "s": 0.8292682926829267,
+                                "l": 0.5176470588235293,
+                                "a": 1
+                            },
+                            "hex": "#ea1e63",
+                            "rgb": {
+                                "r": 234,
+                                "g": 30,
+                                "b": 99,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 339.7058823529412,
+                                "s": 0.8717948717948718,
+                                "v": 0.9176470588235294,
+                                "a": 1
+                            },
+                            "oldHue": 339.7058823529412,
+                            "source": "hex"
+                        },
+                        "size": 100
+                    }
+                ],
+                "buckets": [],
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
