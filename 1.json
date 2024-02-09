@@ -96,7 +96,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "a2047179-926a-4996-8dcd-864c79346e4a",
-                    "name": "ADDED-222",
+                    "name": "333ADDED-222",
                     "error": {}
                 }
             ],
@@ -131,7 +131,7 @@
         "d2ae442f-1a09-416b-a992-50d79690856c": "text",
         "0e384717-7504-4073-8c92-cc56740803c9": "type",
         "fbf334e1-0d8e-4c34-873c-c5fb9bd5b847": "user_id",
-        "a2047179-926a-4996-8dcd-864c79346e4a": "ADDED-222"
+        "a2047179-926a-4996-8dcd-864c79346e4a": "333ADDED-222"
     },
     "definitions": {
         "type": "definitions",
@@ -270,7 +270,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2024-02-09T11:07:00.226Z",
+    "lastModifTS": "2024-02-09T15:53:15.972Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -286,9 +286,9 @@
                 "erd": [
                     {
                         "GUID": "059366f0-601b-4863-9906-91ebbb114ea8",
-                        "x": 1474.6808655576438,
-                        "y": 1111.7647783421496,
-                        "width": 216,
+                        "x": 1852.6808655576438,
+                        "y": 1144.7647783421496,
+                        "width": 237,
                         "height": 177,
                         "color": {
                             "hsl": {
