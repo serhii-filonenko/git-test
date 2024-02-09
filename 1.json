@@ -90,6 +90,14 @@
                     "GUID": "fbf334e1-0d8e-4c34-873c-c5fb9bd5b847",
                     "error": {},
                     "hackoladeMeta": {}
+                },
+                {
+                    "name": "ADDED",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "a2047179-926a-4996-8dcd-864c79346e4a",
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -122,7 +130,8 @@
         "afb248ce-f15b-498d-862e-51721c38d447": "likes",
         "d2ae442f-1a09-416b-a992-50d79690856c": "text",
         "0e384717-7504-4073-8c92-cc56740803c9": "type",
-        "fbf334e1-0d8e-4c34-873c-c5fb9bd5b847": "user_id"
+        "fbf334e1-0d8e-4c34-873c-c5fb9bd5b847": "user_id",
+        "a2047179-926a-4996-8dcd-864c79346e4a": "ADDED"
     },
     "definitions": {
         "type": "definitions",
@@ -235,11 +244,7 @@
                 "kind": "relativePath",
                 "fieldRelativePath": "#/yelp/tips",
                 "fileType": "hackoladeSchema",
-                "definitionRefs": [
-                    [
-                        "059366f0-601b-4863-9906-91ebbb114ea8"
-                    ]
-                ]
+                "definitionRefs": []
             }
         ],
         "GUID": "3268a6cc-0adc-4ec9-bc60-82b2768df5b0"
@@ -265,14 +270,14 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2023-12-29T18:12:54.728Z",
+    "lastModifTS": "2024-02-09T09:44:13.036Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.0.6"
+        "version": "7.2.3"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -283,8 +288,8 @@
                         "GUID": "059366f0-601b-4863-9906-91ebbb114ea8",
                         "x": 1474.6808655576438,
                         "y": 1111.7647783421496,
-                        "width": 240,
-                        "height": 155,
+                        "width": 216,
+                        "height": 177,
                         "color": {
                             "hsl": {
                                 "h": 206.57142857142858,
@@ -311,16 +316,33 @@
                         "size": 100
                     }
                 ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
                 "buckets": [],
-                "diagramViews": [],
-                "decorativeSymbols": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                }
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
             "changed": false
