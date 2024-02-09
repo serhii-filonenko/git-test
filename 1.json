@@ -270,7 +270,7 @@
             "normalization": false
         }
     ],
-    "lastModifTS": "2024-02-09T11:10:58.476Z",
+    "lastModifTS": "2024-02-09T12:15:08.136Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -286,8 +286,8 @@
                 "erd": [
                     {
                         "GUID": "059366f0-601b-4863-9906-91ebbb114ea8",
-                        "x": 1474.6808655576438,
-                        "y": 1111.7647783421496,
+                        "x": 1631.6808655576438,
+                        "y": 1102.7647783421496,
                         "width": 216,
                         "height": 177,
                         "color": {
